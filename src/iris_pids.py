@@ -25,10 +25,10 @@ if not DATA_PATH:
 # ==============================================================================
 
 # Paths and directories
-OUTPUT_DIR = ROOT_DIR / "output"
 DATA_DIR = Path(DATA_PATH)
 IRIS_DIR = DATA_DIR / "iris"
 OC_INDEX_PATH = DATA_DIR / "oc_index.sqlite3"
+OUTPUT_DIR = ROOT_DIR / "output"
 
 # File templates
 INDEX_CSV_TEMPLATE = IRIS_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
@@ -144,12 +144,12 @@ for university in IRIS_UNIVERSITIES:
 
     # Skip university if output CSV already exists
     if output_csv.exists():
-        print(f"❗️ output CSV already exists for {university}, skipping: {output_csv.relative_to(ROOT_DIR)}")
+        print(f"❗️ output CSV already exists for {university}, skipping: {output_csv.relative_to(OUTPUT_DIR)}")
         continue
 
     print(f"Processing university: {university}")
-    print(f"Reading index from: {index_csv.relative_to(ROOT_DIR)}")
-    print(f"Writing output to: {output_csv.relative_to(ROOT_DIR)}")
+    print(f"Reading index from: {index_csv.relative_to(DATA_DIR)}")
+    print(f"Writing output to: {output_csv.relative_to(OUTPUT_DIR)}")
 
     # Start monotonic timer
     started_at = time.monotonic()
@@ -254,21 +254,22 @@ for university in IRIS_UNIVERSITIES:
         "missing_pids_csv_size_mb": round(missing_output_size_bytes / 1024 / 1024, 2),
     }
 
+    # Write metadata to JSON file
     with metadata_json.open("w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2)
 
     print(
         f"\n🎉 final CSV written: {rows_processed:,} records -> "
-        f"{output_csv.relative_to(ROOT_DIR)}\n"
+        f"{output_csv.relative_to(OUTPUT_DIR)}\n"
     )
 
     print(
         f"⚠️ missing metadata CSV written: {rows_missing_metadata:,} records -> "
-        f"{missing_pids_csv.relative_to(ROOT_DIR)}"
+        f"{missing_pids_csv.relative_to(OUTPUT_DIR)}"
     )
 
     print(f"Elapsed time: {metadata['elapsed_seconds']} seconds")
-    print(f"Metadata written to: {metadata_json.relative_to(ROOT_DIR)}")
+    print(f"Metadata written to: {metadata_json.relative_to(OUTPUT_DIR)}")
 
 # Close the SQLite connection
 OC_INDEX_DB.close()
