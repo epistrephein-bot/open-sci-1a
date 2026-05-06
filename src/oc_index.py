@@ -4,6 +4,7 @@ import os
 import json
 import time
 import sqlite3
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
@@ -34,7 +35,7 @@ DB_PATH = DATA_DIR / "oc_index.sqlite3"
 METADATA_PATH = DATA_DIR / "oc_index.metadata.json"
 
 # Number of rows to insert before committing to SQLite
-COMMIT_EVERY = 50_000
+COMMIT_EVERY = 20_000
 
 # Regular expression to extract OMID from the "id" field
 OMID_RE = re.compile(r"\bomid:[^\s\]]+")
@@ -84,6 +85,9 @@ started_at = time.monotonic()
 # Gather all CSV files
 csv_files = sorted(CSV_DIR.glob("*.csv"))
 total_files = len(csv_files)
+
+# Increase CSV field size limit to handle large fields
+csv.field_size_limit(sys.maxsize)
 
 # Initialize counters
 batch = []
