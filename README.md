@@ -9,10 +9,10 @@ pip install -r requirements.txt
 ```
 
 2. Prepare a storage location with enough space (~150GB) it and set the
-`STORAGE_PATH` variable in the `.env` file to point to it:
+`DATA_PATH` variable in the `.env` file to point to it:
 
 ```bash
-echo "STORAGE_PATH=/path/to/your/storage" > .env
+echo "DATA_PATH=/path/to/your/storage" > .env
 ```
 
 3. Download and extract the IRIS dataset from Zenodo:
