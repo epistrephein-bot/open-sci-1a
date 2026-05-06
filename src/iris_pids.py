@@ -1,0 +1,228 @@
+import os
+import sqlite3
+from pathlib import Path
+from dotenv import load_dotenv
+import pandas as pd
+
+# ==============================================================================
+# ENVIRONMENT
+# ==============================================================================
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+
+load_dotenv(ROOT_DIR / ".env")
+DATA_PATH = os.environ.get("DATA_PATH")
+
+if not DATA_PATH:
+    raise RuntimeError("Missing DATA_PATH environment variable")
+
+
+# ==============================================================================
+# CONSTANTS AND CONFIGURATION
+# ==============================================================================
+
+# Paths and directories
+OUTPUT_DIR = ROOT_DIR / "output"
+DATA_DIR = Path(DATA_PATH)
+IRIS_DIR = DATA_DIR / "iris"
+OC_INDEX_PATH = DATA_DIR / "oc_index.sqlite3"
+
+# File templates
+INDEX_CSV_TEMPLATE = IRIS_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
+OUTPUT_PIDS_TEMPLATE = OUTPUT_DIR / "{university}" / "iris_pids.csv"
+OUTPUT_MISSING_PIDS_TEMPLATE = OUTPUT_DIR / "{university}" / "iris_pids_missing.csv"
+OUTPUT_LOG_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping.log"
+
+# CSV writing configuration
+WRITE_CSV_EVERY = 5000
+
+# Universities with IRIS data available to process
+IRIS_UNIVERSITIES = ("SNS", "UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO")
+
+
+# ==============================================================================
+# DATABASE CONNECTION AND SETUP
+# ==============================================================================
+
+# Connect to the SQLite index database
+OC_INDEX_DB = sqlite3.connect(OC_INDEX_PATH)
+
+# Set row factory for dict-like access
+OC_INDEX_DB.row_factory = sqlite3.Row
+
+# Optimize SQLite performance for read-only access
+OC_INDEX_DB.execute("PRAGMA query_only = ON")
+OC_INDEX_DB.execute("PRAGMA temp_store = MEMORY")
+OC_INDEX_DB.execute("PRAGMA cache_size = -500000")  # ~500 MB
+OC_INDEX_DB.execute("PRAGMA mmap_size = 30000000000")  # ~30 GB
+
+# ==============================================================================
+# METHODS
+# ==============================================================================
+
+def citation_direction(df_row):
+    """Determine citation direction for a row based on is_citing_iris and is_cited_iris flags."""
+    citing = bool(df_row["is_citing_iris"])
+    cited = bool(df_row["is_cited_iris"])
+
+    if citing and cited:
+        return "internal"
+    if citing and not cited:
+        return "outbound"
+    if not citing and cited:
+        return "inbound"
+
+    raise ValueError(
+        f"Invalid citation direction for row id={df_row.get('id')}: "
+        "both is_citing_iris and is_cited_iris are False"
+    )
+
+
+def extract_meta_values(record):
+    """Extract DOI, PMID, ISBN, and publication date from the metadata record."""
+    ids = {
+        tok.split(":", 1)[0]: tok
+        for tok in record.get("id", "").split()
+        if tok.startswith(("doi:", "pmid:", "isbn:"))
+    }
+
+    return {
+        "doi": ids.get("doi"),
+        "pmid": ids.get("pmid"),
+        "isbn": ids.get("isbn"),
+        "pub_date": record.get("pub_date"),
+    }
+
+
+def lookup_oc_metadata(index_db, omid):
+    """Lookup metadata for a given OMID in the SQLite index database."""
+    record = index_db.execute(
+        "SELECT id, pub_date FROM meta WHERE omid = ?", (omid,)
+    ).fetchone()
+
+    if record is None:
+        return None
+
+    return extract_meta_values(dict(record))
+
+
+def log(message="", file=None):
+    """Log a message to stdout and optionally to a file."""
+    print(message)
+
+    if file is not None:
+        file.write(f"{message}\n")
+        file.flush()
+
+
+# ==============================================================================
+# RUNTIME
+# ==============================================================================
+
+# Create output directory if it doesn't exist
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+# Iterate over each university
+for university in IRIS_UNIVERSITIES:
+    index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
+    output_csv = Path(str(OUTPUT_PIDS_TEMPLATE).format(university=university))
+    output_log = Path(str(OUTPUT_LOG_TEMPLATE).format(university=university))
+    missing_meta_csv = Path(str(OUTPUT_MISSING_PIDS_TEMPLATE).format(university=university))
+
+    # Create univerity-specific output directory if it doesn't exist
+    output_csv.parent.mkdir(exist_ok=True)
+
+    # Skip university if output CSV already exists
+    if output_csv.exists():
+        print(f"❗️ output CSV already exists for {university}, skipping: {output_csv.relative_to(ROOT_DIR)}")
+        continue
+
+    with output_log.open("w", encoding="utf-8") as log_file:
+        log(f"Processing university: {university}", log_file)
+        log(f"Reading index from: {index_csv.relative_to(ROOT_DIR)}", log_file)
+        log(f"Writing output to: {output_csv.relative_to(ROOT_DIR)}", log_file)
+        log(f"Writing log to: {output_log.relative_to(ROOT_DIR)}", log_file)
+
+        index_df = pd.read_csv(index_csv)
+
+        processed_rows = []
+        missing_rows = []
+
+        for index, row in index_df.iterrows():
+            direction = citation_direction(row)
+
+            log(f"\n{index + 1}/{len(index_df)} Processing {row['id']} with direction: {direction}", log_file)
+
+            oci = row["id"]
+            citing_omid = row["citing"]
+            cited_omid = row["cited"]
+
+            log(f"  citing OMID: {citing_omid} -> cited OMID: {cited_omid}", log_file)
+
+            citing_meta = lookup_oc_metadata(OC_INDEX_DB, citing_omid)
+            cited_meta = lookup_oc_metadata(OC_INDEX_DB, cited_omid)
+
+            if citing_meta is None or cited_meta is None:
+                missing_side = []
+
+                if citing_meta is None:
+                    missing_side.append("citing")
+                    log(f"        ⚠️ missing metadata for citing OMID {citing_omid}", log_file)
+
+                if cited_meta is None:
+                    missing_side.append("cited")
+                    log(f"        ⚠️ missing metadata for cited OMID {cited_omid}", log_file)
+
+                missing_rows.append(
+                    {
+                        "oci": oci,
+                        "direction": direction,
+                        "missing_metadata": ";".join(missing_side),
+                        "citing_omid": citing_omid,
+                        "cited_omid": cited_omid,
+                    }
+                )
+
+                continue
+
+            processed_rows.append(
+                {
+                    "oci": row["id"],
+                    "direction": direction,
+                    "citing_omid": citing_omid,
+                    "citing_doi": citing_meta.get("doi"),
+                    "citing_pmid": citing_meta.get("pmid"),
+                    "citing_isbn": citing_meta.get("isbn"),
+                    "citing_pub_date": citing_meta.get("pub_date"),
+                    "cited_omid": cited_omid,
+                    "cited_doi": cited_meta.get("doi"),
+                    "cited_pmid": cited_meta.get("pmid"),
+                    "cited_isbn": cited_meta.get("isbn"),
+                    "cited_pub_date": cited_meta.get("pub_date"),
+                }
+            )
+
+            if len(processed_rows) % WRITE_CSV_EVERY == 0:
+                pd.DataFrame(processed_rows).to_csv(output_csv, index=False)
+                log(f"\n💾 checkpoint written: {len(processed_rows)} records -> "
+                    f"{output_csv.relative_to(ROOT_DIR)}",
+                    log_file
+                )
+
+        final_df = pd.DataFrame(processed_rows)
+        final_df.to_csv(output_csv, index=False)
+        log(f"\n🎉 final CSV written: {len(processed_rows)} records -> "
+            f"{output_csv.relative_to(ROOT_DIR)}\n",
+            log_file
+        )
+
+        missing_df = pd.DataFrame(missing_rows)
+        missing_df.to_csv(missing_meta_csv, index=False)
+        log(
+            f"⚠️ missing metadata CSV written: {len(missing_rows)} records -> "
+            f"{missing_meta_csv.relative_to(ROOT_DIR)}",
+            log_file
+        )
+
+# Close the SQLite connection
+OC_INDEX_DB.close()
