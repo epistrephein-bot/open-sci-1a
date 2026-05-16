@@ -86,6 +86,10 @@ started_at = time.monotonic()
 csv_files = sorted(CSV_DIR.glob("*.csv"))
 total_files = len(csv_files)
 
+# Error out if no CSV files are found
+if total_files == 0:
+    raise RuntimeError(f"No CSV files found in {CSV_DIR.relative_to(DATA_DIR)}")
+
 # Increase CSV field size limit to handle large fields
 csv.field_size_limit(sys.maxsize)
 
