@@ -40,9 +40,9 @@ INPUT_CSV = DATA_DIR / "unique_pids.csv"
 
 # Glob patterns
 OPENAIRE_DIR = DUMPS_DIR / "openaire"
-ORGANIZATION_TAR = OPENAIRE_DIR / "organization.tar"
 PUBLICATION_TAR_PATTERN = "publication_*.tar"
 RELATION_TAR_PATTERN = "relation_*.tar"
+ORG_COUNTRIES_JSON = DATA_DIR / "openaire_ror_countries" / "openaire_ror_countries.json"
 
 # Output files
 OUTPUT_JSON = OUTPUT_DIR / "omid_organizations.json"
@@ -496,16 +496,12 @@ def resolve_relations(rows):
 # ==============================================================================
 
 def resolve_organizations(pub_to_orgs):
-    """Stream organization.tar and build a lookup of org_id -> record.
-
-    Extracts legalName, legalShortName (as acronym), and ROR from the pids array.
-    Stops early once all wanted organizations have been found.
-
-    Returns org_lookup dict: org_id -> {legalName, acronym, ror, openaire}.
+    """Load the pre-built openaire_ror_countries mapping and build an org_id -> record
+    lookup for every organization referenced by pub_to_orgs.
     """
     print()
     print("=" * 70)
-    print("Phase 3 — scanning organization.tar")
+    print("Phase 3 — loading organization/country mapping")
     print("=" * 70)
 
     wanted = set()
@@ -518,45 +514,32 @@ def resolve_organizations(pub_to_orgs):
 
     print(f"  {len(wanted):,} distinct organization ids to fetch")
 
-    if not ORGANIZATION_TAR.exists():
-        print(f"  ! {ORGANIZATION_TAR} not found")
+    if not ORG_COUNTRIES_JSON.exists():
+        print(f"  ❌ {ORG_COUNTRIES_JSON} not found")
         sys.exit(1)
 
-    org_lookup = {}
-    n = 0
+    print(f"  Loading {ORG_COUNTRIES_JSON.relative_to(DATA_DIR)} ...")
     t0 = time.monotonic()
 
-    for rec in iter_tar_records(str(ORGANIZATION_TAR)):
-        n += 1
-        if n % 100_000 == 0:
-            print(f"    ...{n:,} orgs scanned, {len(org_lookup):,} matched | "
-                  f"{format_elapsed(t0)}")
+    with ORG_COUNTRIES_JSON.open("r", encoding="utf-8") as fh:
+        all_orgs = json.load(fh)
 
-        oid = strip_entity_prefix(rec.get("id"))
-        if oid not in wanted:
-            continue
-
-        # Extract ROR from pids
-        ror = ""
-        for p in (rec.get("pids") or []):
-            if (p.get("scheme") or "").upper() == "ROR":
-                ror = p.get("value", "")
-                break
-
-        org_lookup[oid] = {
-            "legalName": rec.get("legalName", ""),
-            "acronym": rec.get("legalShortName", ""),
-            "ror": ror,
-            "openaire": oid,
-        }
-
-        if len(org_lookup) == len(wanted):
-            print(f"  all {len(wanted):,} organizations found — stopping early")
-            break
+    org_lookup = {}
+    for oid in wanted:
+        rec = all_orgs.get(oid)
+        if rec:
+            org_lookup[oid] = {
+                "legal_name": rec.get("legal_name", ""),
+                "country_name": rec.get("country_name", ""),
+                "country_code": rec.get("country_code", ""),
+                "country_source": rec.get("country_source", ""),
+                "ror": rec.get("ror_id"),
+                "openaire": oid,
+            }
 
     missing = len(wanted) - len(org_lookup)
-    print(f"  ✔ Phase 3 done: {len(org_lookup):,} resolved, "
-          f"{missing:,} not found | {format_elapsed(t0)}")
+    print(f"  ✅ Phase 3 done: {len(org_lookup):,} resolved, "
+          f"{missing:,} not found in mapping | {format_elapsed(t0)}")
 
     return org_lookup
 
@@ -596,9 +579,11 @@ def write_output(rows, pub_to_orgs, org_lookup):
                     orgs.append(orec)
                 else:
                     orgs.append({
-                        "legalName": "",
-                        "acronym": "",
-                        "ror": "",
+                        "legal_name": "",
+                        "country_name": "",
+                        "country_code": "",
+                        "country_source": "",
+                        "ror": None,
                         "openaire": oid,
                     })
 

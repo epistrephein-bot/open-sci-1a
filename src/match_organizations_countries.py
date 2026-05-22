@@ -146,10 +146,10 @@ else:
             if ror_country is not None:
                 result[org["id"]] = {
                     "legal_name": org.get("legalName", ""),
-                    "ror_id": ror_id,
                     "country_name": ror_country["country_name"],
                     "country_code": ror_country["country_code"],
                     "country_source": "ror",
+                    "ror": ror_id,
                 }
                 rows_matched_ror += 1
             else:
@@ -161,10 +161,10 @@ else:
             if oa_code is not None or oa_label is not None:
                 result[org["id"]] = {
                     "legal_name": org.get("legalName", ""),
-                    "ror_id": None,
                     "country_name": oa_label or "",
                     "country_code": oa_code or "",
                     "country_source": "openaire",
+                    "ror": None,
                 }
                 rows_no_ror_with_country += 1
             else:
