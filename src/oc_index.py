@@ -30,10 +30,12 @@ if not DATA_PATH:
 
 # Define paths
 DATA_DIR = Path(DATA_PATH)
-CSV_DIR = DATA_DIR / "oc_csv"
-DB_DIR = DATA_DIR / "oc_index"
-DB_PATH = DB_DIR / "oc_index.sqlite3"
-METADATA_PATH = DB_DIR / "oc_index.metadata.json"
+DUMPS_DIR = DATA_DIR / "dumps"
+CSV_DIR = DUMPS_DIR / "oc_csv"
+
+OUTPUT_DIR = DATA_DIR / "oc_index"
+DB_PATH = OUTPUT_DIR / "oc_index.sqlite3"
+METADATA_PATH = OUTPUT_DIR / "oc_index.metadata.json"
 
 # Number of rows to insert before committing to SQLite
 COMMIT_EVERY = 20_000
@@ -57,7 +59,7 @@ INSERT OR REPLACE INTO meta (
 # ==============================================================================
 
 # Ensure the directory for the SQLite database exists
-DB_DIR.mkdir(exist_ok=True)
+OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Don't overwrite existing database
 if DB_PATH.exists():

@@ -26,7 +26,8 @@ if not DATA_PATH:
 
 # Paths and directories
 DATA_DIR = Path(DATA_PATH)
-IRIS_DIR = DATA_DIR / "iris_publications"
+DUMPS_DIR = DATA_DIR / "dumps"
+IRIS_DIR = DUMPS_DIR / "iris_publications"
 OC_INDEX_PATH = DATA_DIR / "oc_index" / "oc_index.sqlite3"
 OUTPUT_DIR = DATA_DIR / "iris_oc_pids"
 
