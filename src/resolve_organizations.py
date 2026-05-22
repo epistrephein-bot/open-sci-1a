@@ -10,7 +10,6 @@ import time
 from datetime import datetime, timezone
 from glob import glob
 from pathlib import Path
-
 from dotenv import load_dotenv
 
 
@@ -34,16 +33,16 @@ if not DATA_PATH:
 # Paths and directories
 DATA_DIR = Path(DATA_PATH)
 DUMPS_DIR = DATA_DIR / "dumps"
-OPENAIRE_DIR = DUMPS_DIR / "openaire"
 OUTPUT_DIR = DATA_DIR / "openaire_organizations"
 
 # Input CSV (columns: omid, doi, pmid, isbn)
 INPUT_CSV = DATA_DIR / "unique_pids.csv"
 
 # Glob patterns
+OPENAIRE_DIR = DUMPS_DIR / "openaire"
+ORGANIZATION_TAR = OPENAIRE_DIR / "organization.tar"
 PUBLICATION_TAR_PATTERN = "publication_*.tar"
 RELATION_TAR_PATTERN = "relation_*.tar"
-ORGANIZATION_TAR = OPENAIRE_DIR / "organizations" / "organization.tar"
 
 # Output files
 OUTPUT_JSON = OUTPUT_DIR / "omid_organizations.json"
@@ -295,7 +294,7 @@ def resolve_publications(rows, doi_lookup, pmid_lookup):
 
     tars = sorted(glob(str(OPENAIRE_DIR / PUBLICATION_TAR_PATTERN)))
     if not tars:
-        print(f"  ❌ no files matching {PUBLICATION_TAR_PATTERN} in {OPENAIRE_DIR}")
+        print(f"  ! no files matching {PUBLICATION_TAR_PATTERN} in {OPENAIRE_DIR}")
         sys.exit(1)
     print(f"  {len(tars)} tar file(s) to process")
 
@@ -310,7 +309,7 @@ def resolve_publications(rows, doi_lookup, pmid_lookup):
 
     total_matched = sum(1 for r in rows if r["openaire_pub_id"])
     if done_tars:
-        print(f"  ⏩ resuming: {len(done_tars)} tar(s) already done, "
+        print(f"  >> resuming: {len(done_tars)} tar(s) already done, "
               f"{total_matched:,} matches so far")
 
     need_match = sum(
@@ -389,7 +388,7 @@ def resolve_publications(rows, doi_lookup, pmid_lookup):
         1 for r in rows
         if (r["doi"] or r["pmid"]) and r["openaire_pub_id"] is None
     )
-    print(f"  ✅ Phase 1 done: {total_matched:,} matched, "
+    print(f"  ✔ Phase 1 done: {total_matched:,} matched, "
           f"{unmatched:,} searchable but unmatched")
 
 
@@ -424,7 +423,7 @@ def resolve_relations(rows):
 
     tars = sorted(glob(str(OPENAIRE_DIR / RELATION_TAR_PATTERN)))
     if not tars:
-        print(f"  ❌ no files matching {RELATION_TAR_PATTERN} in {OPENAIRE_DIR}")
+        print(f"  ! no files matching {RELATION_TAR_PATTERN} in {OPENAIRE_DIR}")
         sys.exit(1)
     print(f"  {len(tars)} tar file(s) to process")
 
@@ -435,7 +434,7 @@ def resolve_relations(rows):
 
     if done_tars:
         covered = sum(1 for p in pub_ids if pub_to_orgs.get(p))
-        print(f"  ⏩ resuming: {len(done_tars)} tar(s) already done, "
+        print(f"  >> resuming: {len(done_tars)} tar(s) already done, "
               f"{covered:,} pubs with orgs so far")
 
     t0 = time.monotonic()
@@ -486,7 +485,7 @@ def resolve_relations(rows):
         })
 
     covered = sum(1 for p in pub_ids if pub_to_orgs.get(p))
-    print(f"  ✅ Phase 2 done: {covered:,} / {len(pub_ids):,} publications "
+    print(f"  ✔ Phase 2 done: {covered:,} / {len(pub_ids):,} publications "
           f"have >= 1 organization")
 
     return pub_to_orgs
@@ -520,7 +519,7 @@ def resolve_organizations(pub_to_orgs):
     print(f"  {len(wanted):,} distinct organization ids to fetch")
 
     if not ORGANIZATION_TAR.exists():
-        print(f"  ❌ {ORGANIZATION_TAR} not found")
+        print(f"  ! {ORGANIZATION_TAR} not found")
         sys.exit(1)
 
     org_lookup = {}
@@ -556,7 +555,7 @@ def resolve_organizations(pub_to_orgs):
             break
 
     missing = len(wanted) - len(org_lookup)
-    print(f"  ✅ Phase 3 done: {len(org_lookup):,} resolved, "
+    print(f"  ✔ Phase 3 done: {len(org_lookup):,} resolved, "
           f"{missing:,} not found | {format_elapsed(t0)}")
 
     return org_lookup
@@ -639,7 +638,7 @@ def write_output(rows, pub_to_orgs, org_lookup):
 
         fh.write("\n}\n")
 
-    print(f"  ✅ {written:,} entries written -> {OUTPUT_JSON.name} | "
+    print(f"  ✔ {written:,} entries written -> {OUTPUT_JSON.name} | "
           f"{format_elapsed(t0)}")
 
     return written
@@ -651,7 +650,7 @@ def write_output(rows, pub_to_orgs, org_lookup):
 
 # Skip if output already exists
 if OUTPUT_JSON.exists():
-    print(f"❗️ output already exists, skipping: {OUTPUT_JSON.relative_to(DATA_DIR)}")
+    print(f"! output already exists, skipping: {OUTPUT_JSON.relative_to(DATA_DIR)}")
     sys.exit(0)
 
 # Create output directory if it doesn't exist
@@ -711,8 +710,7 @@ metadata = {
 with OUTPUT_METADATA.open("w", encoding="utf-8") as f:
     json.dump(metadata, f, indent=2)
 
-print(f"\n✅ all done in {elapsed_seconds}s")
+print(f"\n✔ all done in {elapsed_seconds}s")
 print(f"  Output JSON: {OUTPUT_JSON.relative_to(DATA_DIR)}")
 print(f"  Missing CSV: {MISSING_CSV.relative_to(DATA_DIR)}")
 print(f"  Metadata: {OUTPUT_METADATA.relative_to(DATA_DIR)}")
-

@@ -61,7 +61,7 @@ DB_DIR.mkdir(exist_ok=True)
 
 # Don't overwrite existing database
 if DB_PATH.exists():
-    raise RuntimeError(f"❗️ database file already exists at {DB_PATH.relative_to(DATA_DIR)}")
+    raise RuntimeError(f"! database file already exists at {DB_PATH.relative_to(DATA_DIR)}")
 
 # Create new SQLite database and connect to it
 OC_INDEX_DB = sqlite3.connect(DB_PATH)

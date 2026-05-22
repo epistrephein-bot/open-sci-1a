@@ -144,7 +144,7 @@ for university in IRIS_UNIVERSITIES:
 
     # Skip university if output CSV already exists
     if output_csv.exists():
-        print(f"❗️ output CSV already exists for {university}, skipping: {output_csv.relative_to(OUTPUT_DIR)}")
+        print(f"! output CSV already exists for {university}, skipping: {output_csv.relative_to(OUTPUT_DIR)}")
         continue
 
     print(f"Processing university: {university}")
@@ -191,11 +191,11 @@ for university in IRIS_UNIVERSITIES:
 
             if citing_meta is None:
                 missing_side.append("citing")
-                print(f"        ⚠️ missing metadata for citing OMID {citing_omid}")
+                print(f"        ! missing metadata for citing OMID {citing_omid}")
 
             if cited_meta is None:
                 missing_side.append("cited")
-                print(f"        ⚠️ missing metadata for cited OMID {cited_omid}")
+                print(f"        ! missing metadata for cited OMID {cited_omid}")
 
             # Record the missing metadata information for this row
             missing_rows.append(
@@ -267,12 +267,12 @@ for university in IRIS_UNIVERSITIES:
         json.dump(metadata, f, indent=2)
 
     print(
-        f"\n✅ final CSV written: {rows_processed:,} records -> "
+        f"\n✔ final CSV written: {rows_processed:,} records -> "
         f"{output_csv.relative_to(OUTPUT_DIR)}\n"
     )
 
     print(
-        f"⚠️ missing metadata CSV written: {rows_missing_metadata:,} records -> "
+        f"! missing metadata CSV written: {rows_missing_metadata:,} records -> "
         f"{missing_pids_csv.relative_to(OUTPUT_DIR)}"
     )
 
