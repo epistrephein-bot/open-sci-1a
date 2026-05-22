@@ -28,7 +28,7 @@ if not DATA_PATH:
 DATA_DIR = Path(DATA_PATH)
 DUMPS_DIR = DATA_DIR / "dumps"
 OPENAIRE_TAR_PATH = DUMPS_DIR / "openaire" / "organization.tar"
-ROR_JSON_PATH = DUMPS_DIR / "ror" / "v2.6-2026-04-14-ror-data.json"
+ROR_JSON_PATH = DUMPS_DIR / "ror" / "v2.7-2026-05-12-ror-data.json"
 OUTPUT_DIR = DATA_DIR / "openaire_ror_countries"
 
 # Output files
