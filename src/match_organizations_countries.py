@@ -46,16 +46,16 @@ LOG_EVERY = 50_000
 
 def build_ror_country_index(ror_path):
     """Read ror.json and return a dict mapping each ROR id to its country info."""
-    with open(ror_path, "r", encoding="utf-8") as f:
-        ror_data = json.load(f)
+    with open(ror_path, "r", encoding="utf-8") as path:
+        ror_data = json.load(path)
 
     index = {}
     for record in ror_data:
-        ror_id = record.get("id", "")
+        record_ror_id = record.get("id", "")
         locations = record.get("locations", [])
         if locations:
             geo = locations[0].get("geonames_details", {})
-            index[ror_id] = {
+            index[record_ror_id] = {
                 "country_name": geo.get("country_name", ""),
                 "country_code": geo.get("country_code", ""),
             }
@@ -92,9 +92,9 @@ def extract_ror_id(pids):
     return None
 
 
-def extract_openaire_country(org):
+def extract_openaire_country(org_record):
     """Return (country_code, country_name) from the OpenAIRE country key, or (None, None)."""
-    country = org.get("country")
+    country = org_record.get("country")
     if country is None:
         return None, None
 
@@ -183,8 +183,8 @@ else:
             )
 
     # Write output JSON
-    with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
+    with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as output_path:
+        json.dump(result, output_path, indent=2, ensure_ascii=False)
 
     # Record end time and calculate elapsed time
     ended_at = datetime.now(timezone.utc)
@@ -207,16 +207,16 @@ else:
     }
 
     # Write metadata to JSON file
-    with OUTPUT_METADATA_PATH.open("w", encoding="utf-8") as f:
-        json.dump(metadata, f, indent=2)
+    with OUTPUT_METADATA_PATH.open("w", encoding="utf-8") as metadata_path:
+        json.dump(metadata, metadata_path, indent=2)
 
     print(
-        f"\n✅ output JSON written: {len(result):,} records -> "
+        f"\n✔ output JSON written: {len(result):,} records -> "
         f"{OUTPUT_JSON_PATH.relative_to(DATA_DIR)}"
     )
-    print(f"  📊 {rows_matched_ror:,} matched via ROR")
-    print(f"  📊 {rows_no_ror_with_country:,} no ROR id, country from OpenAIRE")
-    print(f"  ⚠️ {rows_ror_not_in_dump:,} had a ROR id not found in the ROR dump")
-    print(f"  ⚠️ {rows_no_ror_no_country:,} had no ROR id and no country in OpenAIRE")
+    print(f"  ◆ {rows_matched_ror:,} matched via ROR")
+    print(f"  ◆ {rows_no_ror_with_country:,} no ROR id, country from OpenAIRE")
+    print(f"  ! {rows_ror_not_in_dump:,} had a ROR id not found in the ROR dump")
+    print(f"  ! {rows_no_ror_no_country:,} had no ROR id and no country in OpenAIRE")
     print(f"Elapsed time: {elapsed_seconds} seconds")
     print(f"Metadata written to: {OUTPUT_METADATA_PATH.relative_to(DATA_DIR)}")
