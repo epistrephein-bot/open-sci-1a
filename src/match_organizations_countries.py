@@ -27,13 +27,12 @@ if not DATA_PATH:
 # Paths and directories
 DATA_DIR = Path(DATA_PATH)
 DUMPS_DIR = DATA_DIR / "dumps"
-OPENAIRE_TAR_PATH = DUMPS_DIR / "openaire" / "organization.tar"
-ROR_JSON_PATH = DUMPS_DIR / "ror" / "v2.7-2026-05-12-ror-data.json"
-OUTPUT_DIR = DATA_DIR / "openaire_ror_countries"
+OPENAIRE_TAR = DUMPS_DIR / "openaire" / "organization.tar"
+ROR_JSON = DUMPS_DIR / "ror" / "v2.7-2026-05-12-ror-data.json"
 
-# Output files
-OUTPUT_JSON_PATH = OUTPUT_DIR / "openaire_ror_countries.json"
-OUTPUT_METADATA_PATH = OUTPUT_DIR / "openaire_ror_countries.metadata.json"
+OUTPUT_DIR = DATA_DIR / "openaire_ror_countries"
+OUTPUT_JSON = OUTPUT_DIR / "openaire_ror_countries.json"
+OUTPUT_METADATA = OUTPUT_DIR / "openaire_ror_countries.metadata.json"
 
 # Progress logging
 LOG_EVERY = 50_000
@@ -115,20 +114,14 @@ def extract_openaire_country(org_record):
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Skip if output JSON already exists
-if OUTPUT_JSON_PATH.exists():
-    print(
-        f"❗️ output JSON already exists, skipping: {OUTPUT_JSON_PATH.relative_to(DATA_DIR)}"
-    )
+if OUTPUT_JSON.exists():
+    print(f"! output JSON already exists, skipping: {OUTPUT_JSON.relative_to(DATA_DIR)}")
 else:
-    print("Building ROR country index …")
-    ror_index = build_ror_country_index(ROR_JSON_PATH)
-    print(
-        f"  {len(ror_index):,} ROR entries loaded from {ROR_JSON_PATH.relative_to(DATA_DIR)}"
-    )
+    print("Building ROR country index…")
+    ror_index = build_ror_country_index(ROR_JSON)
+    print(f"  {len(ror_index):,} ROR entries loaded from {ROR_JSON.relative_to(DATA_DIR)}")
 
-    print(
-        f"Scanning OpenAIRE organizations from {OPENAIRE_TAR_PATH.relative_to(DATA_DIR)} …"
-    )
+    print(f"Scanning OpenAIRE organizations from {OPENAIRE_TAR.relative_to(DATA_DIR)}…")
 
     # Start monotonic timer
     started_at = time.monotonic()
@@ -141,7 +134,7 @@ else:
     rows_no_ror_with_country = 0
     rows_no_ror_no_country = 0
 
-    for org in iter_openaire_orgs(OPENAIRE_TAR_PATH):
+    for org in iter_openaire_orgs(OPENAIRE_TAR):
         rows_read += 1
 
         ror_id = extract_ror_id(org.get("pids") or [])
@@ -178,18 +171,16 @@ else:
                 rows_no_ror_no_country += 1
 
         if rows_read % LOG_EVERY == 0:
-            print(
-                f"  … {rows_read:,} organizations read, {rows_matched_ror:,} matched ROR so far"
-            )
+            print(f"  …{rows_read:,} organizations read, {rows_matched_ror:,} matched ROR so far")
 
     # Write output JSON
-    with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as output_path:
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as output_path:
         json.dump(result, output_path, indent=2, ensure_ascii=False)
 
     # Record end time and calculate elapsed time
     ended_at = datetime.now(timezone.utc)
     elapsed_seconds = round(time.monotonic() - started_at, 2)
-    output_size_bytes = OUTPUT_JSON_PATH.stat().st_size
+    output_size_bytes = OUTPUT_JSON.stat().st_size
 
     # Compile metadata about the processing run
     metadata = {
@@ -207,16 +198,17 @@ else:
     }
 
     # Write metadata to JSON file
-    with OUTPUT_METADATA_PATH.open("w", encoding="utf-8") as metadata_path:
+    with OUTPUT_METADATA.open("w", encoding="utf-8") as metadata_path:
         json.dump(metadata, metadata_path, indent=2)
 
     print(
         f"\n✔ output JSON written: {len(result):,} records -> "
-        f"{OUTPUT_JSON_PATH.relative_to(DATA_DIR)}"
+        f"{OUTPUT_JSON.relative_to(DATA_DIR)}"
     )
+
     print(f"  ◆ {rows_matched_ror:,} matched via ROR")
     print(f"  ◆ {rows_no_ror_with_country:,} no ROR id, country from OpenAIRE")
     print(f"  ! {rows_ror_not_in_dump:,} had a ROR id not found in the ROR dump")
     print(f"  ! {rows_no_ror_no_country:,} had no ROR id and no country in OpenAIRE")
     print(f"Elapsed time: {elapsed_seconds} seconds")
-    print(f"Metadata written to: {OUTPUT_METADATA_PATH.relative_to(DATA_DIR)}")
+    print(f"Metadata written to: {OUTPUT_METADATA.relative_to(DATA_DIR)}")
