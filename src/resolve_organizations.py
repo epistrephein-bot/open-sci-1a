@@ -533,7 +533,7 @@ def resolve_organizations(pub_to_orgs):
                 "country_name": rec.get("country_name", ""),
                 "country_code": rec.get("country_code", ""),
                 "country_source": rec.get("country_source", ""),
-                "ror": rec.get("ror_id"),
+                "ror": rec.get("ror"),
                 "openaire": oid,
             }
 
