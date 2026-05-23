@@ -515,7 +515,7 @@ def resolve_organizations(pub_to_orgs):
     print(f"  {len(wanted):,} distinct organization ids to fetch")
 
     if not ORG_COUNTRIES_JSON.exists():
-        print(f"  ❌ {ORG_COUNTRIES_JSON} not found")
+        print(f"  ! {ORG_COUNTRIES_JSON} not found")
         sys.exit(1)
 
     print(f"  Loading {ORG_COUNTRIES_JSON.relative_to(DATA_DIR)} ...")
@@ -538,7 +538,7 @@ def resolve_organizations(pub_to_orgs):
             }
 
     missing = len(wanted) - len(org_lookup)
-    print(f"  ✅ Phase 3 done: {len(org_lookup):,} resolved, "
+    print(f"  ✔ Phase 3 done: {len(org_lookup):,} resolved, "
           f"{missing:,} not found in mapping | {format_elapsed(t0)}")
 
     return org_lookup
