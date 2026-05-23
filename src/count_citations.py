@@ -6,6 +6,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
+import ijson
 
 
 # ==============================================================================
@@ -50,14 +51,47 @@ LOG_EVERY = 100_000
 # METHODS
 # ==============================================================================
 
-def load_omid_organizations(path):
-    """Load the omid -> organizations mapping from JSON."""
-    print(f"Loading {path.relative_to(DATA_DIR)} ...")
+def collect_needed_omids(universities):
+    """Scan all iris_oc_pids CSVs and return the set of omids we need to look up."""
+    needed = set()
+    for university in universities:
+        input_csv = Path(str(INPUT_CSV_TEMPLATE).format(university=university))
+        output_check = Path(str(OUTPUT_ORG_INBOUND_TEMPLATE).format(university=university))
+        if output_check.exists() or not input_csv.exists():
+            continue
+        print(f"  Scanning {input_csv.relative_to(DATA_DIR)} ...")
+        with input_csv.open("r", encoding="utf-8", newline="") as fh:
+            reader = csv.DictReader(fh)
+            for row in reader:
+                direction = row.get("direction", "").strip()
+                citing = row.get("citing_omid", "").strip()
+                cited = row.get("cited_omid", "").strip()
+                if direction == "inbound":
+                    needed.add(citing)
+                elif direction == "outbound":
+                    needed.add(cited)
+                elif direction == "internal":
+                    needed.add(citing)
+                    needed.add(cited)
+    return needed
+
+
+def load_omid_organizations(path, needed_omids):
+    """Stream omid_organizations.json with ijson, keeping only needed entries."""
+    print(f"Streaming {path.relative_to(DATA_DIR)} (filtering {len(needed_omids):,} omids) ...")
     t0 = time.monotonic()
-    with path.open("r", encoding="utf-8") as fh:
-        data = json.load(fh)
+    data = {}
+    scanned = 0
+    with path.open("rb") as fh:
+        for omid, entry in ijson.kvitems(fh, ""):
+            scanned += 1
+            if scanned % 1_000_000 == 0:
+                print(f"  ...{scanned:,} entries scanned, {len(data):,} kept | "
+                      f"{format_elapsed(t0)}")
+            if omid in needed_omids:
+                data[omid] = entry
     elapsed = time.monotonic() - t0
-    print(f"  {len(data):,} entries loaded in {elapsed:.1f}s")
+    print(f"  {scanned:,} entries scanned, {len(data):,} kept in {format_elapsed(t0)}")
     return data
 
 
@@ -89,8 +123,29 @@ def format_elapsed(t0):
 # Create output directory
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Load the omid -> organizations mapping (shared across all universities)
-omid_orgs = load_omid_organizations(OMID_ORGANIZATIONS_JSON)
+# Phase 1: collect the set of omids we actually need across all universities
+print("=" * 70)
+print("Phase 1 -- collecting needed omids from all CSVs")
+print("=" * 70)
+needed_omids = collect_needed_omids(UNIVERSITIES)
+print(f"  {len(needed_omids):,} unique omids to look up")
+
+if not needed_omids:
+    print("  Nothing to do.")
+    raise SystemExit(0)
+
+# Phase 2: stream the large JSON, keeping only needed entries
+print()
+print("=" * 70)
+print("Phase 2 -- streaming omid_organizations.json")
+print("=" * 70)
+omid_orgs = load_omid_organizations(OMID_ORGANIZATIONS_JSON, needed_omids)
+
+# Phase 3: count citations per university
+print()
+print("=" * 70)
+print("Phase 3 -- counting citations")
+print("=" * 70)
 
 # Process each university
 for university in UNIVERSITIES:
