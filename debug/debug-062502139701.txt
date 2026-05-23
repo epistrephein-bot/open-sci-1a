@@ -1,0 +1,4028 @@
+======================================================================
+Debugging OMID: omid:br/062502139701
+======================================================================
+
+--- Step 1: looking up omid:br/062502139701 in unique_pids.csv ---
+  CSV row: {"omid": "omid:br/062502139701", "doi": "doi:10.4103/ipj.ipj_15_16", "pmid": "pmid:30089956", "isbn": ""}
+  Normalized DOI:  10.4103/ipj.ipj_15_16
+  Normalized PMID: 30089956
+
+--- Step 2: scanning publication tars for DOI=10.4103/ipj.ipj_15_16 / PMID=30089956 ---
+  14 publication tar(s) to scan
+  ✅ found in publication_1.tar | 0h00m38s
+  OpenAIRE publication id: doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c
+  Full record:
+{
+  "authors": [
+    {
+      "fullName": "Anita Thakur",
+      "name": null,
+      "surname": null,
+      "rank": 1,
+      "pid": null
+    },
+    {
+      "fullName": "Sandeep Grover",
+      "name": null,
+      "surname": null,
+      "rank": 2,
+      "pid": null
+    },
+    {
+      "fullName": "Ritu Nehra",
+      "name": null,
+      "surname": null,
+      "rank": 3,
+      "pid": null
+    }
+  ],
+  "openAccessColor": "gold",
+  "publiclyFunded": false,
+  "type": "publication",
+  "language": {
+    "code": "eng",
+    "label": "English"
+  },
+  "countries": null,
+  "subjects": [
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "Psychiatry"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "Industrial psychology"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "FOS",
+        "value": "03 medical and health sciences"
+      },
+      "provenance": {
+        "provenance": "Inferred by OpenAIRE",
+        "trust": null
+      }
+    },
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "marital satisfaction"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "FOS",
+        "value": "0302 clinical medicine"
+      },
+      "provenance": {
+        "provenance": "Inferred by OpenAIRE",
+        "trust": null
+      }
+    },
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "Bipolar disorder"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "RC435-571"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "Review Article"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "marriage"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "sexual satisfaction"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "keyword",
+        "value": "HF5548.7-5548.85"
+      },
+      "provenance": {
+        "provenance": "Harvested",
+        "trust": "0.9"
+      }
+    },
+    {
+      "subject": {
+        "scheme": "SDG",
+        "value": "3. Good health"
+      },
+      "provenance": {
+        "provenance": "Inferred by OpenAIRE",
+        "trust": null
+      }
+    }
+  ],
+  "mainTitle": "Bipolar affective disorder and its impact on various aspects of marital relationship",
+  "subTitle": null,
+  "descriptions": [
+    "Bipolar disorder (BD) is a severe mental disorder, which not only has negative consequences on the life of the patient, but also affects the immediate family members. As it often starts early in life, patients who get married often suffer from many negative consequences in their marital life due to the illness. This review focuses on studies which have evaluated marital rates, rate of marital failure, divorce, infertility, and procreation among patients with BD. In addition, this review evaluates the existing literature pertaining to marital adjustment, marital satisfaction, sexual dysfunction, and sexual satisfaction among patients with BD and their partners/spouses. Data suggest that very high proportion of patients with BD get married and marital rates are higher for patients with BD, when compared with those suffering from schizophrenia. In terms of divorce rates, studies suggest that patients with BD have higher rates of divorce. In terms of fertility rates, studies suggest that compared to those without the illness, the fertility rates among patients with BD are lower. In terms of marital adjustment, results are mixed with some studies suggesting poorer marital adjustment among patients and their spouses too. In terms of sexual dysfunction, studies suggest the presence of sexual dysfunction among one-third to half of the patients receiving lithium. To conclude, this review suggests that patients with BD experience multiple negative marital and sexual consequences."
+  ],
+  "publicationDate": "2017-01-01",
+  "publisher": "Medknow",
+  "embargoEndDate": null,
+  "sources": [
+    "Crossref",
+    "Ind Psychiatry J",
+    "Industrial Psychiatry Journal, Vol 26, Iss 2, Pp 114-120 (2017)"
+  ],
+  "formats": null,
+  "contributors": null,
+  "coverages": null,
+  "bestAccessRight": {
+    "code": "c_abf2",
+    "label": "OPEN",
+    "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/"
+  },
+  "container": {
+    "name": "Industrial Psychiatry Journal",
+    "issnPrinted": "0972-6748",
+    "issnOnline": null,
+    "issnLinking": null,
+    "ep": null,
+    "iss": null,
+    "sp": "114",
+    "vol": "26",
+    "edition": null,
+    "conferencePlace": null,
+    "conferenceDate": null
+  },
+  "documentationUrls": null,
+  "codeRepositoryUrl": null,
+  "programmingLanguage": null,
+  "contactPeople": null,
+  "contactGroups": null,
+  "tools": null,
+  "size": null,
+  "version": null,
+  "geoLocations": null,
+  "id": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "originalIds": [
+    "236178",
+    "10.4103/ipj.ipj_15_16",
+    "50|doiboost____|fb80156cd22885623a2b9e8c46ba5f2c",
+    "od_______267::b3011b9545d30a1eb7685aba68770e89",
+    "30089956",
+    "PMC6058431",
+    "50|od_______267::b3011b9545d30a1eb7685aba68770e89",
+    "oai:pubmedcentral.nih.gov:6058431",
+    "50|doajarticles::66ce306f460ca6d37a211a8114c68aa0",
+    "oai:doaj.org/article:d8a55f9864374b8791810e019f8db44e",
+    "2836061995"
+  ],
+  "pids": [
+    {
+      "scheme": "doi",
+      "value": "10.4103/ipj.ipj_15_16"
+    },
+    {
+      "scheme": "pmid",
+      "value": "30089956"
+    },
+    {
+      "scheme": "pmc",
+      "value": "PMC6058431"
+    },
+    {
+      "scheme": "mag_id",
+      "value": "2836061995"
+    }
+  ],
+  "dateOfCollection": "2025-11-01T13:06:33.177539283",
+  "lastUpdateTimeStamp": 1761957186529,
+  "indicators": {
+    "citationImpact": {
+      "citationCount": 29.0,
+      "influence": 4.1349386e-09,
+      "popularity": 1.9391905e-08,
+      "impulse": 5.0,
+      "citationClass": "C4",
+      "influenceClass": "C4",
+      "impulseClass": "C4",
+      "popularityClass": "C4"
+    }
+  },
+  "instances": [
+    {
+      "pids": [
+        {
+          "scheme": "doi",
+          "value": "10.4103/ipj.ipj_15_16"
+        }
+      ],
+      "accessRight": {
+        "code": "c_abf2",
+        "label": "OPEN",
+        "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+        "openAccessRoute": "gold"
+      },
+      "type": "Article",
+      "urls": [
+        "https://doi.org/10.4103/ipj.ipj_15_16"
+      ],
+      "publicationDate": "2017-01-01",
+      "refereed": "peerReviewed"
+    },
+    {
+      "pids": [
+        {
+          "scheme": "doi",
+          "value": "10.4103/ipj.ipj_15_16"
+        }
+      ],
+      "license": "CC BY NC SA",
+      "accessRight": {
+        "code": "c_abf2",
+        "label": "OPEN",
+        "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+        "openAccessRoute": "gold"
+      },
+      "type": "Article",
+      "urls": [
+        "https://doi.org/10.4103/ipj.ipj_15_16"
+      ],
+      "refereed": "nonPeerReviewed"
+    },
+    {
+      "pids": [
+        {
+          "scheme": "pmid",
+          "value": "30089956"
+        },
+        {
+          "scheme": "pmc",
+          "value": "PMC6058431"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.4103/ipj.ipj_15_16"
+        }
+      ],
+      "accessRight": {
+        "code": "c_abf2",
+        "label": "OPEN",
+        "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+        "openAccessRoute": "gold"
+      },
+      "type": "Article",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/30089956"
+      ],
+      "refereed": "nonPeerReviewed"
+    },
+    {
+      "alternateIdentifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.4103/ipj.ipj_15_16"
+        }
+      ],
+      "license": "CC BY NC SA",
+      "accessRight": {
+        "code": "c_abf2",
+        "label": "OPEN",
+        "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+        "openAccessRoute": null
+      },
+      "type": "Other literature type",
+      "urls": [
+        "http://dx.doi.org/10.4103/ipj.ipj_15_16"
+      ],
+      "publicationDate": "2017-01-01",
+      "refereed": "nonPeerReviewed"
+    },
+    {
+      "alternateIdentifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.4103/ipj.ipj_15_16"
+        }
+      ],
+      "accessRight": {
+        "code": "c_abf2",
+        "label": "OPEN",
+        "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+        "openAccessRoute": "gold"
+      },
+      "type": "Article",
+      "urls": [
+        "https://doaj.org/article/d8a55f9864374b8791810e019f8db44e"
+      ],
+      "publicationDate": "2017-01-01",
+      "refereed": "nonPeerReviewed"
+    },
+    {
+      "pids": [
+        {
+          "scheme": "mag_id",
+          "value": "2836061995"
+        },
+        {
+          "scheme": "doi",
+          "value": "10.4103/ipj.ipj_15_16"
+        }
+      ],
+      "accessRight": {
+        "code": "c_abf2",
+        "label": "OPEN",
+        "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+        "openAccessRoute": "gold"
+      },
+      "type": "Article",
+      "urls": [
+        "http://www.industrialpsychiatry.org/text.asp?2017/26/2/114/236178",
+        "https://www.industrialpsychiatry.org/article.asp?issn=0972-6748;year=2017;volume=26;issue=2;spage=114;epage=120;aulast=Grover",
+        "https://europepmc.org/article/MED/30089956",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6058431",
+        "https://pubmed.ncbi.nlm.nih.gov/30089956/"
+      ],
+      "refereed": "nonPeerReviewed"
+    }
+  ],
+  "isGreen": true,
+  "isInDiamondJournal": false
+}
+
+--- Step 3: scanning relation tars for pub_id=doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c ---
+  14 relation tar(s) to scan
+  relation_1.tar: 23 relation(s) found
+  relation_10.tar: 109 relation(s) found
+  relation_11.tar: 4 relation(s) found
+  relation_12.tar: 8 relation(s) found
+  relation_13.tar: 12 relation(s) found
+  relation_14.tar: 3 relation(s) found
+  relation_2.tar: 5 relation(s) found
+  relation_3.tar: 6 relation(s) found
+  relation_4.tar: 2 relation(s) found
+  relation_5.tar: 8 relation(s) found
+  relation_6.tar: 12 relation(s) found
+  relation_7.tar: 7 relation(s) found
+  relation_8.tar: 2 relation(s) found
+  relation_9.tar: 7 relation(s) found
+
+  Total relations involving this publication: 208 | 0h59m41s
+
+  All relations (full records):
+
+  [1] relType.name = isProvidedBy
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isProvidedBy",
+    "type": "provision"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "openaire____::081b82f96300b6a6e3d282bad31cb6e2",
+  "targetType": "datasource",
+  "validated": false
+}
+
+  [2] relType.name = provides
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "provides",
+    "type": "provision"
+  },
+  "source": "openaire____::081b82f96300b6a6e3d282bad31cb6e2",
+  "sourceType": "datasource",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [3] relType.name = isHostedBy
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isHostedBy",
+    "type": "provision"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doajarticles::7a2e8468fe66a0bed73efa5471f9f320",
+  "targetType": "datasource",
+  "validated": false
+}
+
+  [4] relType.name = hosts
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "hosts",
+    "type": "provision"
+  },
+  "source": "doajarticles::7a2e8468fe66a0bed73efa5471f9f320",
+  "sourceType": "datasource",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [5] relType.name = isProvidedBy
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isProvidedBy",
+    "type": "provision"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "openaire____::8ac8380272269217cb09a928c8caa993",
+  "targetType": "datasource",
+  "validated": false
+}
+
+  [6] relType.name = provides
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "provides",
+    "type": "provision"
+  },
+  "source": "openaire____::8ac8380272269217cb09a928c8caa993",
+  "sourceType": "datasource",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [7] relType.name = isProvidedBy
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isProvidedBy",
+    "type": "provision"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "opendoar____::8b6dd7db9af49e67306feb59a8bdc52c",
+  "targetType": "datasource",
+  "validated": false
+}
+
+  [8] relType.name = provides
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "provides",
+    "type": "provision"
+  },
+  "source": "opendoar____::8b6dd7db9af49e67306feb59a8bdc52c",
+  "sourceType": "datasource",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [9] relType.name = isProvidedBy
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isProvidedBy",
+    "type": "provision"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357",
+  "targetType": "datasource",
+  "validated": false
+}
+
+  [10] relType.name = provides
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "provides",
+    "type": "provision"
+  },
+  "source": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357",
+  "sourceType": "datasource",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [11] relType.name = isHostedBy
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isHostedBy",
+    "type": "provision"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357",
+  "targetType": "datasource",
+  "validated": false
+}
+
+  [12] relType.name = hosts
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "hosts",
+    "type": "provision"
+  },
+  "source": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357",
+  "sourceType": "datasource",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [13] relType.name = isProvidedBy
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isProvidedBy",
+    "type": "provision"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "driver______::bee53aa31dc2cbb538c10c2b65fa5824",
+  "targetType": "datasource",
+  "validated": false
+}
+
+  [14] relType.name = provides
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "provides",
+    "type": "provision"
+  },
+  "source": "driver______::bee53aa31dc2cbb538c10c2b65fa5824",
+  "sourceType": "datasource",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [15] relType.name = isProvidedBy
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isProvidedBy",
+    "type": "provision"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a",
+  "targetType": "datasource",
+  "validated": false
+}
+
+  [16] relType.name = provides
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "provides",
+    "type": "provision"
+  },
+  "source": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a",
+  "sourceType": "datasource",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [17] relType.name = IsRelatedTo
+{
+  "provenance": {
+    "provenance": "community:subject",
+    "trust": "0.8"
+  },
+  "relType": {
+    "name": "IsRelatedTo",
+    "type": "relationship"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "community___::aacecfad0c694367acd5c6b5057daa79",
+  "targetType": "community",
+  "validated": false
+}
+
+  [18] relType.name = IsRelatedTo
+{
+  "provenance": {
+    "provenance": "community:subject",
+    "trust": "0.8"
+  },
+  "relType": {
+    "name": "IsRelatedTo",
+    "type": "relationship"
+  },
+  "source": "community___::aacecfad0c694367acd5c6b5057daa79",
+  "sourceType": "community",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [19] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::0a776e25c41bf5b853064ca996f71aa6",
+  "targetType": "product",
+  "validated": false
+}
+
+  [20] relType.name = hasAuthorInstitution
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.85"
+  },
+  "relType": {
+    "name": "hasAuthorInstitution",
+    "type": "affiliation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "openorgs____::42a0e52a51dfdd7d5fc462d0c32ef798",
+  "targetType": "organization",
+  "validated": false
+}
+
+  [21] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::68dfcf9939ec6449584128d51611d440",
+  "targetType": "product",
+  "validated": false
+}
+
+  [22] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::863bb08b8ee643d63592c8896a23f9d5",
+  "targetType": "product",
+  "validated": false
+}
+
+  [23] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::eca4629258685e4bbc3bff8feb9b29a2",
+  "targetType": "product",
+  "validated": false
+}
+
+  [24] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::af159d610710c955bb62c14b95a14d32",
+  "targetType": "product",
+  "validated": false
+}
+
+  [25] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::51f605302adb924e317ffb4d1479c895",
+  "targetType": "product",
+  "validated": false
+}
+
+  [26] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::62765b0c15310c5037b683cb465069c2",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [27] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.766"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::015704d7353dd09b3cf6cb756d86a541",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [28] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::a505c953c6ad494d56564eb6ec0a7b00",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [29] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::41fa0acd5889e599e1991ca0a43d320a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [30] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "pmid________::0b80b94de8504a0d1fbe2bc44cfec158",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [31] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::4e4d694952b261ccd9ccc6cb92973786",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [32] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::0c08cb4059d200a2f9dc653f1e40b195",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [33] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::acb7141d6312f449427538284bdfb5dc",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [34] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::6760774247c132c769898184c39829c0",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [35] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::0f3ed6bd36879a53d893d16aca4def3c",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [36] relType.name = isAuthorInstitutionOf
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "isAuthorInstitutionOf",
+    "type": "affiliation"
+  },
+  "source": "pending_org_::339b6e40233bb69e1c16bd548266221d",
+  "sourceType": "organization",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [37] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::cf2f3d6a4199de5d7fbdd60b57503bde",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [38] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::82e7877622d9b74f3332f3d1dd47d7c7",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [39] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::0b84394c7e8229e75048a2696e0c5a77",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [40] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::118255e3547e1dbc088ca3281e549d23",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [41] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::a6552f96055f6f2081cb86fd318df768",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [42] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::460e9f1ae59881cfeec205f740e7e560",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [43] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::ef403d52c2be8797cb33a64fc39297d3",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [44] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::9da6e5b41c2a7e674a9e9983e6e66399",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [45] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::46a4b3888733d524085a115162150377",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [46] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_________::18e54821c9ea0bba0f4a263ea0e79070",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [47] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.6266"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::efaf1085b12432b653ca3a319e233ede",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [48] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::1f65788a80ae134e168097211620a47e",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [49] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::41d69e7039cb272002bf53275a7a5254",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [50] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::d7a4c61001e571ed976043aee11cdd7b",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [51] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::39ff357000788ad981c639c51ace30ca",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [52] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.7389"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "od_____10208::a465dbe35619192f103c1df0129b88b7",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [53] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::1f08d4eade0ff68a6dc80d9558a4b94e",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [54] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::b5cc526325a2ca8ae60eac56bb61eb43",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [55] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "pmid________::8fd70a9d90835961dda175c557e716dc",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [56] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::a40f116c254af50f78ea939c6dd10cbb",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [57] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::eea81a7f6f750ffaef32393cc9195b43",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [58] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::53a3982b50671f7b9a849b5ea151c57f",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [59] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.7294"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::028be128e0444e13be64a2267a1dfa68",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [60] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::8fe454fbb3a73d224a0b2c2c560a4a6a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [61] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::4da8a905cd77ffe289dba48d8ae679de",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [62] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::7e9a4095203e0fc96e52211e3e378e7a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [63] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::19644dff01fdb1058d8b7e3a2ef022bc",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [64] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::52011374e011b0d96564ab5566073498",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [65] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::51f605302adb924e317ffb4d1479c895",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [66] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::0dec06b35690a6ef2f99fb8c8268e43b",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [67] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::94a05e8c8d1a237acad206e1f11279dc",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [68] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::41739c70b1c5e07a9da4b1f9db210fe4",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [69] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::11c65b8eb4b93652615cae6ab3a715ab",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [70] relType.name = isAuthorInstitutionOf
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "1.0"
+  },
+  "relType": {
+    "name": "isAuthorInstitutionOf",
+    "type": "affiliation"
+  },
+  "source": "openorgs____::3dae750639eefecf9b3797992fc9d123",
+  "sourceType": "organization",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [71] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::e01a896a22a1fe0a86294b62046aff89",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [72] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::72b12f28b3ac38bb9ca4234367be3482",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [73] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::7d360b40937e619b282797c3eaf82837",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [74] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::1032d2ea2ba679b1fae9ff456b9be83a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [75] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_________::b387bf06c7822f0e6a08c9dd2505b464",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [76] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::612447b9cc2e79d10d41936760f2a9c5",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [77] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::2d2b3f3e7130f7cd8437d7941274d3ff",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [78] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "pmid________::29e941332c6fc2e8edc06de780ac53b1",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [79] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::3fd9768e0b4829d32d66c955dfa0277f",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [80] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::f576fa1bbca1c5f8535a8cd11ea20685",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [81] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.7805"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::6bcad059b36ec663a53cc24824faa3f2",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [82] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::7d90a456ce7f125211d87d29c8c053b6",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [83] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::28d0bec3135a49d79122231b487e2ecb",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [84] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::ec1c2968d5ac687dc41233edffc6ed81",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [85] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::5bbd508f31b68a37537850636c32d5fd",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [86] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "pmid_dedup__::457d8654f4ed9e37d2b81f5a616dfe9e",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [87] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::af159d610710c955bb62c14b95a14d32",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [88] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::eb58c34588031d913355d4fe5d4b7592",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [89] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::7c4b60e3e45802c71ba34de7c149f70a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [90] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::29cf4b4ae35b55b7ab6d80064cf654ba",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [91] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::5b1ff99fb23e9fa2a35604ea6c61ffbe",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [92] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::6a7d9e41dcdd1c08d2afb27770e30ef9",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [93] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fe5295775a4c3e32ef366bbad0738d40",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [94] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::863bb08b8ee643d63592c8896a23f9d5",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [95] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::6873aa3a4db694292511e3078228898a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [96] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::6e6eee7d9b145255520aabeb469a193a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [97] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::b30773a15a490189498fbc2a535dff2a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [98] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fab3da249e9eb0e577cbd05f8ca3c018",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [99] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_________::a265734811afbd11f1a43d1801739a3d",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [100] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::a01f69b5e745ff8f8a1af50bdfa7c774",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [101] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::61489f2cda75dfa71fd8797f1b96c73e",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [102] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::999d5c0a801348cc93ddf5c10bb3544c",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [103] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.7812"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "dedup_wf_002::8dc7a5acafe373d8e2d0ba021c483a3e",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [104] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_________::e2a8972d297de3467a6396204cb59262",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [105] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::ebc1ff043ac564ee624ea847d6a061c6",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [106] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_________::8ece27412dcb8c6b7209240a75a88880",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [107] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::68dfcf9939ec6449584128d51611d440",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [108] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::799b0d1738645dfad0efb23d06e921a8",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [109] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::70c4733cde74346f333c032160285e15",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [110] relType.name = isAuthorInstitutionOf
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.85"
+  },
+  "relType": {
+    "name": "isAuthorInstitutionOf",
+    "type": "affiliation"
+  },
+  "source": "openorgs____::42a0e52a51dfdd7d5fc462d0c32ef798",
+  "sourceType": "organization",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [111] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::5f3dfdcfef4e0bb3c72cb0119009b440",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [112] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_________::547190dbb0976f32379545a41879fa51",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [113] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::702f5718e8a5bcedf5c67d09ca6f66c0",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [114] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::446770be6820fe3a1c91156467721537",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [115] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::5efd08ab16d14149cb932d358e71bb3a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [116] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::0bf99b18cb423eee77d94a0f8cb4836f",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [117] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::4a0379e2fbb1e9466b90ef79e070688a",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [118] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::4a61a5bdd29b7737e89c24d55cba7cec",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [119] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::9bf940ee98f6f0d640721e3d37c44f12",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [120] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::b5d757646e4ed7eb41748cb58cc5366b",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [121] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::eca4629258685e4bbc3bff8feb9b29a2",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [122] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::255b043d0e8429f21681ede010983b2d",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [123] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::ba451f31adaed6dfb023753d884cbbf7",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [124] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_________::fed37caac762c37567a5615de633b18b",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [125] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::afc1d52bdb060d81ec8321c96688afb8",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [126] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::11f3aca061fbc524e27ca482562c2789",
+  "sourceType": "product",
+  "target": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [127] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::3fd9768e0b4829d32d66c955dfa0277f",
+  "targetType": "product",
+  "validated": false
+}
+
+  [128] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::19644dff01fdb1058d8b7e3a2ef022bc",
+  "targetType": "product",
+  "validated": false
+}
+
+  [129] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.7812"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "dedup_wf_002::8dc7a5acafe373d8e2d0ba021c483a3e",
+  "targetType": "product",
+  "validated": false
+}
+
+  [130] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::b5cc526325a2ca8ae60eac56bb61eb43",
+  "targetType": "product",
+  "validated": false
+}
+
+  [131] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "pmid________::8fd70a9d90835961dda175c557e716dc",
+  "targetType": "product",
+  "validated": false
+}
+
+  [132] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::5efd08ab16d14149cb932d358e71bb3a",
+  "targetType": "product",
+  "validated": false
+}
+
+  [133] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::29cf4b4ae35b55b7ab6d80064cf654ba",
+  "targetType": "product",
+  "validated": false
+}
+
+  [134] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::799b0d1738645dfad0efb23d06e921a8",
+  "targetType": "product",
+  "validated": false
+}
+
+  [135] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::41d69e7039cb272002bf53275a7a5254",
+  "targetType": "product",
+  "validated": false
+}
+
+  [136] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::0b84394c7e8229e75048a2696e0c5a77",
+  "targetType": "product",
+  "validated": false
+}
+
+  [137] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::46a4b3888733d524085a115162150377",
+  "targetType": "product",
+  "validated": false
+}
+
+  [138] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::5b1ff99fb23e9fa2a35604ea6c61ffbe",
+  "targetType": "product",
+  "validated": false
+}
+
+  [139] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::afc1d52bdb060d81ec8321c96688afb8",
+  "targetType": "product",
+  "validated": false
+}
+
+  [140] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::a01f69b5e745ff8f8a1af50bdfa7c774",
+  "targetType": "product",
+  "validated": false
+}
+
+  [141] relType.name = Cites
+{
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::c56b8acd3e99f3de2a1e89063360aed4",
+  "targetType": "product",
+  "validated": false
+}
+
+  [142] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::cf2f3d6a4199de5d7fbdd60b57503bde",
+  "targetType": "product",
+  "validated": false
+}
+
+  [143] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::fe5295775a4c3e32ef366bbad0738d40",
+  "targetType": "product",
+  "validated": false
+}
+
+  [144] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::72b12f28b3ac38bb9ca4234367be3482",
+  "targetType": "product",
+  "validated": false
+}
+
+  [145] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::70c4733cde74346f333c032160285e15",
+  "targetType": "product",
+  "validated": false
+}
+
+  [146] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::028be128e0444e13be64a2267a1dfa68",
+  "targetType": "product",
+  "validated": false
+}
+
+  [147] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::4a61a5bdd29b7737e89c24d55cba7cec",
+  "targetType": "product",
+  "validated": false
+}
+
+  [148] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::9bf940ee98f6f0d640721e3d37c44f12",
+  "targetType": "product",
+  "validated": false
+}
+
+  [149] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::0dec06b35690a6ef2f99fb8c8268e43b",
+  "targetType": "product",
+  "validated": false
+}
+
+  [150] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::a40f116c254af50f78ea939c6dd10cbb",
+  "targetType": "product",
+  "validated": false
+}
+
+  [151] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.754"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::eb58c34588031d913355d4fe5d4b7592",
+  "targetType": "product",
+  "validated": false
+}
+
+  [152] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.7805"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::6bcad059b36ec663a53cc24824faa3f2",
+  "targetType": "product",
+  "validated": false
+}
+
+  [153] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::8fe454fbb3a73d224a0b2c2c560a4a6a",
+  "targetType": "product",
+  "validated": false
+}
+
+  [154] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::5bbd508f31b68a37537850636c32d5fd",
+  "targetType": "product",
+  "validated": false
+}
+
+  [155] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::6873aa3a4db694292511e3078228898a",
+  "targetType": "product",
+  "validated": false
+}
+
+  [156] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::39ff357000788ad981c639c51ace30ca",
+  "targetType": "product",
+  "validated": false
+}
+
+  [157] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::ba451f31adaed6dfb023753d884cbbf7",
+  "targetType": "product",
+  "validated": false
+}
+
+  [158] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::52011374e011b0d96564ab5566073498",
+  "targetType": "product",
+  "validated": false
+}
+
+  [159] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::6e6eee7d9b145255520aabeb469a193a",
+  "targetType": "product",
+  "validated": false
+}
+
+  [160] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::b5d757646e4ed7eb41748cb58cc5366b",
+  "targetType": "product",
+  "validated": false
+}
+
+  [161] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::7d360b40937e619b282797c3eaf82837",
+  "targetType": "product",
+  "validated": false
+}
+
+  [162] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::41fa0acd5889e599e1991ca0a43d320a",
+  "targetType": "product",
+  "validated": false
+}
+
+  [163] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "pmid_dedup__::457d8654f4ed9e37d2b81f5a616dfe9e",
+  "targetType": "product",
+  "validated": false
+}
+
+  [164] relType.name = hasAuthorInstitution
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "hasAuthorInstitution",
+    "type": "affiliation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "pending_org_::339b6e40233bb69e1c16bd548266221d",
+  "targetType": "organization",
+  "validated": false
+}
+
+  [165] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::7c4b60e3e45802c71ba34de7c149f70a",
+  "targetType": "product",
+  "validated": false
+}
+
+  [166] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::4e4d694952b261ccd9ccc6cb92973786",
+  "targetType": "product",
+  "validated": false
+}
+
+  [167] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::6760774247c132c769898184c39829c0",
+  "targetType": "product",
+  "validated": false
+}
+
+  [168] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::7e9a4095203e0fc96e52211e3e378e7a",
+  "targetType": "product",
+  "validated": false
+}
+
+  [169] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::2d2b3f3e7130f7cd8437d7941274d3ff",
+  "targetType": "product",
+  "validated": false
+}
+
+  [170] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::a505c953c6ad494d56564eb6ec0a7b00",
+  "targetType": "product",
+  "validated": false
+}
+
+  [171] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::999d5c0a801348cc93ddf5c10bb3544c",
+  "targetType": "product",
+  "validated": false
+}
+
+  [172] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::4da8a905cd77ffe289dba48d8ae679de",
+  "targetType": "product",
+  "validated": false
+}
+
+  [173] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "pmid________::53fea55d6ecdac4e81004df8e20f4dca",
+  "targetType": "product",
+  "validated": false
+}
+
+  [174] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::702f5718e8a5bcedf5c67d09ca6f66c0",
+  "targetType": "product",
+  "validated": false
+}
+
+  [175] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::94a05e8c8d1a237acad206e1f11279dc",
+  "targetType": "product",
+  "validated": false
+}
+
+  [176] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::1f65788a80ae134e168097211620a47e",
+  "targetType": "product",
+  "validated": false
+}
+
+  [177] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::11c65b8eb4b93652615cae6ab3a715ab",
+  "targetType": "product",
+  "validated": false
+}
+
+  [178] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::efaf1085b12432b653ca3a319e233ede",
+  "targetType": "product",
+  "validated": false
+}
+
+  [179] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::53a3982b50671f7b9a849b5ea151c57f",
+  "targetType": "product",
+  "validated": false
+}
+
+  [180] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "pmid________::0b80b94de8504a0d1fbe2bc44cfec158",
+  "targetType": "product",
+  "validated": false
+}
+
+  [181] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::7d90a456ce7f125211d87d29c8c053b6",
+  "targetType": "product",
+  "validated": false
+}
+
+  [182] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::446770be6820fe3a1c91156467721537",
+  "targetType": "product",
+  "validated": false
+}
+
+  [183] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::460e9f1ae59881cfeec205f740e7e560",
+  "targetType": "product",
+  "validated": false
+}
+
+  [184] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.7389"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "od_____10208::a465dbe35619192f103c1df0129b88b7",
+  "targetType": "product",
+  "validated": false
+}
+
+  [185] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::61489f2cda75dfa71fd8797f1b96c73e",
+  "targetType": "product",
+  "validated": false
+}
+
+  [186] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "pmid________::29e941332c6fc2e8edc06de780ac53b1",
+  "targetType": "product",
+  "validated": false
+}
+
+  [187] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.7437"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::d7a4c61001e571ed976043aee11cdd7b",
+  "targetType": "product",
+  "validated": false
+}
+
+  [188] relType.name = hasAuthorInstitution
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "1.0"
+  },
+  "relType": {
+    "name": "hasAuthorInstitution",
+    "type": "affiliation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "openorgs____::3dae750639eefecf9b3797992fc9d123",
+  "targetType": "organization",
+  "validated": false
+}
+
+  [189] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "pmid________::712b7adf9422e4a09a444567b3b15dee",
+  "targetType": "product",
+  "validated": false
+}
+
+  [190] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::acb7141d6312f449427538284bdfb5dc",
+  "targetType": "product",
+  "validated": false
+}
+
+  [191] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::8c4cb415eb87b4b53c7ed47cfa31f786",
+  "targetType": "product",
+  "validated": false
+}
+
+  [192] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::ebc1ff043ac564ee624ea847d6a061c6",
+  "targetType": "product",
+  "validated": false
+}
+
+  [193] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.766"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::015704d7353dd09b3cf6cb756d86a541",
+  "targetType": "product",
+  "validated": false
+}
+
+  [194] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::11f3aca061fbc524e27ca482562c2789",
+  "targetType": "product",
+  "validated": false
+}
+
+  [195] relType.name = Cites
+{
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::9f8ecfafd4ebce10c089aebdb7833ec1",
+  "targetType": "product",
+  "validated": false
+}
+
+  [196] relType.name = IsCitedBy
+{
+  "provenance": {
+    "provenance": "Inferred by OpenAIRE",
+    "trust": "0.9"
+  },
+  "relType": {
+    "name": "IsCitedBy",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::a6552f96055f6f2081cb86fd318df768",
+  "targetType": "product",
+  "validated": false
+}
+
+  [197] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::41739c70b1c5e07a9da4b1f9db210fe4",
+  "targetType": "product",
+  "validated": false
+}
+
+  [198] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::6a7d9e41dcdd1c08d2afb27770e30ef9",
+  "targetType": "product",
+  "validated": false
+}
+
+  [199] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::0bf99b18cb423eee77d94a0f8cb4836f",
+  "targetType": "product",
+  "validated": false
+}
+
+  [200] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::f576fa1bbca1c5f8535a8cd11ea20685",
+  "targetType": "product",
+  "validated": false
+}
+
+  [201] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::1f08d4eade0ff68a6dc80d9558a4b94e",
+  "targetType": "product",
+  "validated": false
+}
+
+  [202] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::e01a896a22a1fe0a86294b62046aff89",
+  "targetType": "product",
+  "validated": false
+}
+
+  [203] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::255b043d0e8429f21681ede010983b2d",
+  "targetType": "product",
+  "validated": false
+}
+
+  [204] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::62765b0c15310c5037b683cb465069c2",
+  "targetType": "product",
+  "validated": false
+}
+
+  [205] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::82e7877622d9b74f3332f3d1dd47d7c7",
+  "targetType": "product",
+  "validated": false
+}
+
+  [206] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::fab3da249e9eb0e577cbd05f8ca3c018",
+  "targetType": "product",
+  "validated": false
+}
+
+  [207] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::28d0bec3135a49d79122231b487e2ecb",
+  "targetType": "product",
+  "validated": false
+}
+
+  [208] relType.name = Cites
+{
+  "provenance": {
+    "provenance": "Harvested",
+    "trust": "0.91"
+  },
+  "relType": {
+    "name": "Cites",
+    "type": "citation"
+  },
+  "source": "doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c",
+  "sourceType": "product",
+  "target": "doi_dedup___::ec1c2968d5ac687dc41233edffc6ed81",
+  "targetType": "product",
+  "validated": false
+}
+
+  Affiliation org ids (6):
+    openorgs____::42a0e52a51dfdd7d5fc462d0c32ef798
+    pending_org_::339b6e40233bb69e1c16bd548266221d
+    openorgs____::3dae750639eefecf9b3797992fc9d123
+    openorgs____::42a0e52a51dfdd7d5fc462d0c32ef798
+    pending_org_::339b6e40233bb69e1c16bd548266221d
+    openorgs____::3dae750639eefecf9b3797992fc9d123
+
+--- Step 4: looking up 6 org(s) in openaire_ror_countries.json ---
+
+  ✅ openorgs____::42a0e52a51dfdd7d5fc462d0c32ef798
+{
+  "legal_name": "West Bengal University of Health Sciences",
+  "country_name": "India",
+  "country_code": "IN",
+  "country_source": "ror",
+  "ror": "https://ror.org/03fag5224"
+}
+
+  ✅ pending_org_::339b6e40233bb69e1c16bd548266221d
+{
+  "legal_name": "Postgraduate Institute of Medical Education and Research",
+  "country_name": "India",
+  "country_code": "IN",
+  "country_source": "ror",
+  "ror": "https://ror.org/02tmb4981"
+}
+
+  ✅ openorgs____::3dae750639eefecf9b3797992fc9d123
+{
+  "legal_name": "ESI - Post Graduate Institute of Medical Science and Research",
+  "country_name": "India",
+  "country_code": "IN",
+  "country_source": "ror",
+  "ror": "https://ror.org/009nfym65"
+}
+
+  ✅ openorgs____::42a0e52a51dfdd7d5fc462d0c32ef798
+{
+  "legal_name": "West Bengal University of Health Sciences",
+  "country_name": "India",
+  "country_code": "IN",
+  "country_source": "ror",
+  "ror": "https://ror.org/03fag5224"
+}
+
+  ✅ pending_org_::339b6e40233bb69e1c16bd548266221d
+{
+  "legal_name": "Postgraduate Institute of Medical Education and Research",
+  "country_name": "India",
+  "country_code": "IN",
+  "country_source": "ror",
+  "ror": "https://ror.org/02tmb4981"
+}
+
+  ✅ openorgs____::3dae750639eefecf9b3797992fc9d123
+{
+  "legal_name": "ESI - Post Graduate Institute of Medical Science and Research",
+  "country_name": "India",
+  "country_code": "IN",
+  "country_source": "ror",
+  "ror": "https://ror.org/009nfym65"
+}
+
+======================================================================
+Summary
+======================================================================
+  OMID:             omid:br/062502139701
+  DOI:              10.4103/ipj.ipj_15_16
+  PMID:             30089956
+  OpenAIRE pub id:  doi_dedup___::fb80156cd22885623a2b9e8c46ba5f2c
+  Total relations:  208
+  Affiliation orgs: 6
+    openorgs____::42a0e52a51dfdd7d5fc462d0c32ef798 -> West Bengal University of Health Sciences (IN)
+    pending_org_::339b6e40233bb69e1c16bd548266221d -> Postgraduate Institute of Medical Education and Research (IN)
+    openorgs____::3dae750639eefecf9b3797992fc9d123 -> ESI - Post Graduate Institute of Medical Science and Research (IN)
+    openorgs____::42a0e52a51dfdd7d5fc462d0c32ef798 -> West Bengal University of Health Sciences (IN)
+    pending_org_::339b6e40233bb69e1c16bd548266221d -> Postgraduate Institute of Medical Education and Research (IN)
+    openorgs____::3dae750639eefecf9b3797992fc9d123 -> ESI - Post Graduate Institute of Medical Science and Research (IN)
