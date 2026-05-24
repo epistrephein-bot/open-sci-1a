@@ -38,7 +38,7 @@ Scripts are meant to run sequentially. Each stage reads the output of previous s
 
 2. **`match_organizations_countries.py`** — Builds an OpenAIRE org-id to country mapping by cross-referencing the whole OpenAIRE organization dump with the whole ROR dump. Outputs `openaire_ror_countries.json`. Country resolution prefers ROR, falls back to OpenAIRE's own country field.
 
-3. **`resolve_organizations.py`** — The heaviest script. Four phases:
+3. **`resolve_pids_organizations.py`** — The heaviest script. Four phases:
    - Phase 0: Reads `unique_pids.csv`, builds DOI/PMID lookup indexes
    - Phase 1: Streams OpenAIRE publication tars, matches DOI/PMID to OpenAIRE publication IDs
    - Phase 2: Streams OpenAIRE relation tars, collects `hasAuthorInstitution` affiliation edges
@@ -48,15 +48,11 @@ Scripts are meant to run sequentially. Each stage reads the output of previous s
 
 4. **`count_citations.py`** — Final aggregation. Reads per-university iris_oc_pids CSVs, streams `omid_organizations.json` (via ijson), and produces per-university counts of citing/cited organizations and countries (4 CSV files per university).
 
-Legacy scripts (`oc_index.py`, `iris_oc_pids.py`, `extract_unique_pids.py`) are kept for reference but no longer part of the active pipeline.
-
 ## Key Conventions
 
 - Scripts skip work if output files already exist (idempotent re-runs). Delete outputs to re-run.
 - Each script writes a `.metadata.json` alongside its outputs with runtime stats (elapsed time, row counts, file sizes).
 - The `sample/` directory contains small representative data files for reference.
-- Debug scripts (`debug_omid.py`, `debug_count_citations.py`) trace a single OMID or university/direction/country through the full pipeline for verification. Edit the constants at the top of the file before running.
-- `oc_lookup.py` is a quick CLI tool: `python src/oc_lookup.py "omid:br/..."` to query the SQLite index.
 
 ## Data Flow
 
