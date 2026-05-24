@@ -456,6 +456,18 @@ with UNIQUE_PIDS_OUTPUT.open("w", encoding="utf-8", newline="\n") as f:
     ):
         writer.writerow(group)
 
+unique_pids_size = UNIQUE_PIDS_OUTPUT.stat().st_size if UNIQUE_PIDS_OUTPUT.exists() else 0
+unique_pids_metadata = {
+    "elapsed_seconds": round(time.monotonic() - phase_c_start, 2),
+    "ended_at": datetime.now(timezone.utc).isoformat(),
+    "unique_pid_groups": len(pid_groups),
+    "output_csv_size_bytes": unique_pids_size,
+    "output_csv_size_mb": round(unique_pids_size / 1024 / 1024, 2),
+}
+
+with UNIQUE_PIDS_OUTPUT.with_suffix(".metadata.json").open("w", encoding="utf-8") as f:
+    json.dump(unique_pids_metadata, f, indent=2)
+
 
 # ==============================================================================
 # FINAL SUMMARY
