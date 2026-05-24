@@ -36,7 +36,7 @@ IRIS_DIR = DUMPS_DIR / "iris_publications"
 TAR_PATH = DUMPS_DIR / "opencitations" / "output_csv_2026_01_14.tar.gz"
 
 OUTPUT_DIR = DATA_DIR / "iris_oc_pids"
-UNIQUE_PIDS_OUTPUT = DATA_DIR / "unique_pids.csv"
+UNIQUE_PIDS_OUTPUT = OUTPUT_DIR / "unique_pids.csv"
 
 INDEX_CSV_TEMPLATE = IRIS_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
 OUTPUT_PIDS_TEMPLATE = OUTPUT_DIR / "{university}" / "iris_oc_pids.csv"
@@ -96,7 +96,7 @@ def append_csv_rows(path, rows, fieldnames):
     if not rows:
         return
     write_header = not path.exists()
-    with path.open("a", encoding="utf-8", newline="") as f:
+    with path.open("a", encoding="utf-8", newline="\n") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
         if write_header:
             writer.writeheader()
@@ -446,7 +446,7 @@ print(f"\nWriting {format_path(UNIQUE_PIDS_OUTPUT)} with {len(pid_groups):,} uni
 
 UNIQUE_PIDS_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 
-with UNIQUE_PIDS_OUTPUT.open("w", encoding="utf-8", newline="") as f:
+with UNIQUE_PIDS_OUTPUT.open("w", encoding="utf-8", newline="\n") as f:
     writer = csv.DictWriter(f, fieldnames=PID_TYPES)
     writer.writeheader()
 
