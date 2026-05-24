@@ -338,8 +338,8 @@ for university in IRIS_UNIVERSITIES:
             citing_omid = row["citing"].strip()
             cited_omid = row["cited"].strip()
             oci = row["id"].strip()
-            is_citing_iris = bool(int(row["is_citing_iris"]))
-            is_cited_iris = bool(int(row["is_cited_iris"]))
+            is_citing_iris = row["is_citing_iris"].strip().lower() == "true"
+            is_cited_iris = row["is_cited_iris"].strip().lower() == "true"
 
             direction = citation_direction(is_citing_iris, is_cited_iris)
 
