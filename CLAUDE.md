@@ -30,23 +30,25 @@ Lint with: `pylint src/`
 
 Scripts are meant to run sequentially. Each stage reads the output of previous stages:
 
-1. **`oc_index.py`** — Ingests OpenCitations Meta CSV dump (~3000 CSV files) into a SQLite database (`oc_index/oc_index.sqlite3`). Stores OMID, persistent identifiers (DOI/PMID/ISBN), venue, and publication date. This is a one-time build step.
+1. **`build_iris_oc_pids.py`** — Replaces the former `oc_index.py` + `iris_oc_pids.py` + `extract_unique_pids.py` three-step pipeline. Three phases in a single script:
+   - Phase 1: Reads IRIS-in-OC-index CSVs for all 6 universities, collects the set of needed OMIDs
+   - Phase 2: Streams the OpenCitations Meta tar.gz dump directly (no SQLite index, no extraction to disk), extracting DOI/PMID/ISBN/pub_date only for needed OMIDs
+   - Phase 3: Re-reads IRIS CSVs, resolves citing/cited metadata via in-memory dict, writes per-university `iris_oc_pids.csv` files with citation direction (inbound/outbound/internal), and runs union-find deduplication to produce `unique_pids.csv`
+   - Output: per-university `iris_oc_pids/` CSVs + `unique_pids.csv`
 
-2. **`iris_oc_pids.py`** — For each of the 6 universities, reads pre-processed IRIS-in-OC-index CSVs, looks up citing/cited OMIDs in the SQLite index, and produces per-university output CSVs with resolved PIDs and citation direction (inbound/outbound/internal).
+2. **`match_organizations_countries.py`** — Builds an OpenAIRE org-id to country mapping by cross-referencing the whole OpenAIRE organization dump with the whole ROR dump. Outputs `openaire_ror_countries.json`. Country resolution prefers ROR, falls back to OpenAIRE's own country field.
 
-3. **`extract_unique_pids.py`** — Deduplicates all citing/cited records across universities into a single `unique_pids.csv` using union-find on shared identifiers (OMID, DOI, PMID, ISBN).
-
-4. **`match_organizations_countries.py`** — Builds an OpenAIRE org-id to country mapping by cross-referencing the whole OpenAIRE organization dump with the whole ROR dump. Outputs `openaire_ror_countries.json`. Country resolution prefers ROR, falls back to OpenAIRE's own country field.
-
-5. **`resolve_organizations.py`** — The heaviest script. Four phases:
+3. **`resolve_organizations.py`** — The heaviest script. Four phases:
    - Phase 0: Reads `unique_pids.csv`, builds DOI/PMID lookup indexes
    - Phase 1: Streams OpenAIRE publication tars, matches DOI/PMID to OpenAIRE publication IDs
    - Phase 2: Streams OpenAIRE relation tars, collects `hasAuthorInstitution` affiliation edges
-   - Phase 3: Resolves org IDs using the mapping from step 4
+   - Phase 3: Resolves org IDs using the mapping from step 2
    - Output: `omid_organizations.json` — OMID-keyed JSON with affiliated organizations per publication
    - Supports checkpoint/resume via `_checkpoint_phase1.json` and `_checkpoint_phase2.json`
 
-6. **`count_citations.py`** — Final aggregation. Reads per-university iris_oc_pids CSVs, streams `omid_organizations.json` (via ijson), and produces per-university counts of citing/cited organizations and countries (4 CSV files per university).
+4. **`count_citations.py`** — Final aggregation. Reads per-university iris_oc_pids CSVs, streams `omid_organizations.json` (via ijson), and produces per-university counts of citing/cited organizations and countries (4 CSV files per university).
+
+Legacy scripts (`oc_index.py`, `iris_oc_pids.py`, `extract_unique_pids.py`) are kept for reference but no longer part of the active pipeline.
 
 ## Key Conventions
 
@@ -59,18 +61,13 @@ Scripts are meant to run sequentially. Each stage reads the output of previous s
 ## Data Flow
 
 ```
-IRIS CSV dumps (per university)
+IRIS CSV dumps (per university) + OpenCitations tar.gz dump
         │
         ▼
-   oc_index.py ──► SQLite index (from OpenCitations CSV dump)
+  build_iris_oc_pids.py ──► per-university CSVs with PIDs and direction
+        │                    + unique_pids.csv
         │
-        ▼
-  iris_oc_pids.py ──► per-university CSVs with PIDs and direction
-        │
-        ├──► extract_unique_pids.py ──► unique_pids.csv
-        │           │
-        │           ▼
-        │    match_organizations_countries.py ──► openaire_ror_countries.json
+        ├──► match_organizations_countries.py ──► openaire_ror_countries.json
         │           │
         │           ▼
         │    resolve_organizations.py ──► omid_organizations.json
