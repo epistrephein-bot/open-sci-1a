@@ -31,9 +31,9 @@ Lint with: `pylint src/`
 Scripts are meant to run sequentially. Each stage reads the output of previous stages:
 
 1. **`build_iris_oc_pids.py`** — Replaces the former `oc_index.py` + `iris_oc_pids.py` + `extract_unique_pids.py` three-step pipeline. Three phases in a single script:
-   - Phase A: Reads IRIS-in-OC-index CSVs for all 6 universities, collects the set of needed OMIDs
-   - Phase B: Streams the OpenCitations Meta tar.gz dump directly (no SQLite index, no extraction to disk), extracting DOI/PMID/ISBN/pub_date only for needed OMIDs
-   - Phase C: Re-reads IRIS CSVs, resolves citing/cited metadata via in-memory dict, writes per-university `iris_oc_pids.csv` files with citation direction (inbound/outbound/internal), and runs union-find deduplication to produce `unique_pids.csv`
+   - Phase 1: Reads IRIS-in-OC-index CSVs for all 6 universities, collects the set of needed OMIDs
+   - Phase 2: Streams the OpenCitations Meta tar.gz dump directly (no SQLite index, no extraction to disk), extracting DOI/PMID/ISBN/pub_date only for needed OMIDs
+   - Phase 3: Re-reads IRIS CSVs, resolves citing/cited metadata via in-memory dict, writes per-university `iris_oc_pids.csv` files with citation direction (inbound/outbound/internal), and runs union-find deduplication to produce `unique_pids.csv`
    - Output: per-university `iris_oc_pids/` CSVs + `unique_pids.csv`
 
 2. **`match_organizations_countries.py`** — Builds an OpenAIRE org-id to country mapping by cross-referencing the whole OpenAIRE organization dump with the whole ROR dump. Outputs `openaire_ror_countries.json`. Country resolution prefers ROR, falls back to OpenAIRE's own country field.

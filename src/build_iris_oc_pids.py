@@ -126,14 +126,14 @@ if all_outputs_exist:
 
 
 # ==============================================================================
-# PHASE A — Collect needed OMIDs from IRIS CSVs
+# PHASE 1 — Collect needed OMIDs from IRIS CSVs
 # ==============================================================================
 
 print("=" * 70)
-print("PHASE A — Collecting needed OMIDs from IRIS CSVs")
+print("PHASE 1 — Collecting needed OMIDs from IRIS CSVs")
 print("=" * 70)
 
-phase_a_start = time.monotonic()
+phase_1_start = time.monotonic()
 needed_omids: dict[str, tuple | None] = {}
 total_iris_rows = 0
 
@@ -158,24 +158,24 @@ for university in IRIS_UNIVERSITIES:
 
     print(f"  {university}: {uni_rows:,} rows")
 
-phase_a_elapsed = time.monotonic() - phase_a_start
+phase_1_elapsed = time.monotonic() - phase_1_start
 print(f"Collected {len(needed_omids):,} unique OMIDs from {total_iris_rows:,} IRIS rows "
-      f"in {phase_a_elapsed:.1f}s")
+      f"in {phase_1_elapsed:.1f}s")
 
 
 # ==============================================================================
-# PHASE B — Stream OpenCitations tar.gz, extract metadata for needed OMIDs
+# PHASE 2 — Stream OpenCitations tar.gz, extract metadata for needed OMIDs
 # ==============================================================================
 
 print()
 print("=" * 70)
-print("PHASE B — Streaming OpenCitations tar.gz")
+print("PHASE 2 — Streaming OpenCitations tar.gz")
 print("=" * 70)
 
 if not TAR_PATH.exists():
     raise FileNotFoundError(f"OpenCitations tar.gz not found: {TAR_PATH}")
 
-phase_b_start = time.monotonic()
+phase_2_start = time.monotonic()
 remaining = sum(1 for v in needed_omids.values() if v is None)
 tar_rows_scanned = 0
 tar_files_scanned = 0
@@ -206,7 +206,7 @@ with tarfile.open(TAR_PATH, "r:gz") as tar:
             tar_rows_scanned += 1
 
             if tar_rows_scanned % LOG_EVERY_TAR_ROWS == 0:
-                elapsed = time.monotonic() - phase_b_start
+                elapsed = time.monotonic() - phase_2_start
                 print(f"  {tar_rows_scanned:,} rows scanned, "
                       f"{omids_matched:,} matched, "
                       f"{remaining:,} remaining, "
@@ -235,23 +235,23 @@ with tarfile.open(TAR_PATH, "r:gz") as tar:
         if remaining == 0:
             break
 
-phase_b_elapsed = time.monotonic() - phase_b_start
+phase_2_elapsed = time.monotonic() - phase_2_start
 unmatched = sum(1 for v in needed_omids.values() if v is None)
 print(f"Scanned {tar_rows_scanned:,} rows from {tar_files_scanned:,} CSV files "
-      f"in {phase_b_elapsed:.0f}s")
+      f"in {phase_2_elapsed:.0f}s")
 print(f"Matched {omids_matched:,} OMIDs, {unmatched:,} unmatched")
 
 
 # ==============================================================================
-# PHASE C — Build iris_oc_pids CSVs and unique_pids.csv
+# PHASE 3 — Build iris_oc_pids CSVs and unique_pids.csv
 # ==============================================================================
 
 print()
 print("=" * 70)
-print("PHASE C — Building output CSVs")
+print("PHASE 3 — Building output CSVs")
 print("=" * 70)
 
-phase_c_start = time.monotonic()
+phase_3_start = time.monotonic()
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 pid_groups = []
@@ -458,7 +458,7 @@ with UNIQUE_PIDS_OUTPUT.open("w", encoding="utf-8", newline="\n") as f:
 
 unique_pids_size = UNIQUE_PIDS_OUTPUT.stat().st_size if UNIQUE_PIDS_OUTPUT.exists() else 0
 unique_pids_metadata = {
-    "elapsed_seconds": round(time.monotonic() - phase_c_start, 2),
+    "elapsed_seconds": round(time.monotonic() - phase_3_start, 2),
     "ended_at": datetime.now(timezone.utc).isoformat(),
     "unique_pid_groups": len(pid_groups),
     "output_csv_size_bytes": unique_pids_size,
@@ -473,15 +473,15 @@ with UNIQUE_PIDS_OUTPUT.with_suffix(".metadata.json").open("w", encoding="utf-8"
 # FINAL SUMMARY
 # ==============================================================================
 
-total_elapsed = round(time.monotonic() - phase_a_start, 2)
+total_elapsed = round(time.monotonic() - phase_1_start, 2)
 
 print()
 print("=" * 70)
 print("DONE")
 print("=" * 70)
-print(f"Phase A (collect OMIDs): {phase_a_elapsed:.1f}s")
-print(f"Phase B (stream tar.gz): {phase_b_elapsed:.0f}s — "
+print(f"Phase 1 (collect OMIDs): {phase_1_elapsed:.1f}s")
+print(f"Phase 2 (stream tar.gz): {phase_2_elapsed:.0f}s — "
       f"{tar_rows_scanned:,} rows, {omids_matched:,} matched")
-print(f"Phase C (build outputs): {time.monotonic() - phase_c_start:.1f}s")
+print(f"Phase 3 (build outputs): {time.monotonic() - phase_3_start:.1f}s")
 print(f"Total elapsed: {total_elapsed:.1f}s")
 print(f"Unique PID groups: {len(pid_groups):,}")
