@@ -97,7 +97,7 @@ def append_csv_rows(path, rows, fieldnames):
         return
     write_header = not path.exists()
     with path.open("a", encoding="utf-8", newline="\n") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore", lineterminator="\n")
         if write_header:
             writer.writeheader()
         writer.writerows(rows)
@@ -447,7 +447,7 @@ print(f"\nWriting {format_path(UNIQUE_PIDS_OUTPUT)} with {len(pid_groups):,} uni
 UNIQUE_PIDS_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 
 with UNIQUE_PIDS_OUTPUT.open("w", encoding="utf-8", newline="\n") as f:
-    writer = csv.DictWriter(f, fieldnames=PID_TYPES)
+    writer = csv.DictWriter(f, fieldnames=PID_TYPES, lineterminator="\n")
     writer.writeheader()
 
     for group in sorted(
