@@ -1,6 +1,5 @@
 import csv
 import json
-import os
 import time
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
