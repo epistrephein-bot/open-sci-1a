@@ -263,7 +263,7 @@ def read_input():
 
     # Write missing rows immediately
     if missing_rows:
-        with MISSING_CSV.open("w", newline="", encoding="utf-8") as fh:
+        with MISSING_CSV.open("w", newline="\n", encoding="utf-8") as fh:
             writer = csv.DictWriter(fh, fieldnames=["omid", "doi", "pmid", "isbn"])
             writer.writeheader()
             writer.writerows(missing_rows)
