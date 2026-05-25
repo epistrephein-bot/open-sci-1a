@@ -1,7 +1,6 @@
 import csv
 import io
 import json
-import os
 import re
 import sys
 import tarfile
@@ -9,56 +8,41 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from dotenv import load_dotenv
-
-
-# ==============================================================================
-# ENVIRONMENT
-# ==============================================================================
-
-ROOT_DIR = Path(__file__).resolve().parent.parent
-
-load_dotenv(ROOT_DIR / ".env")
-DATA_PATH = os.environ.get("DATA_PATH")
-
-if not DATA_PATH:
-    raise RuntimeError("Missing DATA_PATH environment variable")
-
-
 # ==============================================================================
 # CONSTANTS AND CONFIGURATION
 # ==============================================================================
 
-DATA_DIR = Path(DATA_PATH)
+# Paths and directories
+ROOT_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT_DIR / "data"
 DUMPS_DIR = DATA_DIR / "dumps"
-IRIS_DIR = DUMPS_DIR / "iris_publications"
 
+IRIS_DIR = DUMPS_DIR / "iris_publications"
 TAR_PATH = DUMPS_DIR / "opencitations" / "output_csv_2026_01_14.tar.gz"
+
+INDEX_CSV_TEMPLATE = IRIS_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
 
 OUTPUT_DIR = DATA_DIR / "iris_oc_pids"
 UNIQUE_PIDS_OUTPUT = OUTPUT_DIR / "unique_pids.csv"
-
-INDEX_CSV_TEMPLATE = IRIS_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
 OUTPUT_PIDS_TEMPLATE = OUTPUT_DIR / "{university}" / "iris_oc_pids.csv"
 OUTPUT_MISSING_TEMPLATE = OUTPUT_DIR / "{university}" / "iris_oc_pids.missing.csv"
 OUTPUT_METADATA_TEMPLATE = OUTPUT_DIR / "{university}" / "iris_oc_pids.metadata.json"
 
-IRIS_UNIVERSITIES = ("SNS", "UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO")
-
+# Configurations
 OMID_RE = re.compile(r"\bomid:[^\s\]]+")
 
 WRITE_CSV_EVERY = 5000
 LOG_EVERY_TAR_ROWS = 5_000_000
 LOG_EVERY_IRIS_ROWS = 1_000_000
 
-PID_TYPES = ["omid", "doi", "pmid", "isbn"]
+IRIS_UNIVERSITIES = ("SNS", "UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO")
 
+PID_TYPES = ["omid", "doi", "pmid", "isbn"]
 PIDS_FIELDNAMES = [
     "oci", "direction",
     "citing_omid", "citing_doi", "citing_pmid", "citing_isbn", "citing_pub_date",
     "cited_omid", "cited_doi", "cited_pmid", "cited_isbn", "cited_pub_date",
 ]
-
 MISSING_FIELDNAMES = [
     "oci", "direction", "missing_metadata", "citing_omid", "cited_omid",
 ]
