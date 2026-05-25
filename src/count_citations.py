@@ -14,10 +14,8 @@ import ijson
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 
-IRIS_OC_PIDS_DIR = DATA_DIR / "iris_oc_pids"
 OMID_ORGANIZATIONS_JSON = DATA_DIR / "openaire_organizations" / "omid_organizations.json"
-
-INPUT_CSV_TEMPLATE = IRIS_OC_PIDS_DIR / "{university}" / "iris_oc_pids.csv"
+IRIS_OC_PIDS_CSV_TEMPLATE = DATA_DIR / "iris_oc_pids" / "{university}" / "iris_oc_pids.csv"
 
 OUTPUT_DIR = DATA_DIR / "citation_counts"
 OUTPUT_ORG_INBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_inbound.csv"
@@ -90,7 +88,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 universities_to_process = []
 for university in UNIVERSITIES:
     output_check = Path(str(OUTPUT_ORG_INBOUND_TEMPLATE).format(university=university))
-    input_csv = Path(str(INPUT_CSV_TEMPLATE).format(university=university))
+    input_csv = Path(str(IRIS_OC_PIDS_CSV_TEMPLATE).format(university=university))
     if output_check.exists():
         print(f"! output already exists for {university}, skipping")
         continue
@@ -118,7 +116,7 @@ csv_stats = {}
 t0 = time.monotonic()
 
 for university in universities_to_process:
-    input_csv = Path(str(INPUT_CSV_TEMPLATE).format(university=university))
+    input_csv = Path(str(IRIS_OC_PIDS_CSV_TEMPLATE).format(university=university))
     print(f"  Scanning {input_csv.relative_to(DATA_DIR)} ...")
 
     rows_read = 0
