@@ -5,35 +5,22 @@ import time
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
-from dotenv import load_dotenv
 import ijson
-
-
-# ==============================================================================
-# ENVIRONMENT
-# ==============================================================================
-
-ROOT_DIR = Path(__file__).resolve().parent.parent
-
-load_dotenv(ROOT_DIR / ".env")
-DATA_PATH = os.environ.get("DATA_PATH")
-
-if not DATA_PATH:
-    raise RuntimeError("Missing DATA_PATH environment variable")
-
 
 # ==============================================================================
 # CONSTANTS AND CONFIGURATION
 # ==============================================================================
 
 # Paths and directories
-DATA_DIR = Path(DATA_PATH)
+ROOT_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT_DIR / "data"
+
 IRIS_OC_PIDS_DIR = DATA_DIR / "iris_oc_pids"
 OMID_ORGANIZATIONS_JSON = DATA_DIR / "openaire_organizations" / "omid_organizations.json"
-OUTPUT_DIR = DATA_DIR / "citation_counts"
 
-# File templates
 INPUT_CSV_TEMPLATE = IRIS_OC_PIDS_DIR / "{university}" / "iris_oc_pids.csv"
+
+OUTPUT_DIR = DATA_DIR / "citation_counts"
 OUTPUT_ORG_INBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_inbound.csv"
 OUTPUT_ORG_OUTBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_outbound.csv"
 OUTPUT_COUNTRY_INBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_countries_inbound.csv"
@@ -44,7 +31,7 @@ OUTPUT_METADATA_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts.metada
 UNIVERSITIES = ("SNS", "UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO")
 
 # Progress logging
-LOG_EVERY_CSV = 100_000
+LOG_EVERY_CSV = 1_000_000
 LOG_EVERY_JSON = 1_000_000
 
 

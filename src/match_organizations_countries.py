@@ -30,7 +30,6 @@ LOG_EVERY = 50_000
 # METHODS
 # ==============================================================================
 
-
 def ror_display_name(names):
     """Return the ror_display name from a ROR names list, or None."""
     for name in names:
