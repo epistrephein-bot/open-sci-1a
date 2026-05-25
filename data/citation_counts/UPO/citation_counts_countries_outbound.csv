@@ -1,49 +1,49 @@
 country_name,country_code,count
-United States,US,1839629
-Italy,IT,810069
-France,FR,791889
-United Kingdom,GB,463364
-Germany,DE,361516
+United States,US,1839362
+Italy,IT,810006
+France,FR,774085
+United Kingdom,GB,462489
+Germany,DE,361098
 China,CN,233775
-Spain,ES,195073
+Spain,ES,194901
 Russia,RU,184469
-India,IN,183421
-Japan,JP,174592
+India,IN,183419
+Japan,JP,174466
 South Korea,KR,153597
-Switzerland,CH,143503
-Canada,CA,128076
+Switzerland,CH,143495
+Canada,CA,127973
 Türkiye,TR,120771
 The Netherlands,NL,118307
 Brazil,BR,102271
 Poland,PL,96955
 Finland,FI,96451
-Australia,AU,95660
-Belgium,BE,90665
+Australia,AU,95319
+Belgium,BE,90075
 Hungary,HU,77484
-Greece,GR,72160
+Greece,GR,72158
 Sweden,SE,60338
 Mexico,MX,55566
 Taiwan,TW,50270
-Denmark,DK,46625
+Denmark,DK,46610
 Czechia,CZ,46469
-Norway,NO,44930
+Norway,NO,44892
 Croatia,HR,41412
-Austria,AT,39430
-Portugal,PT,31250
-Slovakia,SK,30262
-Israel,IL,27627
-Bulgaria,BG,25411
+Austria,AT,39429
+Portugal,PT,31147
+Slovakia,SK,30257
+Israel,IL,27620
+Bulgaria,BG,25410
 South Africa,ZA,25312
 Iran,IR,24598
-Pakistan,PK,23658
-Ireland,IE,20882
-Ukraine,UA,20672
-New Zealand,NZ,20598
-Colombia,CO,20016
-China (People's Republic of),CN,17953
-Belarus,BY,17183
+Pakistan,PK,23654
+Ireland,IE,20871
+Ukraine,UA,20671
+New Zealand,NZ,20595
+Colombia,CO,19890
+Belarus,BY,17173
 Romania,RO,16391
 Serbia,RS,16038
+China (People's Republic of),CN,15976
 Malaysia,MY,15665
 Georgia,GE,15576
 Hong Kong,HK,15340
@@ -51,7 +51,7 @@ Argentina,AR,14682
 Egypt,EG,14256
 Thailand,TH,14201
 Netherlands,NL,14012
-Singapore,SG,12895
+Singapore,SG,12891
 Armenia,AM,11919
 Puerto Rico,PR,11603
 Ecuador,EC,11023
@@ -61,25 +61,25 @@ Chile,CL,9646
 Lithuania,LT,8365
 Slovenia,SI,7748
 Azerbaijan,AZ,7022
-Morocco,MA,6953
+Morocco,MA,6952
 Sri Lanka,LK,6921
 Turkey,TR,5069
 Peru,PE,4631
 Latvia,LV,4617
 Saudi Arabia,SA,4436
 Uzbekistan,UZ,4414
-Indonesia,ID,4207
+Indonesia,ID,4206
 Cuba,CU,3653
 Qatar,QA,3101
-Korea (Republic of),KR,2797
 Montenegro,ME,2760
+Korea (Republic of),KR,2658
 Philippines,PH,2396
-Ethiopia,ET,2268
+Ethiopia,ET,2248
 Kuwait,KW,2031
 Tunisia,TN,1755
 Vietnam,VN,1674
 Iceland,IS,1672
-Nigeria,NG,1525
+Nigeria,NG,1524
 United Arab Emirates,AE,1350
 Mongolia,MN,1282
 Lebanon,LB,1191
@@ -94,9 +94,9 @@ Bangladesh,BD,792
 Tanzania,TZ,725
 Palestine,PS,699
 Iraq,IQ,608
-Kenya,KE,589
+Kenya,KE,584
 Uruguay,UY,548
-Uganda,UG,499
+Uganda,UG,498
 Bosnia and Herzegovina,BA,449
 Algeria,DZ,449
 Kazakhstan,KZ,396
@@ -104,7 +104,7 @@ Jamaica,JM,351
 Macao,MO,341
 Oman,OM,315
 Venezuela,VE,310
-Nepal,NP,288
+Nepal,NP,287
 Iran (Islamic Republic of),IR,272
 Malta,MT,255
 North Macedonia,MK,239
@@ -139,8 +139,8 @@ Niger,NE,68
 DR Congo,CD,66
 Paraguay,PY,66
 Syria,SY,63
-Albania,AL,60
 Libya,LY,60
+Albania,AL,57
 Mauritius,MU,53
 Brunei,BN,48
 Namibia,NA,47
@@ -185,9 +185,9 @@ Maldives,MV,10
 Guinea-Bissau,GW,10
 Liberia,LR,10
 Faroe Islands,FO,9
-Viet Nam,VN,9
 French Polynesia,PF,9
 Guam,GU,8
+Viet Nam,VN,8
 Bahamas,BS,8
 Guyana,GY,6
 Gibraltar,GI,6
@@ -209,13 +209,13 @@ Timor-Leste,TL,2
 Lesotho,LS,2
 "Korea, Democratic People's Republic of",KP,2
 Isle of Man,IM,2
-Cote d'Ivoire,CI,2
 Andorra,AD,2
 Eritrea,ER,2
 Samoa,WS,1
 Tuvalu,TV,1
 Saint Lucia,LC,1
 Mauritania,MR,1
+Cote d'Ivoire,CI,1
 Turkmenistan,TM,1
 Åland,AX,1
 St Vincent and Grenadines,VC,1

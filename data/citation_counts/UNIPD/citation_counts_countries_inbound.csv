@@ -1,100 +1,100 @@
 country_name,country_code,count
-United States,US,6701935
-France,FR,4157579
-Italy,IT,3677710
-United Kingdom,GB,1959294
+United States,US,6699413
+France,FR,4027707
+Italy,IT,3676697
+United Kingdom,GB,1954354
 China,CN,1934348
-Germany,DE,1720503
-Spain,ES,1230057
-Japan,JP,818538
-Canada,CA,653671
-India,IN,613102
-Australia,AU,600754
+Germany,DE,1718998
+Spain,ES,1228815
+Japan,JP,816958
+Canada,CA,650406
+India,IN,612996
+Australia,AU,597753
 The Netherlands,NL,545588
-Switzerland,CH,531571
+Switzerland,CH,531414
 Russia,RU,530066
 South Korea,KR,482857
-Brazil,BR,453395
-Poland,PL,388179
-Belgium,BE,328304
+Brazil,BR,453364
+Poland,PL,388169
+Belgium,BE,324708
 Finland,FI,261088
 Türkiye,TR,254913
-Taiwan,TW,254744
-Denmark,DK,243875
-Sweden,SE,236946
-Portugal,PT,208758
-Austria,AT,204574
-China (People's Republic of),CN,197420
+Taiwan,TW,254728
+Denmark,DK,243578
+Sweden,SE,236944
+Portugal,PT,207688
+Austria,AT,204571
 Hungary,HU,196610
-Greece,GR,195502
+Greece,GR,195424
+China (People's Republic of),CN,171014
 Iran,IR,164931
-Mexico,MX,160021
+Mexico,MX,159904
 Czechia,CZ,135648
-Norway,NO,132198
+Norway,NO,131861
 Chile,CL,121356
-Israel,IL,119609
+Israel,IL,119561
 Argentina,AR,105584
-Ireland,IE,101990
+Ireland,IE,101576
 South Africa,ZA,100022
-Netherlands,NL,87283
+Netherlands,NL,87119
 Hong Kong,HK,80360
 Croatia,HR,78440
-Singapore,SG,78092
-Egypt,EG,67676
-Slovakia,SK,65926
+Singapore,SG,78038
+Egypt,EG,67674
+Slovakia,SK,65851
 Romania,RO,65575
-New Zealand,NZ,65428
-Pakistan,PK,64226
-Colombia,CO,57313
+New Zealand,NZ,65411
+Pakistan,PK,64215
 Saudi Arabia,SA,56803
+Colombia,CO,56650
 Malaysia,MY,54190
 Serbia,RS,50660
-Ukraine,UA,47468
-Bulgaria,BG,46729
+Ukraine,UA,47462
+Bulgaria,BG,46727
 Slovenia,SI,46081
 Thailand,TH,44682
-Belarus,BY,30444
-Morocco,MA,29192
+Belarus,BY,30383
+Morocco,MA,29188
 Cyprus,CY,27055
 Estonia,EE,26447
 Georgia,GE,25890
 Vietnam,VN,25136
-Indonesia,ID,23611
+Indonesia,ID,23514
 Armenia,AM,18898
 Lithuania,LT,18671
-United Arab Emirates,AE,17656
-Puerto Rico,PR,16836
-Korea (Republic of),KR,16684
+United Arab Emirates,AE,17654
+Puerto Rico,PR,16831
+Korea (Republic of),KR,16313
 Qatar,QA,16030
-Nigeria,NG,15588
-Russian Federation,RU,15134
+Nigeria,NG,15498
+Russian Federation,RU,15128
 Tunisia,TN,14246
 Ecuador,EC,13050
-Bangladesh,BD,12548
+Bangladesh,BD,12543
 Peru,PE,12106
-Philippines,PH,11954
-Ethiopia,ET,11452
+Philippines,PH,11953
+Ethiopia,ET,11343
 Azerbaijan,AZ,11229
 Jordan,JO,10806
 Uzbekistan,UZ,10186
 Lebanon,LB,10165
 Turkey,TR,10143
 Iraq,IQ,9874
-Czech Republic,CZ,8376
+Czech Republic,CZ,8375
 Iceland,IS,8161
 Algeria,DZ,7971
-Latvia,LV,7467
+Latvia,LV,7466
 Luxembourg,LU,6931
 Sri Lanka,LK,6907
-Ghana,GH,6658
-Kazakhstan,KZ,5960
+Ghana,GH,6651
+Kazakhstan,KZ,5957
 Cuba,CU,5648
 Uruguay,UY,5428
-Kenya,KE,5038
-Uganda,UG,4834
+Kenya,KE,4985
+Uganda,UG,4807
 Macao,MO,4666
 Bahrain,BH,4650
-Nepal,NP,4375
+Nepal,NP,4367
 Iran (Islamic Republic of),IR,4070
 Kuwait,KW,4032
 Mongolia,MN,3811
@@ -112,7 +112,7 @@ North Macedonia,MK,2129
 Zimbabwe,ZW,1997
 Jamaica,JM,1971
 Sudan,SD,1937
-Cambodia,KH,1921
+Cambodia,KH,1915
 Guadeloupe,GP,1884
 Yemen,YE,1830
 Mozambique,MZ,1742
@@ -125,14 +125,14 @@ Panama,PA,1339
 Guatemala,GT,1290
 Burkina Faso,BF,1267
 Benin,BJ,1261
-Albania,AL,1219
+Albania,AL,1212
 Zambia,ZM,1197
 Myanmar,MM,1130
 Senegal,SN,1088
 Grenada,GD,1041
 Rwanda,RW,989
-Malawi,MW,907
-Botswana,BW,744
+Malawi,MW,903
+Botswana,BW,740
 Bhutan,BT,722
 Bolivia,BO,703
 St Kitts and Nevis,KN,686
@@ -143,7 +143,7 @@ DR Congo,CD,666
 Ivory Coast,CI,654
 Barbados,BB,636
 Fiji,FJ,634
-El Salvador,SV,632
+El Salvador,SV,624
 Nicaragua,NI,616
 Libya,LY,587
 Brunei,BN,583
@@ -151,12 +151,12 @@ Somalia,SO,569
 Gabon,GA,516
 Kosovo,XK,508
 Madagascar,MG,499
-Viet Nam,VN,499
 Trinidad and Tobago,TT,487
 New Caledonia,NC,470
 Kyrgyzstan,KG,469
 French Guiana,GF,457
 Dominican Republic,DO,451
+Viet Nam,VN,431
 Mauritius,MU,416
 French Polynesia,PF,394
 Tajikistan,TJ,384
@@ -240,12 +240,12 @@ United States Minor Outlying Islands,UM,5
 Northern Mariana Islands,MP,4
 Cape Verde,CV,4
 British Virgin Islands,VG,4
-Moldova (Republic of),MD,4
 São Tomé and Príncipe,ST,4
 Vanuatu,VU,4
 Marshall Islands,MH,4
 Åland,AX,4
 Micronesia,FM,3
+Moldova (Republic of),MD,3
 Tuvalu,TV,1
 Swaziland,SZ,1
 Kiribati,KI,1

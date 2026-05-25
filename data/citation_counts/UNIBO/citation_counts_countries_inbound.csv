@@ -1,100 +1,100 @@
 country_name,country_code,count
-United States,US,6802776
-France,FR,4076150
-Italy,IT,3644842
-United Kingdom,GB,1991027
+United States,US,6800261
+France,FR,3956305
+Italy,IT,3643907
+United Kingdom,GB,1986678
 China,CN,1986405
-Germany,DE,1801790
-Spain,ES,1263912
-Japan,JP,890935
-Canada,CA,680477
-Australia,AU,664690
-India,IN,651025
+Germany,DE,1801165
+Spain,ES,1262588
+Japan,JP,889572
+Canada,CA,676387
+Australia,AU,661316
+India,IN,650901
 Russia,RU,598697
 The Netherlands,NL,587860
-Switzerland,CH,536807
+Switzerland,CH,536670
 South Korea,KR,532807
-Brazil,BR,502801
-Poland,PL,406654
+Brazil,BR,502766
+Poland,PL,406646
 Türkiye,TR,332236
-Belgium,BE,309527
-Taiwan,TW,274209
-Denmark,DK,253666
-Sweden,SE,251663
-Portugal,PT,245551
-Greece,GR,242742
-Finland,FI,235331
+Belgium,BE,306312
+Taiwan,TW,274186
+Denmark,DK,253449
+Sweden,SE,251659
+Portugal,PT,244365
+Greece,GR,242599
+Finland,FI,235328
 Iran,IR,216376
-China (People's Republic of),CN,209235
-Austria,AT,205048
+Austria,AT,205019
 Hungary,HU,197563
-Mexico,MX,166493
+China (People's Republic of),CN,180846
+Mexico,MX,166403
 Czechia,CZ,159110
-Norway,NO,153425
-Israel,IL,133898
+Norway,NO,153065
+Israel,IL,133844
 Chile,CL,128311
 South Africa,ZA,127974
 Argentina,AR,111735
-Ireland,IE,101671
+Ireland,IE,101419
 Hong Kong,HK,92846
-Netherlands,NL,92173
+Netherlands,NL,91797
 Croatia,HR,89094
-Slovakia,SK,84881
-Romania,RO,81961
-Pakistan,PK,75946
+Slovakia,SK,84854
+Romania,RO,81957
+Pakistan,PK,75909
 Egypt,EG,75893
-Singapore,SG,75608
-New Zealand,NZ,69097
-Colombia,CO,68548
+Singapore,SG,75544
+New Zealand,NZ,69067
+Colombia,CO,67714
 Serbia,RS,65955
 Saudi Arabia,SA,64359
 Malaysia,MY,64220
-Belarus,BY,52188
-Ukraine,UA,51974
-Bulgaria,BG,51795
+Belarus,BY,52099
+Ukraine,UA,51970
+Bulgaria,BG,51785
 Slovenia,SI,51593
 Thailand,TH,48628
-Morocco,MA,46978
+Morocco,MA,46977
 Georgia,GE,36155
 Cyprus,CY,30363
 Estonia,EE,29296
 Vietnam,VN,29125
-Indonesia,ID,26638
+Indonesia,ID,26543
 Azerbaijan,AZ,24944
 Armenia,AM,24520
-Ethiopia,ET,22568
-Nigeria,NG,22011
+Ethiopia,ET,22237
+Nigeria,NG,21909
 Lithuania,LT,21030
-United Arab Emirates,AE,19717
+United Arab Emirates,AE,19714
 Puerto Rico,PR,19210
-Korea (Republic of),KR,18292
+Korea (Republic of),KR,17924
 Qatar,QA,16796
 Tunisia,TN,16702
 Ecuador,EC,15579
-Bangladesh,BD,15103
+Bangladesh,BD,15095
 Peru,PE,14297
 Jordan,JO,14262
 Philippines,PH,13839
-Russian Federation,RU,13744
+Russian Federation,RU,13736
 Lebanon,LB,11373
 Turkey,TR,11121
 Iraq,IQ,10229
 Uzbekistan,UZ,9754
 Iceland,IS,9495
 Algeria,DZ,9429
-Ghana,GH,9332
+Ghana,GH,9321
 Sri Lanka,LK,8444
-Kenya,KE,8064
-Latvia,LV,7972
-Czech Republic,CZ,7547
-Kazakhstan,KZ,6663
+Kenya,KE,7973
+Latvia,LV,7968
+Czech Republic,CZ,7543
+Kazakhstan,KZ,6656
 Luxembourg,LU,6411
-Uganda,UG,6297
 Bahrain,BH,6265
+Uganda,UG,6261
 Cuba,CU,5812
 Uruguay,UY,5356
 Iran (Islamic Republic of),IR,5262
-Nepal,NP,5107
+Nepal,NP,5090
 Tanzania,TZ,4542
 Kuwait,KW,4514
 Macao,MO,4325
@@ -110,13 +110,13 @@ Montenegro,ME,2687
 Réunion,RE,2486
 Yemen,YE,2430
 Mozambique,MZ,2424
-Cambodia,KH,2321
+Cambodia,KH,2301
 Jamaica,JM,2275
 Costa Rica,CR,2209
 Zambia,ZM,2083
 Sudan,SD,2047
 Guadeloupe,GP,1972
-Malawi,MW,1959
+Malawi,MW,1957
 Zimbabwe,ZW,1952
 Antigua and Barbuda,AG,1952
 Benin,BJ,1815
@@ -125,10 +125,10 @@ Guatemala,GT,1663
 Rwanda,RW,1531
 Burkina Faso,BF,1480
 Panama,PA,1454
-Albania,AL,1446
+Albania,AL,1403
 Moldova,MD,1402
 Senegal,SN,1383
-Botswana,BW,1279
+Botswana,BW,1272
 Angola,AO,1220
 Monaco,MC,1188
 Namibia,NA,1161
@@ -138,7 +138,7 @@ Syria,SY,1079
 San Marino,SM,1060
 New Caledonia,NC,969
 Fiji,FJ,864
-El Salvador,SV,856
+El Salvador,SV,852
 Ivory Coast,CI,837
 Paraguay,PY,832
 Kyrgyzstan,KG,769
@@ -154,9 +154,9 @@ Madagascar,MG,615
 Nicaragua,NI,604
 Trinidad and Tobago,TT,601
 Somalia,SO,592
-Viet Nam,VN,540
 Mauritius,MU,500
 French Guiana,GF,493
+Viet Nam,VN,476
 Dominican Republic,DO,464
 Afghanistan,AF,432
 French Polynesia,PF,432
@@ -187,7 +187,7 @@ Faroe Islands,FO,126
 European Union,EU,126
 Guyana,GY,119
 Bahamas,BS,119
-Burundi,BI,117
+Burundi,BI,116
 Haiti,HT,108
 Liberia,LR,105
 Maldives,MV,101

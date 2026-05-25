@@ -1,48 +1,48 @@
 country_name,country_code,count
-United States,US,1895297
-France,FR,911846
-Italy,IT,788108
-United Kingdom,GB,458023
-Germany,DE,332109
+United States,US,1895148
+France,FR,886781
+Italy,IT,788104
+United Kingdom,GB,456472
+Germany,DE,331879
 Russia,RU,228993
-Spain,ES,220183
-Japan,JP,196022
+Spain,ES,220170
+Japan,JP,195846
 China,CN,159924
-Switzerland,CH,153422
-India,IN,153172
+Switzerland,CH,153421
+India,IN,153168
 South Korea,KR,137330
 Türkiye,TR,115310
-Poland,PL,105255
+Poland,PL,105249
 Brazil,BR,104930
-Canada,CA,99624
 The Netherlands,NL,98966
+Canada,CA,98583
 Finland,FI,84553
 Hungary,HU,74607
-Belgium,BE,73644
-Australia,AU,72141
+Belgium,BE,73148
+Australia,AU,71926
 Greece,GR,63545
 Taiwan,TW,59405
 Mexico,MX,44783
 Austria,AT,33124
-Denmark,DK,32609
+Denmark,DK,32608
 Sweden,SE,32031
 Croatia,HR,30093
 Czechia,CZ,29657
 Bulgaria,BG,26224
-Colombia,CO,25847
-Portugal,PT,24955
-Israel,IL,23711
+Colombia,CO,25654
+Portugal,PT,24936
+Israel,IL,23710
 Slovakia,SK,20991
-Ireland,IE,19050
+Ireland,IE,19046
 Ukraine,UA,18857
 Iran,IR,18675
-China (People's Republic of),CN,18182
 Chile,CL,18126
-Norway,NO,17912
+Norway,NO,17911
 Pakistan,PK,17534
-Belarus,BY,17400
-New Zealand,NZ,17290
+Belarus,BY,17386
+New Zealand,NZ,17289
 Georgia,GE,16781
+China (People's Republic of),CN,15186
 Serbia,RS,14930
 Slovenia,SI,14235
 Ecuador,EC,13791
@@ -55,24 +55,24 @@ South Africa,ZA,12778
 Cyprus,CY,12757
 Armenia,AM,11396
 Estonia,EE,9430
-Netherlands,NL,9285
+Netherlands,NL,9282
 Thailand,TH,8895
 Lithuania,LT,8861
 Sri Lanka,LK,8328
 Hong Kong,HK,7972
 Morocco,MA,6600
-Singapore,SG,6304
+Singapore,SG,6299
 Turkey,TR,5452
 Latvia,LV,5048
 Azerbaijan,AZ,4767
 Montenegro,ME,3324
-Russian Federation,RU,3175
+Russian Federation,RU,3174
 Saudi Arabia,SA,2690
 Vietnam,VN,2540
 Kuwait,KW,2357
 Uzbekistan,UZ,2222
 Qatar,QA,2134
-Korea (Republic of),KR,2089
+Korea (Republic of),KR,1899
 Czech Republic,CZ,1673
 Guatemala,GT,966
 Jordan,JO,880
@@ -110,8 +110,8 @@ Tajikistan,TJ,65
 Costa Rica,CR,56
 Jamaica,JM,51
 Suriname,SR,51
-Kenya,KE,47
 Iraq,IQ,47
+Kenya,KE,46
 Cameroon,CM,40
 Cambodia,KH,38
 Oman,OM,37
