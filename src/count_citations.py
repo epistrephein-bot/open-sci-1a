@@ -64,7 +64,7 @@ def write_org_csv(path, counter):
     fieldnames = ["legal_name", "country_name", "country_code",
                   "ror", "openaire", "count"]
     with path.open("w", encoding="utf-8", newline="\n") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer = csv.DictWriter(fh, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for key, count in sorted(counter.items(), key=lambda x: -x[1]):
             legal_name, country_name, country_code, ror, openaire = key
@@ -82,7 +82,7 @@ def write_country_csv(path, counter):
     """Write country counts CSV sorted by count descending."""
     fieldnames = ["country_name", "country_code", "count"]
     with path.open("w", encoding="utf-8", newline="\n") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer = csv.DictWriter(fh, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for key, count in sorted(counter.items(), key=lambda x: -x[1]):
             country_name, country_code = key
