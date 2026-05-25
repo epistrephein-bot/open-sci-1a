@@ -43,8 +43,16 @@ LOG_EVERY = 50_000
 # ==============================================================================
 
 
+def _ror_display_name(names):
+    """Return the ror_display name from a ROR names list, or None."""
+    for name in names:
+        if "ror_display" in (name.get("types") or []):
+            return name.get("value")
+    return None
+
+
 def build_ror_country_index(ror_path):
-    """Read ror.json and return a dict mapping each ROR id to its country info."""
+    """Read ror.json and return a dict mapping each ROR id to its country and display name."""
     with open(ror_path, "r", encoding="utf-8") as path:
         ror_data = json.load(path)
 
@@ -57,6 +65,7 @@ def build_ror_country_index(ror_path):
             index[record_ror_id] = {
                 "country_name": geo.get("country_name", ""),
                 "country_code": geo.get("country_code", ""),
+                "display_name": _ror_display_name(record.get("names", [])),
             }
 
     return index
@@ -145,7 +154,7 @@ else:
 
             if ror_country is not None:
                 result[org["id"]] = {
-                    "legal_name": org.get("legalName", ""),
+                    "legal_name": ror_country["display_name"] or org.get("legalName", ""),
                     "country_name": ror_country["country_name"],
                     "country_code": ror_country["country_code"],
                     "country_source": "ror",

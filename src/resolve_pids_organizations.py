@@ -36,7 +36,7 @@ DUMPS_DIR = DATA_DIR / "dumps"
 OUTPUT_DIR = DATA_DIR / "openaire_organizations"
 
 # Input CSV (columns: omid, doi, pmid, isbn)
-INPUT_CSV = DATA_DIR / "unique_pids.csv"
+INPUT_CSV = DATA_DIR / "iris_oc_pids" / "unique_pids.csv"
 
 # Glob patterns
 OPENAIRE_DIR = DUMPS_DIR / "openaire"
@@ -570,22 +570,20 @@ def write_output(rows, pub_to_orgs, org_lookup):
 
             pub_id = r["openaire_pub_id"] or ""
 
-            # Collect organizations
+            # Collect organizations, discarding empty and deduplicating
             org_ids = pub_to_orgs.get(pub_id, []) if pub_id else []
-            orgs = []
+            orgs_by_name = {}
             for oid in org_ids:
                 orec = org_lookup.get(oid)
-                if orec:
-                    orgs.append(orec)
-                else:
-                    orgs.append({
-                        "legal_name": "",
-                        "country_name": "",
-                        "country_code": "",
-                        "country_source": "",
-                        "ror": None,
-                        "openaire": oid,
-                    })
+                if not orec:
+                    continue
+                name = orec.get("legal_name", "")
+                if not name:
+                    continue
+                existing = orgs_by_name.get(name)
+                if existing is None or (not existing.get("ror") and orec.get("ror")):
+                    orgs_by_name[name] = orec
+            orgs = list(orgs_by_name.values())
 
             # Strip scheme prefixes for output pids
             doi_out = r["doi_raw"]
