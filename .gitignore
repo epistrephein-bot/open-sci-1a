@@ -91,5 +91,3 @@ venv.bak/
 
 # ===== PROJECT =====================
 data/
-cache/
-output/
