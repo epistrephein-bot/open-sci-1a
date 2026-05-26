@@ -40,7 +40,7 @@ VALID_DIRECTIONS = ("inbound", "outbound")
 
 DATA_DIR = Path(DATA_PATH)
 IRIS_OC_PIDS_DIR = DATA_DIR / "iris_oc_pids"
-OMID_ORGANIZATIONS_JSON = DATA_DIR / "openaire_organizations" / "omid_organizations.json"
+OMID_ORGANIZATIONS_JSON = DATA_DIR / "iris_openaire_organizations" / "omid_organizations.json"
 
 INPUT_CSV = IRIS_OC_PIDS_DIR / UNIVERSITY / "iris_oc_pids.csv"
 

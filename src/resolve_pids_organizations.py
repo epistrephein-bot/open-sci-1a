@@ -27,7 +27,7 @@ ORG_COUNTRIES_JSON = DATA_DIR / "openaire_ror_countries" / "openaire_ror_countri
 
 UNIQUE_PIDS_CSV = DATA_DIR / "iris_oc_pids" / "unique_pids.csv"
 
-OUTPUT_DIR = DATA_DIR / "openaire_organizations"
+OUTPUT_DIR = DATA_DIR / "iris_openaire_organizations"
 OUTPUT_JSON = OUTPUT_DIR / "omid_organizations.json"
 MISSING_CSV = OUTPUT_DIR / "missing_no_searchable_pid.csv"
 OUTPUT_METADATA = OUTPUT_DIR / "omid_organizations.metadata.json"

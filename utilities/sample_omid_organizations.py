@@ -2,8 +2,8 @@ import json
 import random
 import ijson
 
-input_file = "../data/openaire_organizations/omid_organizations.json"
-output_file = "../sample/openaire_organizations/omid_organizations.sample.json"
+input_file = "../data/iris_openaire_organizations/omid_organizations.json"
+output_file = "../sample/iris_openaire_organizations/omid_organizations.sample.json"
 sample_size = 5000
 
 sample = []

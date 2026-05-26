@@ -17,8 +17,8 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 DUMPS_DIR = DATA_DIR / "dumps"
 
-IRIS_DIR = DUMPS_DIR / "iris_publications"
-TAR_PATH = DUMPS_DIR / "opencitations" / "output_csv_2026_01_14.tar.gz"
+IRIS_DIR = DUMPS_DIR / "iris"
+OC_TAR_PATH = DUMPS_DIR / "opencitations" / "output_csv_2026_01_14.tar.gz"
 
 INDEX_CSV_TEMPLATE = IRIS_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
 
@@ -156,8 +156,8 @@ print("=" * 70)
 print("PHASE 2 — Streaming OpenCitations tar.gz")
 print("=" * 70)
 
-if not TAR_PATH.exists():
-    raise FileNotFoundError(f"OpenCitations tar.gz not found: {TAR_PATH}")
+if not OC_TAR_PATH.exists():
+    raise FileNotFoundError(f"OpenCitations tar.gz not found: {OC_TAR_PATH}")
 
 phase_2_start = time.monotonic()
 remaining = sum(1 for v in needed_omids.values() if v is None)
@@ -165,10 +165,10 @@ tar_rows_scanned = 0
 tar_files_scanned = 0
 omids_matched = 0
 
-print(f"Streaming {format_path(TAR_PATH)}")
+print(f"Streaming {format_path(OC_TAR_PATH)}")
 print(f"Looking for {remaining:,} OMIDs")
 
-with tarfile.open(TAR_PATH, "r:gz") as tar:
+with tarfile.open(OC_TAR_PATH, "r:gz") as tar:
     for member in tar:
         if not member.isfile() or not member.name.endswith(".csv"):
             continue
