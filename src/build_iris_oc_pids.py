@@ -242,57 +242,16 @@ phase_3_start = time.monotonic()
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 pid_groups = []
-pid_to_group_index = {}
+seen_omids = set()
 
 
 def register_for_dedup(record):
-    """Register a publication record with the union-find deduplication structure."""
-    global pid_to_group_index
-
-    present_pids = [
-        (pid_type, record[pid_type])
-        for pid_type in PID_TYPES
-        if record[pid_type]
-    ]
-
-    if not present_pids:
+    """Register a publication record, deduplicating by OMID only."""
+    omid = record["omid"]
+    if not omid or omid in seen_omids:
         return
-
-    matching_indexes = {
-        pid_to_group_index[(pid_type, pid_value)]
-        for pid_type, pid_value in present_pids
-        if (pid_type, pid_value) in pid_to_group_index
-    }
-
-    if not matching_indexes:
-        pid_groups.append(record)
-        group_index = len(pid_groups) - 1
-    else:
-        group_index = min(matching_indexes)
-
-        for other_index in sorted(matching_indexes - {group_index}, reverse=True):
-            other_group = pid_groups[other_index]
-
-            for pid_type in PID_TYPES:
-                if not pid_groups[group_index][pid_type]:
-                    pid_groups[group_index][pid_type] = other_group[pid_type]
-
-            pid_groups.pop(other_index)
-
-            pid_to_group_index = {
-                pid_key: index - 1 if index > other_index else index
-                for pid_key, index in pid_to_group_index.items()
-                if index != other_index
-            }
-
-        for pid_type in PID_TYPES:
-            if record[pid_type] and not pid_groups[group_index][pid_type]:
-                pid_groups[group_index][pid_type] = record[pid_type]
-
-    for pid_type in PID_TYPES:
-        pid_value = pid_groups[group_index][pid_type]
-        if pid_value:
-            pid_to_group_index[(pid_type, pid_value)] = group_index
+    seen_omids.add(omid)
+    pid_groups.append(record)
 
 
 for university in universities_to_process:
