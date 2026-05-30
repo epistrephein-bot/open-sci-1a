@@ -59,9 +59,9 @@ def citation_direction(is_citing_iris, is_cited_iris):
     if is_citing_iris and is_cited_iris:
         return "internal"
     if is_citing_iris and not is_cited_iris:
-        return "outbound"
+        return "outgoing"
     if not is_citing_iris and is_cited_iris:
-        return "inbound"
+        return "incoming"
     raise ValueError("Both is_citing_iris and is_cited_iris are False")
 
 

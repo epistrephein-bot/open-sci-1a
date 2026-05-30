@@ -3,8 +3,8 @@
 The goal of this project is to create a comprehensive mapping of the Italian
 scientific landscape, starting from the IRIS dataset and enriching it with data
 from OpenCitations, OpenAIRE and ROR. The final output will be a mapping of
-publications to organizations and countries, as well as the number of inbound
-and outbound citations for each publication.
+publications to organizations and countries, as well as the number of incoming
+and outgoing citations for each publication.
 
 ## Overview
 
@@ -13,7 +13,7 @@ The mapping process is divided into four main steps:
 2. Mapping of OpenAIRE organizations to ROR identifiers, names and countries.
 3. Mapping of IRIS publications to OpenAIRE organizations using the PIDs from
    step 1 and the relations dump from OpenAIRE.
-4. Counting of inbound and outbound citations for each publication, producing
+4. Counting of incoming and outgoing citations for each publication, producing
    aggregated statistics for each IRIS university for both organizations and
    countries.
 
@@ -190,9 +190,9 @@ Data path prefix: `iris_openaire_organizations/`
 | `omid_organizations.json` | Contains the mapping of IRIS publications to OpenAIRE organizations. |
 | `omid_organizations.metadata.json` | Contains metadata about the IRIS to OpenAIRE organizations mapping process. |
 
-#### 7. Run the inbound/outbound citations counting script
-The fourth and final step of the pipeline will count the number of inbound and
-outbound citations for each publication, producing aggregated statistics for
+#### 7. Run the incoming/outgoing citations counting script
+The fourth and final step of the pipeline will count the number of incoming and
+outgoing citations for each publication, producing aggregated statistics for
 each IRIS university for both organizations and countries.
 
 ```bash
@@ -206,7 +206,7 @@ Data path prefix: `citation_counts/`
 | file | description |
 |---|---|
 | `<university_name>/citation_counts.metadata.json` | Contains metadata about the citation counts process for a specific university. |
-| `<university_name>/citation_counts_countries_inbound.csv` | Contains the inbound citation counts for countries for a specific university. |
-| `<university_name>/citation_counts_countries_outbound.csv` | Contains the outbound citation counts for countries for a specific university. |
-| `<university_name>/citation_counts_organizations_inbound.csv` | Contains the inbound citation counts for organizations for a specific university. |
-| `<university_name>/citation_counts_organizations_outbound.csv` | Contains the outbound citation counts for organizations for a specific university. |
+| `<university_name>/citation_counts_countries_incoming.csv` | Contains the incoming citation counts for countries for a specific university. |
+| `<university_name>/citation_counts_countries_outgoing.csv` | Contains the outgoing citation counts for countries for a specific university. |
+| `<university_name>/citation_counts_organizations_incoming.csv` | Contains the incoming citation counts for organizations for a specific university. |
+| `<university_name>/citation_counts_organizations_outgoing.csv` | Contains the outgoing citation counts for organizations for a specific university. |
