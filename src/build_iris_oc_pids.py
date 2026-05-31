@@ -93,6 +93,7 @@ def append_csv_rows(path, rows, fieldnames):
 # IDEMPOTENCY CHECK
 # ==============================================================================
 
+# Skip universities whose output CSV already exists; exit early if all are done
 universities_to_process = []
 for university in IRIS_UNIVERSITIES:
     output_csv = Path(str(OUTPUT_PIDS_TEMPLATE).format(university=university))
@@ -255,8 +256,6 @@ pid_to_group_index = {}
 
 def register_for_dedup(record):
     """Register a publication record with the union-find deduplication structure."""
-    global pid_to_group_index
-
     # Collect only the non-empty PIDs this record carries
     present_pids = [
         (pid_type, record[pid_type])
@@ -294,12 +293,13 @@ def register_for_dedup(record):
 
             pid_groups.pop(other_index)
 
-            # Shift all recorded indexes above the removed slot down by one
-            pid_to_group_index = {
-                pid_key: index - 1 if index > other_index else index
-                for pid_key, index in pid_to_group_index.items()
-                if index != other_index
-            }
+            # Drop entries for the absorbed group and shift all higher indexes down by one
+            for pid_key in list(pid_to_group_index):
+                idx = pid_to_group_index[pid_key]
+                if idx == other_index:
+                    del pid_to_group_index[pid_key]
+                elif idx > other_index:
+                    pid_to_group_index[pid_key] -= 1
 
         # Enrich the surviving group with any new PIDs the incoming record carries
         for pid_type in PID_TYPES:
