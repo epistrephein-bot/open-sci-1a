@@ -37,8 +37,9 @@ Scripts are meant to run sequentially. Each stage reads the output of previous s
    - Output: `iris_oc_pids/{university}/iris_oc_pids.csv` + `iris_oc_pids/unique_pids.csv`
 
 2. **`match_organizations_countries.py`** — Establishes ROR as the sole authority on organization identity. Emits two files:
-   - `ror_organizations/ror_organizations.json` — `ror_id -> {legal_name, country_name, country_code}`, the ROR dump flattened. Every organization name and country published downstream comes from here.
-   - `ror_organizations/openaire_ror_map.json` — `openaire_org_id -> ror_id`, needed only because affiliation edges reference OpenAIRE org ids.
+   - `openaire_ror_countries/ror_organizations.json` — `ror_id -> {legal_name, country_name, country_code}`, the ROR dump flattened. Every organization name and country published downstream comes from here.
+   - `openaire_ror_countries/openaire_ror_map.json` — `openaire_org_id -> ror_id`, needed only because affiliation edges reference OpenAIRE org ids.
+   - The `openaire_ror_countries/` folder name is retained from the previous pipeline layout for continuity, though the contents are now keyed on ROR ids.
    - An OpenAIRE org is dropped unless it resolves to exactly one ROR id. With several ROR pids, OpenAIRE's `legalName` is used *only* as a disambiguator to pick among them; if it singles out none, the org is dropped as ambiguous. See `resolve_ror_id()`.
    - Organizations without a ROR id are excluded entirely (~325k of 448k rows, but only ~6-9% of citation counts — the excluded mass is long-tail `pending_org_::` noise).
 
@@ -68,7 +69,7 @@ IRIS CSV dumps (per university) + OpenCitations tar.gz dump
   build_iris_oc_pids.py ──► per-university CSVs with PIDs and direction
         │                    + unique_pids.csv
         │
-        ├──► match_organizations_countries.py ──► ror_organizations/
+        ├──► match_organizations_countries.py ──► openaire_ror_countries/
         │           │
         │           ▼
         │    resolve_pids_organizations.py ──► iris_openaire_organizations/

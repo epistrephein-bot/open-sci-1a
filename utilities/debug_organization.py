@@ -46,8 +46,8 @@ DATA_DIR = ROOT_DIR / "data"
 DUMPS_DIR = DATA_DIR / "dumps"
 OPENAIRE_ORG_TAR = DUMPS_DIR / "openaire" / "organization.tar"
 
-ROR_ORGANIZATIONS_JSON = DATA_DIR / "ror_organizations" / "ror_organizations.json"
-OPENAIRE_ROR_MAP_JSON = DATA_DIR / "ror_organizations" / "openaire_ror_map.json"
+ROR_ORGANIZATIONS_JSON = DATA_DIR / "openaire_ror_countries" / "ror_organizations.json"
+OPENAIRE_ROR_MAP_JSON = DATA_DIR / "openaire_ror_countries" / "openaire_ror_map.json"
 OMID_ORGANIZATIONS_JSON = DATA_DIR / "iris_openaire_organizations" / "omid_organizations.json"
 
 OUTPUT_DIR = DATA_DIR / "debug_organization"

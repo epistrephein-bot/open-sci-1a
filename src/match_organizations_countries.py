@@ -18,7 +18,9 @@ DUMPS_DIR = DATA_DIR / "dumps"
 OPENAIRE_TAR = DUMPS_DIR / "openaire" / "organization.tar"
 ROR_JSON = DUMPS_DIR / "ror" / "v2.7-2026-05-12-ror-data.json"
 
-OUTPUT_DIR = DATA_DIR / "ror_organizations"
+# Folder name kept from the previous pipeline layout for continuity, even though
+# the contents are now ROR-keyed rather than OpenAIRE-keyed
+OUTPUT_DIR = DATA_DIR / "openaire_ror_countries"
 OUTPUT_ORGANIZATIONS = OUTPUT_DIR / "ror_organizations.json"
 OUTPUT_OPENAIRE_MAP = OUTPUT_DIR / "openaire_ror_map.json"
 OUTPUT_METADATA = OUTPUT_DIR / "ror_organizations.metadata.json"

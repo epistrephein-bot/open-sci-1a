@@ -23,8 +23,8 @@ DUMPS_DIR = DATA_DIR / "dumps"
 OPENAIRE_DIR = DUMPS_DIR / "openaire"
 PUBLICATION_TAR_PATTERN = "publication_*.tar"
 RELATION_TAR_PATTERN = "relation_*.tar"
-ROR_ORGANIZATIONS_JSON = DATA_DIR / "ror_organizations" / "ror_organizations.json"
-OPENAIRE_ROR_MAP_JSON = DATA_DIR / "ror_organizations" / "openaire_ror_map.json"
+ROR_ORGANIZATIONS_JSON = DATA_DIR / "openaire_ror_countries" / "ror_organizations.json"
+OPENAIRE_ROR_MAP_JSON = DATA_DIR / "openaire_ror_countries" / "openaire_ror_map.json"
 
 UNIQUE_PIDS_CSV = DATA_DIR / "iris_oc_pids" / "unique_pids.csv"
 
