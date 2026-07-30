@@ -36,18 +36,21 @@ Scripts are meant to run sequentially. Each stage reads the output of previous s
    - Phase 3: Re-reads IRIS CSVs, resolves citing/cited metadata via in-memory dict, writes per-university `iris_oc_pids.csv` files with citation direction (incoming/outgoing/internal), and runs union-find deduplication to produce `unique_pids.csv`
    - Output: `iris_oc_pids/{university}/iris_oc_pids.csv` + `iris_oc_pids/unique_pids.csv`
 
-2. **`match_organizations_countries.py`** — Builds an OpenAIRE org-id to country mapping by cross-referencing the whole OpenAIRE organization dump with the whole ROR dump. Country resolution prefers ROR, falls back to OpenAIRE's own country field.
-   - Output: `openaire_ror_countries/openaire_ror_countries.json`
+2. **`match_organizations_countries.py`** — Establishes ROR as the sole authority on organization identity. Emits two files:
+   - `ror_organizations/ror_organizations.json` — `ror_id -> {legal_name, country_name, country_code}`, the ROR dump flattened. Every organization name and country published downstream comes from here.
+   - `ror_organizations/openaire_ror_map.json` — `openaire_org_id -> ror_id`, needed only because affiliation edges reference OpenAIRE org ids.
+   - An OpenAIRE org is dropped unless it resolves to exactly one ROR id. With several ROR pids, OpenAIRE's `legalName` is used *only* as a disambiguator to pick among them; if it singles out none, the org is dropped as ambiguous. See `resolve_ror_id()`.
+   - Organizations without a ROR id are excluded entirely (~325k of 448k rows, but only ~6-9% of citation counts — the excluded mass is long-tail `pending_org_::` noise).
 
 3. **`resolve_pids_organizations.py`** — The heaviest script. Four phases:
    - Phase 0: Reads `unique_pids.csv`, builds DOI/PMID lookup indexes
    - Phase 1: Streams OpenAIRE publication tars, matches DOI/PMID to OpenAIRE publication IDs
    - Phase 2: Streams OpenAIRE relation tars, collects `hasAuthorInstitution` affiliation edges
-   - Phase 3: Resolves org IDs using the mapping from step 2
+   - Phase 3: Two-hop resolution of org IDs — OpenAIRE org id → ROR id → ROR record. Unresolvable orgs are dropped; organizations are deduplicated on ROR id.
    - Output: `iris_openaire_organizations/omid_organizations.json` — OMID-keyed JSON with affiliated organizations per publication
    - Supports checkpoint/resume via `_checkpoint_phase1.json` and `_checkpoint_phase2.json`
 
-4. **`count_citations.py`** — Final aggregation. Reads per-university iris_oc_pids CSVs, streams `omid_organizations.json` (via ijson), and produces per-university counts of citing/cited organizations and countries.
+4. **`count_citations.py`** — Final aggregation. Reads per-university iris_oc_pids CSVs, streams `omid_organizations.json` (via ijson), and produces per-university counts of citing/cited organizations and countries. Organizations are keyed on ROR id throughout, so no name-based merging is needed.
    - Output: `citation_counts/{university}/` with 4 CSVs per university (org incoming, org outgoing, country incoming, country outgoing)
 
 ## Key Conventions
@@ -65,7 +68,7 @@ IRIS CSV dumps (per university) + OpenCitations tar.gz dump
   build_iris_oc_pids.py ──► per-university CSVs with PIDs and direction
         │                    + unique_pids.csv
         │
-        ├──► match_organizations_countries.py ──► openaire_ror_countries/
+        ├──► match_organizations_countries.py ──► ror_organizations/
         │           │
         │           ▼
         │    resolve_pids_organizations.py ──► iris_openaire_organizations/
