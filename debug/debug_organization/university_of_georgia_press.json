@@ -1,0 +1,1127 @@
+{
+  "target_name": "University of Georgia Press",
+  "sample_size_requested": 20,
+  "entries_scanned": 12345,
+  "mapping_entries": {
+    "openorgs____::4af79130e53361b01263939c075da6d8": {
+      "legal_name": "University of Georgia Press",
+      "country_name": "United States",
+      "country_code": "US",
+      "country_source": "ror",
+      "ror": "https://ror.org/003gx4r22"
+    }
+  },
+  "openaire_raw_records": {
+    "openorgs____::4af79130e53361b01263939c075da6d8": {
+      "legalShortName": "University of Georgia Press",
+      "legalName": "University of Georgia Press",
+      "websiteUrl": "http://www.ugapress.org/",
+      "alternativeNames": [
+        "UGA Press",
+        "University of Georgia Press"
+      ],
+      "country": {
+        "code": "US",
+        "label": "United States"
+      },
+      "id": "openorgs____::4af79130e53361b01263939c075da6d8",
+      "pids": [
+        {
+          "scheme": "FundRef",
+          "value": "100007699"
+        },
+        {
+          "scheme": "Wikidata",
+          "value": "Q7895456"
+        },
+        {
+          "scheme": "ROR",
+          "value": "https://ror.org/003gx4r22"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "295198"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008780"
+        },
+        {
+          "scheme": "GRID",
+          "value": "grid.213876.9"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "378232"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100011119"
+        },
+        {
+          "scheme": "ROR",
+          "value": "https://ror.org/04m8b1e20"
+        },
+        {
+          "scheme": "GRID",
+          "value": "grid.447526.6"
+        },
+        {
+          "scheme": "Wikidata",
+          "value": "Q761534"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100007903"
+        },
+        {
+          "scheme": "ISNI",
+          "value": "000000041936738X"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100010543"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100011128"
+        },
+        {
+          "scheme": "ISNI",
+          "value": "0000000096109553"
+        },
+        {
+          "scheme": "ISNI",
+          "value": "0000000105620178"
+        },
+        {
+          "scheme": "GRID",
+          "value": "grid.256309.b"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "391511"
+        },
+        {
+          "scheme": "Wikidata",
+          "value": "Q5548012"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100018790"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008779"
+        },
+        {
+          "scheme": "ROR",
+          "value": "https://ror.org/00te3t702"
+        }
+      ]
+    }
+  },
+  "ror_verdicts": {
+    "openorgs____::4af79130e53361b01263939c075da6d8": {
+      "openaire_legal_name": "University of Georgia Press",
+      "ror_pids": [
+        {
+          "ror": "https://ror.org/003gx4r22",
+          "position": 0,
+          "display_name": "University of Georgia Press",
+          "country_name": "United States",
+          "picked_by_pipeline": true
+        },
+        {
+          "ror": "https://ror.org/04m8b1e20",
+          "position": 1,
+          "display_name": "Georgian Court University",
+          "country_name": "United States",
+          "picked_by_pipeline": false
+        },
+        {
+          "ror": "https://ror.org/00te3t702",
+          "position": 2,
+          "display_name": "University of Georgia",
+          "country_name": "United States",
+          "picked_by_pipeline": false
+        }
+      ],
+      "picked_ror": "https://ror.org/003gx4r22",
+      "label_applied": "University of Georgia Press",
+      "relabeled": false,
+      "matching_ror_available_later": [],
+      "conflated": true
+    }
+  },
+  "samples": [
+    {
+      "omid": "omid:br/0601596772",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1080/02568543.2022.2143459",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_________::114ffff72961084d292204996029f8a4"
+        },
+        "organizations": [
+          {
+            "legal_name": "State University System of Florida",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05sqd3t97",
+            "openaire": "openorgs____::3613ffa66bcb98923a3359d9a0b55f67"
+          },
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "Florida Gulf Coast University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05tc5bm31",
+            "openaire": "openorgs____::b444880101d5d44071427338681042dc"
+          },
+          {
+            "legal_name": "University of Idaho",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hbp5t65",
+            "openaire": "openorgs____::7829b4e451e88fef16956a9fd6a1c162"
+          },
+          {
+            "legal_name": "Ball State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00k6tx165",
+            "openaire": "openorgs____::afe6ac2d68234b95ca0bd7cb8f2adfe9"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0601597886",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/nar/gkac921",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::ac969333652d5bddfc5bd29b297278be"
+        },
+        "organizations": [
+          {
+            "legal_name": "Saint Louis University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01p7jjy08",
+            "openaire": "openorgs____::5eee853e68d91f58e178c3b24e55c18c"
+          },
+          {
+            "legal_name": "Department of Biology University of Washington",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::45e445c583bd3dafb279a38c2c815a8e"
+          },
+          {
+            "legal_name": "Agricultural Research Service",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02d2m2044",
+            "openaire": "openorgs____::80e9957467883889db7e0c474d1d84a0"
+          },
+          {
+            "legal_name": "Qingdao Agricultural University",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/051qwcj72",
+            "openaire": "openorgs____::295f9fbd15923f805136fde28118fdfa"
+          },
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "Chinese Academy of Agricultural Sciences",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/0313jb750",
+            "openaire": "openorgs____::c766a8860f8f0213af004dc0e025af82"
+          },
+          {
+            "legal_name": "Beijing University of Agriculture",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/03t9adt98",
+            "openaire": "openorgs____::9b6f6fac622c3ca6a89ac6ad523f2454"
+          },
+          {
+            "legal_name": "Beijing Academy of Agricultural and Forestry Sciences",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/04trzn023",
+            "openaire": "openorgs____::69d8c22104a233aed4fb91a66964f314"
+          },
+          {
+            "legal_name": "University of Munich (LMU)",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::d340bea1da8232ff601ffccf53533baa"
+          },
+          {
+            "legal_name": "Washington State University Spokane",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04vfs5h36",
+            "openaire": "openorgs____::3763fa779949c5cebe67e61378f27459"
+          },
+          {
+            "legal_name": "Clemson University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/037s24f05",
+            "openaire": "openorgs____::e0173e912f5ca436aa771bf303c82ceb"
+          },
+          {
+            "legal_name": "Huazhong Agricultural University",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/023b72294",
+            "openaire": "openorgs____::149947692962f382a75105d6aa07272e"
+          },
+          {
+            "legal_name": "University of Georgia",
+            "country_name": "Georgia",
+            "country_code": "GE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02bjhwk41",
+            "openaire": "openorgs____::40386282c05d32ebe6a95baab9b5dd6c"
+          },
+          {
+            "legal_name": "Agricultural Genomics Institute at Shenzhen",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/0066zpp98",
+            "openaire": "openorgs____::7f9b462c4e142cf1e8c698762a8462e2"
+          },
+          {
+            "legal_name": "Agricultural Research Service - Southeast Area",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02pfwxe49",
+            "openaire": "pending_org_::f904872d1a7e5fe9f642fb69b8a6c9aa"
+          },
+          {
+            "legal_name": "University of Wisconsin–Stevens Point",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05sv6pg41",
+            "openaire": "openorgs____::30c67d0905d244700871a0bc850d2618"
+          },
+          {
+            "legal_name": "University of Munich",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::f424ef55d6bd8465364cc1eb2af6558b"
+          },
+          {
+            "legal_name": "Department of Biology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::d4238acbe57b711a7edd107f2debd307"
+          },
+          {
+            "legal_name": "University of Wisconsin System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03ydkyb10",
+            "openaire": "openorgs____::650442a6daa1f5030d90b57e72b0f852"
+          },
+          {
+            "legal_name": "Washington University in St. Louis",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01yc7t268",
+            "openaire": "openorgs____::97b0ac5aa8060baa54cac9b45d657c76"
+          },
+          {
+            "legal_name": "U.S. Vegetable Laboratory",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05cspff93",
+            "openaire": "pending_org_::35525701a76b73fd711f62f7421028ec"
+          },
+          {
+            "legal_name": "University of Wisconsin–Madison",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01y2jtd41",
+            "openaire": "openorgs____::77b342227e11e3ed8302bf45de74e423"
+          },
+          {
+            "legal_name": "Ludwig-Maximilians-Universität München",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/05591te55",
+            "openaire": "openorgs____::a3caad3e06b6235bdbfe47b3d0568909"
+          },
+          {
+            "legal_name": "Michigan State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05hs6h993",
+            "openaire": "openorgs____::49e3fe21450d5993d23121d53942ab3b"
+          },
+          {
+            "legal_name": "Cornell University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05bnh6r87",
+            "openaire": "openorgs____::c3b051f702ed16eb249c25e45abd85d3"
+          },
+          {
+            "legal_name": "Agricultural Research Service - Northeast Area",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04qr9ne10",
+            "openaire": "pending_org_::bcffb45e2b6fc2ceef1166ce5152bb3b"
+          },
+          {
+            "legal_name": "Robert W. Holley Center for Agriculture & Health",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/050z40a57",
+            "openaire": "pending_org_::eb7038495684829b6fac8352ed882f21"
+          },
+          {
+            "legal_name": "Boyce Thompson Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/016tr2327",
+            "openaire": "pending_org_::0653989f627b96246629ddf0e315343f"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603894370",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1021/acsinfecdis.2c00421",
+          "pmid": "36219583",
+          "isbn": "",
+          "openaire": "doi_dedup___::a6d678bc2dff7008d355e770117c070b"
+        },
+        "organizations": [
+          {
+            "legal_name": "Alberta Health Services",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/02nt5es71",
+            "openaire": "openorgs____::27b6af19fdf8939894462aafee08e3c4"
+          },
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "University of Georgia",
+            "country_name": "Georgia",
+            "country_code": "GE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02bjhwk41",
+            "openaire": "openorgs____::40386282c05d32ebe6a95baab9b5dd6c"
+          },
+          {
+            "legal_name": "New York University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0190ak572",
+            "openaire": "pending_org_::cd8d3ca3bccaf4cb85863b80ccb91185"
+          },
+          {
+            "legal_name": "University of Alberta",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/0160cpw27",
+            "openaire": "openorgs____::57c282a96132a7f3d1dbe740ee8a7aa4"
+          },
+          {
+            "legal_name": "University of Alberta Hospital",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/013e81n30",
+            "openaire": "openorgs____::c673c04e42f9c4fb96fd59de6c60ba0e"
+          },
+          {
+            "legal_name": "Biomedical Research Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03yr0pg70",
+            "openaire": "openorgs____::37afbe968223163b743cc1278f2bec34"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603906757",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1038/s41597-022-01924-z",
+          "pmid": "36604446",
+          "isbn": "",
+          "openaire": "doi_dedup___::2409c5d5468c25335528148ad53ee0e5"
+        },
+        "organizations": [
+          {
+            "legal_name": "Seoul National University",
+            "country_name": "South Korea",
+            "country_code": "KR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04h9pn542",
+            "openaire": "openorgs____::ca981d44cbe7e6bb2d6dc904a4c57675"
+          },
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "Purdue University West Lafayette",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02dqehb95",
+            "openaire": "openorgs____::013584bf907fdcb40bcec00b5a78fc12"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603937741",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.21423/bovine-vol39no2p116-124",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::5b76faafff4a2e4e58ec0fb0d43beb76"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "University of Georgia",
+            "country_name": "Georgia",
+            "country_code": "GE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02bjhwk41",
+            "openaire": "openorgs____::40386282c05d32ebe6a95baab9b5dd6c"
+          },
+          {
+            "legal_name": "Texas A&M University System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0034eay46",
+            "openaire": "openorgs____::d9e90cef02101bc714527710d9c7b733"
+          },
+          {
+            "legal_name": "West Coast University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04jj38x11",
+            "openaire": "openorgs____::b309410c050bceeafe96438723ae871a"
+          },
+          {
+            "legal_name": "West Texas A&M University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04gnp7x40",
+            "openaire": "openorgs____::ff892bd7e1f011664818284c93cd3c77"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604072349",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1016/0967-0637(94)90001-9",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::289a2f13141b54d3ff861681b784ee56"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "University of Georgia",
+            "country_name": "Georgia",
+            "country_code": "GE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02bjhwk41",
+            "openaire": "openorgs____::40386282c05d32ebe6a95baab9b5dd6c"
+          },
+          {
+            "legal_name": "Duke University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00py81415",
+            "openaire": "openorgs____::b11152daa6f865357e8415ad302e6048"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604183755",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1016/s1161-0301(02)00107-7",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::99dd56e25da200a4177674908172b904"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Guelph",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/01r7awg59",
+            "openaire": "openorgs____::464cee3de50f2a3192c8469eb1487f5c"
+          },
+          {
+            "legal_name": "International Fertilizer Development Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/045dj7z60",
+            "openaire": "openorgs____::c92773b4460b72754ab3ee506da9ad33"
+          },
+          {
+            "legal_name": "Iowa State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04rswrd78",
+            "openaire": "openorgs____::94a2fb39d08cbf7057b156786ae1d372"
+          },
+          {
+            "legal_name": "University of Florida",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02y3ad647",
+            "openaire": "openorgs____::75a9815f2347754cb00a2e00133b2091"
+          },
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "University of Georgia",
+            "country_name": "Georgia",
+            "country_code": "GE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02bjhwk41",
+            "openaire": "openorgs____::40386282c05d32ebe6a95baab9b5dd6c"
+          },
+          {
+            "legal_name": "Michigan State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05hs6h993",
+            "openaire": "openorgs____::49e3fe21450d5993d23121d53942ab3b"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604798710",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/oso/9780198537472.003.0007",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::7a93c5c2ff37130831a0ae199eec22ca"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604800796",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/ajvr.1992.53.12.2241",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::8decab9627cb990c4dfc4110fe7c9f55"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604803143",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/ajvr.1996.57.11.1674",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::6927049bfde2daffb4cbdcf28800fc7f"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "University of Georgia",
+            "country_name": "Georgia",
+            "country_code": "GE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02bjhwk41",
+            "openaire": "openorgs____::40386282c05d32ebe6a95baab9b5dd6c"
+          },
+          {
+            "legal_name": "Kansas State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05p1j8758",
+            "openaire": "openorgs____::63348f72be127692f0b01cf3c0650bb7"
+          },
+          {
+            "legal_name": "Veterinary Medical Teaching Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/026t0fx73",
+            "openaire": "openorgs____::5b40e39c9acb622aa6f3e3efb392206f"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604804697",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/javma.1999.215.06.811",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::bcb229907105931e664b8a7c23e0d168"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "Michigan State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05hs6h993",
+            "openaire": "openorgs____::49e3fe21450d5993d23121d53942ab3b"
+          },
+          {
+            "legal_name": "University of Pennsylvania Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03xwa9562",
+            "openaire": "openorgs____::733e553b5ff74d294f0ef75eeab1a503"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604804698",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/ajvr.1997.58.08.804",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::3bc6f28489a09530eb54d43a1c0b39d4"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604807095",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/ajvr.1998.59.09.1137",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::e2b4f4e7713bea09684b20db86c7da78"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604807992",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/javma.1992.201.03.475",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::50d66a4a81af307f04c5af21d74865df"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604810536",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/ajvr.1992.53.05.716",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::3363a3ffecfb444242d2ec3b838046d5"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604810731",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/javma.1997.210.04.505",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::89b1186539f3087c420ae4264a967e32"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "Roche (Switzerland)",
+            "country_name": "Switzerland",
+            "country_code": "CH",
+            "country_source": "ror",
+            "ror": "https://ror.org/00by1q217",
+            "openaire": "openorgs____::1ae92d9648d0dede2bfe44e65d837bcd"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604811420",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/javma.1996.209.07.1265",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::28e3a00da82edf4261ca76aa83fb4b1a"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "National Animal Disease Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04ky99h94",
+            "openaire": "pending_org_::e00aa4d05c624bc68bca819670cf5b50"
+          },
+          {
+            "legal_name": "Agricultural Research Service - Midwest Area",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04d1tk502",
+            "openaire": "pending_org_::f7b4cbc0c180e8a4530efcec03cfc609"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604814535",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/javma.1993.202.07.1137",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::4b1a09182e482ae404328a604a570894"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          },
+          {
+            "legal_name": "Kansas State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05p1j8758",
+            "openaire": "openorgs____::63348f72be127692f0b01cf3c0650bb7"
+          },
+          {
+            "legal_name": "The Ohio State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00rs6vg23",
+            "openaire": "openorgs____::eb3866cbe3cc9b3b2286dd8a90bd1cd0"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604816904",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/ajvr.1996.57.01.105",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::c443c5444a73c8ef8fac7ad058746a5d"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0604816911",
+      "matched_openaire_ids": [
+        "openorgs____::4af79130e53361b01263939c075da6d8"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.2460/ajvr.1994.55.03.375",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::ff63c96152e967112746887ef28e450f"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Georgia Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/003gx4r22",
+            "openaire": "openorgs____::4af79130e53361b01263939c075da6d8"
+          }
+        ]
+      }
+    }
+  ]
+}
