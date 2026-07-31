@@ -1,0 +1,3138 @@
+{
+  "target_name": "Scottish Universities Press",
+  "sample_size_requested": 20,
+  "entries_scanned": 1475866,
+  "mapping_entries": {
+    "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11": {
+      "legal_name": "Scottish Universities Press",
+      "country_name": "United Kingdom",
+      "country_code": "GB",
+      "country_source": "ror",
+      "ror": "https://ror.org/05geg6f02"
+    }
+  },
+  "openaire_raw_records": {
+    "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11": {
+      "legalShortName": "SULSA",
+      "legalName": "Scottish Universities Life Sciences Alliance",
+      "websiteUrl": "http://www.sulsa.ac.uk/",
+      "alternativeNames": [
+        "Scottish Universities Life Sciences Alliance",
+        "SULSA"
+      ],
+      "country": {
+        "code": "GB",
+        "label": "United Kingdom"
+      },
+      "id": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11",
+      "pids": [
+        {
+          "scheme": "GRID",
+          "value": "grid.451504.1"
+        },
+        {
+          "scheme": "ROR",
+          "value": "https://ror.org/05geg6f02"
+        },
+        {
+          "scheme": "ROR",
+          "value": "https://ror.org/02tenpc86"
+        }
+      ]
+    }
+  },
+  "ror_verdicts": {
+    "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11": {
+      "openaire_legal_name": "Scottish Universities Life Sciences Alliance",
+      "ror_pids": [
+        {
+          "ror": "https://ror.org/05geg6f02",
+          "position": 0,
+          "display_name": "Scottish Universities Press",
+          "country_name": "United Kingdom",
+          "picked_by_pipeline": true
+        },
+        {
+          "ror": "https://ror.org/02tenpc86",
+          "position": 1,
+          "display_name": "Scottish Universities Life Sciences Alliance",
+          "country_name": "United Kingdom",
+          "picked_by_pipeline": false
+        }
+      ],
+      "picked_ror": "https://ror.org/05geg6f02",
+      "label_applied": "Scottish Universities Press",
+      "relabeled": true,
+      "matching_ror_available_later": [
+        "https://ror.org/02tenpc86"
+      ],
+      "conflated": true
+    }
+  },
+  "samples": [
+    {
+      "omid": "omid:br/06101350213",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1103/physreva.87.043817",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::3176971f03461477237a1c69942b338b"
+        },
+        "organizations": [
+          {
+            "legal_name": "Technical University of Berlin",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::080f580b0cb5a58e41b1ae53536cb522"
+          },
+          {
+            "legal_name": "Department of Physics and Astronomy University College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::7e93157a8aabb4c80c102c6eb863a7e9"
+          },
+          {
+            "legal_name": "UNIVERSITY COLLEGE LONDON, Bartlett School of Planning",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::430d75ed90145317057acd990ab08cca"
+          },
+          {
+            "legal_name": "Technische Universität Berlin",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/03v4gjf40",
+            "openaire": "openorgs____::67d8be4e287c87e0d00a423dd923ecbe"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "University of Strathclyde",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00n3w3b69",
+            "openaire": "openorgs____::0c2df843d882346e6b35ea98569ac268"
+          },
+          {
+            "legal_name": "University College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jx3x895",
+            "openaire": "openorgs____::f031b1a0bb3f7636ff6fbdfa79fd5dec"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/06101745848",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1051/0004-6361/201323082",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::73a4ee2c428d7567a7ee4364b3de3bbe"
+        },
+        "organizations": [
+          {
+            "legal_name": "Katholieke Universiteit Leuven",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::25a27d227e0daba9b81c739821b2800f"
+          },
+          {
+            "legal_name": "KU Leuven",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/05f950310",
+            "openaire": "openorgs____::ccc0a066b56d2cfaf90c2ae369df16f5"
+          },
+          {
+            "legal_name": "Royal Observatory",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/016kj2436",
+            "openaire": "openorgs____::0719f9fd9dae0174d7708196622812fa"
+          },
+          {
+            "legal_name": "Association of Universities for Research in Astronomy",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02y5f7c97",
+            "openaire": "openorgs____::6241cb4006ba61236e6f27b359b12e04"
+          },
+          {
+            "legal_name": "Bulgarian Academy of Sciences",
+            "country_name": "Bulgaria",
+            "country_code": "BG",
+            "country_source": "ror",
+            "ror": "https://ror.org/01x8hew03",
+            "openaire": "openorgs____::6c5b521444455956b2d6f10d0c6fc199"
+          },
+          {
+            "legal_name": "Bulgarian Academy of science",
+            "country_name": "Bulgaria",
+            "country_code": "BG",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::9af163d52679276a6010c439d3a7508a"
+          },
+          {
+            "legal_name": "Universidad de La Laguna",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/01r9z8p25",
+            "openaire": "openorgs____::c839f9b3609ca4e52dd5991b66e86a5f"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Consejo Superior de Investigaciones Científicas",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/02gfc7t72",
+            "openaire": "openorgs____::7b08393d24bb163bc4b5008322df6894"
+          },
+          {
+            "legal_name": "Science and Technology Facilities Council",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/057g20z61",
+            "openaire": "openorgs____::dcab4ea3baad7018778ae2bf60b96d25"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "European Space Agency",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/03wd9za21",
+            "openaire": "openorgs____::eb3edd4057e0fc119f001302c10afcb4"
+          },
+          {
+            "legal_name": "Instituto de Astrofísica de Canarias",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/03cmntr54",
+            "openaire": "openorgs____::4edd8b6e64bf672ec6fdb073fc547234"
+          },
+          {
+            "legal_name": "European Space Astronomy Centre",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/00kw1sm04",
+            "openaire": "pending_org_::bdbb3caeb2c6c23c76382bea32134bde"
+          },
+          {
+            "legal_name": "Universidad de La Laguna (ULL)",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::5637ed0f39a0a9c0b89a6c5eba8fe525"
+          },
+          {
+            "legal_name": "UK Astronomy Technology Centre",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01egwg173",
+            "openaire": "openorgs____::7779f76d4e4590218f1642470dc1e54e"
+          },
+          {
+            "legal_name": "UNIVERSITEIT VAN AMSTERDAM",
+            "country_name": "Netherlands",
+            "country_code": "NL",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::7baec3053c9049b75c76a3807c948be9"
+          },
+          {
+            "legal_name": "Space Telescope Science Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/036f5mx38",
+            "openaire": "openorgs____::d2f631fa738906a057e5874d68a64f3e"
+          },
+          {
+            "legal_name": "Instituto de Astrofísica de Andalucía",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/04ka0vh05",
+            "openaire": "openorgs____::f03a0c898b9bdf906b920dbef8adb1e2"
+          },
+          {
+            "legal_name": "University of Amsterdam",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/04dkp9463",
+            "openaire": "openorgs____::58f65ed1ce3c9166e9c5f939bfdbf83a"
+          },
+          {
+            "legal_name": "University of Edinburgh",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nrxwf90",
+            "openaire": "openorgs____::6abea26a3a3d667713f66eb9383bb8dc"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/06101746074",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1051/0004-6361/201322445",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::dad3741a71db5a7e801142b3d368ce45"
+        },
+        "organizations": [
+          {
+            "legal_name": "ETH Zurich",
+            "country_name": "Switzerland",
+            "country_code": "CH",
+            "country_source": "ror",
+            "ror": "https://ror.org/05a28rw58",
+            "openaire": "openorgs____::fb1e14f93f04d43e1a10a9f17d12c669"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "University of Surrey",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00ks66431",
+            "openaire": "openorgs____::04f2a72edae373707d26aee745cb35c8"
+          },
+          {
+            "legal_name": "University of Edinburgh",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nrxwf90",
+            "openaire": "openorgs____::6abea26a3a3d667713f66eb9383bb8dc"
+          },
+          {
+            "legal_name": "ETH-Zurich",
+            "country_name": "Switzerland",
+            "country_code": "CH",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::7815907dfba4f9c91e440e9f08c5f4fc"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/06101746289",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1051/0004-6361/201321814",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::14362fe97c7d8142b8e343db97516f91"
+        },
+        "organizations": [
+          {
+            "legal_name": "Royal Observatory",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/016kj2436",
+            "openaire": "openorgs____::0719f9fd9dae0174d7708196622812fa"
+          },
+          {
+            "legal_name": "University of Copenhagen (UCPH)",
+            "country_name": "Denmark",
+            "country_code": "DK",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::bcfc344d093304ec2aefa161498706d3"
+          },
+          {
+            "legal_name": "University of Copenhagen",
+            "country_name": "Denmark",
+            "country_code": "DK",
+            "country_source": "ror",
+            "ror": "https://ror.org/035b05819",
+            "openaire": "openorgs____::ff2275b420f1146110af3cb7327de306"
+          },
+          {
+            "legal_name": "Institut National des Sciences de l Univers",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::fde19760e9a099cfcdd14ffef09b59bb"
+          },
+          {
+            "legal_name": "Aix-Marseille université",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::331985638d3b696081c3f01f69756bfd"
+          },
+          {
+            "legal_name": "Institut National des Sciences de l'Univers",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04kdfz702",
+            "openaire": "openorgs____::64e1ec4f98047d539d97b4c3c88e1e21"
+          },
+          {
+            "legal_name": "Lancaster University",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/04f2nsd36",
+            "openaire": "openorgs____::e202cde6b3d654cc8783f4c0410c1ee3"
+          },
+          {
+            "legal_name": "Leiden University",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/027bh9e22",
+            "openaire": "openorgs____::e42580548da4a1d39bb67b60b971056e"
+          },
+          {
+            "legal_name": "Centre National d'Études Spatiales",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04h1h0y33",
+            "openaire": "openorgs____::f9e9697590b6cdef84e84f6c31fd63ac"
+          },
+          {
+            "legal_name": "Aix-Marseille Université",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/035xkbk20",
+            "openaire": "openorgs____::15f2d0993187da791e8efa1f431d6c6c"
+          },
+          {
+            "legal_name": "Centre National de la Recherche Scientifique",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02feahw73",
+            "openaire": "openorgs____::7fbdf9cd4423c4604745a16afe728bc7"
+          },
+          {
+            "legal_name": "Leiden Observatory",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/03es66g06",
+            "openaire": "openorgs____::922b0a9461faf6f3ed9317c6050ea913"
+          },
+          {
+            "legal_name": "University of Edinburgh",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nrxwf90",
+            "openaire": "openorgs____::6abea26a3a3d667713f66eb9383bb8dc"
+          },
+          {
+            "legal_name": "European Southern Observatory",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01qtasp15",
+            "openaire": "openorgs____::c1ccd3789d267f8ca7b01d2d1f3642b4"
+          },
+          {
+            "legal_name": "KOBENHAVNS UNIVERSITET",
+            "country_name": "Denmark",
+            "country_code": "DK",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::da60d0e93019a062bf6ebe8a44a6b4da"
+          },
+          {
+            "legal_name": "University of copenhaguen",
+            "country_name": "Denmark",
+            "country_code": "DK",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::2eea9ce48c3896062ea88e5cfc796601"
+          },
+          {
+            "legal_name": "Aix-Marseille University",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::b02be909dea4644754d246f31b4a579a"
+          },
+          {
+            "legal_name": "Institut de Recherche en Informatique et Systèmes Aléatoires",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00myn0z94",
+            "openaire": "openorgs____::22ea3f97f9dc4b8bb6e53af148a3a172"
+          },
+          {
+            "legal_name": "Sorbonne Université",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02en5vm52",
+            "openaire": "openorgs____::98051a1b04538cb62eb397a8c462d3d1"
+          },
+          {
+            "legal_name": "University of Copenhague",
+            "country_name": "Denmark",
+            "country_code": "DK",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::6a6521fa726fb240944346f1f4de712d"
+          },
+          {
+            "legal_name": "Institut d'Astrophysique de Paris",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/022bnxw24",
+            "openaire": "openorgs____::06903e3bc58b3bbff058578227835c1b"
+          },
+          {
+            "legal_name": "UNIVERSITE D'AIX MARSEILLE",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::07239694ef2c0845bc9cb9cf15b992ac"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "Laboratoire d’Astrophysique de Marseille",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00ssy9q55",
+            "openaire": "openorgs____::759514470c2af63bf8102b82321ee95c"
+          },
+          {
+            "legal_name": "Aix Marseille Université (La Timone)",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::302628aa6c1287a5698a81d3d87fe55d"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/06101757475",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1103/physrevc.90.014320",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::bb84b1be66bbae9d217cfc59c3db59cc"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Warsaw",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "ror",
+            "ror": "https://ror.org/039bjqg32",
+            "openaire": "openorgs____::7fe2f66cdc43983c6b24816bfe9cf6a0"
+          },
+          {
+            "legal_name": "University of Oslo",
+            "country_name": "Norway",
+            "country_code": "NO",
+            "country_source": "ror",
+            "ror": "https://ror.org/01xtthb56",
+            "openaire": "openorgs____::87bca884c634dc3f9612c1df991d909b"
+          },
+          {
+            "legal_name": "Université Grenoble Alpes",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02rx3b187",
+            "openaire": "openorgs____::acf2cdf9deb58b1a9aa0369014ccde51"
+          },
+          {
+            "legal_name": "University of Maryland, College Park",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/047s2c258",
+            "openaire": "openorgs____::a569268d4cfa60bbe9005b1f82cde550"
+          },
+          {
+            "legal_name": "Universidad Complutense de Madrid",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/02p0gd045",
+            "openaire": "openorgs____::ae7ad37eb88482a266992d4257c8e4e9"
+          },
+          {
+            "legal_name": "Academy of Sciences Republic of Uzbekistan",
+            "country_name": "Uzbekistan",
+            "country_code": "UZ",
+            "country_source": "ror",
+            "ror": "https://ror.org/01xgfaw76",
+            "openaire": "openorgs____::218c6cc0f20ab45a5fc6b9a31df50d09"
+          },
+          {
+            "legal_name": "University of the West of Scotland",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/04w3d2v20",
+            "openaire": "openorgs____::e3174963d30aa73fc7166c47c4282757"
+          },
+          {
+            "legal_name": "LInstitut National de Physique Nucléaire et de Physique des Particules",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::70c974155b9a829addc4deda174ba413"
+          },
+          {
+            "legal_name": "University of Maryland",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::0fc1bc86739b88066461b0bcd352e096"
+          },
+          {
+            "legal_name": "UNIVERSITE JOSEPH FOURIER GRENOBLE 1",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::57974b1231def744979aafb6d549cd9d"
+          },
+          {
+            "legal_name": "Argonne National Laboratory",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05gvnxz63",
+            "openaire": "openorgs____::d552cd01130a4b017de44970f01ad690"
+          },
+          {
+            "legal_name": "Université Joseph Fourier Grenoble I (Institut de Biologie Structurale)",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::631d3a9132cbb159f8e80a0f70d8b19b"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Universidade de Santiago de Compostela",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/030eybx10",
+            "openaire": "openorgs____::1d30202072371c91119604e8c12b743d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "University of Notre Dame",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00mkhxb43",
+            "openaire": "openorgs____::12ecf975333fbcdc5ad74acdb7839aea"
+          },
+          {
+            "legal_name": "Consejo Superior de Investigaciones Científicas",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/02gfc7t72",
+            "openaire": "openorgs____::7b08393d24bb163bc4b5008322df6894"
+          },
+          {
+            "legal_name": "Institut National de Physique Nucléaire et de Physique des Particules",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/03fd77x13",
+            "openaire": "openorgs____::9ab12fa3fbc436a815f7d0a0dcc29177"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "Horia Hulubei National Institute for R and D in Physics and Nuclear Engineering",
+            "country_name": "Romania",
+            "country_code": "RO",
+            "country_source": "ror",
+            "ror": "https://ror.org/00d3pnh21",
+            "openaire": "openorgs____::4e8ed1375ad618a011b0bf0f3f9570a2"
+          },
+          {
+            "legal_name": "UNIVERSITE GRENOBLE I [Joseph Fourier]",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::18effad4854f3445721769ce986d24cf"
+          },
+          {
+            "legal_name": "National Centre for Nuclear Research",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "ror",
+            "ror": "https://ror.org/00nzsxq20",
+            "openaire": "openorgs____::75b5171c0fbd389aabf6964aa1d718e6"
+          },
+          {
+            "legal_name": "UNIVERSITE JOSEPH FOURIER - GRENOBLE 1",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::5c95e38c9595099ea58e4d827bbe7cf4"
+          },
+          {
+            "legal_name": "Institut Laue-Langevin",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/01xtjs520",
+            "openaire": "openorgs____::b10e1fbf3764edf076cc1e37b8e371d6"
+          },
+          {
+            "legal_name": "Complutense University",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::190dc0925247aafc15e53819f21ea6e5"
+          },
+          {
+            "legal_name": "Czech Academy of Sciences, Nuclear Physics Institute",
+            "country_name": "Czechia",
+            "country_code": "CZ",
+            "country_source": "ror",
+            "ror": "https://ror.org/04jymbd90",
+            "openaire": "openorgs____::55008c5c5ed2453f65eaee51f7a465ee"
+          },
+          {
+            "legal_name": "Université Joseph Fourier Grenoble 1",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::98b8e68da0c0629395d685ca44125a62"
+          },
+          {
+            "legal_name": "Yale University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03v76x132",
+            "openaire": "openorgs____::293e60068d63e17e20f2de54944cae01"
+          },
+          {
+            "legal_name": "Instituto de Estructura de la Materia",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/05rtchs68",
+            "openaire": "openorgs____::7af40e8c3d673547571cfddc3f9987a1"
+          },
+          {
+            "legal_name": "Centre National de la Recherche Scientifique",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02feahw73",
+            "openaire": "openorgs____::7fbdf9cd4423c4604745a16afe728bc7"
+          },
+          {
+            "legal_name": "University of Glasgow",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00vtgdb53",
+            "openaire": "openorgs____::3c168a5ca14adc2b399ebceb7f86db42"
+          },
+          {
+            "legal_name": "Institut polytechnique de Grenoble",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/05sbt2524",
+            "openaire": "openorgs____::5c5f83502a092fd466f20758dd4b46f4"
+          },
+          {
+            "legal_name": "Department of Physics, University of Notre Dame",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::2c17e08d6c1920556e4dc51aee88a7c4"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/06102204772",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/mnras/sty2007",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::c6036e9e3506fee8787a5c0c80e74217"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of St Andrews",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02wn5qz54",
+            "openaire": "openorgs____::d6a73efb613331172294eeef8a9a65d1"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/06103485968",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1073/pnas.0709309104",
+          "pmid": "17947379",
+          "isbn": "",
+          "openaire": "doi_dedup___::06f46c9136779b49feb2155a90853e97"
+        },
+        "organizations": [
+          {
+            "legal_name": "Diamond Light Source",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05etxs293",
+            "openaire": "openorgs____::d423f990d88f9a68113e29aaea05680d"
+          },
+          {
+            "legal_name": "Department of Earth Sciences University of Oxford",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::67c0a29eef818a52536e8ad3eefce0f8"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "University of Oxford",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/052gg0110",
+            "openaire": "openorgs____::6a7b1b4c40a067a1f209de6867fe094d"
+          },
+          {
+            "legal_name": "University of Edinburgh",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nrxwf90",
+            "openaire": "openorgs____::6abea26a3a3d667713f66eb9383bb8dc"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/06103962047",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1140/epja/s10050-022-00827-2",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::d5eb7702dd9f19d56b466c279db6276f"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Parma",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/02k7wn190",
+            "openaire": "openorgs____::f00b832b0540f5e6b8a349eabbebed96"
+          },
+          {
+            "legal_name": "Hungarian Academy of Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/02ks8qq67",
+            "openaire": "openorgs____::a86b057c17c374dcb7b4f2be73fb116d"
+          },
+          {
+            "legal_name": "Konkoly Observatory",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/039jmcx36",
+            "openaire": "openorgs____::8d64a4729d95fd312067e1b7db475f72"
+          },
+          {
+            "legal_name": "HUN-REN Institute for Nuclear Research",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/006vxbq87",
+            "openaire": "pending_org_::d6a96c33fac01e30a8f3d715e78ac33e"
+          },
+          {
+            "legal_name": "Magyar Tudományos Akadémia Könyvtára (Library of the Hungarian Academy of Sciences)",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::28b990daefd62b506c2676a76a5074a1"
+          },
+          {
+            "legal_name": "Università degli Studi di Padova (DISSGEA)",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::7d3e34954f3636c5655a301b0eaf1244"
+          },
+          {
+            "legal_name": "University of Urbino",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04q4kt073",
+            "openaire": "openorgs____::029741f87557e116ec0c70b375377215"
+          },
+          {
+            "legal_name": "Pázmány Péter Catholic University",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/05v9kya57",
+            "openaire": "openorgs____::58aee949499fd3e4880fb2904249dfa4"
+          },
+          {
+            "legal_name": "University of Naples Federico II",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/05290cv24",
+            "openaire": "openorgs____::eb0669daa9efeb898a3090d8aac7c953"
+          },
+          {
+            "legal_name": "University of Parma (Future Technology Lab)",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::d390dd17cd3e4f7126cc7cc664fa61ad"
+          },
+          {
+            "legal_name": "University of Verona",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/039bp8j42",
+            "openaire": "openorgs____::5e72585a8b02cf525fca537dc9d3d4ab"
+          },
+          {
+            "legal_name": "Library and Information Centre of the Hungarian Academy of Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/04ws47v52",
+            "openaire": "openorgs____::f7360991db0c66f0087f1329722b0fa4"
+          },
+          {
+            "legal_name": "Istituto Nazionale di Fisica Nucleare",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/005ta0471",
+            "openaire": "openorgs____::a0404ae0f4c4b052325f6cb8adaa186c"
+          },
+          {
+            "legal_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01zy2cs03",
+            "openaire": "openorgs____::85dd4e5b08d3d6e56ee686ed68ccc7b8"
+          },
+          {
+            "legal_name": "Istituto Nazionale di Fisica Nucleare, Sezione di Torino",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/01vj6ck58",
+            "openaire": "openorgs____::c239ec85999384a3ee8d7738bcf9831a"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Universit�� degli Studi di TORINO",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::e8c58cb1b559cdc8fc32acf2f4d03e5b"
+          },
+          {
+            "legal_name": "University of Pavia",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00s6t1f81",
+            "openaire": "openorgs____::c757df2a7d6bb06957b4b19fe9b071d3"
+          },
+          {
+            "legal_name": "Gran Sasso Science Institute",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/043qcb444",
+            "openaire": "openorgs____::0ad0ee66bc67ea5d1840404ff049e4e0"
+          },
+          {
+            "legal_name": "Physikalisch-Technische Bundesanstalt",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/05r3f7h03",
+            "openaire": "openorgs____::810a5e5e3b001d949ec678f33f901f2e"
+          },
+          {
+            "legal_name": "University of Trento",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/05trd4x28",
+            "openaire": "openorgs____::db652e6496b6c6a08d25533f27864d04"
+          },
+          {
+            "legal_name": "University of Bari Aldo Moro",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/027ynra39",
+            "openaire": "openorgs____::57e301e6024fcbdec3934b23f3e561b2"
+          },
+          {
+            "legal_name": "Goa University",
+            "country_name": "India",
+            "country_code": "IN",
+            "country_source": "ror",
+            "ror": "https://ror.org/030reqw53",
+            "openaire": "openorgs____::00ac9a62c53edb906e3355295e500ffd"
+          },
+          {
+            "legal_name": "University of Padua",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00240q980",
+            "openaire": "openorgs____::d6ddbed2807becaf5b096013ba158c9b"
+          },
+          {
+            "legal_name": "University of Milan",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wjc7c48",
+            "openaire": "openorgs____::db7686f30f22cbe73a4fde872ce812a6"
+          },
+          {
+            "legal_name": "Istituto Nazionale di Fisica Nucleare, Sezione di Bari",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/022hq6c49",
+            "openaire": "openorgs____::5e87ef5ed53ea5855102542dc6fc6db5"
+          },
+          {
+            "legal_name": "Istituto Nazionale di Fisica Nucleare, Sezione di Milano",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04w4m6z96",
+            "openaire": "openorgs____::1c619302b4f4259582bd51776589f2ea"
+          },
+          {
+            "legal_name": "Universit�� degli Studi di GENOVA",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::5369573f854786a98b68fc7a64d54c16"
+          },
+          {
+            "legal_name": "University of Teramo",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/01yetye73",
+            "openaire": "openorgs____::f5b6f5d036be2feddf52a86c897443ff"
+          },
+          {
+            "legal_name": "Bundesministerium für Wirtschaft und Energie",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02vgg2808",
+            "openaire": "openorgs____::3b88a0aab002bbde706f93cd886162d4"
+          },
+          {
+            "legal_name": "HUN-REN Research Centre for Astronomy and Earth Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/036wvs663",
+            "openaire": "pending_org_::1e48408fa3e0477dc2715202e8132157"
+          },
+          {
+            "legal_name": "Hungarian Academy of Science",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::440c22db7d47dcb81fa5027f0ea3411a"
+          },
+          {
+            "legal_name": "Istituto Nazionale di Fisica Nucleare, Sezione di Napoli",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/015kcdd40",
+            "openaire": "openorgs____::91aa99bf27d2e84fa0bc1b86ba56b1a5"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Istituto Nazionale di Fisica Nucleare, Sezione di Genova",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/02v89pq06",
+            "openaire": "openorgs____::43f46a8900f32e0239d615e012d4396f"
+          },
+          {
+            "legal_name": "University of Genoa",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/0107c5v14",
+            "openaire": "openorgs____::53df715e03d652944df3d336afe1181a"
+          },
+          {
+            "legal_name": "Hungarian Research Network",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/04w6pnc49",
+            "openaire": "pending_org_::b27cef57160bfb7d0028718497835f86"
+          },
+          {
+            "legal_name": "University of Turin",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/048tbm396",
+            "openaire": "openorgs____::2056a9e24658ecaabdb32a9ba31b16df"
+          },
+          {
+            "legal_name": "Technische Universität Dresden",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/042aqky30",
+            "openaire": "openorgs____::a6340e6ecf60f6bba163659df985b0f2"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "University of Edinburgh",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nrxwf90",
+            "openaire": "openorgs____::6abea26a3a3d667713f66eb9383bb8dc"
+          },
+          {
+            "legal_name": "Istituto Nazionale di Fisica Nucleare, Sezione di Padova",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00z34yn88",
+            "openaire": "openorgs____::20a85a4b53a9b3f8aba3ec3bd9f9c727"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061101733999",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1051/0004-6361/202140700",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::1e6ae66d355ba437e03cd63b7020f476"
+        },
+        "organizations": [
+          {
+            "legal_name": "Institut National des Sciences de l Univers",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::fde19760e9a099cfcdd14ffef09b59bb"
+          },
+          {
+            "legal_name": "Université de Strasbourg",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00pg6eq24",
+            "openaire": "pending_org_::54430a98cb61cdba7c007cf5002498bd"
+          },
+          {
+            "legal_name": "Institut National des Sciences de l'Univers",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04kdfz702",
+            "openaire": "openorgs____::64e1ec4f98047d539d97b4c3c88e1e21"
+          },
+          {
+            "legal_name": "University of Bonn",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/041nas322",
+            "openaire": "openorgs____::64a0ee2abab6e68eed9da34de85c4642"
+          },
+          {
+            "legal_name": "Polish Academy of Sciences",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "ror",
+            "ror": "https://ror.org/01dr6c206",
+            "openaire": "openorgs____::f541cd098bd22df66e81d8b34a7238c2"
+          },
+          {
+            "legal_name": "Université de Strasbourg (Génétique moléculaire, génomique et microbiologique)",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::97a7542bebfd36d33c0c35cfb1b395ab"
+          },
+          {
+            "legal_name": "Université de Strasbourg (INSTITUT DE CHIMIE)",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::29606d2d3046a7e7c940a0630fb5e51c"
+          },
+          {
+            "legal_name": "Charles University",
+            "country_name": "Czechia",
+            "country_code": "CZ",
+            "country_source": "ror",
+            "ror": "https://ror.org/024d6js02",
+            "openaire": "openorgs____::424cef80ed8f49f3782c66ef12d1c1a6"
+          },
+          {
+            "legal_name": "Czech Academy of Sciences, Astronomical Institute",
+            "country_name": "Czechia",
+            "country_code": "CZ",
+            "country_source": "ror",
+            "ror": "https://ror.org/03tp8z347",
+            "openaire": "openorgs____::cc5911abe76d7ea2f94b2a0e1117b82b"
+          },
+          {
+            "legal_name": "University of Strasbourg",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::0ac5b570b070f91d2ed448acbfd39b42"
+          },
+          {
+            "legal_name": "University of St Andrews",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02wn5qz54",
+            "openaire": "openorgs____::d6a73efb613331172294eeef8a9a65d1"
+          },
+          {
+            "legal_name": "UNIVERSITE DE STRASBOURG",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::5a6e3e87670137dc44190b6a83807697"
+          },
+          {
+            "legal_name": "Polish Academy of Learning",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "ror",
+            "ror": "https://ror.org/03q674f15",
+            "openaire": "openorgs____::e78a489386e7930c543738b3c6a22e94"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Centre National de la Recherche Scientifique",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02feahw73",
+            "openaire": "openorgs____::7fbdf9cd4423c4604745a16afe728bc7"
+          },
+          {
+            "legal_name": "Observatoire astronomique de Strasbourg",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04xsj2p07",
+            "openaire": "openorgs____::1d899a8827b7e9a17d626ecac4914682"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "University of Strasbourg (Unistra)",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::4e4164a6f56d78f5ef56b004174d337c"
+          },
+          {
+            "legal_name": "Nicolaus Copernicus Astronomical Center",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "ror",
+            "ror": "https://ror.org/040r57n67",
+            "openaire": "openorgs____::7522cb7e8f31b9cbe4ca6d218393d122"
+          },
+          {
+            "legal_name": "Université de Strabourg",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::c29cff3cc3e55a4e1223a6edc6f56588"
+          },
+          {
+            "legal_name": "Polish academy of Science",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::f42599a5ebee0a0bd8286d953ebef9ce"
+          },
+          {
+            "legal_name": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE CNRS",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::26e8a1e6dd6e5594324513fee4a9ef03"
+          },
+          {
+            "legal_name": "University of Glasgow",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00vtgdb53",
+            "openaire": "openorgs____::3c168a5ca14adc2b399ebceb7f86db42"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061101734698",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1051/0004-6361/200811042",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::41113871800b5c08f86f32a62138f844"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of British Columbia",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/03rmrcq20",
+            "openaire": "openorgs____::3fb8683d75ab6c4dae4cf6a1b07ff536"
+          },
+          {
+            "legal_name": "Royal Observatory",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/016kj2436",
+            "openaire": "openorgs____::0719f9fd9dae0174d7708196622812fa"
+          },
+          {
+            "legal_name": "California Institute of Technology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05dxps055",
+            "openaire": "openorgs____::f7b53007e7d647c261b461d4c2ee6be0"
+          },
+          {
+            "legal_name": "Leiden University",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/027bh9e22",
+            "openaire": "openorgs____::e42580548da4a1d39bb67b60b971056e"
+          },
+          {
+            "legal_name": "University of California, Santa Cruz",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03s65by71",
+            "openaire": "openorgs____::e4be060d29cd98ee65d421677ef67c00"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "University of British Colombia",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::112aa05cb0fb62d53bb202a3303fc2c7"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "Spitzer Science Center California Institute of Technology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::d6f477444c959526a3b4355a0d90a3b5"
+          },
+          {
+            "legal_name": "Spitzer Science Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::d97c1f70868de4ca1231c2bedc9b6d0d"
+          },
+          {
+            "legal_name": "Leiden Observatory",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/03es66g06",
+            "openaire": "openorgs____::922b0a9461faf6f3ed9317c6050ea913"
+          },
+          {
+            "legal_name": "University of Edinburgh",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nrxwf90",
+            "openaire": "openorgs____::6abea26a3a3d667713f66eb9383bb8dc"
+          },
+          {
+            "legal_name": "University of California, Berkeley",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01an7q238",
+            "openaire": "openorgs____::8cdfd6e5b65b73a10b57978dcefd7fd4"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061101824958",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/mnras/stw024",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::e7db81f3683374ec2e4d9f97199e6ce2"
+        },
+        "organizations": [
+          {
+            "legal_name": "Hungarian Academy of Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/02ks8qq67",
+            "openaire": "openorgs____::a86b057c17c374dcb7b4f2be73fb116d"
+          },
+          {
+            "legal_name": "Magyar Tudományos Akadémia Könyvtára (Library of the Hungarian Academy of Sciences)",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::28b990daefd62b506c2676a76a5074a1"
+          },
+          {
+            "legal_name": "University of St Andrews",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02wn5qz54",
+            "openaire": "openorgs____::d6a73efb613331172294eeef8a9a65d1"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Library and Information Centre of the Hungarian Academy of Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/04ws47v52",
+            "openaire": "openorgs____::f7360991db0c66f0087f1329722b0fa4"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "HUN-REN Research Centre for Astronomy and Earth Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/036wvs663",
+            "openaire": "pending_org_::1e48408fa3e0477dc2715202e8132157"
+          },
+          {
+            "legal_name": "THE UNIVERSITY COURT OF THE UNIVERSITY OF ST ANDREWS",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::3208fcb0c6a7e1c20dcbe7a13c04f075"
+          },
+          {
+            "legal_name": "Konkoly Observatory",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/039jmcx36",
+            "openaire": "openorgs____::8d64a4729d95fd312067e1b7db475f72"
+          },
+          {
+            "legal_name": "Hungarian Academy of Science",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::440c22db7d47dcb81fa5027f0ea3411a"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061101825023",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/mnras/stw027",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::fd878ff83c33c9d1dbe1de1d96b33b19"
+        },
+        "organizations": [
+          {
+            "legal_name": "Royal Observatory",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/016kj2436",
+            "openaire": "openorgs____::0719f9fd9dae0174d7708196622812fa"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "UNIVERSITY COLLEGE LONDON, Bartlett School of Planning",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::430d75ed90145317057acd990ab08cca"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Imperial College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/041kmwe10",
+            "openaire": "openorgs____::778fb8061fc9d6356293bec4c38fb72f"
+          },
+          {
+            "legal_name": "University College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jx3x895",
+            "openaire": "openorgs____::f031b1a0bb3f7636ff6fbdfa79fd5dec"
+          },
+          {
+            "legal_name": "University of Edinburgh",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nrxwf90",
+            "openaire": "openorgs____::6abea26a3a3d667713f66eb9383bb8dc"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061101825042",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/mnras/stv3017",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::dd4d5793d2c57ed0a860a57f9aba6b37"
+        },
+        "organizations": [
+          {
+            "legal_name": "Royal Observatory",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/016kj2436",
+            "openaire": "openorgs____::0719f9fd9dae0174d7708196622812fa"
+          },
+          {
+            "legal_name": "California Institute of Technology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05dxps055",
+            "openaire": "openorgs____::f7b53007e7d647c261b461d4c2ee6be0"
+          },
+          {
+            "legal_name": "Association of Universities for Research in Astronomy",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02y5f7c97",
+            "openaire": "openorgs____::6241cb4006ba61236e6f27b359b12e04"
+          },
+          {
+            "legal_name": "Institut National des Sciences de l Univers",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::fde19760e9a099cfcdd14ffef09b59bb"
+          },
+          {
+            "legal_name": "Institut National des Sciences de l'Univers",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04kdfz702",
+            "openaire": "openorgs____::64e1ec4f98047d539d97b4c3c88e1e21"
+          },
+          {
+            "legal_name": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::429af081906f590fe43005eec43fbfac"
+          },
+          {
+            "legal_name": "Hebrew University of Jerusalem",
+            "country_name": "Israel",
+            "country_code": "IL",
+            "country_source": "ror",
+            "ror": "https://ror.org/03qxff017",
+            "openaire": "openorgs____::d117190979c3977d2438914a00c27168"
+          },
+          {
+            "legal_name": "University of California, Santa Cruz",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03s65by71",
+            "openaire": "openorgs____::e4be060d29cd98ee65d421677ef67c00"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "California Baptist University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04yj19304",
+            "openaire": "openorgs____::1ab266c0de559c3d795f5fc493b1f684"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "Sorbonne Université",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02en5vm52",
+            "openaire": "openorgs____::98051a1b04538cb62eb397a8c462d3d1"
+          },
+          {
+            "legal_name": "Space Telescope Science Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/036f5mx38",
+            "openaire": "openorgs____::d2f631fa738906a057e5874d68a64f3e"
+          },
+          {
+            "legal_name": "The Hebrew University",
+            "country_name": "Israel",
+            "country_code": "IL",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::952286d6066eff09b298086841574d90"
+          },
+          {
+            "legal_name": "University of Arizona",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03m2x1q45",
+            "openaire": "openorgs____::8e0e4f2ebf5667f288c8e4ee75038545"
+          },
+          {
+            "legal_name": "University College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jx3x895",
+            "openaire": "openorgs____::f031b1a0bb3f7636ff6fbdfa79fd5dec"
+          },
+          {
+            "legal_name": "University of California, San Francisco",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/043mz5j54",
+            "openaire": "openorgs____::e355efaf62ddb61ef1bbda6c6806923d"
+          },
+          {
+            "legal_name": "Institut d'Astrophysique de Paris",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/022bnxw24",
+            "openaire": "openorgs____::06903e3bc58b3bbff058578227835c1b"
+          },
+          {
+            "legal_name": "University of Edinburgh",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nrxwf90",
+            "openaire": "openorgs____::6abea26a3a3d667713f66eb9383bb8dc"
+          },
+          {
+            "legal_name": "Centre National de la Recherche Scientifique",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02feahw73",
+            "openaire": "openorgs____::7fbdf9cd4423c4604745a16afe728bc7"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061104050780",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/mnras/stac3645",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::3870669e6a409cd117d3cdaa517d925c"
+        },
+        "organizations": [
+          {
+            "legal_name": "Institut National des Sciences de l Univers",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::fde19760e9a099cfcdd14ffef09b59bb"
+          },
+          {
+            "legal_name": "Université de Strasbourg",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00pg6eq24",
+            "openaire": "pending_org_::54430a98cb61cdba7c007cf5002498bd"
+          },
+          {
+            "legal_name": "Institut National des Sciences de l'Univers",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04kdfz702",
+            "openaire": "openorgs____::64e1ec4f98047d539d97b4c3c88e1e21"
+          },
+          {
+            "legal_name": "University of Bonn",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/041nas322",
+            "openaire": "openorgs____::64a0ee2abab6e68eed9da34de85c4642"
+          },
+          {
+            "legal_name": "Ferdowsi University of Mashhad",
+            "country_name": "Iran",
+            "country_code": "IR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00g6ka752",
+            "openaire": "openorgs____::a1a9b2e7211c7093d69706b5fe95b3c4"
+          },
+          {
+            "legal_name": "Université de Strasbourg (Génétique moléculaire, génomique et microbiologique)",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::97a7542bebfd36d33c0c35cfb1b395ab"
+          },
+          {
+            "legal_name": "Université de Strasbourg (INSTITUT DE CHIMIE)",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::29606d2d3046a7e7c940a0630fb5e51c"
+          },
+          {
+            "legal_name": "Charles University",
+            "country_name": "Czechia",
+            "country_code": "CZ",
+            "country_source": "ror",
+            "ror": "https://ror.org/024d6js02",
+            "openaire": "openorgs____::424cef80ed8f49f3782c66ef12d1c1a6"
+          },
+          {
+            "legal_name": "University of Strasbourg",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::0ac5b570b070f91d2ed448acbfd39b42"
+          },
+          {
+            "legal_name": "University of St Andrews",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02wn5qz54",
+            "openaire": "openorgs____::d6a73efb613331172294eeef8a9a65d1"
+          },
+          {
+            "legal_name": "UNIVERSITE DE STRASBOURG",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::5a6e3e87670137dc44190b6a83807697"
+          },
+          {
+            "legal_name": "Observatoire astronomique de Strasbourg",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04xsj2p07",
+            "openaire": "openorgs____::1d899a8827b7e9a17d626ecac4914682"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "University of Strasbourg (Unistra)",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::4e4164a6f56d78f5ef56b004174d337c"
+          },
+          {
+            "legal_name": "Slovak Academy of Sciences",
+            "country_name": "Slovakia",
+            "country_code": "SK",
+            "country_source": "ror",
+            "ror": "https://ror.org/03h7qq074",
+            "openaire": "openorgs____::5602e95786f1c07a331d1a1a78c0dfb5"
+          },
+          {
+            "legal_name": "Institut de Recherche en Informatique et Systèmes Aléatoires",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00myn0z94",
+            "openaire": "openorgs____::22ea3f97f9dc4b8bb6e53af148a3a172"
+          },
+          {
+            "legal_name": "Astronomical Institute of the Slovak Academy of Sciences",
+            "country_name": "Slovakia",
+            "country_code": "SK",
+            "country_source": "ror",
+            "ror": "https://ror.org/03t6cz096",
+            "openaire": "openorgs____::283b4047417b75df1b12a4a2767f5e17"
+          },
+          {
+            "legal_name": "Université de Strabourg",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::c29cff3cc3e55a4e1223a6edc6f56588"
+          },
+          {
+            "legal_name": "Centre National de la Recherche Scientifique",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02feahw73",
+            "openaire": "openorgs____::7fbdf9cd4423c4604745a16afe728bc7"
+          },
+          {
+            "legal_name": "Institute for Research in Fundamental Sciences",
+            "country_name": "Iran",
+            "country_code": "IR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04xreqs31",
+            "openaire": "openorgs____::48aaade15b9cff47d5871a7bf8d25140"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061104051417",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/mnras/stad2135",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::d4057c89a72828ae2aebf9fbf847b771"
+        },
+        "organizations": [
+          {
+            "legal_name": "Hungarian Academy of Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/02ks8qq67",
+            "openaire": "openorgs____::a86b057c17c374dcb7b4f2be73fb116d"
+          },
+          {
+            "legal_name": "University of Bologna",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/01111rn36",
+            "openaire": "openorgs____::b5ca9d4340e26454e367e2908ef3872f"
+          },
+          {
+            "legal_name": "University of Warsaw",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "ror",
+            "ror": "https://ror.org/039bjqg32",
+            "openaire": "openorgs____::7fe2f66cdc43983c6b24816bfe9cf6a0"
+          },
+          {
+            "legal_name": "California Institute of Technology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05dxps055",
+            "openaire": "openorgs____::f7b53007e7d647c261b461d4c2ee6be0"
+          },
+          {
+            "legal_name": "Max Planck Institute for Radio Astronomy",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/04jvemc39",
+            "openaire": "openorgs____::9c85011bb931eb15a6bb1dac845eadec"
+          },
+          {
+            "legal_name": "Max Planck Institute for Astronomy",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01vhnrs90",
+            "openaire": "openorgs____::ffcb0645e8cbc54cf94bae93fe5d4dd7"
+          },
+          {
+            "legal_name": "Magyar Tudományos Akadémia Könyvtára (Library of the Hungarian Academy of Sciences)",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::28b990daefd62b506c2676a76a5074a1"
+          },
+          {
+            "legal_name": "University of St Andrews",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02wn5qz54",
+            "openaire": "openorgs____::d6a73efb613331172294eeef8a9a65d1"
+          },
+          {
+            "legal_name": "University of the Western Cape",
+            "country_name": "South Africa",
+            "country_code": "ZA",
+            "country_source": "ror",
+            "ror": "https://ror.org/00h2vm590",
+            "openaire": "openorgs____::4c6f119632adf789746f0a057ed73e90"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Library and Information Centre of the Hungarian Academy of Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/04ws47v52",
+            "openaire": "openorgs____::f7360991db0c66f0087f1329722b0fa4"
+          },
+          {
+            "legal_name": "Masaryk University",
+            "country_name": "Czechia",
+            "country_code": "CZ",
+            "country_source": "ror",
+            "ror": "https://ror.org/02j46qs45",
+            "openaire": "openorgs____::d169c7407dd417152596908d48c11460"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "Pázmány Péter Catholic University",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/05v9kya57",
+            "openaire": "openorgs____::58aee949499fd3e4880fb2904249dfa4"
+          },
+          {
+            "legal_name": "MAGYAR TUDOMANYOS AKADEMIA CSILLAGASZATI ES FOLDTUDOMANYI KUTATOKOZPONT",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::de323a6342d7d60283019cceb065eb21"
+          },
+          {
+            "legal_name": "University of Hertfordshire",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/0267vjk41",
+            "openaire": "openorgs____::332804aa01bee30e6fd5778e2e7c70b0"
+          },
+          {
+            "legal_name": "Konkoly Observatory",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/039jmcx36",
+            "openaire": "openorgs____::8d64a4729d95fd312067e1b7db475f72"
+          },
+          {
+            "legal_name": "Kavli Institute for Astrophysics and Space Research Massachusetts Institute of Technology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::0278819cf353e6d85f6af56e838c40cd"
+          },
+          {
+            "legal_name": "Massachusetts Institute of Technology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/042nb2s44",
+            "openaire": "openorgs____::8924df083daef755c7e64b207514a5ad"
+          },
+          {
+            "legal_name": "INAF - Osservatorio Astronomico di Brera",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::fb943882c1e15c60b011da00a701fdfb"
+          },
+          {
+            "legal_name": "Hungarian Academy of Science",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::440c22db7d47dcb81fa5027f0ea3411a"
+          },
+          {
+            "legal_name": "Hungarian Research Network",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/04w6pnc49",
+            "openaire": "pending_org_::b27cef57160bfb7d0028718497835f86"
+          },
+          {
+            "legal_name": "HUN-REN Research Centre for Astronomy and Earth Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/036wvs663",
+            "openaire": "pending_org_::1e48408fa3e0477dc2715202e8132157"
+          },
+          {
+            "legal_name": "Max Planck Society",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01hhn8329",
+            "openaire": "openorgs____::5a405a89387d1881afa956f475994e10"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061104470403",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1038/s41467-024-50320-1",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::dc1be96a5a13c49ff326579845fe586a"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Oslo",
+            "country_name": "Norway",
+            "country_code": "NO",
+            "country_source": "ror",
+            "ror": "https://ror.org/01xtthb56",
+            "openaire": "openorgs____::87bca884c634dc3f9612c1df991d909b"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "Universität Hamburg",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/00g30e956",
+            "openaire": "openorgs____::aa2352258c8f5fd0d50896b35031c2da"
+          },
+          {
+            "legal_name": "UNIVERSITY COLLEGE LONDON, Bartlett School of Planning",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::430d75ed90145317057acd990ab08cca"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Deutsches Elektronen-Synchrotron DESY",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01js2sh04",
+            "openaire": "openorgs____::3bc1d0c88722bd60fa6c58a516faa4b9"
+          },
+          {
+            "legal_name": "University of Oxford",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/052gg0110",
+            "openaire": "openorgs____::6a7b1b4c40a067a1f209de6867fe094d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Department of Physics of Oxford University",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::c1355df65613b697b1969e85dd0bd3b2"
+          },
+          {
+            "legal_name": "University College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jx3x895",
+            "openaire": "openorgs____::f031b1a0bb3f7636ff6fbdfa79fd5dec"
+          },
+          {
+            "legal_name": "University of Strathclyde",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00n3w3b69",
+            "openaire": "openorgs____::0c2df843d882346e6b35ea98569ac268"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061201721230",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.3847/1538-4357/ac477f",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::57d1a1230b5ced08f491a888fc76575c"
+        },
+        "organizations": [
+          {
+            "legal_name": "Hungarian Academy of Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/02ks8qq67",
+            "openaire": "openorgs____::a86b057c17c374dcb7b4f2be73fb116d"
+          },
+          {
+            "legal_name": "University of Bologna",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/01111rn36",
+            "openaire": "openorgs____::b5ca9d4340e26454e367e2908ef3872f"
+          },
+          {
+            "legal_name": "University of Warsaw",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "ror",
+            "ror": "https://ror.org/039bjqg32",
+            "openaire": "openorgs____::7fe2f66cdc43983c6b24816bfe9cf6a0"
+          },
+          {
+            "legal_name": "California Institute of Technology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05dxps055",
+            "openaire": "openorgs____::f7b53007e7d647c261b461d4c2ee6be0"
+          },
+          {
+            "legal_name": "Nicolaus Copernicus University Torun",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::fcee1d2e8fde4d7a05e159ea8bb50c10"
+          },
+          {
+            "legal_name": "Adıyaman University",
+            "country_name": "Türkiye",
+            "country_code": "TR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02s4gkg68",
+            "openaire": "openorgs____::ff3f6f1cbf2fab14569fff8f89de967c"
+          },
+          {
+            "legal_name": "Max Planck Institute for Astronomy",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01vhnrs90",
+            "openaire": "openorgs____::ffcb0645e8cbc54cf94bae93fe5d4dd7"
+          },
+          {
+            "legal_name": "Magyar Tudományos Akadémia Könyvtára (Library of the Hungarian Academy of Sciences)",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::28b990daefd62b506c2676a76a5074a1"
+          },
+          {
+            "legal_name": "Gran Telescopio Canarias (Spain)",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/03efc2j36",
+            "openaire": "pending_org_::b72ed90957983320c67b17844404b9a0"
+          },
+          {
+            "legal_name": "University of St Andrews",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02wn5qz54",
+            "openaire": "openorgs____::d6a73efb613331172294eeef8a9a65d1"
+          },
+          {
+            "legal_name": "Konkoly Observatory",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/039jmcx36",
+            "openaire": "openorgs____::8d64a4729d95fd312067e1b7db475f72"
+          },
+          {
+            "legal_name": "Library and Information Centre of the Hungarian Academy of Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/04ws47v52",
+            "openaire": "openorgs____::f7360991db0c66f0087f1329722b0fa4"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Max Planck Society",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01hhn8329",
+            "openaire": "openorgs____::5a405a89387d1881afa956f475994e10"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "MAGYAR TUDOMANYOS AKADEMIA CSILLAGASZATI ES FOLDTUDOMANYI KUTATOKOZPONT",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::de323a6342d7d60283019cceb065eb21"
+          },
+          {
+            "legal_name": "Hungarian Research Network",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/04w6pnc49",
+            "openaire": "pending_org_::b27cef57160bfb7d0028718497835f86"
+          },
+          {
+            "legal_name": "Nicolaus Copernicus University",
+            "country_name": "Poland",
+            "country_code": "PL",
+            "country_source": "ror",
+            "ror": "https://ror.org/0102mm775",
+            "openaire": "openorgs____::e5296edcba5bf44eccc0096112f12038"
+          },
+          {
+            "legal_name": "University of Hawaii System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03tzaeb71",
+            "openaire": "openorgs____::1016b954d9f6c9409123443b40067320"
+          },
+          {
+            "legal_name": "INAF - Osservatorio Astronomico di Brera",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::fb943882c1e15c60b011da00a701fdfb"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "Instituto de Astrofísica de Canarias",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/03cmntr54",
+            "openaire": "openorgs____::4edd8b6e64bf672ec6fdb073fc547234"
+          },
+          {
+            "legal_name": "HUN-REN Research Centre for Astronomy and Earth Sciences",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/036wvs663",
+            "openaire": "pending_org_::1e48408fa3e0477dc2715202e8132157"
+          },
+          {
+            "legal_name": "Pázmány Péter Catholic University",
+            "country_name": "Hungary",
+            "country_code": "HU",
+            "country_source": "ror",
+            "ror": "https://ror.org/05v9kya57",
+            "openaire": "openorgs____::58aee949499fd3e4880fb2904249dfa4"
+          },
+          {
+            "legal_name": "THE UNIVERSITY COURT OF THE UNIVERSITY OF ST ANDREWS",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::3208fcb0c6a7e1c20dcbe7a13c04f075"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061201721606",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.3847/1538-4357/ac46ac",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::ba6b43dc9cd07e2ff285198ece41fe0e"
+        },
+        "organizations": [
+          {
+            "legal_name": "Max Planck Institute for Radio Astronomy",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/04jvemc39",
+            "openaire": "openorgs____::9c85011bb931eb15a6bb1dac845eadec"
+          },
+          {
+            "legal_name": "University of Bonn",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/041nas322",
+            "openaire": "openorgs____::64a0ee2abab6e68eed9da34de85c4642"
+          },
+          {
+            "legal_name": "Charles University",
+            "country_name": "Czechia",
+            "country_code": "CZ",
+            "country_source": "ror",
+            "ror": "https://ror.org/024d6js02",
+            "openaire": "openorgs____::424cef80ed8f49f3782c66ef12d1c1a6"
+          },
+          {
+            "legal_name": "University of St Andrews",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02wn5qz54",
+            "openaire": "openorgs____::d6a73efb613331172294eeef8a9a65d1"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "University of Bonn",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::f65ed2701e62031640cd5f8daa7ce6a8"
+          },
+          {
+            "legal_name": "Slovak Academy of Sciences",
+            "country_name": "Slovakia",
+            "country_code": "SK",
+            "country_source": "ror",
+            "ror": "https://ror.org/03h7qq074",
+            "openaire": "openorgs____::5602e95786f1c07a331d1a1a78c0dfb5"
+          },
+          {
+            "legal_name": "Astronomical Institute of the Slovak Academy of Sciences",
+            "country_name": "Slovakia",
+            "country_code": "SK",
+            "country_source": "ror",
+            "ror": "https://ror.org/03t6cz096",
+            "openaire": "openorgs____::283b4047417b75df1b12a4a2767f5e17"
+          },
+          {
+            "legal_name": "Max Planck Society",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01hhn8329",
+            "openaire": "openorgs____::5a405a89387d1881afa956f475994e10"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061201723501",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1086/593975",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::452924f5c4f3086e316b65e43dd5c540"
+        },
+        "organizations": [
+          {
+            "legal_name": "NANJING UNIVERSITY",
+            "country_name": "China (People's Republic of)",
+            "country_code": "CN",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::c4233708cd63a8050cf3a90c4637d480"
+          },
+          {
+            "legal_name": "Hebei University",
+            "country_name": "China (People's Republic of)",
+            "country_code": "CN",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "openorgs____::0153f073c67e09c2b54ae61176deed59"
+          },
+          {
+            "legal_name": "Space Science Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/046a9q865",
+            "openaire": "openorgs____::a8a063e0221bc4db5bd9af13fc813189"
+          },
+          {
+            "legal_name": "University of St Andrews",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02wn5qz54",
+            "openaire": "openorgs____::d6a73efb613331172294eeef8a9a65d1"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Nanjing University",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/01rxvg760",
+            "openaire": "pending_org_::04beb652d791922e100cc0807f2d7917"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "Smithsonian Institution Astrophysical Observatory",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::87d2b9e960b1451c8b140224ed49ded0"
+          },
+          {
+            "legal_name": "Center for Astrophysics Harvard & Smithsonian",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03c3r2d17",
+            "openaire": "openorgs____::8e7534d308bf7ebd2125f21b54daccf1"
+          },
+          {
+            "legal_name": "Amherst College",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/028vqfs63",
+            "openaire": "openorgs____::2f6b044e6ae0d233d30a2c07b06c8a22"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/061201772769",
+      "matched_openaire_ids": [
+        "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1103/physreva.105.053701",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::6be65db613dfda5dd324439a5c58ed50"
+        },
+        "organizations": [
+          {
+            "legal_name": "California Institute of Technology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05dxps055",
+            "openaire": "openorgs____::f7b53007e7d647c261b461d4c2ee6be0"
+          },
+          {
+            "legal_name": "ID Quantique",
+            "country_name": "Switzerland",
+            "country_code": "CH",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::74077b6104c143c4168c4f4652eba234"
+          },
+          {
+            "legal_name": "Scottish Universities Press",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05geg6f02",
+            "openaire": "openorgs____::ea381a9ddcfce3d8d5f0e1f6d422dd11"
+          },
+          {
+            "legal_name": "University of Strathclyde",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00n3w3b69",
+            "openaire": "openorgs____::0c2df843d882346e6b35ea98569ac268"
+          },
+          {
+            "legal_name": "Scottish Confederation of University and Research Libraries",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hkzcg46",
+            "openaire": "openorgs____::b897d721425dbaf1e467435a32c716a3"
+          },
+          {
+            "legal_name": "Heriot-Watt University",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/04mghma93",
+            "openaire": "openorgs____::4d07c0baa81aad052179f5ac7b5f7328"
+          },
+          {
+            "legal_name": "Scottish Universities Physics Alliance",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/026efkc57",
+            "openaire": "openorgs____::4140b69ad02f7b8c5a0c7e601a81793d"
+          },
+          {
+            "legal_name": "Jet Propulsion Laboratory",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/027k65916",
+            "openaire": "openorgs____::44b936da582773ac6c8d2434096d17ca"
+          }
+        ]
+      }
+    }
+  ]
+}

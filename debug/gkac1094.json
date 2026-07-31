@@ -1,0 +1,1096 @@
+{
+  "header": {
+    "numFound": 1,
+    "maxScore": 1.0,
+    "queryTime": 10,
+    "page": 1,
+    "pageSize": 10
+  },
+  "results": [
+    {
+      "authors": [
+        {
+          "fullName": "Qi Liu",
+          "name": null,
+          "surname": null,
+          "rank": 1,
+          "pid": null
+        },
+        {
+          "fullName": "Xin Peng",
+          "name": null,
+          "surname": null,
+          "rank": 2,
+          "pid": {
+            "id": {
+              "scheme": "orcid",
+              "value": "0009-0001-7483-3334"
+            },
+            "provenance": null
+          }
+        },
+        {
+          "fullName": "Mengyuan Shen",
+          "name": null,
+          "surname": null,
+          "rank": 3,
+          "pid": {
+            "id": {
+              "scheme": "orcid",
+              "value": "0000-0002-2038-1774"
+            },
+            "provenance": null
+          }
+        },
+        {
+          "fullName": "Qian Qian",
+          "name": null,
+          "surname": null,
+          "rank": 4,
+          "pid": null
+        },
+        {
+          "fullName": "Junlian Xing",
+          "name": null,
+          "surname": null,
+          "rank": 5,
+          "pid": null
+        },
+        {
+          "fullName": "Chen Li 0056",
+          "name": null,
+          "surname": null,
+          "rank": 6,
+          "pid": {
+            "id": {
+              "scheme": "orcid",
+              "value": "0000-0001-6702-6860"
+            },
+            "provenance": null
+          }
+        },
+        {
+          "fullName": "Richard I. Gregory",
+          "name": "Richard I.",
+          "surname": "Gregory",
+          "rank": 7,
+          "pid": {
+            "id": {
+              "scheme": "orcid",
+              "value": "0000-0001-8090-8673"
+            },
+            "provenance": null
+          }
+        }
+      ],
+      "openAccessColor": "gold",
+      "publiclyFunded": false,
+      "type": "publication",
+      "language": {
+        "code": "eng",
+        "label": "English"
+      },
+      "countries": null,
+      "subjects": [
+        {
+          "subject": {
+            "scheme": "FOS",
+            "value": "0301 basic medicine"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "FOS",
+            "value": "03 medical and health sciences"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "Open Reading Frames"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "Protein Biosynthesis"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "Database Issue"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "Animals"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "Humans"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "Eukaryota"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "Computational Biology"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "Ribosome Profiling"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "RNA, Messenger"
+          },
+          "provenance": null
+        },
+        {
+          "subject": {
+            "scheme": "keyword",
+            "value": "5' Untranslated Regions"
+          },
+          "provenance": null
+        }
+      ],
+      "mainTitle": "Ribo-uORF: a comprehensive data resource of upstream open reading frames (uORFs) based on ribosome profiling",
+      "subTitle": null,
+      "descriptions": [
+        "<jats:title>Abstract</jats:title>                <jats:p>Upstream open reading frames (uORFs) are typically defined as translation sites located within the 5′ untranslated region upstream of the main protein coding sequence (CDS) of messenger RNAs (mRNAs). Although uORFs are prevalent in eukaryotic mRNAs and modulate the translation of downstream CDSs, a comprehensive resource for uORFs is currently lacking. We developed Ribo-uORF (http://rnainformatics.org.cn/RiboUORF) to serve as a comprehensive functional resource for uORF analysis based on ribosome profiling (Ribo-seq) data. Ribo-uORF currently supports six species: human, mouse, rat, zebrafish, fruit fly, and worm. Ribo-uORF includes 501 554 actively translated uORFs and 107 914 upstream translation initiation sites (uTIS), which were identified from 1495 Ribo-seq and 77 quantitative translation initiation sequencing (QTI-seq) datasets, respectively. We also developed mRNAbrowse to visualize items such as uORFs, cis-regulatory elements, genetic variations, eQTLs, GWAS-based associations, RNA modifications, and RNA editing. Ribo-uORF provides a very intuitive web interface for conveniently browsing, searching, and visualizing uORF data. Finally, uORFscan and UTR5var were developed in Ribo-uORF to precisely identify uORFs and analyze the influence of genetic mutations on uORFs using user-uploaded datasets. Ribo-uORF should greatly facilitate studies of uORFs and their roles in mRNA translation and posttranscriptional control of gene expression.</jats:p>"
+      ],
+      "publicationDate": "2022-11-28",
+      "publisher": "Oxford University Press (OUP)",
+      "embargoEndDate": null,
+      "sources": [
+        "Crossref",
+        "Nucleic Acids Res"
+      ],
+      "formats": null,
+      "contributors": null,
+      "coverages": null,
+      "bestAccessRight": {
+        "code": "c_abf2",
+        "label": "OPEN",
+        "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/"
+      },
+      "container": {
+        "name": "Nucleic Acids Research",
+        "issnPrinted": "0305-1048",
+        "issnOnline": "1362-4962",
+        "issnLinking": null,
+        "ep": "D261",
+        "iss": null,
+        "sp": "D248",
+        "vol": "51",
+        "edition": null,
+        "conferencePlace": null,
+        "conferenceDate": null
+      },
+      "documentationUrls": null,
+      "codeRepositoryUrl": null,
+      "programmingLanguage": null,
+      "contactPeople": null,
+      "contactGroups": null,
+      "tools": null,
+      "size": null,
+      "version": null,
+      "geoLocations": null,
+      "id": "doi_dedup___::3c3b0d0bd0b6b7a29a3f40ae10668483",
+      "originalIds": [
+        "10.1093/nar/gkac1094",
+        "50|doiboost____|3c3b0d0bd0b6b7a29a3f40ae10668483",
+        "od_______267::1167d48bef98741167d6425c8b637c2f",
+        "36440758",
+        "PMC9825487",
+        "50|od_______267::1167d48bef98741167d6425c8b637c2f",
+        "oai:pubmedcentral.nih.gov:9825487",
+        "50|dblp________::b85a15964930feed8738d544aa3441e3"
+      ],
+      "pids": [
+        {
+          "scheme": "doi",
+          "value": "10.1093/nar/gkac1094"
+        },
+        {
+          "scheme": "pmid",
+          "value": "36440758"
+        },
+        {
+          "scheme": "pmc",
+          "value": "PMC9825487"
+        }
+      ],
+      "dateOfCollection": null,
+      "lastUpdateTimeStamp": null,
+      "indicators": {
+        "citationImpact": {
+          "citationCount": 28.0,
+          "influence": 2.7692975E-9,
+          "popularity": 2.0358542E-8,
+          "impulse": 24.0,
+          "citationClass": "C4",
+          "influenceClass": "C5",
+          "impulseClass": "C4",
+          "popularityClass": "C4"
+        }
+      },
+      "projects": [
+        {
+          "id": "nih_________::24187a9cb54b20e45be24c0f5c939f5a",
+          "code": "5R35CA232115-04",
+          "acronym": null,
+          "title": "Role of the Epitranscriptome in Cancer",
+          "funder": "National Institutes of Health",
+          "pids": null
+        },
+        {
+          "id": "nih_________::0a6522b05b2e00dce37b04a2b0320a1e",
+          "code": "5R01CA233671-05",
+          "acronym": null,
+          "title": "Role of METTL3 and the m6A Epitranscriptome in cancer",
+          "funder": "National Institutes of Health",
+          "pids": null
+        }
+      ],
+      "organizations": [
+        {
+          "legalName": "Boston Children's Hospital",
+          "acronym": "Boston Children's Hospital",
+          "id": "openorgs____::9da461c4b16af2edc2207dee2febb6bc",
+          "pids": [
+            {
+              "scheme": "ROR",
+              "value": "https://ror.org/00dvg7y05"
+            },
+            {
+              "scheme": "GRID",
+              "value": "grid.2515.3"
+            },
+            {
+              "scheme": "OrgRef",
+              "value": "1493152"
+            },
+            {
+              "scheme": "Wikidata",
+              "value": "Q1000479"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100006823"
+            },
+            {
+              "scheme": "ISNI",
+              "value": "0000000403788438"
+            },
+            {
+              "scheme": "wikidata",
+              "value": "Q1000479"
+            },
+            {
+              "scheme": "mag_id",
+              "value": "1288882113"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100006823"
+            }
+          ]
+        },
+        {
+          "legalName": "Harvard University",
+          "acronym": "Harvard University",
+          "id": "openorgs____::43a3b6bebd879587437eb46f65150f04",
+          "pids": [
+            {
+              "scheme": "fundref",
+              "value": "100005802"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100008263"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100006075"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100009868"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100009116"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005578"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100006011"
+            },
+            {
+              "scheme": "wikidata",
+              "value": "Q13371"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100009345"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100019067"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005487"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100007301"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100019552"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100018077"
+            },
+            {
+              "scheme": "OrgRef",
+              "value": "1562949"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100013146"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100007877"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005724"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100013843"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005893"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100013753"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005574"
+            },
+            {
+              "scheme": "OrgRef",
+              "value": "18998741"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100022285"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100006274"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005650"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100008548"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005487"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100013843"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100006007"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005293"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100008263"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005578"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005650"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100019984"
+            },
+            {
+              "scheme": "Wikidata",
+              "value": "Q5676556"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100008549"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005692"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100019111"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100009802"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005915"
+            },
+            {
+              "scheme": "mag_id",
+              "value": "136199984"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100007299"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100008549"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100007229"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100006691"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100008024"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100019984"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100008035"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100013146"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100007300"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100006691"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100007299"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100019552"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005678"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100010952"
+            },
+            {
+              "scheme": "OrgRef",
+              "value": "260879"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100010520"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100008126"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100007301"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100010951"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005802"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100007230"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100009116"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005941"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100018077"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005692"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100010951"
+            },
+            {
+              "scheme": "wikidata",
+              "value": "Q5676556"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100018418"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100009345"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005473"
+            },
+            {
+              "scheme": "OrgRef",
+              "value": "18426501"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005724"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005574"
+            },
+            {
+              "scheme": "OrgRef",
+              "value": "329529"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100019067"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005469"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100022285"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100013753"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100008548"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100006007"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005941"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100010520"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100007230"
+            },
+            {
+              "scheme": "ISNI",
+              "value": "0000000106941061"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005668"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005856"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100010952"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100008036"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100009802"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100019111"
+            },
+            {
+              "scheme": "ROR",
+              "value": "https://ror.org/006v7bf86"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005668"
+            },
+            {
+              "scheme": "GRID",
+              "value": "grid.38142.3c"
+            },
+            {
+              "scheme": "RRID",
+              "value": "RRID:SCR_011273"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100007229"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100008036"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005678"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100006011"
+            },
+            {
+              "scheme": "OrgRef",
+              "value": "1074613"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100009868"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100006274"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100007887"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100015369"
+            },
+            {
+              "scheme": "ROR",
+              "value": "https://ror.org/03vek6s52"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005473"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005893"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005915"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100005856"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100015369"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005293"
+            },
+            {
+              "scheme": "GRID",
+              "value": "grid.446714.4"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100006075"
+            },
+            {
+              "scheme": "ISNI",
+              "value": "000000041936754X"
+            },
+            {
+              "scheme": "Wikidata",
+              "value": "Q1587900"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100009403"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100007887"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100005469"
+            },
+            {
+              "scheme": "Wikidata",
+              "value": "Q13371"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100018418"
+            },
+            {
+              "scheme": "OrgRef",
+              "value": "158984"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100008024"
+            },
+            {
+              "scheme": "wikidata",
+              "value": "Q1587900"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100007300"
+            }
+          ]
+        },
+        {
+          "legalName": "Harvard Medical School",
+          "acronym": "HMS",
+          "id": "openorgs____::5f8e1f06db3912b42c101458c6ad3f65",
+          "pids": [
+            {
+              "scheme": "ROR",
+              "value": "https://ror.org/03wevmz92"
+            },
+            {
+              "scheme": "ISNI",
+              "value": "0000000403780882"
+            },
+            {
+              "scheme": "Wikidata",
+              "value": "Q49121"
+            },
+            {
+              "scheme": "wikidata",
+              "value": "Q49121"
+            },
+            {
+              "scheme": "RRID",
+              "value": "RRID:SCR_011267"
+            },
+            {
+              "scheme": "RRID",
+              "value": "RRID:nlx_29403"
+            },
+            {
+              "scheme": "GRID",
+              "value": "grid.471403.5"
+            }
+          ]
+        },
+        {
+          "legalName": "Harvard Stem Cell Institute, Cambridge, MA, USA",
+          "acronym": "Harvard Stem Cell Institute, Cambridge, MA, USA",
+          "id": "pending_org_::c295592621511ac0a8176ed352660b44",
+          "pids": [
+            {
+              "scheme": "GRID",
+              "value": "grid.511171.2"
+            },
+            {
+              "scheme": "fundref",
+              "value": "100008035"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "100008035"
+            },
+            {
+              "scheme": "ROR",
+              "value": "https://ror.org/04kj1hn59"
+            },
+            {
+              "scheme": "wikidata",
+              "value": "Q40771227"
+            },
+            {
+              "scheme": "Wikidata",
+              "value": "Q40771227"
+            }
+          ]
+        },
+        {
+          "legalName": "Guangdong Academy of Agricultural Sciences",
+          "acronym": "Guangdong Academy of Agricultural Sciences",
+          "id": "openorgs____::595ac72f0fa0005d757d5d295aab6c74",
+          "pids": [
+            {
+              "scheme": "Wikidata",
+              "value": "Q30279620"
+            },
+            {
+              "scheme": "ROR",
+              "value": "https://ror.org/01rkwtz72"
+            },
+            {
+              "scheme": "wikidata",
+              "value": "Q30279620"
+            },
+            {
+              "scheme": "ISNI",
+              "value": "0000000105616611"
+            },
+            {
+              "scheme": "fundref",
+              "value": "501100017687"
+            },
+            {
+              "scheme": "FundRef",
+              "value": "501100017687"
+            },
+            {
+              "scheme": "GRID",
+              "value": "grid.135769.f"
+            }
+          ]
+        },
+        {
+          "legalName": "Department of Biological Chemistry and Molecular Pharmacology Harvard Medical School",
+          "acronym": "Department of Biological Chemistry and Molecular Pharmacology Harvard Medical School",
+          "id": "pending_org_::28acd709e5d66d81a19c49e042a9d85a",
+          "pids": null
+        },
+        {
+          "legalName": "Rice Research Institute",
+          "acronym": "Rice Research Institute",
+          "id": "openorgs____::541364c8568358ad34f52c56aff79c1d",
+          "pids": [
+            {
+              "scheme": "ROR",
+              "value": "https://ror.org/00c11v577"
+            },
+            {
+              "scheme": "GRID",
+              "value": "grid.488205.3"
+            }
+          ]
+        }
+      ],
+      "communities": null,
+      "collectedFrom": [
+        {
+          "key": "openaire____::081b82f96300b6a6e3d282bad31cb6e2",
+          "value": "Crossref"
+        },
+        {
+          "key": "openaire____::d8b68cc0a53121f6f896883a7d60c1db",
+          "value": "DBLP"
+        },
+        {
+          "key": "opendoar____::8b6dd7db9af49e67306feb59a8bdc52c",
+          "value": "Europe PubMed Central"
+        },
+        {
+          "key": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357",
+          "value": "PubMed Central"
+        }
+      ],
+      "instances": [
+        {
+          "pids": [
+            {
+              "scheme": "doi",
+              "value": "10.1093/nar/gkac1094"
+            }
+          ],
+          "license": "CC BY",
+          "accessRight": {
+            "code": "c_abf2",
+            "label": "OPEN",
+            "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+            "openAccessRoute": "gold"
+          },
+          "type": "Article",
+          "urls": [
+            "https://doi.org/10.1093/nar/gkac1094"
+          ],
+          "publicationDate": "2022-11-28",
+          "refereed": "peerReviewed",
+          "hostedBy": {
+            "key": "doajarticles::2c5616f93665da91c3c7b17531719b44",
+            "value": "Nucleic Acids Research"
+          },
+          "collectedFrom": {
+            "key": "openaire____::081b82f96300b6a6e3d282bad31cb6e2",
+            "value": "Crossref"
+          }
+        },
+        {
+          "pids": [
+            {
+              "scheme": "pmid",
+              "value": "36440758"
+            },
+            {
+              "scheme": "pmc",
+              "value": "PMC9825487"
+            }
+          ],
+          "alternateIdentifiers": [
+            {
+              "scheme": "doi",
+              "value": "10.1093/nar/gkac1094"
+            }
+          ],
+          "accessRight": {
+            "code": "c_abf2",
+            "label": "OPEN",
+            "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+            "openAccessRoute": "gold"
+          },
+          "type": "Article",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/36440758"
+          ],
+          "publicationDate": "2023-01-19",
+          "refereed": "nonPeerReviewed",
+          "hostedBy": {
+            "key": "doajarticles::2c5616f93665da91c3c7b17531719b44",
+            "value": "Nucleic Acids Research"
+          },
+          "collectedFrom": {
+            "key": "opendoar____::8b6dd7db9af49e67306feb59a8bdc52c",
+            "value": "Europe PubMed Central"
+          }
+        },
+        {
+          "alternateIdentifiers": [
+            {
+              "scheme": "doi",
+              "value": "10.1093/nar/gkac1094"
+            }
+          ],
+          "license": "CC BY",
+          "accessRight": {
+            "code": "c_abf2",
+            "label": "OPEN",
+            "scheme": "http://vocabularies.coar-repositories.org/documentation/access_rights/",
+            "openAccessRoute": null
+          },
+          "type": "Article",
+          "urls": [
+            "http://dx.doi.org/10.1093/nar/gkac1094"
+          ],
+          "publicationDate": "2022-11-28",
+          "refereed": "nonPeerReviewed",
+          "hostedBy": {
+            "key": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357",
+            "value": "PubMed Central"
+          },
+          "collectedFrom": {
+            "key": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357",
+            "value": "PubMed Central"
+          }
+        },
+        {
+          "alternateIdentifiers": [
+            {
+              "scheme": "doi",
+              "value": "10.1093/nar/gkac1094"
+            }
+          ],
+          "type": "Article",
+          "urls": [
+            "https://doi.org/10.1093/nar/gkac1094"
+          ],
+          "publicationDate": "2023-01-01",
+          "refereed": "nonPeerReviewed",
+          "hostedBy": {
+            "key": "openaire____::d8b68cc0a53121f6f896883a7d60c1db",
+            "value": "DBLP"
+          },
+          "collectedFrom": {
+            "key": "openaire____::d8b68cc0a53121f6f896883a7d60c1db",
+            "value": "DBLP"
+          }
+        }
+      ],
+      "isGreen": true,
+      "isInDiamondJournal": false
+    }
+  ]
+}

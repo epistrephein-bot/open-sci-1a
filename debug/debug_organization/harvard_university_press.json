@@ -1,0 +1,4386 @@
+{
+  "target_name": "Harvard University Press",
+  "sample_size_requested": 20,
+  "entries_scanned": 6559,
+  "mapping_entries": {
+    "openorgs____::43a3b6bebd879587437eb46f65150f04": {
+      "legal_name": "Harvard University Press",
+      "country_name": "United States",
+      "country_code": "US",
+      "country_source": "ror",
+      "ror": "https://ror.org/006v7bf86"
+    },
+    "openorgs____::5221430d0c803ef19ad987247d9655fb": {
+      "legal_name": "Harvard University Press",
+      "country_name": "United States",
+      "country_code": "US",
+      "country_source": "ror",
+      "ror": "https://ror.org/006v7bf86"
+    }
+  },
+  "openaire_raw_records": {
+    "openorgs____::43a3b6bebd879587437eb46f65150f04": {
+      "legalShortName": "Harvard University",
+      "legalName": "Harvard University",
+      "websiteUrl": "http://www.harvard.edu/",
+      "alternativeNames": [
+        "Harvard University",
+        "Universidad de Harvard"
+      ],
+      "country": {
+        "code": "US",
+        "label": "United States"
+      },
+      "id": "openorgs____::43a3b6bebd879587437eb46f65150f04",
+      "pids": [
+        {
+          "scheme": "FundRef",
+          "value": "100006691"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100019552"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008263"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "260879"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100010520"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100009116"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008126"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100010951"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005802"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005941"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005578"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100006011"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100018418"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100009345"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "18426501"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100019067"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005487"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100007301"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005574"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "329529"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100018077"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "1562949"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100007877"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100007230"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005724"
+        },
+        {
+          "scheme": "ISNI",
+          "value": "0000000106941061"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005668"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100013843"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005856"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100010952"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100013753"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100009802"
+        },
+        {
+          "scheme": "ROR",
+          "value": "https://ror.org/006v7bf86"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "18998741"
+        },
+        {
+          "scheme": "GRID",
+          "value": "grid.38142.3c"
+        },
+        {
+          "scheme": "RRID",
+          "value": "RRID:SCR_011273"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100007229"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100022285"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008036"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005678"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "1074613"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100009868"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008548"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100006007"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100006274"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005650"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100019984"
+        },
+        {
+          "scheme": "Wikidata",
+          "value": "Q5676556"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100015369"
+        },
+        {
+          "scheme": "ROR",
+          "value": "https://ror.org/03vek6s52"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005473"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005893"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005692"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100019111"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005915"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005293"
+        },
+        {
+          "scheme": "mag_id",
+          "value": "136199984"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100007299"
+        },
+        {
+          "scheme": "GRID",
+          "value": "grid.446714.4"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008549"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100006075"
+        },
+        {
+          "scheme": "ISNI",
+          "value": "000000041936754X"
+        },
+        {
+          "scheme": "Wikidata",
+          "value": "Q1587900"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100009403"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100007887"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100005469"
+        },
+        {
+          "scheme": "Wikidata",
+          "value": "Q13371"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008024"
+        },
+        {
+          "scheme": "OrgRef",
+          "value": "158984"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100008035"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100013146"
+        },
+        {
+          "scheme": "FundRef",
+          "value": "100007300"
+        }
+      ]
+    },
+    "openorgs____::5221430d0c803ef19ad987247d9655fb": {
+      "legalShortName": "HUP",
+      "legalName": "Harvard University Press",
+      "websiteUrl": "http://www.hup.harvard.edu/",
+      "alternativeNames": [
+        "Harvard University Press",
+        "HUP"
+      ],
+      "country": {
+        "code": "US",
+        "label": "United States"
+      },
+      "id": "openorgs____::5221430d0c803ef19ad987247d9655fb",
+      "pids": [
+        {
+          "scheme": "mag_id",
+          "value": "2801851002"
+        },
+        {
+          "scheme": "ISNI",
+          "value": "0000000106941061"
+        },
+        {
+          "scheme": "ROR",
+          "value": "https://ror.org/006v7bf86"
+        },
+        {
+          "scheme": "GRID",
+          "value": "grid.446714.4"
+        },
+        {
+          "scheme": "Wikidata",
+          "value": "Q1587900"
+        }
+      ]
+    }
+  },
+  "ror_verdicts": {
+    "openorgs____::43a3b6bebd879587437eb46f65150f04": {
+      "openaire_legal_name": "Harvard University",
+      "ror_pids": [
+        {
+          "ror": "https://ror.org/006v7bf86",
+          "position": 0,
+          "display_name": "Harvard University Press",
+          "country_name": "United States",
+          "picked_by_pipeline": true
+        },
+        {
+          "ror": "https://ror.org/03vek6s52",
+          "position": 1,
+          "display_name": "Harvard University",
+          "country_name": "United States",
+          "picked_by_pipeline": false
+        }
+      ],
+      "picked_ror": "https://ror.org/006v7bf86",
+      "label_applied": "Harvard University Press",
+      "relabeled": true,
+      "matching_ror_available_later": [
+        "https://ror.org/03vek6s52"
+      ],
+      "conflated": true
+    },
+    "openorgs____::5221430d0c803ef19ad987247d9655fb": {
+      "openaire_legal_name": "Harvard University Press",
+      "ror_pids": [
+        {
+          "ror": "https://ror.org/006v7bf86",
+          "position": 0,
+          "display_name": "Harvard University Press",
+          "country_name": "United States",
+          "picked_by_pipeline": true
+        }
+      ],
+      "picked_ror": "https://ror.org/006v7bf86",
+      "label_applied": "Harvard University Press",
+      "relabeled": false,
+      "matching_ror_available_later": [],
+      "conflated": false
+    }
+  },
+  "samples": [
+    {
+      "omid": "omid:br/0601597686",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/nar/gkac1094",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::3c3b0d0bd0b6b7a29a3f40ae10668483"
+        },
+        "organizations": [
+          {
+            "legal_name": "Harvard Stem Cell Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04kj1hn59",
+            "openaire": "pending_org_::c295592621511ac0a8176ed352660b44"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Department of Biological Chemistry and Molecular Pharmacology Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::28acd709e5d66d81a19c49e042a9d85a"
+          },
+          {
+            "legal_name": "Guangdong Academy of Agricultural Sciences",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/01rkwtz72",
+            "openaire": "openorgs____::595ac72f0fa0005d757d5d295aab6c74"
+          },
+          {
+            "legal_name": "Rice Research Institute",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/00c11v577",
+            "openaire": "openorgs____::541364c8568358ad34f52c56aff79c1d"
+          },
+          {
+            "legal_name": "Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03wevmz92",
+            "openaire": "openorgs____::5f8e1f06db3912b42c101458c6ad3f65"
+          },
+          {
+            "legal_name": "Boston Children's Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00dvg7y05",
+            "openaire": "openorgs____::9da461c4b16af2edc2207dee2febb6bc"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0601597703",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/nar/gkac1090",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::a8ce3f32e1e75b29e24a25b80241ba61"
+        },
+        "organizations": [
+          {
+            "legal_name": "Northwestern University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::014cd80a24bc8b3358495e0d3e515f06"
+          },
+          {
+            "legal_name": "Peking University Health Science Center",
+            "country_name": "China (People's Republic of)",
+            "country_code": "CN",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::a9ed45a38c9c3808dc01dd380645193a"
+          },
+          {
+            "legal_name": "Dana-Farber Cancer Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jzgtq86",
+            "openaire": "openorgs____::51c8028d418f35cdc01c7ad8779b3e31"
+          },
+          {
+            "legal_name": "Dana-Farber/Harvard Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03pvyf116",
+            "openaire": "openorgs____::7deb6cefd098ba4e96f264c581e27cc8"
+          },
+          {
+            "legal_name": "Northwestern Medicine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04fzwnh64",
+            "openaire": "openorgs____::af05e2048c0e14c4acf8d67169a4cd27"
+          },
+          {
+            "legal_name": "Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03wevmz92",
+            "openaire": "openorgs____::5f8e1f06db3912b42c101458c6ad3f65"
+          },
+          {
+            "legal_name": "Northwestern University Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::7cbc860fc4170d322a24554e3e0b774c"
+          },
+          {
+            "legal_name": "Robert H. Lurie Comprehensive Cancer Center of Northwestern University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02p4far57",
+            "openaire": "pending_org_::9ccde34216bc91d77be970bf1ac5bda8"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "University of Northwestern",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/019t2rq07",
+            "openaire": "openorgs____::1ec8a971a88d917104824730cbd7b586"
+          },
+          {
+            "legal_name": "University of the Sciences",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/048gmay44",
+            "openaire": "openorgs____::9f04bc90809c06141ab1c326a54d539c"
+          },
+          {
+            "legal_name": "Northeastern University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04t5xt781",
+            "openaire": "openorgs____::d847cfae048db6985b5f5edab6ffd57c"
+          },
+          {
+            "legal_name": "Peking University",
+            "country_name": "China",
+            "country_code": "CN",
+            "country_source": "ror",
+            "ror": "https://ror.org/02v51f717",
+            "openaire": "pending_org_::0be0cf1f6e2728161e95e36bfb71a4f8"
+          },
+          {
+            "legal_name": "Boston Children's Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00dvg7y05",
+            "openaire": "openorgs____::9da461c4b16af2edc2207dee2febb6bc"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0601597737",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/nar/gkac1114",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::b2369d4cae42e31b629a341962adb5fa"
+        },
+        "organizations": [
+          {
+            "legal_name": "National Taiwan University",
+            "country_name": "Taiwan",
+            "country_code": "TW",
+            "country_source": "ror",
+            "ror": "https://ror.org/05bqach95",
+            "openaire": "openorgs____::936c738f2a11e43f1299746b6fa39899"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "National Taiwan University of Arts",
+            "country_name": "Taiwan",
+            "country_code": "TW",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wy14q17",
+            "openaire": "openorgs____::45327df9862294107f84a90daa1e0cbc"
+          },
+          {
+            "legal_name": "Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03wevmz92",
+            "openaire": "openorgs____::5f8e1f06db3912b42c101458c6ad3f65"
+          },
+          {
+            "legal_name": "Department of Molecular Biology Massachusetts General Hospital Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::a16fee5b4038a78c06ab1a0cb82feec7"
+          },
+          {
+            "legal_name": "Massachusetts General Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/002pd6e78",
+            "openaire": "openorgs____::2f654788496a19e31fef9684942005b8"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0601597858",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/nar/gkac966",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::b8b4e66452c3b6cd02aba021b4d4f4b2"
+        },
+        "organizations": [
+          {
+            "legal_name": "Saint Louis University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01p7jjy08",
+            "openaire": "openorgs____::5eee853e68d91f58e178c3b24e55c18c"
+          },
+          {
+            "legal_name": "Rowland Institute at Harvard",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03eta9142",
+            "openaire": "openorgs____::eb1eebc6b6e36c50b8e30cbee057feab"
+          },
+          {
+            "legal_name": "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, USA",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::6ffe84aa961b8b0f5f1ef4d0333d8f2c"
+          },
+          {
+            "legal_name": "Rutgers, The State University of New Jersey",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05vt9qd57",
+            "openaire": "openorgs____::5fe697984058b0d01137a3f61fc89d4e"
+          },
+          {
+            "legal_name": "Department of Biostatistics Harvard school of Public Health",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::0ef3833cf7397b37b6da19d4dd56a416"
+          },
+          {
+            "legal_name": "University Health Network",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/042xt5161",
+            "openaire": "openorgs____::2f44c44c05d99f88c0942157990d558c"
+          },
+          {
+            "legal_name": "Indiana University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01kg8sb98",
+            "openaire": "openorgs____::34581dc610f98ad1317bfc692c6b4016"
+          },
+          {
+            "legal_name": "Princess Margaret Cancer Centre",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/03zayce58",
+            "openaire": "openorgs____::052c16928a40fc2e2b947ce05de2ace5"
+          },
+          {
+            "legal_name": "Washington State University Spokane",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04vfs5h36",
+            "openaire": "openorgs____::3763fa779949c5cebe67e61378f27459"
+          },
+          {
+            "legal_name": "Indiana University School of Medicine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02ets8c94",
+            "openaire": "pending_org_::f1a13226257ba70c3dd68de43b01086c"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Broad Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05a0ya142",
+            "openaire": "openorgs____::fc7622e49c930a8af4c778e73f2aba53"
+          },
+          {
+            "legal_name": "Harvard T.H. Chan School of Public Health",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "openorgs____::870ba6009b9422762011570d7181390f"
+          },
+          {
+            "legal_name": "Department of Statistics Stanford University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::b65f5489639232efebd98d70ae8d3bd6"
+          },
+          {
+            "legal_name": "University of Massachusetts Chan Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0464eyp60",
+            "openaire": "openorgs____::9914b0be6c7594464dabda9a7babf337"
+          },
+          {
+            "legal_name": "Vanderbilt University Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05dq2gs74",
+            "openaire": "openorgs____::843f2528aba32cb476164032f6a6b78a"
+          },
+          {
+            "legal_name": "Analytical and Translational Genetic Unit, Massachusetts General Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::a5ad6eec512a479fdaa3815e94dd4ca4"
+          },
+          {
+            "legal_name": "Yale University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03v76x132",
+            "openaire": "openorgs____::293e60068d63e17e20f2de54944cae01"
+          },
+          {
+            "legal_name": "Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03wevmz92",
+            "openaire": "openorgs____::5f8e1f06db3912b42c101458c6ad3f65"
+          },
+          {
+            "legal_name": "Blueprint for Neuroscience Research",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/012wp4251",
+            "openaire": "openorgs____::2adea09cca8f3c12d8961db1d66ec878"
+          },
+          {
+            "legal_name": "University of Toronto",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/03dbr7087",
+            "openaire": "openorgs____::1ba76e2ce1d7d529a66c628d877a593b"
+          },
+          {
+            "legal_name": "Icahn School of Medicine at Mount Sinai",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04a9tmd77",
+            "openaire": "openorgs____::56f1570db5c9eae5354c8f859ecc8d72"
+          },
+          {
+            "legal_name": "National Human Genome Research Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00baak391",
+            "openaire": "openorgs____::ba99f8d1f2e7050287fdf7f6ff921eaf"
+          },
+          {
+            "legal_name": "Massachusetts General Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/002pd6e78",
+            "openaire": "openorgs____::2f654788496a19e31fef9684942005b8"
+          },
+          {
+            "legal_name": "Microsoft (United States)",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00d0nc645",
+            "openaire": "openorgs____::ec66b8d73bb972c8f1a99ca3d7babc84"
+          },
+          {
+            "legal_name": "University of Washington",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00cvxb145",
+            "openaire": "openorgs____::b7a31a025702d40f7d4186b9690fa517"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0601597970",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1093/nar/gkac635",
+          "pmid": "35892287",
+          "isbn": "",
+          "openaire": "doi_dedup___::c42f29ff5097e216ab6cb1f3b842bd44"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Michigan",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00jmfr291",
+            "openaire": "openorgs____::3e2b132741763b0d5a50d3b9ef8ef11f"
+          },
+          {
+            "legal_name": "University of Michigan–Flint",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01c3xc117",
+            "openaire": "openorgs____::3a20dfdbadafd365b6f1598a4c19fb2b"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603889256",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1089/end.2022.0311",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::39e6c99c1f6dde226419db40a092d48b"
+        },
+        "organizations": [
+          {
+            "legal_name": "Brigham and Women's Faulkner Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03w44ff23",
+            "openaire": "openorgs____::2e684a8729596edf18f2331ad81c0686"
+          },
+          {
+            "legal_name": "University of Toronto",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/03dbr7087",
+            "openaire": "openorgs____::1ba76e2ce1d7d529a66c628d877a593b"
+          },
+          {
+            "legal_name": "McGill University",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/01pxwe438",
+            "openaire": "openorgs____::4ebada891b1bf2c5c6fb2560a5170a02"
+          },
+          {
+            "legal_name": "Centre Hospitalier de l’Université de Montréal",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/0410a8y51",
+            "openaire": "openorgs____::c494044cdf6874cb34b36a62d843c6b0"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Université de Montréal",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/0161xgx34",
+            "openaire": "openorgs____::4f8cd5fade27797d07c2d5ffa40e33ad"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603889371",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1038/s41386-022-01502-2",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::37f08b52b7fe2a23d712a99240269f07"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Colorado Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04cqn7d42",
+            "openaire": "openorgs____::91e9b8e96d5d0872d1a0bbe682487bf1"
+          },
+          {
+            "legal_name": "The University of Texas Southwestern Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05byvp690",
+            "openaire": "openorgs____::ccca6647e06fb8e0d026c9a42ae7b67e"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Massachusetts General Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/002pd6e78",
+            "openaire": "openorgs____::2f654788496a19e31fef9684942005b8"
+          },
+          {
+            "legal_name": "University of Northwestern",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/019t2rq07",
+            "openaire": "openorgs____::1ec8a971a88d917104824730cbd7b586"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603889391",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1038/s41386-022-01453-8",
+          "pmid": "36198876",
+          "isbn": "",
+          "openaire": "doi_dedup___::ff40a61160f87431f5f385598a6f94f2"
+        },
+        "organizations": [
+          {
+            "legal_name": "Center for Neuroscience and Regenerative Medicine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04dmgsx60",
+            "openaire": "openorgs____::180ae902512b0876e34e819ad4dfbe6a"
+          },
+          {
+            "legal_name": "Beth Israel Deaconess Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04drvxt59",
+            "openaire": "openorgs____::7573454194e4937107b01814b8d721d3"
+          },
+          {
+            "legal_name": "Berenson Allen Center for Noninvasive Brain Stimulation",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03hj6c016",
+            "openaire": "openorgs____::1106b09e99d58a08b4c7bb6ad47e3498"
+          },
+          {
+            "legal_name": "Institut Guttmann",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/01xcgd076",
+            "openaire": "openorgs____::3e4ecde3fe8f6b2abe5e49be2121acd7"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03wevmz92",
+            "openaire": "openorgs____::5f8e1f06db3912b42c101458c6ad3f65"
+          },
+          {
+            "legal_name": "Boston Children's Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00dvg7y05",
+            "openaire": "openorgs____::9da461c4b16af2edc2207dee2febb6bc"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603889936",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1183/16000617.0098-2022",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::069121b221a129f8a7f1aa67c9419d82"
+        },
+        "organizations": [
+          {
+            "legal_name": "Universitat de Barcelona",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/021018s57",
+            "openaire": "openorgs____::6c3442fa797102c1c5c1a4319fce4119"
+          },
+          {
+            "legal_name": "Heidelberg University",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/038t36y30",
+            "openaire": "openorgs____::1525526b2d6a8276e5cbdd6ff74a557b"
+          },
+          {
+            "legal_name": "Institut Català d'Oncologia",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/01j1eb875",
+            "openaire": "openorgs____::1e3b2486878bf99dc34e0f914bf10b19"
+          },
+          {
+            "legal_name": "University of Salford",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01tmqtf75",
+            "openaire": "openorgs____::50b3091e5531425358949cafa6bf3b99"
+          },
+          {
+            "legal_name": "University of Nottingham",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01ee9ar58",
+            "openaire": "openorgs____::664a573d975e8306d8999b080004b055"
+          },
+          {
+            "legal_name": "European Centre for Disease Prevention and Control",
+            "country_name": "Sweden",
+            "country_code": "SE",
+            "country_source": "ror",
+            "ror": "https://ror.org/00s9v1h75",
+            "openaire": "openorgs____::aeef7c007362a4ae9b2f40fecf9c4b15"
+          },
+          {
+            "legal_name": "European Union",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/019w4f821",
+            "openaire": "openorgs____::413aa586f481324b85b8794f62fc376d"
+          },
+          {
+            "legal_name": "Manchester University NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00he80998",
+            "openaire": "openorgs____::a88320e873a31be1bf6d148ebd6a66bf"
+          },
+          {
+            "legal_name": "University of Crete",
+            "country_name": "Greece",
+            "country_code": "GR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00dr28g20",
+            "openaire": "openorgs____::cc258a8f1b626868fe5592118fcf9870"
+          },
+          {
+            "legal_name": "National and Kapodistrian University of Athens",
+            "country_name": "Greece",
+            "country_code": "GR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04gnjpq42",
+            "openaire": "openorgs____::c0286313e36479eff8676dba9b724b40"
+          },
+          {
+            "legal_name": "Manchester Academic Health Science Centre",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/04rrkhs81",
+            "openaire": "openorgs____::c3fc9d633b2dafa721cdae09e4de3684"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Wythenshawe Hospital",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05vpsdj37",
+            "openaire": "openorgs____::61f4b696f9cb996421049cb8c562595c"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603891181",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1002/ptr.7640",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::e086857d42d07ba8bab0fb80489ee95c"
+        },
+        "organizations": [
+          {
+            "legal_name": "Shaikh Zayed Postgraduate Medical Institute",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/058prbp42",
+            "openaire": "openorgs____::47556d076de461a625195cd5db37e8f3"
+          },
+          {
+            "legal_name": "University of Veterinary and Animal Sciences",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/00g325k81",
+            "openaire": "openorgs____::3fdb8665e7ee93b11b6be4ae6223d671"
+          },
+          {
+            "legal_name": "Université du Québec à Montréal",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/002rjbv21",
+            "openaire": "openorgs____::b10640bb8d7e6f481a0a9aac1db6cb4a"
+          },
+          {
+            "legal_name": "Allied Hospital",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/02rsn0x61",
+            "openaire": "openorgs____::9e91ed65aaef0f0082275b43f48437fc"
+          },
+          {
+            "legal_name": "Services Institute of Medical Sciences",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/04c1d9r22",
+            "openaire": "openorgs____::a3ad8b8eb2a98cd7a6f45153504a86f9"
+          },
+          {
+            "legal_name": "University of Lahore",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/051jrjw38",
+            "openaire": "openorgs____::cc9afd62d07034388a3e95835f011e60"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Post Graduate Medical Institute",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/03b982x90",
+            "openaire": "openorgs____::4165d5b9b335c011b91de699c223cbb3"
+          },
+          {
+            "legal_name": "University of Faisalabad",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/04eps4h65",
+            "openaire": "openorgs____::42c7bec20e1743cb63edb78f4542caa3"
+          },
+          {
+            "legal_name": "Port Macquarie Base Hospital",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/04901sx27",
+            "openaire": "openorgs____::c4444a9849c78063f7acb0bd31b77770"
+          },
+          {
+            "legal_name": "King Edward Medical University",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/02rrbpf42",
+            "openaire": "openorgs____::c2441d90b03e2c722bc03e3cfcb84f17"
+          },
+          {
+            "legal_name": "Mayo Hospital",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/046jyn221",
+            "openaire": "openorgs____::737092b758b4c0dc6bfcfc7ee73ae00e"
+          },
+          {
+            "legal_name": "Université de Montréal",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/0161xgx34",
+            "openaire": "openorgs____::4f8cd5fade27797d07c2d5ffa40e33ad"
+          },
+          {
+            "legal_name": "Massachusetts General Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/002pd6e78",
+            "openaire": "openorgs____::2f654788496a19e31fef9684942005b8"
+          },
+          {
+            "legal_name": "Riphah International University",
+            "country_name": "Pakistan",
+            "country_code": "PK",
+            "country_source": "ror",
+            "ror": "https://ror.org/02kdm5630",
+            "openaire": "openorgs____::3a69c7575e2133b12dd795c7ce54c965"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603894726",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1001/jamaoncol.2022.4933",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::2a6d0febc37ee77d1b041f50df5fcc11"
+        },
+        "organizations": [
+          {
+            "legal_name": "Università degli Studi del Piemonte Orientale “Amedeo Avogadro”",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04387x656",
+            "openaire": "openorgs____::316b42e15b3280c0ab79b66bed29efbd"
+          },
+          {
+            "legal_name": "Brigham and Women's Faulkner Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03w44ff23",
+            "openaire": "openorgs____::2e684a8729596edf18f2331ad81c0686"
+          },
+          {
+            "legal_name": "Amsterdam UMC",
+            "country_name": "Netherlands",
+            "country_code": "NL",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::8c230cbb8481b6ebb17a869407edf882"
+          },
+          {
+            "legal_name": "University of Oulu",
+            "country_name": "Finland",
+            "country_code": "FI",
+            "country_source": "ror",
+            "ror": "https://ror.org/03yj89h83",
+            "openaire": "openorgs____::cebd8a3c6b4278ad200788d0e8df8a36"
+          },
+          {
+            "legal_name": "UiT The Arctic University of Norway",
+            "country_name": "Norway",
+            "country_code": "NO",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wge5k78",
+            "openaire": "openorgs____::85dbe98283f5e4eab42abe1184db27b7"
+          },
+          {
+            "legal_name": "Dana-Farber Cancer Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jzgtq86",
+            "openaire": "openorgs____::51c8028d418f35cdc01c7ad8779b3e31"
+          },
+          {
+            "legal_name": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/00q6h8f30",
+            "openaire": "openorgs____::df96ffc1951dc9bc14b0695e3297f6e1"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Universities Norway",
+            "country_name": "Norway",
+            "country_code": "NO",
+            "country_source": "ror",
+            "ror": "https://ror.org/02hwjhx76",
+            "openaire": "openorgs____::ed45e4b79dfa970b44f637d0534aedd0"
+          },
+          {
+            "legal_name": "Università Campus Bio-Medico",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04gqx4x78",
+            "openaire": "openorgs____::346b6763720f17053432a7c2cceb9088"
+          },
+          {
+            "legal_name": "Oulu University Hospital",
+            "country_name": "Finland",
+            "country_code": "FI",
+            "country_source": "ror",
+            "ror": "https://ror.org/045ney286",
+            "openaire": "openorgs____::6e16c0bf9dd63d3d0c21cce4295d3dba"
+          },
+          {
+            "legal_name": "Imperial College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/041kmwe10",
+            "openaire": "openorgs____::778fb8061fc9d6356293bec4c38fb72f"
+          },
+          {
+            "legal_name": "Amsterdam University Medical Centers",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/05grdyy37",
+            "openaire": "openorgs____::2ce10b2528220091bd0363c1e39394c1"
+          },
+          {
+            "legal_name": "University Hospital of North Norway",
+            "country_name": "Norway",
+            "country_code": "NO",
+            "country_source": "ror",
+            "ror": "https://ror.org/030v5kp38",
+            "openaire": "openorgs____::8cca4f150fd4de1b0b2d8b754d699a65"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603894729",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1001/jamaoncol.2022.5370",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::4b8796e6c2da875f3a6b53843ccf462c"
+        },
+        "organizations": [
+          {
+            "legal_name": "Saint Louis University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01p7jjy08",
+            "openaire": "openorgs____::5eee853e68d91f58e178c3b24e55c18c"
+          },
+          {
+            "legal_name": "Columbia University Irving Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01esghr10",
+            "openaire": "openorgs____::8f9570538bd8a06792bd5bda0a1358b1"
+          },
+          {
+            "legal_name": "Illinois CancerCare",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03vfgta75",
+            "openaire": "openorgs____::11f908e030e942ad7b25104980eb3f46"
+          },
+          {
+            "legal_name": "Northwest Biotherapeutics",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::5059086c78295420c523a75007b34943"
+          },
+          {
+            "legal_name": "University of Oklahoma Health Sciences Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0457zbj98",
+            "openaire": "openorgs____::189303d000f4ab6733f8a5e1ec71dfd1"
+          },
+          {
+            "legal_name": "Presence Health",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02j17mb51",
+            "openaire": "openorgs____::7c591ca4645bd27b842e0ba5decbcbd5"
+          },
+          {
+            "legal_name": "University of Michigan",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00jmfr291",
+            "openaire": "openorgs____::3e2b132741763b0d5a50d3b9ef8ef11f"
+          },
+          {
+            "legal_name": "Rutgers Health",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/029z02k15",
+            "openaire": "pending_org_::2f496d01a06e72de9ec7e4741f448a8c"
+          },
+          {
+            "legal_name": "ROYAL INSTITUTION FOR THE ADVANCEMENT OF LEARNING MCGILL UNIVERSITY",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::d3de8d3b5c44f463ebd20bfdfcd90f4f"
+          },
+          {
+            "legal_name": "Brown University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05gq02987",
+            "openaire": "openorgs____::38d7097854736583dde879d12dacafca"
+          },
+          {
+            "legal_name": "University of Miami Health System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00zw9nc64",
+            "openaire": "openorgs____::5bddfcead26c3e9fa0671f69394b55e0"
+          },
+          {
+            "legal_name": "Sylvester Comprehensive Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0552r4b12",
+            "openaire": "openorgs____::f333e8fa8beabd0406d729f4e150d40b"
+          },
+          {
+            "legal_name": "Nazareth College",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0224bx186",
+            "openaire": "openorgs____::07cf0f86af976ed535d846745e4cbf7f"
+          },
+          {
+            "legal_name": "Beth Israel Deaconess Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04drvxt59",
+            "openaire": "openorgs____::7573454194e4937107b01814b8d721d3"
+          },
+          {
+            "legal_name": "Medical University of South Carolina",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/012jban78",
+            "openaire": "openorgs____::e141d707008a37a4d256c67c6cbfc43e"
+          },
+          {
+            "legal_name": "King's College Hospital",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/044nptt90",
+            "openaire": "openorgs____::eb7406709fd22af80ba8b169ebeb6143"
+          },
+          {
+            "legal_name": "King's College Hospital NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01n0k5m85",
+            "openaire": "openorgs____::14241ba19fdbd66fa9362e2014ee4bd6"
+          },
+          {
+            "legal_name": "Kaiser Permanente",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00t60zh31",
+            "openaire": "openorgs____::4eb23ad25f461d121fcdee7825a1cbc9"
+          },
+          {
+            "legal_name": "University of Michigan–Flint",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01c3xc117",
+            "openaire": "openorgs____::3a20dfdbadafd365b6f1598a4c19fb2b"
+          },
+          {
+            "legal_name": "The University of Texas at San Antonio Health Science Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02f6dcw23",
+            "openaire": "openorgs____::42f4d7015e55e468c5db966b4a90f4a0"
+          },
+          {
+            "legal_name": "Rush Medical College",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::07c919c6fd18421d56a4496f2e11b316"
+          },
+          {
+            "legal_name": "Washington University in St. Louis",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01yc7t268",
+            "openaire": "openorgs____::97b0ac5aa8060baa54cac9b45d657c76"
+          },
+          {
+            "legal_name": "California Baptist University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04yj19304",
+            "openaire": "openorgs____::1ab266c0de559c3d795f5fc493b1f684"
+          },
+          {
+            "legal_name": "Sutter Health",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0060avh92",
+            "openaire": "openorgs____::f5db40c261a7a391a037e2488c535021"
+          },
+          {
+            "legal_name": "Raymond and Ruth Perelman School of Medicine at the University of Pennsylvania",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/041phzg73",
+            "openaire": "openorgs____::e5549359e7789dea944a213f751e4737"
+          },
+          {
+            "legal_name": "Thomas Jefferson University Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04zhhva53",
+            "openaire": "openorgs____::514a426cce6622cb5403a6bebda9f2a7"
+          },
+          {
+            "legal_name": "University Hospitals of Cleveland",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0130jk839",
+            "openaire": "openorgs____::b944da276455779d31950317a3982134"
+          },
+          {
+            "legal_name": "Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03wevmz92",
+            "openaire": "openorgs____::5f8e1f06db3912b42c101458c6ad3f65"
+          },
+          {
+            "legal_name": "Rhode Island Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01aw9fv09",
+            "openaire": "openorgs____::427ce434d6610d1d431ba3bf45cd10d5"
+          },
+          {
+            "legal_name": "Beth Israel Deaconess Medical Center Harvard Medical School",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::186d4982490a0a2b3bbe1f2daeaea803"
+          },
+          {
+            "legal_name": "Allina Health",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04esegk75",
+            "openaire": "openorgs____::a6d6bc7f6bdb9d7e315d43ccecc24248"
+          },
+          {
+            "legal_name": "Hackensack University Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/008zj0x80",
+            "openaire": "openorgs____::a49d52d09e3ba73af44ae19f1b9f83a0"
+          },
+          {
+            "legal_name": "The Ohio State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00rs6vg23",
+            "openaire": "openorgs____::eb3866cbe3cc9b3b2286dd8a90bd1cd0"
+          },
+          {
+            "legal_name": "Mount Sinai Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wgjpw02",
+            "openaire": "openorgs____::477adccf32594a7b429eb05e4f535a31"
+          },
+          {
+            "legal_name": "Geisinger Neuroscience Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0585yvd38",
+            "openaire": "pending_org_::6cc27f1d755bdec99731cacdf3ec1605"
+          },
+          {
+            "legal_name": "Geisinger Health System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02qdbgx97",
+            "openaire": "openorgs____::fb920b8623c65160f6a0a022a559f403"
+          },
+          {
+            "legal_name": "University of Washington School of Medicine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03ymk3103",
+            "openaire": "openorgs____::341dc1a0237d84111a179fd737034fdd"
+          },
+          {
+            "legal_name": "Jefferson Hospital for Neuroscience",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05km9hp38",
+            "openaire": "openorgs____::5685dd1037a8283c3f16dbb807b45a8e"
+          },
+          {
+            "legal_name": "Mays Cancer Center at UT Health San Antonio",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04aysmc18",
+            "openaire": "pending_org_::7a0e7e0e14f591bf6a624cffafa85959"
+          },
+          {
+            "legal_name": "UC San Diego Health System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01kbfgm16",
+            "openaire": "openorgs____::4339937bfbfee2d4b19e9236844f1f8f"
+          },
+          {
+            "legal_name": "Tufts Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/002hsbm82",
+            "openaire": "openorgs____::522fd82c631f6f3b7a5fbba162616b90"
+          },
+          {
+            "legal_name": "University College London Hospital",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::788cb1bb18bb62135cf18f0db983e704"
+          },
+          {
+            "legal_name": "University of California, San Francisco",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/043mz5j54",
+            "openaire": "openorgs____::e355efaf62ddb61ef1bbda6c6806923d"
+          },
+          {
+            "legal_name": "Vanderbilt University Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05dq2gs74",
+            "openaire": "openorgs____::843f2528aba32cb476164032f6a6b78a"
+          },
+          {
+            "legal_name": "University of Colorado Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04cqn7d42",
+            "openaire": "openorgs____::91e9b8e96d5d0872d1a0bbe682487bf1"
+          },
+          {
+            "legal_name": "University Hospitals Cleveland Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01gc0wp38",
+            "openaire": "pending_org_::8e5a04632a9821732c8f27323bd61b4d"
+          },
+          {
+            "legal_name": "Saint Joseph's Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00m72p590",
+            "openaire": "openorgs____::a4c0c474cec569a6aee01f7667831cc3"
+          },
+          {
+            "legal_name": "McGill University",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/01pxwe438",
+            "openaire": "openorgs____::4ebada891b1bf2c5c6fb2560a5170a02"
+          },
+          {
+            "legal_name": "Abbott Northwestern Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01fzm0693",
+            "openaire": "openorgs____::57ee14514df67d19d093a24be99179b2"
+          },
+          {
+            "legal_name": "University of Miami",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02dgjyy92",
+            "openaire": "openorgs____::413b80263935fe7c7f5325942c12a495"
+          },
+          {
+            "legal_name": "Amita Health",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02z7tpb72",
+            "openaire": "openorgs____::32060858ae9478cd0af5e69614f65d6f"
+          },
+          {
+            "legal_name": "Northwest Biotherapeutics (United States)",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wtpj265",
+            "openaire": "openorgs____::1fd5b7106c5c2d3b20322d5ed0156fc6"
+          },
+          {
+            "legal_name": "Swedish Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00f5bva59",
+            "openaire": "openorgs____::421cf289f466d623c696c00687785147"
+          },
+          {
+            "legal_name": "Henry Ford Health System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02kwnkm68",
+            "openaire": "openorgs____::821d705b35eac60ea0e2346097172254"
+          },
+          {
+            "legal_name": "BG Klinikum Bergmannstrost Halle",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/042g9vq32",
+            "openaire": "openorgs____::60caa51d7cc7f8a3e581f5c55d9fa5d6"
+          },
+          {
+            "legal_name": "Montreal Neurological Institute and Hospital",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/05ghs6f64",
+            "openaire": "openorgs____::3d635327eba00650cd4f54d5fdd791fd"
+          },
+          {
+            "legal_name": "Cancer Care Specialists of Illinois",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02h8c3526",
+            "openaire": "openorgs____::bc48299f639fafc9befed7dc1a289128"
+          },
+          {
+            "legal_name": "City of Hope",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01z1vct10",
+            "openaire": "openorgs____::f038add69dc5d0d565eb3282d2dc345d"
+          },
+          {
+            "legal_name": "Baptist Health System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01egdsz94",
+            "openaire": "openorgs____::406f0c29d204ba217d750c57ac68a94b"
+          },
+          {
+            "legal_name": "City Of Hope National Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00w6g5w60",
+            "openaire": "openorgs____::f1f1bf53b35a80fca22c7c0c653d3c61"
+          },
+          {
+            "legal_name": "Moores Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01qkmtm61",
+            "openaire": "pending_org_::58174a27f37b5c35c5d4652c4e233a13"
+          },
+          {
+            "legal_name": "Moffitt Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01xf75524",
+            "openaire": "openorgs____::73ff65e606bfe307bec5781d33a3b247"
+          },
+          {
+            "legal_name": "Providence Health & Services",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00n4k4n97",
+            "openaire": "openorgs____::48af73f1010726fbafedf4ec530e667d"
+          },
+          {
+            "legal_name": "Université de Sherbrooke",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/00kybxq39",
+            "openaire": "openorgs____::bab9bca77c21c61e0cc16cd7c4571e0c"
+          },
+          {
+            "legal_name": "Rutgers Cancer Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0060x3y55",
+            "openaire": "pending_org_::6a726e71439372da18a1b266fc0b88bc"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Saint Joseph Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02ttsvs52",
+            "openaire": "openorgs____::e349a082ebe6e71672860b2c9679b641"
+          },
+          {
+            "legal_name": "University Hospitals Seidman Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02kb97560",
+            "openaire": "openorgs____::cb515abfa6702abe19785923c096dc59"
+          },
+          {
+            "legal_name": "University of Florida",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02y3ad647",
+            "openaire": "openorgs____::75a9815f2347754cb00a2e00133b2091"
+          },
+          {
+            "legal_name": "University College London Hospitals NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/042fqyp44",
+            "openaire": "openorgs____::9f45412da82ef09d7c9ef4bba8de28f0"
+          },
+          {
+            "legal_name": "University of Pennsylvania Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03xwa9562",
+            "openaire": "openorgs____::733e553b5ff74d294f0ef75eeab1a503"
+          },
+          {
+            "legal_name": "Atlantic Healthcare (United Kingdom)",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03tx9h743",
+            "openaire": "openorgs____::8bd6b55fbe8d0bca406d4ab8067a4f66"
+          },
+          {
+            "legal_name": "University of California, Los Angeles",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/046rm7j60",
+            "openaire": "openorgs____::f6ba0dca7819f8ac3afc8aaadb3cf7ca"
+          },
+          {
+            "legal_name": "University System of Ohio",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0561zqn56",
+            "openaire": "openorgs____::f94bea542e86fbb0cf87f8dc07082edf"
+          },
+          {
+            "legal_name": "MUSC Hollings Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00w52vt71",
+            "openaire": "openorgs____::f2b68f5800398ec8f941a90868aa9852"
+          },
+          {
+            "legal_name": "University of Cincinnati",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01e3m7079",
+            "openaire": "openorgs____::f04d33457f375070b1eed089b3bc079c"
+          },
+          {
+            "legal_name": "University of Kentucky",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02k3smh20",
+            "openaire": "openorgs____::f2f123ed89c722ef62b91bc769518092"
+          },
+          {
+            "legal_name": "Emory Healthcare",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00yksxf10",
+            "openaire": "openorgs____::a0bcb5192096cd3102cc16d34f8b3e5e"
+          },
+          {
+            "legal_name": "University of California, Irvine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04gyf1771",
+            "openaire": "openorgs____::bac127a191d1871e49e650573f9b352d"
+          },
+          {
+            "legal_name": "Icahn School of Medicine at Mount Sinai",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04a9tmd77",
+            "openaire": "openorgs____::56f1570db5c9eae5354c8f859ecc8d72"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603894741",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1001/jamaoncol.2022.5094",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::aa3d9764d63bc9bfca3515bb0a69c808"
+        },
+        "organizations": [
+          {
+            "legal_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04tfzc498",
+            "openaire": "openorgs____::238381302017baa16a6d0bf695797329"
+          },
+          {
+            "legal_name": "Dana-Farber Cancer Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jzgtq86",
+            "openaire": "openorgs____::51c8028d418f35cdc01c7ad8779b3e31"
+          },
+          {
+            "legal_name": "European Institute of Oncology",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/02vr0ne26",
+            "openaire": "openorgs____::e5c534b5e2eb4b6eaec179ddca1fa73c"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "University of Milan",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wjc7c48",
+            "openaire": "openorgs____::db7686f30f22cbe73a4fde872ce812a6"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603894767",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1001/jamaoncol.2022.4327",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::bf59a17d78c892f39eb09cfcdd3ee088"
+        },
+        "organizations": [
+          {
+            "legal_name": "Brigham and Women's Faulkner Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03w44ff23",
+            "openaire": "openorgs____::2e684a8729596edf18f2331ad81c0686"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Dana-Farber Cancer Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jzgtq86",
+            "openaire": "openorgs____::51c8028d418f35cdc01c7ad8779b3e31"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603894776",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1001/jamaoncol.2022.3755",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::720ef6492dccfea03e126f7c9ffb9a41"
+        },
+        "organizations": [
+          {
+            "legal_name": "Texas Tech University System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0082ybm03",
+            "openaire": "openorgs____::17145c4c3d885fd59ed5c505c12a6f4c"
+          },
+          {
+            "legal_name": "Institut Jules Bordet",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/05e8s8534",
+            "openaire": "openorgs____::c619c0d2166568ccafe578db447e3f5c"
+          },
+          {
+            "legal_name": "Yale Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03j7sze86",
+            "openaire": "openorgs____::47165f2008885e0ffbe1bd5724d211b1"
+          },
+          {
+            "legal_name": "Humanitas Gavazzeni",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/035jrer59",
+            "openaire": "openorgs____::10b50bd6da749f4ebaf242a5215f0090"
+          },
+          {
+            "legal_name": "International Drug Development Institute (Belgium)",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/016dg3e07",
+            "openaire": "openorgs____::9b506dcf995515b92f41712416845934"
+          },
+          {
+            "legal_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04tfzc498",
+            "openaire": "openorgs____::238381302017baa16a6d0bf695797329"
+          },
+          {
+            "legal_name": "Université Libre de Bruxelles",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01r9htc13",
+            "openaire": "openorgs____::6f26a1be56976cb781e94429eb02530e"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Dana-Farber Cancer Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jzgtq86",
+            "openaire": "openorgs____::51c8028d418f35cdc01c7ad8779b3e31"
+          },
+          {
+            "legal_name": "Frontier Science Foundation",
+            "country_name": "Switzerland",
+            "country_code": "CH",
+            "country_source": "ror",
+            "ror": "https://ror.org/01e92na05",
+            "openaire": "openorgs____::b5290a919b10e84dc31e97b6d2f78544"
+          },
+          {
+            "legal_name": "Johns Hopkins University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00za53h95",
+            "openaire": "openorgs____::27892c24a9b3edfdab10ce88e732a236"
+          },
+          {
+            "legal_name": "Smilow Cancer Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05q3szf80",
+            "openaire": "openorgs____::8993269b5f08be6a6e8038d184b56888"
+          },
+          {
+            "legal_name": "University of Milan",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wjc7c48",
+            "openaire": "openorgs____::db7686f30f22cbe73a4fde872ce812a6"
+          },
+          {
+            "legal_name": "European Institute of Oncology",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/02vr0ne26",
+            "openaire": "openorgs____::e5c534b5e2eb4b6eaec179ddca1fa73c"
+          },
+          {
+            "legal_name": "The University of Texas MD Anderson Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04twxam07",
+            "openaire": "openorgs____::690a7158e0cb1260578e603aa6c0fab3"
+          },
+          {
+            "legal_name": "Universidad Europea de Madrid",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/04dp46240",
+            "openaire": "openorgs____::811fec03c57b0ce94e147e8997dd3798"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603894787",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1001/jamaoncol.2021.1799",
+          "pmid": "34137799",
+          "isbn": "",
+          "openaire": "doi_dedup___::16ecff13795c684d5c5f4519ae689d81"
+        },
+        "organizations": [
+          {
+            "legal_name": "Texas Tech University System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0082ybm03",
+            "openaire": "openorgs____::17145c4c3d885fd59ed5c505c12a6f4c"
+          },
+          {
+            "legal_name": "Saint Louis University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01p7jjy08",
+            "openaire": "openorgs____::5eee853e68d91f58e178c3b24e55c18c"
+          },
+          {
+            "legal_name": "University of Michigan",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00jmfr291",
+            "openaire": "openorgs____::3e2b132741763b0d5a50d3b9ef8ef11f"
+          },
+          {
+            "legal_name": "Aurora Health Care",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04d5w7479",
+            "openaire": "openorgs____::a7ce94f737c6fbf170712bd7227253b9"
+          },
+          {
+            "legal_name": "Ford Motor Company (United States)",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00g2tkw06",
+            "openaire": "openorgs____::18f8fe017445c14484af708b8abeea76"
+          },
+          {
+            "legal_name": "Vanderbilt-Ingram Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02rjj2m04",
+            "openaire": "pending_org_::2815063eeb317beb9568294828c98bd8"
+          },
+          {
+            "legal_name": "Vanderbilt University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02vm5rt34",
+            "openaire": "openorgs____::e18a06920e42214398b85791c4efac6b"
+          },
+          {
+            "legal_name": "St. Elizabeth Healthcare",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04b2p2059",
+            "openaire": "openorgs____::5c5858c3a934ad65ef19ad1813f0c35c"
+          },
+          {
+            "legal_name": "U-M Rogel Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05asdy483",
+            "openaire": "pending_org_::cb9baa48a4c8d0a9febb995a72963d07"
+          },
+          {
+            "legal_name": "The University of Texas at San Antonio Health Science Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02f6dcw23",
+            "openaire": "openorgs____::42f4d7015e55e468c5db966b4a90f4a0"
+          },
+          {
+            "legal_name": "Dana-Farber Cancer Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jzgtq86",
+            "openaire": "openorgs____::51c8028d418f35cdc01c7ad8779b3e31"
+          },
+          {
+            "legal_name": "Mays Cancer Center at UT Health San Antonio",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04aysmc18",
+            "openaire": "pending_org_::7a0e7e0e14f591bf6a624cffafa85959"
+          },
+          {
+            "legal_name": "Mayo Clinic in Florida",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03zzw1w08",
+            "openaire": "openorgs____::7b0e85bfebca86f090477fbbf01a825c"
+          },
+          {
+            "legal_name": "UCSF Helen Diller Family Comprehensive Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05yndxy10",
+            "openaire": "pending_org_::8d84f12f925f4f37a67dec3b35f64530"
+          },
+          {
+            "legal_name": "Department of Medicine",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::4b905ccd9d4713e57b2a72f39bf5b4a7"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "University of California, San Francisco",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/043mz5j54",
+            "openaire": "openorgs____::e355efaf62ddb61ef1bbda6c6806923d"
+          },
+          {
+            "legal_name": "University of California San Francisco Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01t8svj65",
+            "openaire": "openorgs____::2aba6751194964e97c22eecd44519042"
+          },
+          {
+            "legal_name": "Michigan Medicine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01zcpa714",
+            "openaire": "openorgs____::8b4821b80170a1480063dfff4755fa65"
+          },
+          {
+            "legal_name": "Roswell Park Comprehensive Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0499dwk57",
+            "openaire": "openorgs____::b467d8eba1c57f21f4584c438c7912d3"
+          },
+          {
+            "legal_name": "Stamford Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05jr4qt09",
+            "openaire": "openorgs____::c5a6a749129d6f05da0322b79ebc15f0"
+          },
+          {
+            "legal_name": "Mayo Clinic in Arizona",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03jp40720",
+            "openaire": "openorgs____::1b0b90554552943e48a88e6f7484bf78"
+          },
+          {
+            "legal_name": "University of Washington School of Medicine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03ymk3103",
+            "openaire": "openorgs____::341dc1a0237d84111a179fd737034fdd"
+          },
+          {
+            "legal_name": "University of Kansas Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/036c9yv20",
+            "openaire": "openorgs____::6a6f53e8fa02c9fb805dbef2279fc47e"
+          },
+          {
+            "legal_name": "United States Department of Veterans Affairs",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05rsv9s98",
+            "openaire": "openorgs____::1629499bf07a9e112e26c5f129e31d33"
+          },
+          {
+            "legal_name": "Washington University in St. Louis",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01yc7t268",
+            "openaire": "openorgs____::97b0ac5aa8060baa54cac9b45d657c76"
+          },
+          {
+            "legal_name": "Vanderbilt University Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05dq2gs74",
+            "openaire": "openorgs____::843f2528aba32cb476164032f6a6b78a"
+          },
+          {
+            "legal_name": "Mayo Clinic Comprehensive Cancer Center (Minnesota)",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/012wxv498",
+            "openaire": "pending_org_::2a78e8398de8c92b54b408af87bbf5c8"
+          },
+          {
+            "legal_name": "UNC Lineberger Comprehensive Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/043ehm030",
+            "openaire": "pending_org_::c9ce4b2a630a7c79eab0e98aff050971"
+          },
+          {
+            "legal_name": "Cancer Consortium",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/009tqys91",
+            "openaire": "openorgs____::5e57a06cde301340a8debfaeb75c2dd6"
+          },
+          {
+            "legal_name": "California Baptist University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04yj19304",
+            "openaire": "openorgs____::1ab266c0de559c3d795f5fc493b1f684"
+          },
+          {
+            "legal_name": "University of Kansas",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/001tmjg57",
+            "openaire": "openorgs____::047e7f11f4ce252c3e651cd385e1e212"
+          },
+          {
+            "legal_name": "University of North Carolina at Greensboro",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04fnxsj42",
+            "openaire": "openorgs____::0598c13eee48e349298faf6960fb8d4f"
+          },
+          {
+            "legal_name": "Memorial Sloan Kettering Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02yrq0923",
+            "openaire": "openorgs____::62c8a3d3baf10259488c6676cf44f30d"
+          },
+          {
+            "legal_name": "Mayo Clinic",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02qp3tb03",
+            "openaire": "openorgs____::5a2a4cdc063415e78762a3c4c4e80619"
+          },
+          {
+            "legal_name": "The University of Texas MD Anderson Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04twxam07",
+            "openaire": "openorgs____::690a7158e0cb1260578e603aa6c0fab3"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603895022",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1038/s41523-022-00495-x",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::023d08fb262d244040760def4a20833c"
+        },
+        "organizations": [
+          {
+            "legal_name": "Texas Tech University System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0082ybm03",
+            "openaire": "openorgs____::17145c4c3d885fd59ed5c505c12a6f4c"
+          },
+          {
+            "legal_name": "Yale Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03j7sze86",
+            "openaire": "openorgs____::47165f2008885e0ffbe1bd5724d211b1"
+          },
+          {
+            "legal_name": "Dana-Farber Cancer Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jzgtq86",
+            "openaire": "openorgs____::51c8028d418f35cdc01c7ad8779b3e31"
+          },
+          {
+            "legal_name": "Mayo Clinic",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02qp3tb03",
+            "openaire": "openorgs____::5a2a4cdc063415e78762a3c4c4e80619"
+          },
+          {
+            "legal_name": "Memorial Sloan Kettering Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02yrq0923",
+            "openaire": "openorgs____::62c8a3d3baf10259488c6676cf44f30d"
+          },
+          {
+            "legal_name": "Smilow Cancer Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05q3szf80",
+            "openaire": "openorgs____::8993269b5f08be6a6e8038d184b56888"
+          },
+          {
+            "legal_name": "Massachusetts General Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/002pd6e78",
+            "openaire": "openorgs____::2f654788496a19e31fef9684942005b8"
+          },
+          {
+            "legal_name": "The University of Texas MD Anderson Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04twxam07",
+            "openaire": "openorgs____::690a7158e0cb1260578e603aa6c0fab3"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Sheba Medical Center",
+            "country_name": "Israel",
+            "country_code": "IL",
+            "country_source": "ror",
+            "ror": "https://ror.org/020rzx487",
+            "openaire": "openorgs____::0261831c8d3240be02b44085013c06aa"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603895032",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1038/s41523-022-00490-2",
+          "pmid": "",
+          "isbn": "",
+          "openaire": "doi_dedup___::77e17a81838ffb73377c0bbb635ba3be"
+        },
+        "organizations": [
+          {
+            "legal_name": "University of Alabama at Birmingham",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/008s83205",
+            "openaire": "openorgs____::8889d5d3654d92e3f90d4b79b028b280"
+          },
+          {
+            "legal_name": "University of Miami Health System",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00zw9nc64",
+            "openaire": "openorgs____::5bddfcead26c3e9fa0671f69394b55e0"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Sylvester Comprehensive Cancer Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0552r4b12",
+            "openaire": "pending_org_::4e4464ecb5ce35cc1b351bf73941c266"
+          },
+          {
+            "legal_name": "Texas Oncology",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02ketev28",
+            "openaire": "openorgs____::67c88419b4db28b95cee495e63e4a724"
+          },
+          {
+            "legal_name": "University of Miami",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02dgjyy92",
+            "openaire": "openorgs____::3b60797cc6521040d2d64a19d69b72a6"
+          },
+          {
+            "legal_name": "University of California San Diego",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/0168r3w48",
+            "openaire": "openorgs____::9afca00ab09aca931f9d55274bb50094"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603905463",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1016/s1474-4422(19)30200-5",
+          "pmid": "31397289",
+          "isbn": "",
+          "openaire": "doi_dedup___::300cafceac66f2297b0cc23934acf93c"
+        },
+        "organizations": [
+          {
+            "legal_name": "Università Cattolica del Sacro Cuore",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/03h7r5v07",
+            "openaire": "openorgs____::3ee1080e95c3539840b2f66101ecee05"
+          },
+          {
+            "legal_name": "Research Triangle Park Foundation",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03eqttr49",
+            "openaire": "openorgs____::31f9c0c2120e271296f4b3671f3b0ad8"
+          },
+          {
+            "legal_name": "National Center of Neurology and Psychiatry",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/0254bmq54",
+            "openaire": "openorgs____::a2ac531cce8b3590a209c557959231d7"
+          },
+          {
+            "legal_name": "University of Zurich",
+            "country_name": "Switzerland",
+            "country_code": "CH",
+            "country_source": "ror",
+            "ror": "https://ror.org/02crff812",
+            "openaire": "openorgs____::3514a58d10bfa5be292024c2b7a6ee6c"
+          },
+          {
+            "legal_name": "University of Copenhagen",
+            "country_name": "Denmark",
+            "country_code": "DK",
+            "country_source": "ror",
+            "ror": "https://ror.org/035b05819",
+            "openaire": "openorgs____::ff2275b420f1146110af3cb7327de306"
+          },
+          {
+            "legal_name": "Johns Hopkins Medicine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/037zgn354",
+            "openaire": "openorgs____::6507e6caeca9e0370d099c0ff7795999"
+          },
+          {
+            "legal_name": "Tohoku University",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/01dq60k83",
+            "openaire": "openorgs____::32dec4b65c3565bc3d2cd8294f0fbe7e"
+          },
+          {
+            "legal_name": "Nagoya University",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/04chrp450",
+            "openaire": "openorgs____::2bc19d1aa5bca4e7467cc94dc25f1b9d"
+          },
+          {
+            "legal_name": "Agostino Gemelli University Polyclinic",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00rg70c39",
+            "openaire": "openorgs____::1395c0ee2858e25e4464185ffe7577ba"
+          },
+          {
+            "legal_name": "Calvary Health Care Bethlehem",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/028a34j67",
+            "openaire": "openorgs____::9897cbaa3ea66a464b6c11bb7e9ed73c"
+          },
+          {
+            "legal_name": "RTI International",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/052tfza37",
+            "openaire": "openorgs____::6473922abaebb758245b6168a2c8963e"
+          },
+          {
+            "legal_name": "Novartis (Netherlands)",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/01a80cj23",
+            "openaire": "openorgs____::a4613191299b51b7d8ee189f37446d17"
+          },
+          {
+            "legal_name": "Leiden University",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/027bh9e22",
+            "openaire": "openorgs____::e42580548da4a1d39bb67b60b971056e"
+          },
+          {
+            "legal_name": "Fiona Stanley Hospital",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/027p0bm56",
+            "openaire": "openorgs____::329921d148b9b3983a710c23f17576d2"
+          },
+          {
+            "legal_name": "University of Bristol",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/0524sp257",
+            "openaire": "openorgs____::881177c908fadb87d77d446ee10d7bde"
+          },
+          {
+            "legal_name": "Inserm",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02vjkv261",
+            "openaire": "openorgs____::50c715fc6e0a1f3bcd8238b190b89f79"
+          },
+          {
+            "legal_name": "Assistance Publique – Hôpitaux de Paris",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00pg5jh14",
+            "openaire": "openorgs____::530454b77c12098816537c2bf66f3267"
+          },
+          {
+            "legal_name": "Murdoch University",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/00r4sry34",
+            "openaire": "openorgs____::3299835ccdb2855f1c96db3f5f9c027c"
+          },
+          {
+            "legal_name": "Amsterdam UMC",
+            "country_name": "Netherlands",
+            "country_code": "NL",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::8c230cbb8481b6ebb17a869407edf882"
+          },
+          {
+            "legal_name": "University of Messina",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/05ctdxz19",
+            "openaire": "openorgs____::57316020e03f24759dce0fedeab4caa6"
+          },
+          {
+            "legal_name": "Tokushima University Hospital",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/021ph5e41",
+            "openaire": "openorgs____::e3c3e3b9cebc21fabcebd7cf0ae44a08"
+          },
+          {
+            "legal_name": "Ghent University",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/00cv9y106",
+            "openaire": "openorgs____::5f31346d444a7f06a28c880fb170b0f6"
+          },
+          {
+            "legal_name": "Tokushima University",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/044vy1d05",
+            "openaire": "openorgs____::8a81c564be48295c88a4f99999681fdf"
+          },
+          {
+            "legal_name": "Fiona Stanley Fremantle Hospitals Group",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/03xba7c91",
+            "openaire": "pending_org_::23e1a944992da71810fa02743a3b39bc"
+          },
+          {
+            "legal_name": "Newcastle upon Tyne Hospitals NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/05p40t847",
+            "openaire": "openorgs____::8c89c69655d0a6d3121c962fdbfbcd9e"
+          },
+          {
+            "legal_name": "University of Antwerp",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/008x57b05",
+            "openaire": "openorgs____::e7be6597b7e02ac19f6db81fef321e3d"
+          },
+          {
+            "legal_name": "RTI Health Solutions",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/032nh7f71",
+            "openaire": "pending_org_::56ba7b02c9cb5bc2c7e2bc83b10f0a64"
+          },
+          {
+            "legal_name": "Leiden University Medical Center",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/05xvt9f17",
+            "openaire": "openorgs____::2eeca4f78f2a04a35057c1fa7918e23b"
+          },
+          {
+            "legal_name": "Pitié-Salpêtrière Hospital",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02mh9a093",
+            "openaire": "openorgs____::20c79fc8c919e64d1ab854c90b591f2a"
+          },
+          {
+            "legal_name": "Kumamoto University Hospital",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/02vgs9327",
+            "openaire": "openorgs____::59de5f900857c3acd601dbe9a79c9a45"
+          },
+          {
+            "legal_name": "Ghent University Hospital",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/00xmkp704",
+            "openaire": "openorgs____::0278a5de3889f93bdcb71a8a5401dcb2"
+          },
+          {
+            "legal_name": "Azienda Ospedaliera Universitaria Policlinico \"G. Martino\"",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/03tf96d34",
+            "openaire": "openorgs____::3db9875060f6ab581864baf1c123116f"
+          },
+          {
+            "legal_name": "The University of Texas Southwestern Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05byvp690",
+            "openaire": "openorgs____::ccca6647e06fb8e0d026c9a42ae7b67e"
+          },
+          {
+            "legal_name": "University of Notre Dame",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00mkhxb43",
+            "openaire": "openorgs____::12ecf975333fbcdc5ad74acdb7839aea"
+          },
+          {
+            "legal_name": "Novartis (Switzerland)",
+            "country_name": "Switzerland",
+            "country_code": "CH",
+            "country_source": "ror",
+            "ror": "https://ror.org/02f9zrr09",
+            "openaire": "openorgs____::fcf322348072f1e41745eb26e8bc6655"
+          },
+          {
+            "legal_name": "NIHR Biomedical Research Centre at The Royal Marsden and the ICR",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/014ktry78",
+            "openaire": "pending_org_::cb0d3c0d1894a68b12d6760776028d2f"
+          },
+          {
+            "legal_name": "University Hospital of Zurich",
+            "country_name": "Switzerland",
+            "country_code": "CH",
+            "country_source": "ror",
+            "ror": "https://ror.org/01462r250",
+            "openaire": "openorgs____::6499f648fb0439680bcd0146b50357ff"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "Tohoku University Hospital",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/00kcd6x60",
+            "openaire": "openorgs____::9a6b404f8c68900b6038625bc15b9d90"
+          },
+          {
+            "legal_name": "Royal North Shore Hospital",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/02gs2e959",
+            "openaire": "openorgs____::c9b4c2aaac0a5dba12a4d5a3c5281b54"
+          },
+          {
+            "legal_name": "University Dental Hospital of Manchester",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/019bxes45",
+            "openaire": "openorgs____::dd15b762bfed01cff08fbbe571d7a894"
+          },
+          {
+            "legal_name": "Manchester Academic Health Science Centre",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/04rrkhs81",
+            "openaire": "openorgs____::c3fc9d633b2dafa721cdae09e4de3684"
+          },
+          {
+            "legal_name": "Centre Hospitalier Universitaire de Saint-Pierre",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/05cmp5q80",
+            "openaire": "openorgs____::fdef72270c799288555602e9f4bc7436"
+          },
+          {
+            "legal_name": "Institute of Cancer Research",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/043jzw605",
+            "openaire": "openorgs____::864cd1742106d7b789cf5f8ea4d76bd2"
+          },
+          {
+            "legal_name": "Novartis (United States)",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/028fhxy95",
+            "openaire": "pending_org_::c58f5740ca66e5df9c4613cee77b4612"
+          },
+          {
+            "legal_name": "University College London Qatar",
+            "country_name": "Qatar",
+            "country_code": "QA",
+            "country_source": "ror",
+            "ror": "https://ror.org/0078bd381",
+            "openaire": "openorgs____::789a97f9de7e17213d01f24d6c19bd74"
+          },
+          {
+            "legal_name": "Kumamoto University",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/02cgss904",
+            "openaire": "openorgs____::eba33022249a3748516ae9a808f79916"
+          },
+          {
+            "legal_name": "University of Kansas Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/036c9yv20",
+            "openaire": "openorgs____::6a6f53e8fa02c9fb805dbef2279fc47e"
+          },
+          {
+            "legal_name": "University of Salford",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01tmqtf75",
+            "openaire": "openorgs____::50b3091e5531425358949cafa6bf3b99"
+          },
+          {
+            "legal_name": "Salford Royal NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/019j78370",
+            "openaire": "openorgs____::3ead196ea1fb89129ff36933048b6815"
+          },
+          {
+            "legal_name": "Centre de Recherche en Myologie",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02e3eqz10",
+            "openaire": "pending_org_::ec961dd17ba80031a87f61b537eb3428"
+          },
+          {
+            "legal_name": "Rigshospitalet",
+            "country_name": "Denmark",
+            "country_code": "DK",
+            "country_source": "ror",
+            "ror": "https://ror.org/03mchdq19",
+            "openaire": "openorgs____::44786ef8a44c183bbb4f576cb74f33c7"
+          },
+          {
+            "legal_name": "Antwerp University Hospital",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/01hwamj44",
+            "openaire": "openorgs____::297dce176fe5addc5178505da62c74f4"
+          },
+          {
+            "legal_name": "Wakayama Medical University",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/005qv5373",
+            "openaire": "openorgs____::84d43d9959d7ca4e1632ef81e6c7a067"
+          },
+          {
+            "legal_name": "University of California, Davis",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/05rrcem69",
+            "openaire": "openorgs____::c9f6cad9752276cb556e88a5111e86aa"
+          },
+          {
+            "legal_name": "The University of Notre Dame Australia",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/02stey378",
+            "openaire": "openorgs____::650026a8e2fa0cb540fbcd3016cfcca7"
+          },
+          {
+            "legal_name": "National Institute for Health and Care Research",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/0187kwz08",
+            "openaire": "openorgs____::c94329ecc344805ad3f50ae49c7400d7"
+          },
+          {
+            "legal_name": "Manchester University NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00he80998",
+            "openaire": "openorgs____::a88320e873a31be1bf6d148ebd6a66bf"
+          },
+          {
+            "legal_name": "Royal Perth Hospital",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/00zc2xc51",
+            "openaire": "openorgs____::d553165ba56f41ec05c3fb812f48d389"
+          },
+          {
+            "legal_name": "University of Amsterdam",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/04dkp9463",
+            "openaire": "openorgs____::58f65ed1ce3c9166e9c5f939bfdbf83a"
+          },
+          {
+            "legal_name": "University of Padua",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00240q980",
+            "openaire": "openorgs____::d6ddbed2807becaf5b096013ba158c9b"
+          },
+          {
+            "legal_name": "Amsterdam University Medical Centers",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/05grdyy37",
+            "openaire": "openorgs____::2ce10b2528220091bd0363c1e39394c1"
+          },
+          {
+            "legal_name": "Sorbonne Université",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02en5vm52",
+            "openaire": "openorgs____::d5eb679abdd31f70fcd4c8ba711148bf"
+          },
+          {
+            "legal_name": "The Ohio State University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00rs6vg23",
+            "openaire": "openorgs____::eb3866cbe3cc9b3b2286dd8a90bd1cd0"
+          },
+          {
+            "legal_name": "University of Brescia",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/02q2d2610",
+            "openaire": "openorgs____::37c94a89507d8fc6194024f921003a05"
+          },
+          {
+            "legal_name": "University College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jx3x895",
+            "openaire": "openorgs____::f031b1a0bb3f7636ff6fbdfa79fd5dec"
+          },
+          {
+            "legal_name": "Massachusetts General Hospital",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/002pd6e78",
+            "openaire": "openorgs____::2f654788496a19e31fef9684942005b8"
+          },
+          {
+            "legal_name": "Johns Hopkins University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00za53h95",
+            "openaire": "openorgs____::27892c24a9b3edfdab10ce88e732a236"
+          },
+          {
+            "legal_name": "Tokai National Higher Education and Research System",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/04d139241",
+            "openaire": "pending_org_::f60f683b6a58effd0e35714c00fdf813"
+          },
+          {
+            "legal_name": "University of Kansas",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/001tmjg57",
+            "openaire": "openorgs____::047e7f11f4ce252c3e651cd385e1e212"
+          },
+          {
+            "legal_name": "The Ohio State University Wexner Medical Center",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00c01js51",
+            "openaire": "openorgs____::ca063c9b086b4ab54b874f5c7083e672"
+          },
+          {
+            "legal_name": "Oregon Health & Science University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/009avj582",
+            "openaire": "openorgs____::4c28707082ba28be33ed8cec89256b87"
+          },
+          {
+            "legal_name": "Nagoya University Hospital",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/008zz8m46",
+            "openaire": "openorgs____::a99a4fc83a670a10c0eee39af4ee749b"
+          },
+          {
+            "legal_name": "UCLouvain",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02495e989",
+            "openaire": "openorgs____::73e124d9d4f37ce3a694e2b09faf0f28"
+          },
+          {
+            "legal_name": "University of California, Irvine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/04gyf1771",
+            "openaire": "openorgs____::bac127a191d1871e49e650573f9b352d"
+          },
+          {
+            "legal_name": "University of Tokyo Hospital",
+            "country_name": "Japan",
+            "country_code": "JP",
+            "country_source": "ror",
+            "ror": "https://ror.org/022cvpj02",
+            "openaire": "openorgs____::be4ca3e3f76c9fdf47f9e43b87174a22"
+          },
+          {
+            "legal_name": "University of Miami",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02dgjyy92",
+            "openaire": "openorgs____::3b60797cc6521040d2d64a19d69b72a6"
+          }
+        ]
+      }
+    },
+    {
+      "omid": "omid:br/0603905515",
+      "matched_openaire_ids": [
+        "openorgs____::43a3b6bebd879587437eb46f65150f04"
+      ],
+      "entry": {
+        "pids": {
+          "doi": "10.1016/s1474-4422(19)30394-1",
+          "pmid": "31810826",
+          "isbn": "",
+          "openaire": "doi_dedup___::6352d8933c15036905ab582e79684917"
+        },
+        "organizations": [
+          {
+            "legal_name": "Saint Louis University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/01p7jjy08",
+            "openaire": "openorgs____::5eee853e68d91f58e178c3b24e55c18c"
+          },
+          {
+            "legal_name": "University of British Columbia",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/03rmrcq20",
+            "openaire": "openorgs____::3fb8683d75ab6c4dae4cf6a1b07ff536"
+          },
+          {
+            "legal_name": "Katholieke Universiteit Leuven",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::25a27d227e0daba9b81c739821b2800f"
+          },
+          {
+            "legal_name": "The Spine Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03bx4c072",
+            "openaire": "openorgs____::4b3aec7aa6d441cd187a6a05527c43fe"
+          },
+          {
+            "legal_name": "Université de Limoges",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02cp04407",
+            "openaire": "openorgs____::cb1032f82d855d32b4aecbe00db4c489"
+          },
+          {
+            "legal_name": "Johns Hopkins Medicine",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/037zgn354",
+            "openaire": "openorgs____::6507e6caeca9e0370d099c0ff7795999"
+          },
+          {
+            "legal_name": "Vlaams Instituut voor Biotechnologie",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/03xrhmk39",
+            "openaire": "openorgs____::4ba13df79e7174ec01cd7856627f59d9"
+          },
+          {
+            "legal_name": "Western University",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/02grkyz14",
+            "openaire": "openorgs____::2744820824ea7c74a5c72e691d6138c5"
+          },
+          {
+            "legal_name": "University of London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/04cw6st05",
+            "openaire": "openorgs____::a182583e20c818fb2191caf96ea00691"
+          },
+          {
+            "legal_name": "Universitat de Barcelona",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/021018s57",
+            "openaire": "openorgs____::6c3442fa797102c1c5c1a4319fce4119"
+          },
+          {
+            "legal_name": "McGill University Health Centre",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/04cpxjv19",
+            "openaire": "openorgs____::0b885b7a4e6b5c51c3a933394725078c"
+          },
+          {
+            "legal_name": "University of Coimbra",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04z8k9a98",
+            "openaire": "openorgs____::6c93cc20a992d88c8dff2a8fbcf95034"
+          },
+          {
+            "legal_name": "University of Trieste",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/02n742c10",
+            "openaire": "openorgs____::c40726160f9afd975bc4b999990f7b68"
+          },
+          {
+            "legal_name": "Universidade Lusófona do Porto",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "ror",
+            "ror": "https://ror.org/052kcks88",
+            "openaire": "openorgs____::32d39b07d757bf27d8bea5731550637e"
+          },
+          {
+            "legal_name": "Direction des Sciences du Vivant",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/03p7jen43",
+            "openaire": "openorgs____::e8e2fecc22f2d14fe275632fda21cef2"
+          },
+          {
+            "legal_name": "Columbia University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00hj8s172",
+            "openaire": "openorgs____::fccf2f1250bf729277f6226fa865428b"
+          },
+          {
+            "legal_name": "University of Bonn",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/041nas322",
+            "openaire": "openorgs____::64a0ee2abab6e68eed9da34de85c4642"
+          },
+          {
+            "legal_name": "Universidade de Lisboa",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::5db3612b1e005c39c44e1d770b219b12"
+          },
+          {
+            "legal_name": "Genoscope",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/028pnqf58",
+            "openaire": "openorgs____::1c21fe6ebbf9c3921385a3c9b058e1cd"
+          },
+          {
+            "legal_name": "Inserm",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02vjkv261",
+            "openaire": "openorgs____::50c715fc6e0a1f3bcd8238b190b89f79"
+          },
+          {
+            "legal_name": "Erasmus University Rotterdam",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/057w15z03",
+            "openaire": "openorgs____::2f735203eb40d8389a881e874bee537a"
+          },
+          {
+            "legal_name": "Hospital Clínic de Barcelona",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/02a2kzf50",
+            "openaire": "openorgs____::211601294c89fc79091e4935b1cb50d5"
+          },
+          {
+            "legal_name": "Assistance Publique – Hôpitaux de Paris",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00pg5jh14",
+            "openaire": "openorgs____::530454b77c12098816537c2bf66f3267"
+          },
+          {
+            "legal_name": "University of Paris",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::445cce6490d50ffe368060d10151b5b8"
+          },
+          {
+            "legal_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04tfzc498",
+            "openaire": "openorgs____::238381302017baa16a6d0bf695797329"
+          },
+          {
+            "legal_name": "CHU de Québec-Université Laval",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/05qn5kv73",
+            "openaire": "openorgs____::400ebffa7ac0f5f7d7771257447f5508"
+          },
+          {
+            "legal_name": "Essen University Hospital",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/02na8dn90",
+            "openaire": "openorgs____::28d22cc719313b0e17124ffac3da803b"
+          },
+          {
+            "legal_name": "New York University Florence",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/02pthyn77",
+            "openaire": "openorgs____::26ddf4c9e5aa4bc267f9404258335ec9"
+          },
+          {
+            "legal_name": "Fundació de Recerca Clínic Barcelona-Institut d’Investigacions Biomèdiques August Pi i Sunyer",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/041gvmd67",
+            "openaire": "pending_org_::091d8a8fd05bbaf93f2b0fd8b29355fd"
+          },
+          {
+            "legal_name": "Centre Hospitalier Universitaire de Limoges",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/01tc2d264",
+            "openaire": "openorgs____::c758ab32a29b2d1e6e955dbaa85f7cdd"
+          },
+          {
+            "legal_name": "German Center for Neurodegenerative Diseases",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/043j0f473",
+            "openaire": "openorgs____::9787065587295d58d6152768b036da75"
+          },
+          {
+            "legal_name": "Instituto de Biologia Molecular e Celular",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "ror",
+            "ror": "https://ror.org/005dkht93",
+            "openaire": "pending_org_::208a0954eefd41ce42332c0d61ffb2c4"
+          },
+          {
+            "legal_name": "Center for Neuroscience and Cell Biology (CNC), University of Coimbra",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::b28be12a94808d56324729e29677cacb"
+          },
+          {
+            "legal_name": "University of Lisbon",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "ror",
+            "ror": "https://ror.org/01c27hj86",
+            "openaire": "openorgs____::80789f6317341c95dd31840d40aa1f07"
+          },
+          {
+            "legal_name": "UNIVERSITY COLLEGE LONDON, Bartlett School of Planning",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::430d75ed90145317057acd990ab08cca"
+          },
+          {
+            "legal_name": "Centro de Neurociências e Biologia Celular",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "ror",
+            "ror": "https://ror.org/01nzkd566",
+            "openaire": "pending_org_::1dcf13f9d5bdc2872c29f137dcea07e3"
+          },
+          {
+            "legal_name": "Universidade de Coimbra Arquivo",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "ror",
+            "ror": "https://ror.org/022ssnb78",
+            "openaire": "pending_org_::23afbd966461644c6bb871c50bf5b340"
+          },
+          {
+            "legal_name": "UCL Queen Square Institute of Neurology",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/0370htr03",
+            "openaire": "pending_org_::4652a331cf0df2403791ee95842104f7"
+          },
+          {
+            "legal_name": "Montreal Neurological Institute and Hospital",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/05ghs6f64",
+            "openaire": "openorgs____::3d635327eba00650cd4f54d5fdd791fd"
+          },
+          {
+            "legal_name": "Institut des Sciences Biologiques",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/00rydyx93",
+            "openaire": "openorgs____::8eb347b725e90c0e1fc2079822cafa39"
+          },
+          {
+            "legal_name": "Helmholtz Association of German Research Centres",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/0281dp749",
+            "openaire": "openorgs____::4dee7ea0d1fd1b48c199ee744e21dc13"
+          },
+          {
+            "legal_name": "Medical Research Council",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03x94j517",
+            "openaire": "openorgs____::254da6549a0e5eef83e591a51ccf8f9f"
+          },
+          {
+            "legal_name": "University of Tübingen",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/03a1kwz48",
+            "openaire": "openorgs____::ca58585cd878d3df6de7871d6d5a6e9e"
+          },
+          {
+            "legal_name": "Florey Institute of Neuroscience and Mental Health",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/03a2tac74",
+            "openaire": "openorgs____::e130a694b0887385f862686650daaf74"
+          },
+          {
+            "legal_name": "UNIVERSITE DE LIMOGES",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::dc1094f65722c27cebd28c15a4d68bc6"
+          },
+          {
+            "legal_name": "CENTRO DE NEUROCIENCIAS E BIOLOGIACELULAR ASSOCIACAO",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::c920960d5f6702eb97cd470fc1fb87f4"
+          },
+          {
+            "legal_name": "Van Andel Institute",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wm07d60",
+            "openaire": "openorgs____::8fe653ed7e6ef40c5314b83a4eb3f9d9"
+          },
+          {
+            "legal_name": "University General Hospital Attikon",
+            "country_name": "Greece",
+            "country_code": "GR",
+            "country_source": "ror",
+            "ror": "https://ror.org/03gb7n667",
+            "openaire": "openorgs____::4c1a6156ec765a37c00b47877c1b3ff1"
+          },
+          {
+            "legal_name": "MRC Cognition and Brain Sciences Unit",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/055bpw879",
+            "openaire": "openorgs____::ff07bd72fb1fa4655665258a8e56b897"
+          },
+          {
+            "legal_name": "Pitié-Salpêtrière Hospital",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02mh9a093",
+            "openaire": "openorgs____::20c79fc8c919e64d1ab854c90b591f2a"
+          },
+          {
+            "legal_name": "University College London Hospitals NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/042fqyp44",
+            "openaire": "openorgs____::9f45412da82ef09d7c9ef4bba8de28f0"
+          },
+          {
+            "legal_name": "Universität Ulm",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/032000t02",
+            "openaire": "openorgs____::bebf21d464a16875edbb788b6f24577a"
+          },
+          {
+            "legal_name": "Université Coimbra",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::30fc3ccf6d3c263b63a897fb57043b1d"
+          },
+          {
+            "legal_name": "University of Cambridge",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/013meh722",
+            "openaire": "openorgs____::b03ae6770284a0dfaca038c0f8193048"
+          },
+          {
+            "legal_name": "Harvard University Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/006v7bf86",
+            "openaire": "openorgs____::43a3b6bebd879587437eb46f65150f04"
+          },
+          {
+            "legal_name": "University of California, San Francisco",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/043mz5j54",
+            "openaire": "openorgs____::e355efaf62ddb61ef1bbda6c6806923d"
+          },
+          {
+            "legal_name": "Deutsche Zentren der Gesundheitsforschung",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/044wq1q96",
+            "openaire": "pending_org_::ee2b0790ad2acd161d5f64cf3c7239ba"
+          },
+          {
+            "legal_name": "Sunnybrook Research Institute",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/05n0tzs53",
+            "openaire": "pending_org_::28bc0ae4ad90562ffd7400910996fffd"
+          },
+          {
+            "legal_name": "Center for Neurosciences and Cell Biology (CNC), University of Coimbra",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::b119795d01607ef9de9bf075a0a765f2"
+          },
+          {
+            "legal_name": "University Dental Hospital of Manchester",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/019bxes45",
+            "openaire": "openorgs____::dd15b762bfed01cff08fbbe571d7a894"
+          },
+          {
+            "legal_name": "Osakidetza",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/02g7qcb42",
+            "openaire": "openorgs____::fcf9dd3d5360b090f82961cb2fd7e9bd"
+          },
+          {
+            "legal_name": "University College London Qatar",
+            "country_name": "Qatar",
+            "country_code": "QA",
+            "country_source": "ror",
+            "ror": "https://ror.org/0078bd381",
+            "openaire": "openorgs____::789a97f9de7e17213d01f24d6c19bd74"
+          },
+          {
+            "legal_name": "Institut du Cerveau",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/050gn5214",
+            "openaire": "openorgs____::bc137673732ab6597af1bdb865ad7237"
+          },
+          {
+            "legal_name": "National and Kapodistrian University of Athens (NTUA",
+            "country_name": "Greece",
+            "country_code": "GR",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::40be9a32d3da9cdcf6a2538857532499"
+          },
+          {
+            "legal_name": "Washington University in St. Louis",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "openaire",
+            "ror": null,
+            "openaire": "pending_org_::662b3a423cb5aca747965413fbf421f4"
+          },
+          {
+            "legal_name": "The University of Sydney",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/0384j8v12",
+            "openaire": "openorgs____::8ca10608a248910c25083c3dab4371c3"
+          },
+          {
+            "legal_name": "Centre de recherche du CHU de Québec-Université Laval",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/04rgqcd02",
+            "openaire": "pending_org_::15fb615b504d4df60c8f006df79166f9"
+          },
+          {
+            "legal_name": "Sorbonne Université",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02en5vm52",
+            "openaire": "openorgs____::d5eb679abdd31f70fcd4c8ba711148bf"
+          },
+          {
+            "legal_name": "Institut de Biologie Moléculaire et Cellulaire",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/05qpmg879",
+            "openaire": "openorgs____::81af6234f9f3565b30bdb8b1b4459d3e"
+          },
+          {
+            "legal_name": "Biogipuzkoa Health Research Institute",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/01a2wsa50",
+            "openaire": "openorgs____::8880cfa24cdabe54c47d481caf12be20"
+          },
+          {
+            "legal_name": "Manchester University NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00he80998",
+            "openaire": "openorgs____::a88320e873a31be1bf6d148ebd6a66bf"
+          },
+          {
+            "legal_name": "London School of Hygiene & Tropical Medicine",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/00a0jsq62",
+            "openaire": "openorgs____::218f71684def9f8a5ee770e443e4c048"
+          },
+          {
+            "legal_name": "University of Toronto",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/03dbr7087",
+            "openaire": "openorgs____::1ba76e2ce1d7d529a66c628d877a593b"
+          },
+          {
+            "legal_name": "Centre National de la Recherche Scientifique",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/02feahw73",
+            "openaire": "openorgs____::7fbdf9cd4423c4604745a16afe728bc7"
+          },
+          {
+            "legal_name": "Johns Hopkins University",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/00za53h95",
+            "openaire": "openorgs____::27892c24a9b3edfdab10ce88e732a236"
+          },
+          {
+            "legal_name": "Karolinska University Hospital",
+            "country_name": "Sweden",
+            "country_code": "SE",
+            "country_source": "ror",
+            "ror": "https://ror.org/00m8d6786",
+            "openaire": "openorgs____::7953895b1884fcf62e7ee77cedb7e02f"
+          },
+          {
+            "legal_name": "University of Florence",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04jr1s763",
+            "openaire": "openorgs____::41406edad82942e9e0b29317b8a847e2"
+          },
+          {
+            "legal_name": "University of Salford",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/01tmqtf75",
+            "openaire": "openorgs____::50b3091e5531425358949cafa6bf3b99"
+          },
+          {
+            "legal_name": "University of Northwestern",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/019t2rq07",
+            "openaire": "openorgs____::1ec8a971a88d917104824730cbd7b586"
+          },
+          {
+            "legal_name": "McGill University",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/01pxwe438",
+            "openaire": "openorgs____::4ebada891b1bf2c5c6fb2560a5170a02"
+          },
+          {
+            "legal_name": "University of Trento",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/05trd4x28",
+            "openaire": "openorgs____::db652e6496b6c6a08d25533f27864d04"
+          },
+          {
+            "legal_name": "National Neuroscience Institute",
+            "country_name": "Singapore",
+            "country_code": "SG",
+            "country_source": "ror",
+            "ror": "https://ror.org/03d58dr58",
+            "openaire": "openorgs____::68e668a1da480f38661df2dc0829cb7f"
+          },
+          {
+            "legal_name": "Neuroscience Research Australia",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/01g7s6g79",
+            "openaire": "openorgs____::c2941ee4ee997ae373cfae22e688672c"
+          },
+          {
+            "legal_name": "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/016zn0y21",
+            "openaire": "openorgs____::eaa4b28faa9da608680b62f731b4df2e"
+          },
+          {
+            "legal_name": "The University of Melbourne",
+            "country_name": "Australia",
+            "country_code": "AU",
+            "country_source": "ror",
+            "ror": "https://ror.org/01ej9dk98",
+            "openaire": "openorgs____::6fdfd1a4d8af53034d2bfbb46440fab6"
+          },
+          {
+            "legal_name": "Instituto de Salud Carlos III",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/00ca2c886",
+            "openaire": "openorgs____::129f2dad84f18b2c473cf21901f3ca68"
+          },
+          {
+            "legal_name": "Erasmus MC",
+            "country_name": "The Netherlands",
+            "country_code": "NL",
+            "country_source": "ror",
+            "ror": "https://ror.org/018906e22",
+            "openaire": "openorgs____::46893b4080f9a8d38c83cd5bbdd68d52"
+          },
+          {
+            "legal_name": "Mayo Clinic",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/02qp3tb03",
+            "openaire": "openorgs____::5a2a4cdc063415e78762a3c4c4e80619"
+          },
+          {
+            "legal_name": "Salford Royal NHS Foundation Trust",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/019j78370",
+            "openaire": "openorgs____::3ead196ea1fb89129ff36933048b6815"
+          },
+          {
+            "legal_name": "Sunnybrook Health Science Centre",
+            "country_name": "Canada",
+            "country_code": "CA",
+            "country_source": "ror",
+            "ror": "https://ror.org/03wefcv03",
+            "openaire": "openorgs____::e4691453321a76083ecd6daf3c8b4ed7"
+          },
+          {
+            "legal_name": "KU Leuven",
+            "country_name": "Belgium",
+            "country_code": "BE",
+            "country_source": "ror",
+            "ror": "https://ror.org/05f950310",
+            "openaire": "openorgs____::ccc0a066b56d2cfaf90c2ae369df16f5"
+          },
+          {
+            "legal_name": "National and Kapodistrian University of Athens",
+            "country_name": "Greece",
+            "country_code": "GR",
+            "country_source": "ror",
+            "ror": "https://ror.org/04gnjpq42",
+            "openaire": "openorgs____::c0286313e36479eff8676dba9b724b40"
+          },
+          {
+            "legal_name": "National Institute for Health and Care Research",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/0187kwz08",
+            "openaire": "openorgs____::c94329ecc344805ad3f50ae49c7400d7"
+          },
+          {
+            "legal_name": "UCL Biomedical Research Centre",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/03r9qc142",
+            "openaire": "openorgs____::04e78f10b9bb972066dcd067180ba51a"
+          },
+          {
+            "legal_name": "Institut d’Epidémiologie Neurologique et de Neurologie Tropicale",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/0529q4s79",
+            "openaire": "openorgs____::65fcb4f706084baba5d237c5d1203230"
+          },
+          {
+            "legal_name": "University College London",
+            "country_name": "United Kingdom",
+            "country_code": "GB",
+            "country_source": "ror",
+            "ror": "https://ror.org/02jx3x895",
+            "openaire": "openorgs____::f031b1a0bb3f7636ff6fbdfa79fd5dec"
+          },
+          {
+            "legal_name": "University of Milan",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/00wjc7c48",
+            "openaire": "openorgs____::db7686f30f22cbe73a4fde872ce812a6"
+          },
+          {
+            "legal_name": "Fondazione IRCCS Istituto Neurologico Carlo Besta",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/05rbx8m02",
+            "openaire": "openorgs____::7bac58a37745b768f0a386ab61f2d3ee"
+          },
+          {
+            "legal_name": "University of Pennsylvania Press",
+            "country_name": "United States",
+            "country_code": "US",
+            "country_source": "ror",
+            "ror": "https://ror.org/03xwa9562",
+            "openaire": "openorgs____::733e553b5ff74d294f0ef75eeab1a503"
+          },
+          {
+            "legal_name": "Karolinska Institutet Innovations (Sweden)",
+            "country_name": "Sweden",
+            "country_code": "SE",
+            "country_source": "ror",
+            "ror": "https://ror.org/04hmgwg30",
+            "openaire": "openorgs____::3924dd12780377387bdbb69fb8de8d5c"
+          },
+          {
+            "legal_name": "Ludwig-Maximilians-Universität München",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/05591te55",
+            "openaire": "openorgs____::a3caad3e06b6235bdbfe47b3d0568909"
+          },
+          {
+            "legal_name": "Délégation Régionale Occitanie Pyrénées",
+            "country_name": "France",
+            "country_code": "FR",
+            "country_source": "ror",
+            "ror": "https://ror.org/03xssrp53",
+            "openaire": "pending_org_::34060b2e3fbb23ae64bd8db2303a7f05"
+          },
+          {
+            "legal_name": "University of Brescia",
+            "country_name": "Italy",
+            "country_code": "IT",
+            "country_source": "ror",
+            "ror": "https://ror.org/02q2d2610",
+            "openaire": "openorgs____::37c94a89507d8fc6194024f921003a05"
+          },
+          {
+            "legal_name": "University of Duisburg-Essen",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/04mz5ra38",
+            "openaire": "openorgs____::0b0102bae51f4f4ef5ba57fbe1523b92"
+          },
+          {
+            "legal_name": "Hertie Institute for Clinical Brain Research",
+            "country_name": "Germany",
+            "country_code": "DE",
+            "country_source": "ror",
+            "ror": "https://ror.org/04zzwzx41",
+            "openaire": "openorgs____::1fb6bb83b7c61e56ceaf269a8167b050"
+          },
+          {
+            "legal_name": "Donostiako Unibertsitate Ospitalea",
+            "country_name": "Spain",
+            "country_code": "ES",
+            "country_source": "ror",
+            "ror": "https://ror.org/04fkwzm96",
+            "openaire": "openorgs____::3bd61445aa99721f0aa0668c8cf5eeb5"
+          },
+          {
+            "legal_name": "Hospitais da Universidade de Coimbra",
+            "country_name": "Portugal",
+            "country_code": "PT",
+            "country_source": "ror",
+            "ror": "https://ror.org/04032fz76",
+            "openaire": "openorgs____::3f89ec5a5ff74208c7589f92fec0afed"
+          }
+        ]
+      }
+    }
+  ]
+}
