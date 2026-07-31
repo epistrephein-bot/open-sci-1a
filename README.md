@@ -10,12 +10,18 @@ and outgoing citations for each publication.
 
 The mapping process is divided into four main steps:
 1. Mapping of IRIS publications to OpenCitations PIDs (DOI, PMID, ISBN).
-2. Mapping of OpenAIRE organizations to ROR identifiers, names and countries.
+2. Building a ROR-keyed organization index, and resolving each OpenAIRE
+   organization to a single ROR identifier.
 3. Mapping of IRIS publications to OpenAIRE organizations using the PIDs from
-   step 1 and the relations dump from OpenAIRE.
+   step 1 and the relations dump from OpenAIRE, then resolving those
+   organizations to their ROR records.
 4. Counting of incoming and outgoing citations for each publication, producing
    aggregated statistics for each IRIS university for both organizations and
    countries.
+
+ROR is the sole authority on organization identity: every organization name,
+identifier and country in the final output comes from the ROR dump, and
+organizations that cannot be resolved to exactly one ROR record are excluded.
 
 ## Process
 
@@ -144,12 +150,21 @@ Data path prefix: `iris_oc_pids/`
 | `unique_pids.metadata.json` | Contains metadata about the unique PIDs generation process across all IRIS publications. |
 
 #### 5. Run the OpenAIRE/ROR mapping script
-The second step of the pipeline will create a mapping between the organizations
-in OpenAIRE and ROR, resolving duplicates and inconsistencies, and selecting a
-canonical name for each organization. 
 
-This mapping will be used in the next step of the pipeline to quickly lookup the
-OpenAIRE organization id and retrieve the precise name and country.
+The second step of the pipeline establishes ROR as the authority on organization
+identity. It produces two files: an index of every ROR organization keyed by ROR
+identifier and a lookup resolving each OpenAIRE organization id to a single ROR
+identifier.
+
+The second file is needed only because OpenAIRE's affiliation edges reference
+OpenAIRE organization ids; those ids are never published in the final output.
+
+OpenAIRE frequently attaches several ROR identifiers to one organization record,
+expressing its own uncertainty about which entity the record describes rather
+than listing several affiliations. An organization is therefore included only if
+it resolves to exactly one ROR identifier: where several are attached,
+OpenAIRE's `legalName` and country are used *solely* to choose between the ROR
+candidates, and the organization is dropped when they single out none.
 
 ```bash
 python src/match_organizations_countries.py
@@ -161,8 +176,9 @@ Data path prefix: `openaire_ror_countries/`
 
 | file | description |
 |---|---|
-| `openaire_ror_countries.json` | Contains the mapping of OpenAIRE organizations to ROR identifiers, names and countries. |
-| `openaire_ror_countries.metadata.json` | Contains metadata about the OpenAIRE to ROR mapping process. |
+| `ror_organizations.json` | Contains every ROR organization keyed by ROR identifier, with its name, country name and country code. Every value published downstream comes from this file. |
+| `openaire_ror_map.json` | Contains the mapping of each resolvable OpenAIRE organization id to its single ROR identifier. |
+| `ror_organizations.metadata.json` | Contains metadata about the OpenAIRE to ROR mapping process, including how many organizations were dropped and why. |
 
 #### 6. Run the IRIS/OpenAIRE mapping script
 
@@ -171,6 +187,13 @@ create a mapping between the IRIS publications and the OpenAIRE publications
 using the PIDs produced in step one, resolving authors' affiliations via the
 relations dump and producing a final mapping between publications and
 organizations involved.
+
+Each affiliated organization is resolved in two hops — OpenAIRE organization id
+to ROR identifier, then ROR identifier to its ROR record — using the two files
+produced in step two. Organizations absent from that mapping are dropped, and
+the organizations of each publication are deduplicated on their ROR identifier,
+so that several OpenAIRE records describing the same institution are counted
+once.
 
 This step is very computationally intensive, as it requires iterating over all
 the OpenAIRE publications and relations tar files, and will take several hours
