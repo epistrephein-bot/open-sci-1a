@@ -1,5 +1,6 @@
 import json
 import gzip
+import re
 import sys
 import time
 import tarfile
@@ -33,6 +34,9 @@ LOG_EVERY = 50_000
 # METHODS
 # ==============================================================================
 
+_LEADING_ARTICLE_RE = re.compile(r"^(the|la|le|les|il|lo|el)\s+")
+
+
 def ror_display_name(names):
     """Return the ror_display name from a ROR names list, or None."""
     for name in names:
@@ -41,19 +45,40 @@ def ror_display_name(names):
     return None
 
 
-def build_ror_organizations(ror_path):
-    """Read ror.json and return {ror_id: {legal_name, country_name, country_code}}.
+def normalize_name(value):
+    """Lowercase a name and drop a leading article, for comparison only.
 
-    This is the authority file: every organization name, id and country published
-    downstream comes from here and nowhere else.
+    OpenAIRE writes `University of Tokyo` where ROR writes `The University of
+    Tokyo`; without this the organization is dropped as unidentifiable.
+    """
+    return _LEADING_ARTICLE_RE.sub("", (value or "").strip().lower())
+
+
+def openaire_country_code(org_record):
+    """Return the OpenAIRE country code for an organization, or ''."""
+    country = org_record.get("country") or {}
+    return (country.get("code") or "").strip()
+
+
+def build_ror_organizations(ror_path):
+    """Read ror.json and return (organizations, match_index).
+
+    organizations is the authority file written to disk: every organization name,
+    id and country published downstream comes from here and nowhere else.
+
+    match_index is in-memory only, used to disambiguate organizations carrying
+    several ROR ids — it holds every name ROR knows for a record (not just the
+    display name) plus whether the record is still active.
     """
     with open(ror_path, "r", encoding="utf-8") as path:
         ror_data = json.load(path)
 
     organizations = {}
+    match_index = {}
     for record in ror_data:
         record_ror_id = record.get("id", "")
-        display_name = ror_display_name(record.get("names", []))
+        names = record.get("names", [])
+        display_name = ror_display_name(names)
         locations = record.get("locations", [])
 
         # An organization with no name or no location cannot be reported on
@@ -61,13 +86,24 @@ def build_ror_organizations(ror_path):
             continue
 
         geo = locations[0].get("geonames_details", {})
+        all_names = {
+            (name.get("value") or "").strip().lower()
+            for name in names if name.get("value")
+        }
         organizations[record_ror_id] = {
             "legal_name": display_name,
             "country_name": geo.get("country_name", ""),
             "country_code": geo.get("country_code", ""),
         }
+        match_index[record_ror_id] = {
+            "display": display_name.lower(),
+            "names": all_names,
+            "normalized": {normalize_name(name) for name in all_names},
+            "active": record.get("status") == "active",
+            "country_code": geo.get("country_code", ""),
+        }
 
-    return organizations
+    return organizations, match_index
 
 
 def iter_openaire_orgs(tar_path):
@@ -91,29 +127,47 @@ def iter_openaire_orgs(tar_path):
 
 
 def extract_ror_ids(pids, known_ror_ids):
-    """Return every ROR id on an OpenAIRE organization that resolves in the ROR dump."""
-    return [
+    """Return the distinct ROR ids on an OpenAIRE org that resolve in the ROR dump.
+
+    OpenAIRE repeats the identical ROR pid on some organizations — University of
+    Padua lists https://ror.org/00240q980 twice. A repeated pid is not ambiguity,
+    so duplicates are collapsed here rather than sending the org to resolve_ror_id()
+    as if it named two different entities.
+    """
+    return list(dict.fromkeys(
         pid["value"] for pid in pids
         if pid.get("scheme") == "ROR" and pid.get("value") in known_ror_ids
-    ]
+    ))
 
 
-def resolve_ror_id(ror_ids, legal_name, organizations):
+def resolve_ror_id(ror_ids, legal_name, country_code, match_index):
     """Pick the single ROR id that identifies an OpenAIRE organization, or None.
 
     OpenAIRE frequently attaches several ROR ids to one organization record — its
     own uncertainty about which entity the record is, not a list of affiliations.
     Harvard University carries both `Harvard University` and `Harvard University
     Press`; one bucket carries 32 ROR ids including the US Air Force and Dell.
-    Taking the first one silently renames the organization, so:
+    Taking the first one silently renames the organization, so OpenAIRE's own
+    legalName is used to choose between them:
 
-        - exactly one ROR id     -> use it
-        - several ROR ids        -> use the one whose ROR name is OpenAIRE's own
-                                    legalName, if exactly one qualifies
-        - otherwise              -> ambiguous, drop the organization
+        - exactly one ROR id  -> use it
+        - several ROR ids     -> match OpenAIRE's legalName against ROR's names,
+                                 from strictest to loosest: the display name, then
+                                 any name ROR knows (aliases, translations, former
+                                 names), then the same ignoring a leading article
+        - ties                -> prefer ROR's active record over withdrawn or
+                                 inactive ones, then the one in OpenAIRE's country
+        - otherwise           -> ambiguous, drop the organization
 
-    legalName is only ever a disambiguator here. Every value published downstream
-    still comes from the ROR record.
+    Every fallback earns its place. Panthéon-Assas is named in English by OpenAIRE
+    and only matches a ROR alias; a withdrawn and an active ROR record are both
+    titled `University of Oregon`; ROR writes `The University of Tokyo` where
+    OpenAIRE writes `University of Tokyo`; and two active ROR records are both
+    named `Centers for Disease Control and Prevention`, in different countries.
+    Without these, all four organizations are dropped outright.
+
+    legalName and country are only ever disambiguators here. Every value published
+    downstream still comes from the ROR record.
     """
     if not ror_ids:
         return None
@@ -125,12 +179,34 @@ def resolve_ror_id(ror_ids, legal_name, organizations):
     if not wanted:
         return None
 
-    matches = [
-        ror_id for ror_id in ror_ids
-        if organizations[ror_id]["legal_name"].lower() == wanted
-    ]
+    normalized = normalize_name(wanted)
 
-    return matches[0] if len(matches) == 1 else None
+    # Strictest match first, so a better match always wins outright rather than
+    # competing with a looser one
+    for candidates in (
+        [r for r in ror_ids if match_index[r]["display"] == wanted],
+        [r for r in ror_ids if wanted in match_index[r]["names"]],
+        [r for r in ror_ids if normalized in match_index[r]["normalized"]],
+    ):
+        if len(candidates) == 1:
+            return candidates[0]
+        if len(candidates) < 2:
+            continue
+
+        active = [r for r in candidates if match_index[r]["active"]]
+        if len(active) == 1:
+            return active[0]
+
+        remaining = active or candidates
+        if country_code:
+            in_country = [
+                r for r in remaining
+                if match_index[r]["country_code"] == country_code
+            ]
+            if len(in_country) == 1:
+                return in_country[0]
+
+    return None
 
 
 # ==============================================================================
@@ -146,7 +222,7 @@ if OUTPUT_ORGANIZATIONS.exists():
     sys.exit(0)
 
 print("Building ROR organization index…")
-ror_organizations = build_ror_organizations(ROR_JSON)
+ror_organizations, ror_match_index = build_ror_organizations(ROR_JSON)
 known_ror_ids = set(ror_organizations)
 print(f"  {len(ror_organizations):,} ROR entries loaded from {ROR_JSON.relative_to(DATA_DIR)}")
 
@@ -172,7 +248,9 @@ for org in iter_openaire_orgs(OPENAIRE_TAR):
         # No usable ROR id: the organization cannot be identified authoritatively
         rows_no_ror += 1
     else:
-        ror_id = resolve_ror_id(ror_ids, org.get("legalName"), ror_organizations)
+        ror_id = resolve_ror_id(
+            ror_ids, org.get("legalName"), openaire_country_code(org), ror_match_index
+        )
 
         if ror_id is None:
             rows_ambiguous_ror += 1

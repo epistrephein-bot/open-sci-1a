@@ -40,7 +40,8 @@ Scripts are meant to run sequentially. Each stage reads the output of previous s
    - `openaire_ror_countries/ror_organizations.json` — `ror_id -> {legal_name, country_name, country_code}`, the ROR dump flattened. Every organization name and country published downstream comes from here.
    - `openaire_ror_countries/openaire_ror_map.json` — `openaire_org_id -> ror_id`, needed only because affiliation edges reference OpenAIRE org ids.
    - The `openaire_ror_countries/` folder name is retained from the previous pipeline layout for continuity, though the contents are now keyed on ROR ids.
-   - An OpenAIRE org is dropped unless it resolves to exactly one ROR id. With several ROR pids, OpenAIRE's `legalName` is used *only* as a disambiguator to pick among them; if it singles out none, the org is dropped as ambiguous. See `resolve_ror_id()`.
+   - An OpenAIRE org is dropped unless it resolves to exactly one ROR id. With several ROR pids, OpenAIRE's `legalName` and country are used *only* as disambiguators to pick among them — matching ROR's display name, then any name ROR knows, then ignoring a leading article, with ties broken toward ROR's active record and then OpenAIRE's country. If nothing singles one out, the org is dropped as ambiguous. See `resolve_ror_id()`.
+   - Run `utilities/check_organization_coverage.py` after this stage and *before* the ~6h `resolve_pids_organizations.py`: it reports any organization that a previous run counted but the current mapping would drop.
    - Organizations without a ROR id are excluded entirely (~325k of 448k rows, but only ~6-9% of citation counts — the excluded mass is long-tail `pending_org_::` noise).
 
 3. **`resolve_pids_organizations.py`** — The heaviest script. Four phases:
