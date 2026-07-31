@@ -1,49 +1,50 @@
 country_name,country_code,count
-United States,US,915559
-Italy,IT,248935
-United Kingdom,GB,231165
-France,FR,227043
-Germany,DE,142819
-Japan,JP,105045
-Canada,CA,74731
+United States,US,934876
+Italy,IT,261689
+France,FR,232996
+United Kingdom,GB,231355
+Germany,DE,144237
+Japan,JP,113040
+Canada,CA,75660
 The Netherlands,NL,58922
-Spain,ES,53342
+Spain,ES,53346
+Australia,AU,51161
 Switzerland,CH,50377
-Australia,AU,48879
 Russia,RU,34260
-Finland,FI,31021
-India,IN,26546
-China,CN,25586
+Finland,FI,31022
+India,IN,26648
+China,CN,25678
+Sweden,SE,24106
 South Korea,KR,22846
-Sweden,SE,20606
 Belgium,BE,19388
 Denmark,DK,14472
 Taiwan,TW,13212
 Israel,IL,13149
-Poland,PL,12304
-Austria,AT,11797
+Poland,PL,12317
+Austria,AT,11869
+Brazil,BR,11532
 Pakistan,PK,10612
-Brazil,BR,9661
 Norway,NO,9379
 Hong Kong,HK,8906
 Greece,GR,7713
 Hungary,HU,7557
 Ireland,IE,6654
-Portugal,PT,5889
+Portugal,PT,5912
 Türkiye,TR,4938
 New Zealand,NZ,4804
 Argentina,AR,4664
 Singapore,SG,4514
+Mexico,MX,4352
 Czechia,CZ,4270
-Mexico,MX,4269
 South Africa,ZA,4061
 Chile,CL,3789
 Slovenia,SI,2453
 Slovakia,SK,1617
-Croatia,HR,1550
+Croatia,HR,1552
 Iran,IR,1427
 Ukraine,UA,1399
 Bulgaria,BG,1389
+Georgia,GE,1253
 Tunisia,TN,1176
 Thailand,TH,1174
 Romania,RO,1076
@@ -56,18 +57,18 @@ Egypt,EG,719
 Puerto Rico,PR,698
 Estonia,EE,590
 Iceland,IS,487
-Vietnam,VN,476
+Vietnam,VN,485
 Venezuela,VE,450
 Belarus,BY,405
 Ecuador,EC,379
 Philippines,PH,377
 Saudi Arabia,SA,359
 Ethiopia,ET,337
+Kenya,KE,333
 Armenia,AM,332
-Peru,PE,314
+Peru,PE,319
 Tanzania,TZ,312
 Latvia,LV,310
-Kenya,KE,293
 Morocco,MA,286
 Algeria,DZ,251
 Nigeria,NG,245
@@ -75,7 +76,7 @@ Cambodia,KH,245
 Azerbaijan,AZ,239
 Lebanon,LB,236
 United Arab Emirates,AE,236
-Indonesia,ID,215
+Indonesia,ID,222
 Panama,PA,211
 Ghana,GH,203
 Lithuania,LT,188
@@ -98,7 +99,6 @@ Mozambique,MZ,94
 Macao,MO,92
 Costa Rica,CR,89
 Malta,MT,87
-Georgia,GE,86
 Bermuda,BM,78
 Cameroon,CM,73
 Mongolia,MN,71
@@ -114,7 +114,7 @@ Moldova,MD,48
 Nepal,NP,46
 Syria,SY,45
 Monaco,MC,45
-Guatemala,GT,43
+Guatemala,GT,44
 American Samoa,AS,42
 San Marino,SM,42
 Botswana,BW,38

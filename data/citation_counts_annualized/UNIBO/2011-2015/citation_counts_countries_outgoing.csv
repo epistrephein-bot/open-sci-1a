@@ -1,42 +1,42 @@
 country_name,country_code,count
-United States,US,2037840
-France,FR,861151
-Italy,IT,781784
-United Kingdom,GB,562947
-Germany,DE,448549
+United States,US,2080394
+France,FR,885444
+Italy,IT,811474
+United Kingdom,GB,563890
+Germany,DE,453106
 Spain,ES,267925
+Japan,JP,199605
 The Netherlands,NL,186697
-Canada,CA,184557
-Japan,JP,184131
-China,CN,178042
-Australia,AU,157988
-Russia,RU,146338
-Switzerland,CH,142193
+Canada,CA,186490
+China,CN,178724
+Australia,AU,166653
+Russia,RU,146343
+Switzerland,CH,142220
 South Korea,KR,101470
-India,IN,89249
-Poland,PL,75990
-Türkiye,TR,73028
+India,IN,90165
+Poland,PL,76003
+Türkiye,TR,73031
+Brazil,BR,71900
 Belgium,BE,69552
-Finland,FI,63596
-Sweden,SE,61878
-Brazil,BR,54701
+Sweden,SE,68894
+Finland,FI,63605
 Denmark,DK,51364
 Taiwan,TW,45984
 Greece,GR,44782
-Austria,AT,41569
-Portugal,PT,40915
+Austria,AT,41942
+Portugal,PT,41157
 Hungary,HU,40344
 Czechia,CZ,39689
 Norway,NO,38867
 Israel,IL,34948
 South Africa,ZA,26840
-Ireland,IE,25783
+Mexico,MX,26413
+Ireland,IE,25796
 Argentina,AR,25340
-Mexico,MX,24852
 Chile,CL,24790
 Pakistan,PK,22764
 Slovakia,SK,21922
-New Zealand,NZ,19501
+New Zealand,NZ,19503
 Hong Kong,HK,18937
 Iran,IR,18572
 Romania,RO,15747
@@ -44,12 +44,12 @@ Singapore,SG,15256
 Serbia,RS,14237
 Belarus,BY,14194
 Colombia,CO,13236
-Croatia,HR,12964
+Croatia,HR,13068
 Morocco,MA,12489
 Slovenia,SI,12222
-Ukraine,UA,11402
+Ukraine,UA,11404
 Bulgaria,BG,11069
-Georgia,GE,8959
+Georgia,GE,10412
 Azerbaijan,AZ,8207
 Malaysia,MY,8030
 Egypt,EG,7493
@@ -62,25 +62,25 @@ Cyprus,CY,5460
 Lithuania,LT,4554
 Iceland,IS,2956
 Qatar,QA,2822
-Vietnam,VN,2769
+Vietnam,VN,2771
 Tunisia,TN,2396
-Peru,PE,1958
+Peru,PE,1967
 Philippines,PH,1539
 Uzbekistan,UZ,1435
 Jordan,JO,1428
 Ethiopia,ET,1412
+Kenya,KE,1276
 Lebanon,LB,1249
 Ecuador,EC,1225
 Nigeria,NG,1211
 United Arab Emirates,AE,1155
 Bahrain,BH,1150
 Cuba,CU,1049
-Kenya,KE,1015
 Luxembourg,LU,984
 Uganda,UG,943
+Indonesia,ID,933
 Bangladesh,BD,905
 Latvia,LV,893
-Indonesia,ID,831
 Uruguay,UY,820
 Ghana,GH,693
 Venezuela,VE,690
@@ -146,7 +146,7 @@ French Guiana,GF,96
 San Marino,SM,95
 Gabon,GA,88
 Laos,LA,82
-Guatemala,GT,71
+Guatemala,GT,76
 Libya,LY,70
 Svalbard and Jan Mayen,SJ,70
 Gibraltar,GI,69

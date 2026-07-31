@@ -1,26 +1,26 @@
 country_name,country_code,count
-United States,US,264058
-Italy,IT,139737
-United Kingdom,GB,77733
-France,FR,76795
-Japan,JP,40470
-Germany,DE,38644
-Canada,CA,26892
+United States,US,270200
+Italy,IT,187023
+United Kingdom,GB,77767
+France,FR,77696
+Japan,JP,42325
+Germany,DE,39139
+Canada,CA,27093
 Spain,ES,20208
 Russia,RU,19368
 Finland,FI,16365
 Switzerland,CH,14426
 The Netherlands,NL,13069
-India,IN,12614
-China,CN,9734
-Australia,AU,9262
+India,IN,12618
+China,CN,9741
+Australia,AU,9487
 South Korea,KR,8951
 Poland,PL,5718
 Belgium,BE,5459
 Taiwan,TW,4973
-Sweden,SE,3971
-Austria,AT,3318
-Brazil,BR,3259
+Sweden,SE,4660
+Brazil,BR,4202
+Austria,AT,3329
 Israel,IL,3169
 Norway,NO,3053
 Pakistan,PK,2580
@@ -29,10 +29,10 @@ Denmark,DK,2230
 Hungary,HU,1926
 Czechia,CZ,1717
 Türkiye,TR,1601
-Portugal,PT,1565
+Portugal,PT,1569
 Hong Kong,HK,1489
 Argentina,AR,1381
-Mexico,MX,1293
+Mexico,MX,1307
 Ireland,IE,1118
 Slovenia,SI,1018
 Chile,CL,787
@@ -50,6 +50,7 @@ Venezuela,VE,327
 Egypt,EG,326
 Croatia,HR,323
 Serbia,RS,287
+Georgia,GE,279
 Uzbekistan,UZ,271
 Thailand,TH,270
 Tunisia,TN,235
@@ -63,7 +64,6 @@ Puerto Rico,PR,132
 Saudi Arabia,SA,122
 Cuba,CU,103
 Lebanon,LB,94
-Georgia,GE,94
 Panama,PA,85
 Philippines,PH,83
 Latvia,LV,79
@@ -76,8 +76,8 @@ Azerbaijan,AZ,68
 Peru,PE,67
 Morocco,MA,62
 United Arab Emirates,AE,58
+Indonesia,ID,55
 Kuwait,KW,54
-Indonesia,ID,45
 Uruguay,UY,43
 Lithuania,LT,41
 Nigeria,NG,40

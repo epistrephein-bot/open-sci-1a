@@ -1,27 +1,27 @@
 country_name,country_code,count
-United States,US,294443
-Italy,IT,230856
-United Kingdom,GB,85610
-France,FR,83174
-Germany,DE,50821
-Japan,JP,34034
-Canada,CA,29097
+United States,US,301993
+Italy,IT,236817
+United Kingdom,GB,85679
+France,FR,85398
+Germany,DE,51689
+Japan,JP,36235
+Canada,CA,29394
 Spain,ES,23013
 The Netherlands,NL,22004
+Australia,AU,15958
 Switzerland,CH,15327
-Australia,AU,15161
-China,CN,12478
+China,CN,12485
 Russia,RU,11381
-India,IN,10208
+India,IN,10225
+Sweden,SE,9441
 South Korea,KR,8987
 Belgium,BE,8766
-Sweden,SE,7271
+Brazil,BR,6517
 Denmark,DK,6392
-Poland,PL,6067
+Poland,PL,6070
 Taiwan,TW,5996
-Brazil,BR,5363
 Finland,FI,5252
-Austria,AT,5209
+Austria,AT,5212
 Pakistan,PK,5125
 Israel,IL,4930
 Norway,NO,3968
@@ -30,9 +30,9 @@ Hong Kong,HK,2757
 Hungary,HU,2590
 Argentina,AR,2548
 Türkiye,TR,2538
-Mexico,MX,2238
+Mexico,MX,2281
 Ireland,IE,2191
-Portugal,PT,2147
+Portugal,PT,2150
 Czechia,CZ,2105
 South Africa,ZA,1784
 Singapore,SG,1466
@@ -47,10 +47,11 @@ Tunisia,TN,525
 Bulgaria,BG,518
 Egypt,EG,471
 Serbia,RS,458
-Croatia,HR,395
+Croatia,HR,397
 Puerto Rico,PR,390
 Estonia,EE,326
 Romania,RO,310
+Georgia,GE,280
 Tanzania,TZ,271
 Saudi Arabia,SA,268
 Malaysia,MY,267
@@ -68,7 +69,7 @@ Vietnam,VN,145
 Uruguay,UY,132
 Philippines,PH,128
 Iceland,IS,114
-Peru,PE,113
+Peru,PE,114
 United Arab Emirates,AE,110
 Nigeria,NG,107
 Luxembourg,LU,104
@@ -77,8 +78,8 @@ Morocco,MA,93
 Jordan,JO,85
 Ecuador,EC,84
 Uzbekistan,UZ,83
+Indonesia,ID,78
 Oman,OM,77
-Indonesia,ID,73
 Latvia,LV,72
 Kazakhstan,KZ,71
 Palestine,PS,69
@@ -112,7 +113,6 @@ El Salvador,SV,21
 North Macedonia,MK,20
 Ivory Coast,CI,20
 Panama,PA,19
-Georgia,GE,18
 Sudan,SD,18
 Syria,SY,18
 New Caledonia,NC,18
@@ -121,6 +121,7 @@ Angola,AO,15
 Somalia,SO,15
 Burkina Faso,BF,15
 Barbados,BB,14
+Guatemala,GT,13
 Nicaragua,NI,12
 Guadeloupe,GP,12
 Bosnia and Herzegovina,BA,12
@@ -131,7 +132,6 @@ Iraq,IQ,10
 Mongolia,MN,10
 Bolivia,BO,10
 Grenada,GD,9
-Guatemala,GT,9
 American Samoa,AS,8
 Yemen,YE,8
 San Marino,SM,8

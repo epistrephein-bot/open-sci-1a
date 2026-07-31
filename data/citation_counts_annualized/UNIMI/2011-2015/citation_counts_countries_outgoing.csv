@@ -1,74 +1,74 @@
 country_name,country_code,count
-United States,US,1938791
-Italy,IT,774726
-France,FR,766969
-United Kingdom,GB,590742
-Germany,DE,415011
+United States,US,1978773
+Italy,IT,800057
+France,FR,794175
+United Kingdom,GB,591072
+Germany,DE,422296
 Spain,ES,246914
 The Netherlands,NL,203379
-Canada,CA,201260
-Japan,JP,167352
-China,CN,165148
-Australia,AU,156841
-Switzerland,CH,147710
-Russia,RU,105473
+Canada,CA,203038
+Japan,JP,179712
+China,CN,165974
+Australia,AU,165148
+Switzerland,CH,147742
+Russia,RU,105477
 South Korea,KR,86175
-India,IN,72654
+Sweden,SE,74326
+India,IN,74217
 Belgium,BE,69555
-Finland,FI,67434
-Poland,PL,65934
+Finland,FI,67444
+Poland,PL,65975
 Denmark,DK,64015
-Sweden,SE,63350
+Brazil,BR,63476
 Türkiye,TR,52662
-Brazil,BR,49697
 Taiwan,TW,43559
-Austria,AT,40500
+Austria,AT,40659
 Norway,NO,40062
 Greece,GR,35090
-Portugal,PT,34831
+Portugal,PT,34962
 Israel,IL,34697
 Czechia,CZ,31740
 Pakistan,PK,30480
-Ireland,IE,30279
+Ireland,IE,30294
 Hungary,HU,28793
 South Africa,ZA,27047
 Argentina,AR,24896
+Mexico,MX,20221
 Hong Kong,HK,18906
-Mexico,MX,18813
 Singapore,SG,18027
 Chile,CL,17824
-New Zealand,NZ,16584
+New Zealand,NZ,16589
 Iran,IR,15060
 Slovakia,SK,14483
 Romania,RO,13647
 Belarus,BY,10859
 Serbia,RS,10760
 Slovenia,SI,10207
-Croatia,HR,9626
+Croatia,HR,9698
 Morocco,MA,9084
 Colombia,CO,8711
 Ukraine,UA,8176
 Saudi Arabia,SA,7520
 Thailand,TH,7413
+Georgia,GE,7405
 Bulgaria,BG,7182
 Malaysia,MY,7079
 Egypt,EG,6155
 Azerbaijan,AZ,5863
-Georgia,GE,5798
 Estonia,EE,4769
 Armenia,AM,4686
 Qatar,QA,3698
 Puerto Rico,PR,3444
 Cyprus,CY,3240
-Vietnam,VN,3176
+Vietnam,VN,3179
 Tunisia,TN,3106
 Lithuania,LT,3061
 Iceland,IS,2709
 Lebanon,LB,2439
-Peru,PE,2169
+Peru,PE,2172
 Philippines,PH,2131
 Ethiopia,ET,1777
-Kenya,KE,1647
+Kenya,KE,1774
 Bahrain,BH,1645
 Nigeria,NG,1552
 United Arab Emirates,AE,1515
@@ -79,10 +79,10 @@ Bangladesh,BD,1092
 Tanzania,TZ,1066
 Uzbekistan,UZ,1057
 Jordan,JO,1020
+Indonesia,ID,938
 Latvia,LV,930
 Ghana,GH,924
 Jamaica,JM,896
-Indonesia,ID,882
 Uruguay,UY,861
 Palestine,PS,792
 Ecuador,EC,751
@@ -145,9 +145,9 @@ French Guiana,GF,127
 Yemen,YE,125
 Antigua and Barbuda,AG,118
 Bolivia,BO,117
+Guatemala,GT,116
 New Caledonia,NC,109
 Somalia,SO,105
-Guatemala,GT,101
 Madagascar,MG,93
 Paraguay,PY,84
 Papua New Guinea,PG,82

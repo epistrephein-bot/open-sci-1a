@@ -1,32 +1,32 @@
 country_name,country_code,count
-United States,US,1634698
-Italy,IT,904279
-France,FR,801277
-United Kingdom,GB,427734
-Germany,DE,394736
+United States,US,1668377
+Italy,IT,936449
+France,FR,817742
+United Kingdom,GB,428292
+Germany,DE,397866
 Spain,ES,263650
-China,CN,235029
-Japan,JP,197658
-Russia,RU,191461
-India,IN,140345
-Canada,CA,136753
+China,CN,235260
+Japan,JP,214315
+Russia,RU,191470
+India,IN,140725
+Canada,CA,138041
 The Netherlands,NL,131211
 South Korea,KR,126482
-Switzerland,CH,121959
+Switzerland,CH,121963
 Türkiye,TR,118501
-Australia,AU,99180
-Poland,PL,92516
+Australia,AU,106425
+Brazil,BR,93178
+Poland,PL,92530
 Belgium,BE,72845
-Brazil,BR,70422
-Finland,FI,63735
+Finland,FI,63737
 Taiwan,TW,59022
+Sweden,SE,57088
 Greece,GR,54446
 Hungary,HU,53326
-Sweden,SE,52808
 Czechia,CZ,45769
-Portugal,PT,43412
-Austria,AT,40871
-Mexico,MX,40832
+Mexico,MX,43648
+Portugal,PT,43588
+Austria,AT,41123
 Norway,NO,36765
 Denmark,DK,32830
 Iran,IR,32084
@@ -37,19 +37,19 @@ Slovakia,SK,25961
 Chile,CL,22869
 Pakistan,PK,22239
 Serbia,RS,20312
-Ireland,IE,20243
+Ireland,IE,20249
 Romania,RO,20170
-Croatia,HR,19781
+Croatia,HR,19886
 Belarus,BY,18967
-New Zealand,NZ,18745
-Colombia,CO,18549
+New Zealand,NZ,18751
+Colombia,CO,18550
 Bulgaria,BG,18144
-Ukraine,UA,16568
+Ukraine,UA,16577
 Egypt,EG,16086
 Morocco,MA,14958
 Hong Kong,HK,14745
 Slovenia,SI,13039
-Georgia,GE,11903
+Georgia,GE,12678
 Azerbaijan,AZ,10213
 Singapore,SG,10163
 Armenia,AM,9969
@@ -60,8 +60,8 @@ Estonia,EE,7876
 Cyprus,CY,7560
 Saudi Arabia,SA,7202
 Lithuania,LT,7027
-Vietnam,VN,2975
-Peru,PE,2963
+Vietnam,VN,2979
+Peru,PE,2967
 Tunisia,TN,2410
 Qatar,QA,2179
 Uzbekistan,UZ,2146
@@ -75,9 +75,9 @@ Ecuador,EC,1152
 Philippines,PH,1116
 United Arab Emirates,AE,1071
 Algeria,DZ,952
+Indonesia,ID,816
 Uruguay,UY,751
-Indonesia,ID,748
-Kenya,KE,713
+Kenya,KE,732
 Sri Lanka,LK,705
 Ghana,GH,651
 Luxembourg,LU,631
@@ -136,9 +136,9 @@ Malawi,MW,94
 Ivory Coast,CI,90
 New Caledonia,NC,81
 Kosovo,XK,79
+Guatemala,GT,79
 Grenada,GD,78
 Barbados,BB,76
-Guatemala,GT,72
 Tajikistan,TJ,72
 Rwanda,RW,71
 Bolivia,BO,68

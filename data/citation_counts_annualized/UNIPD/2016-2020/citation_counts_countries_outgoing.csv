@@ -1,54 +1,54 @@
 country_name,country_code,count
-United States,US,1880881
-France,FR,882759
-Italy,IT,855013
-United Kingdom,GB,525473
-Germany,DE,425981
-China,CN,307346
+United States,US,1910602
+Italy,IT,1010647
+France,FR,909248
+United Kingdom,GB,525912
+Germany,DE,431528
+China,CN,307763
 Spain,ES,299141
-Russia,RU,173770
+Russia,RU,173786
 The Netherlands,NL,171329
-India,IN,161546
-Australia,AU,158724
-Canada,CA,152403
-Switzerland,CH,146861
+Australia,AU,166619
+India,IN,163115
+Canada,CA,154676
+Japan,JP,149843
+Switzerland,CH,146870
 South Korea,KR,137321
-Japan,JP,134965
-Poland,PL,104220
+Poland,PL,104252
+Brazil,BR,97466
 Belgium,BE,94592
-Türkiye,TR,84573
-Finland,FI,81583
-Brazil,BR,78684
+Türkiye,TR,84581
+Finland,FI,81587
+Sweden,SE,64186
 Hungary,HU,64158
-Sweden,SE,56412
 Denmark,DK,51950
 Taiwan,TW,50352
-Austria,AT,48631
+Austria,AT,48711
 Greece,GR,47681
-Portugal,PT,47119
+Portugal,PT,47304
+Mexico,MX,44779
 Norway,NO,42684
-Mexico,MX,42255
 Czechia,CZ,33894
 Iran,IR,32957
-Ireland,IE,31678
+Ireland,IE,31692
 Pakistan,PK,29317
 South Africa,ZA,29025
 Chile,CL,26365
 Israel,IL,26158
-Croatia,HR,24578
-New Zealand,NZ,24510
+Croatia,HR,24650
+New Zealand,NZ,24535
 Bulgaria,BG,19837
 Slovakia,SK,19827
 Malaysia,MY,19254
-Colombia,CO,18637
+Colombia,CO,18639
 Argentina,AR,18370
 Hong Kong,HK,18230
 Singapore,SG,17376
-Ukraine,UA,16246
+Ukraine,UA,16254
+Georgia,GE,13770
 Romania,RO,13669
 Thailand,TH,13050
 Belarus,BY,12929
-Georgia,GE,12171
 Serbia,RS,11854
 Egypt,EG,10346
 Estonia,EE,9106
@@ -59,30 +59,30 @@ Ecuador,EC,7929
 Armenia,AM,7919
 Cyprus,CY,7884
 Lithuania,LT,7422
-Vietnam,VN,6212
+Vietnam,VN,6224
 Qatar,QA,5432
 Morocco,MA,5123
 Sri Lanka,LK,4959
 Ethiopia,ET,3399
 Latvia,LV,3396
 Azerbaijan,AZ,3359
+Indonesia,ID,3315
+Peru,PE,2986
 Nigeria,NG,2981
-Peru,PE,2920
 Iceland,IS,2832
 United Arab Emirates,AE,2832
 Philippines,PH,2621
 Tunisia,TN,2277
 Lebanon,LB,2253
-Indonesia,ID,1855
 Luxembourg,LU,1817
 Uzbekistan,UZ,1687
 Cuba,CU,1628
 Bangladesh,BD,1596
 Macao,MO,1406
+Kenya,KE,1385
 Montenegro,ME,1357
-Kenya,KE,1309
 Uganda,UG,1273
-Guatemala,GT,1212
+Guatemala,GT,1218
 Palestine,PS,1170
 Algeria,DZ,1103
 Uruguay,UY,1082

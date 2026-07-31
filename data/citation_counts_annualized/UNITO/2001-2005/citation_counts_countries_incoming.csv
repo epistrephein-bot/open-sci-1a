@@ -1,33 +1,33 @@
 country_name,country_code,count
-United States,US,144059
-Italy,IT,95032
-United Kingdom,GB,41767
-France,FR,41649
-Germany,DE,27153
-Japan,JP,18876
-Canada,CA,15366
+United States,US,148173
+Italy,IT,98373
+France,FR,42345
+United Kingdom,GB,41793
+Germany,DE,27453
+Japan,JP,20467
+Canada,CA,15484
 Spain,ES,10937
 The Netherlands,NL,10436
 Switzerland,CH,8095
 Russia,RU,7572
-Australia,AU,7179
-China,CN,5986
+Australia,AU,7552
+China,CN,5989
 South Korea,KR,5280
-India,IN,5166
+India,IN,5171
 Belgium,BE,4606
+Sweden,SE,3873
 Poland,PL,3621
 Taiwan,TW,3313
-Sweden,SE,3121
+Brazil,BR,3199
 Finland,FI,2912
 Israel,IL,2733
 Greece,GR,2505
-Brazil,BR,2465
 Denmark,DK,2423
 Austria,AT,2309
 Pakistan,PK,2297
 Norway,NO,1809
 Czechia,CZ,1575
-Mexico,MX,1436
+Mexico,MX,1451
 Portugal,PT,1303
 Türkiye,TR,1284
 Argentina,AR,1272
@@ -41,7 +41,7 @@ Singapore,SG,580
 Chile,CL,497
 Ukraine,UA,487
 Bulgaria,BG,486
-New Zealand,NZ,385
+New Zealand,NZ,386
 Serbia,RS,358
 Iran,IR,329
 Tunisia,TN,328
@@ -52,13 +52,13 @@ Egypt,EG,241
 Uzbekistan,UZ,220
 Romania,RO,203
 Armenia,AM,198
+Georgia,GE,178
 Cyprus,CY,166
 Colombia,CO,159
 Malaysia,MY,130
 Puerto Rico,PR,120
 Azerbaijan,AZ,119
 Iceland,IS,111
-Georgia,GE,109
 Saudi Arabia,SA,106
 Estonia,EE,100
 Belarus,BY,87
@@ -96,9 +96,9 @@ Bangladesh,BD,20
 Algeria,DZ,20
 Syria,SY,20
 Nepal,NP,20
+Indonesia,ID,18
 Palestine,PS,18
 Guadeloupe,GP,17
-Indonesia,ID,17
 Malawi,MW,16
 Senegal,SN,16
 Cambodia,KH,15

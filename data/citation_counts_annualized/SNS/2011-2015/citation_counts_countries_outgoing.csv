@@ -1,33 +1,33 @@
 country_name,country_code,count
-United States,US,481963
-France,FR,216229
-Italy,IT,206671
-United Kingdom,GB,121395
-Germany,DE,94884
+United States,US,490742
+France,FR,219277
+Italy,IT,213915
+United Kingdom,GB,121454
+Germany,DE,94965
 Russia,RU,65520
 Spain,ES,63972
-Japan,JP,46474
+Japan,JP,50405
 Switzerland,CH,39393
 South Korea,KR,34459
 The Netherlands,NL,32943
+India,IN,32417
 Türkiye,TR,32355
-India,IN,32335
-China,CN,31013
-Canada,CA,28755
-Poland,PL,25657
-Finland,FI,19358
+China,CN,31050
+Canada,CA,28801
+Brazil,BR,26349
+Poland,PL,25658
+Finland,FI,19360
 Belgium,BE,18514
-Brazil,BR,17588
-Australia,AU,17047
+Australia,AU,18227
 Hungary,HU,16205
 Taiwan,TW,14211
 Greece,GR,13800
 Czechia,CZ,11958
-Sweden,SE,9948
-Mexico,MX,9645
+Sweden,SE,10086
+Mexico,MX,10085
 Austria,AT,8004
 Slovakia,SK,8001
-Portugal,PT,7898
+Portugal,PT,7900
 Israel,IL,7379
 Norway,NO,6566
 Colombia,CO,6289
@@ -46,8 +46,8 @@ New Zealand,NZ,4578
 Denmark,DK,4447
 Iran,IR,4018
 Slovenia,SI,3875
+Georgia,GE,3835
 Morocco,MA,3830
-Georgia,GE,3755
 Puerto Rico,PR,3178
 Armenia,AM,3085
 Egypt,EG,2987
@@ -89,7 +89,7 @@ Mongolia,MN,28
 Bosnia and Herzegovina,BA,25
 Uruguay,UY,25
 Latvia,LV,25
-Indonesia,ID,21
+Indonesia,ID,22
 Jamaica,JM,21
 Benin,BJ,20
 Algeria,DZ,20
@@ -102,9 +102,9 @@ Zimbabwe,ZW,14
 Namibia,NA,11
 Ethiopia,ET,11
 Nepal,NP,11
+Kenya,KE,10
 Barbados,BB,10
 Senegal,SN,9
-Kenya,KE,9
 Palestine,PS,9
 Panama,PA,8
 DR Congo,CD,7

@@ -1,39 +1,39 @@
 country_name,country_code,count
-United States,US,154718
-Italy,IT,51356
-United Kingdom,GB,41634
-France,FR,40153
-Germany,DE,23860
-Japan,JP,23162
-Canada,CA,13196
+United States,US,159102
+Italy,IT,54042
+United Kingdom,GB,41647
+France,FR,40771
+Japan,JP,24694
+Germany,DE,24103
+Canada,CA,13315
 Switzerland,CH,11175
 The Netherlands,NL,9472
-Russia,RU,9438
-Spain,ES,8553
+Russia,RU,9440
+Spain,ES,8554
 Finland,FI,8421
-China,CN,7447
-India,IN,7422
-Australia,AU,5936
+China,CN,7469
+India,IN,7425
+Australia,AU,6203
+Sweden,SE,4913
 South Korea,KR,4411
-Sweden,SE,4205
 Belgium,BE,3687
-Poland,PL,2694
+Poland,PL,2698
 Denmark,DK,2642
 Taiwan,TW,2365
 Israel,IL,2362
 Pakistan,PK,2269
 Norway,NO,2088
+Brazil,BR,2008
 Hungary,HU,1920
-Brazil,BR,1751
-Austria,AT,1692
+Austria,AT,1696
 Hong Kong,HK,1505
 Greece,GR,1374
 Czechia,CZ,1352
 Ireland,IE,963
 Türkiye,TR,794
-Portugal,PT,764
+Portugal,PT,770
+Mexico,MX,677
 Argentina,AR,676
-Mexico,MX,667
 Uzbekistan,UZ,654
 Singapore,SG,632
 South Africa,ZA,541
@@ -56,6 +56,7 @@ Serbia,RS,142
 Philippines,PH,140
 Tanzania,TZ,133
 Malaysia,MY,121
+Georgia,GE,97
 Egypt,EG,92
 Ecuador,EC,92
 Estonia,EE,78
@@ -72,11 +73,11 @@ Latvia,LV,37
 United Arab Emirates,AE,35
 Venezuela,VE,34
 Lebanon,LB,33
+Kenya,KE,32
 Uruguay,UY,31
 Morocco,MA,31
 Jordan,JO,30
 Uganda,UG,30
-Kenya,KE,28
 Cuba,CU,27
 Luxembourg,LU,26
 Algeria,DZ,25
@@ -97,12 +98,12 @@ Kuwait,KW,12
 Costa Rica,CR,12
 Bermuda,BM,12
 Oman,OM,11
+Indonesia,ID,10
 Benin,BJ,9
 Syria,SY,9
 Barbados,BB,9
 Macao,MO,9
 Tajikistan,TJ,9
-Indonesia,ID,9
 Brunei,BN,8
 El Salvador,SV,8
 Bangladesh,BD,7
@@ -126,7 +127,6 @@ Trinidad and Tobago,TT,3
 Somalia,SO,3
 Senegal,SN,3
 New Caledonia,NC,2
-Georgia,GE,2
 Svalbard and Jan Mayen,SJ,2
 Botswana,BW,2
 DR Congo,CD,2

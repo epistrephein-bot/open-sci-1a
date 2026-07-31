@@ -1,49 +1,49 @@
 country_name,country_code,count
-United States,US,1390686
-Italy,IT,443898
-France,FR,414309
-United Kingdom,GB,395956
-Germany,DE,242855
-Canada,CA,134486
+United States,US,1421321
+Italy,IT,458766
+France,FR,428408
+United Kingdom,GB,396245
+Germany,DE,248936
+Canada,CA,135556
 The Netherlands,NL,132017
+Japan,JP,118852
 Spain,ES,115602
-Japan,JP,111112
-Australia,AU,96176
-Switzerland,CH,89847
-China,CN,66745
+Australia,AU,100096
+Switzerland,CH,89850
+China,CN,66985
+Sweden,SE,49893
 Belgium,BE,43091
-Sweden,SE,41039
 South Korea,KR,40386
 Denmark,DK,37667
-Finland,FI,32685
-India,IN,32461
+Finland,FI,32691
+India,IN,32567
 Russia,RU,32012
+Brazil,BR,27019
 Taiwan,TW,25288
 Pakistan,PK,24237
-Poland,PL,24050
-Austria,AT,22879
-Brazil,BR,22625
+Poland,PL,24077
+Austria,AT,23020
 Israel,IL,20818
 Norway,NO,19807
-Ireland,IE,17453
+Ireland,IE,17455
 Greece,GR,16843
-Portugal,PT,12517
+Portugal,PT,12563
 Hong Kong,HK,12282
 Türkiye,TR,11489
 Czechia,CZ,11465
 Singapore,SG,10970
 Hungary,HU,10468
-New Zealand,NZ,10281
+New Zealand,NZ,10282
 South Africa,ZA,9503
 Argentina,AR,9022
-Mexico,MX,8128
+Mexico,MX,8649
 Iran,IR,5224
 Slovakia,SK,4287
 Slovenia,SI,4128
 Chile,CL,3999
 Thailand,TH,3579
-Croatia,HR,3205
-Ukraine,UA,3178
+Croatia,HR,3245
+Ukraine,UA,3179
 Tunisia,TN,2744
 Colombia,CO,2361
 Serbia,RS,2184
@@ -52,6 +52,7 @@ Malaysia,MY,2095
 Romania,RO,2086
 Bulgaria,BG,2039
 Iceland,IS,1779
+Georgia,GE,1733
 Estonia,EE,1551
 Puerto Rico,PR,1439
 Belarus,BY,1387
@@ -62,7 +63,7 @@ Bahrain,BH,1187
 Cyprus,CY,1153
 Vietnam,VN,1107
 Tanzania,TZ,1075
-Kenya,KE,1006
+Kenya,KE,1065
 Qatar,QA,965
 Ethiopia,ET,830
 Armenia,AM,782
@@ -78,15 +79,14 @@ Cuba,CU,578
 Uzbekistan,UZ,533
 United Arab Emirates,AE,521
 Lithuania,LT,514
+Indonesia,ID,511
 Ecuador,EC,475
-Indonesia,ID,472
 Luxembourg,LU,439
 Algeria,DZ,414
 Bangladesh,BD,403
 Latvia,LV,387
 Sri Lanka,LK,357
 Palestine,PS,335
-Georgia,GE,335
 Nepal,NP,330
 Cambodia,KH,315
 Panama,PA,297
@@ -101,10 +101,10 @@ Kuwait,KW,225
 Costa Rica,CR,214
 Zambia,ZM,202
 Kazakhstan,KZ,202
+Guatemala,GT,190
 Mongolia,MN,187
 Cameroon,CM,179
 Burkina Faso,BF,177
-Guatemala,GT,176
 Malta,MT,165
 Montenegro,ME,157
 North Macedonia,MK,153

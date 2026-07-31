@@ -1,60 +1,60 @@
 country_name,country_code,count
-United States,US,2347485
-Italy,IT,1175256
-France,FR,1049764
-United Kingdom,GB,773914
-China,CN,724679
-Germany,DE,607957
+United States,US,2392097
+Italy,IT,1209310
+France,FR,1091224
+United Kingdom,GB,774686
+China,CN,725592
+Germany,DE,620655
 Spain,ES,444559
-Japan,JP,294595
-Canada,CA,280944
-Australia,AU,267126
+Japan,JP,312203
+Canada,CA,284472
+Australia,AU,279260
 The Netherlands,NL,257227
 South Korea,KR,206801
-Russia,RU,198845
-India,IN,189204
-Switzerland,CH,185452
-Brazil,BR,135976
-Poland,PL,129429
+Russia,RU,198864
+India,IN,191078
+Switzerland,CH,185497
+Brazil,BR,160591
+Poland,PL,129587
 Belgium,BE,106947
-Türkiye,TR,104619
+Sweden,SE,105751
+Türkiye,TR,104634
 Taiwan,TW,97334
-Sweden,SE,89381
 Iran,IR,88435
 Denmark,DK,88358
-Finland,FI,81884
-Portugal,PT,81618
+Portugal,PT,82033
+Finland,FI,81892
 Greece,GR,70314
-Austria,AT,67216
+Austria,AT,67457
 Norway,NO,57481
 Czechia,CZ,55643
 Israel,IL,49859
 Hungary,HU,48376
 South Africa,ZA,48004
+Mexico,MX,47483
 Argentina,AR,45716
-Mexico,MX,45367
-Ireland,IE,45212
+Ireland,IE,45217
 Pakistan,PK,44238
 Hong Kong,HK,36289
 Singapore,SG,34870
 Chile,CL,33829
 Romania,RO,28638
 Malaysia,MY,25559
-Colombia,CO,25141
+Colombia,CO,25144
 Slovakia,SK,25003
-New Zealand,NZ,24340
+New Zealand,NZ,24425
 Egypt,EG,23191
 Serbia,RS,21135
 Saudi Arabia,SA,21037
 Belarus,BY,20757
 Thailand,TH,19778
-Croatia,HR,18609
+Croatia,HR,18738
 Slovenia,SI,16109
 Morocco,MA,15283
 Bulgaria,BG,13696
-Ukraine,UA,13560
-Vietnam,VN,11511
-Georgia,GE,10328
+Ukraine,UA,13597
+Georgia,GE,12757
+Vietnam,VN,11526
 Ethiopia,ET,9791
 Azerbaijan,AZ,8862
 Nigeria,NG,8184
@@ -64,17 +64,17 @@ Cyprus,CY,7600
 Armenia,AM,7139
 Lithuania,LT,7097
 Lebanon,LB,6387
+Indonesia,ID,6270
 Tunisia,TN,6130
 United Arab Emirates,AE,5940
 Puerto Rico,PR,5689
 Ecuador,EC,5560
-Indonesia,ID,5553
 Philippines,PH,5022
 Bangladesh,BD,4321
 Iceland,IS,4249
 Sri Lanka,LK,4125
-Peru,PE,4031
-Kenya,KE,3314
+Peru,PE,4090
+Kenya,KE,3402
 Latvia,LV,3245
 Ghana,GH,3160
 Uganda,UG,3068
@@ -109,8 +109,8 @@ Zimbabwe,ZW,969
 Senegal,SN,964
 American Samoa,AS,960
 Mongolia,MN,933
+Guatemala,GT,930
 Costa Rica,CR,916
-Guatemala,GT,901
 Guadeloupe,GP,860
 Sudan,SD,786
 Zambia,ZM,758

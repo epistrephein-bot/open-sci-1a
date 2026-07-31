@@ -1,38 +1,38 @@
 country_name,country_code,count
-United States,US,1423102
-France,FR,480276
-Italy,IT,427430
-United Kingdom,GB,351242
-Germany,DE,254082
+United States,US,1453339
+France,FR,492282
+Italy,IT,446380
+United Kingdom,GB,351949
+Germany,DE,257833
 Spain,ES,123059
-Canada,CA,118153
-Japan,JP,113671
+Japan,JP,121774
+Canada,CA,119681
 The Netherlands,NL,109229
-Australia,AU,87839
-Switzerland,CH,79175
-China,CN,70671
+Australia,AU,91938
+Switzerland,CH,79178
+China,CN,70921
 South Korea,KR,46718
-Russia,RU,43984
-Sweden,SE,38637
+Sweden,SE,44558
+Russia,RU,43988
 Belgium,BE,38196
-India,IN,35152
-Finland,FI,31945
+India,IN,35363
+Finland,FI,31950
 Denmark,DK,27569
 Taiwan,TW,25335
-Poland,PL,23448
-Austria,AT,21908
-Brazil,BR,20164
+Brazil,BR,24483
+Poland,PL,23458
+Austria,AT,22153
 Israel,IL,18008
 Greece,GR,17234
 Norway,NO,17193
-Ireland,IE,15431
-Portugal,PT,14974
+Ireland,IE,15439
+Portugal,PT,15087
 Pakistan,PK,14446
 Czechia,CZ,12700
 Hong Kong,HK,10711
+Mexico,MX,10598
 Türkiye,TR,10491
-Mexico,MX,10158
-New Zealand,NZ,9869
+New Zealand,NZ,9870
 Hungary,HU,9834
 Singapore,SG,8802
 Argentina,AR,8067
@@ -41,7 +41,7 @@ South Africa,ZA,7365
 Slovakia,SK,6685
 Iran,IR,5627
 Slovenia,SI,5086
-Croatia,HR,3361
+Croatia,HR,3386
 Colombia,CO,3285
 Ukraine,UA,2788
 Thailand,TH,2680
@@ -49,6 +49,7 @@ Cyprus,CY,2561
 Bulgaria,BG,2300
 Malaysia,MY,2209
 Serbia,RS,2186
+Georgia,GE,2177
 Tunisia,TN,1750
 Romania,RO,1671
 Iceland,IS,1607
@@ -58,21 +59,20 @@ Puerto Rico,PR,1529
 Belarus,BY,1219
 Bahrain,BH,1174
 Saudi Arabia,SA,1131
-Vietnam,VN,1114
+Vietnam,VN,1115
 Ecuador,EC,1085
 Philippines,PH,965
 Armenia,AM,847
 Ethiopia,ET,820
 Uzbekistan,UZ,789
 Morocco,MA,777
+Kenya,KE,722
 Lebanon,LB,719
 Qatar,QA,710
-Georgia,GE,668
 Jordan,JO,667
-Kenya,KE,618
+Indonesia,ID,592
 Ghana,GH,564
 Venezuela,VE,552
-Indonesia,ID,550
 Nigeria,NG,532
 Latvia,LV,519
 Réunion,RE,502
@@ -83,7 +83,7 @@ Lithuania,LT,459
 Algeria,DZ,443
 Luxembourg,LU,443
 Tanzania,TZ,442
-Peru,PE,416
+Peru,PE,417
 Mozambique,MZ,400
 Kazakhstan,KZ,394
 Cuba,CU,362
@@ -106,7 +106,7 @@ Malta,MT,169
 Cameroon,CM,168
 Syria,SY,138
 Oman,OM,131
-Guatemala,GT,128
+Guatemala,GT,130
 Angola,AO,119
 Senegal,SN,115
 Myanmar,MM,107

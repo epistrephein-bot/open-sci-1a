@@ -1,43 +1,43 @@
 country_name,country_code,count
-United States,US,1386638
-Italy,IT,692561
-France,FR,573693
-United Kingdom,GB,375908
-Germany,DE,316498
-China,CN,262949
+United States,US,1408312
+Italy,IT,714243
+France,FR,592722
+United Kingdom,GB,376172
+Germany,DE,321051
+China,CN,263244
 Spain,ES,208410
-Russia,RU,145791
+Russia,RU,145801
 The Netherlands,NL,130533
-India,IN,124574
+India,IN,124981
+Japan,JP,117361
+Australia,AU,114561
 South Korea,KR,111136
-Canada,CA,109519
-Australia,AU,109156
-Japan,JP,108562
-Switzerland,CH,108080
-Türkiye,TR,85354
+Canada,CA,110999
+Switzerland,CH,108082
+Türkiye,TR,85357
+Brazil,BR,77594
 Belgium,BE,71065
-Poland,PL,69507
-Brazil,BR,63611
-Finland,FI,61668
+Poland,PL,69533
+Finland,FI,61694
+Sweden,SE,50494
 Hungary,HU,48459
 Greece,GR,45342
-Sweden,SE,44069
-Austria,AT,39259
+Austria,AT,39329
 Denmark,DK,39097
-Portugal,PT,38836
+Portugal,PT,39037
+Mexico,MX,38856
 Taiwan,TW,37384
 Czechia,CZ,36917
-Mexico,MX,36524
 Norway,NO,33876
 Pakistan,PK,27142
 Iran,IR,25960
 South Africa,ZA,24400
 Israel,IL,21597
-Ireland,IE,21151
+Ireland,IE,21160
 Slovakia,SK,20478
-Croatia,HR,19914
+Croatia,HR,19979
 Argentina,AR,19724
-New Zealand,NZ,18000
+New Zealand,NZ,18010
 Bulgaria,BG,17128
 Malaysia,MY,16967
 Colombia,CO,16382
@@ -45,9 +45,9 @@ Belarus,BY,15055
 Hong Kong,HK,14468
 Romania,RO,14197
 Chile,CL,13593
-Ukraine,UA,13292
+Georgia,GE,13485
+Ukraine,UA,13300
 Singapore,SG,12931
-Georgia,GE,12238
 Thailand,TH,12133
 Serbia,RS,11078
 Egypt,EG,8966
@@ -63,9 +63,10 @@ Morocco,MA,6312
 Azerbaijan,AZ,4794
 Sri Lanka,LK,4456
 Qatar,QA,4146
-Vietnam,VN,4048
+Vietnam,VN,4054
 Latvia,LV,3232
-Peru,PE,3165
+Peru,PE,3230
+Indonesia,ID,2998
 Ethiopia,ET,2771
 United Arab Emirates,AE,2361
 Iceland,IS,2300
@@ -77,12 +78,11 @@ Nigeria,NG,1746
 Cuba,CU,1631
 Uzbekistan,UZ,1558
 Palestine,PS,1496
-Indonesia,ID,1481
-Kenya,KE,1336
+Kenya,KE,1420
 Bangladesh,BD,1303
 Luxembourg,LU,1210
 Montenegro,ME,1201
-Guatemala,GT,1075
+Guatemala,GT,1081
 Bahrain,BH,1046
 Jordan,JO,928
 Ghana,GH,876

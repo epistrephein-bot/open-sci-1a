@@ -1,31 +1,31 @@
 country_name,country_code,count
-United States,US,484281
-Italy,IT,432523
-France,FR,279164
-China,CN,225160
-Germany,DE,139936
-United Kingdom,GB,139201
+United States,US,491204
+Italy,IT,444160
+France,FR,287794
+China,CN,225206
+Germany,DE,141760
+United Kingdom,GB,139359
 Spain,ES,98876
-India,IN,68654
+India,IN,68726
 South Korea,KR,54265
 The Netherlands,NL,52653
-Türkiye,TR,51461
+Türkiye,TR,51468
 Switzerland,CH,48672
-Russia,RU,44700
-Japan,JP,43655
-Poland,PL,40522
-Canada,CA,34587
-Finland,FI,32179
-Brazil,BR,31642
-Australia,AU,30597
+Japan,JP,47945
+Russia,RU,44704
+Poland,PL,40531
+Brazil,BR,38604
+Canada,CA,35116
+Australia,AU,32825
+Finland,FI,32182
 Belgium,BE,30550
 Greece,GR,24402
-Austria,AT,21153
+Sweden,SE,21710
+Austria,AT,21199
 Hungary,HU,21012
 Czechia,CZ,20960
-Sweden,SE,19942
-Portugal,PT,19356
-Mexico,MX,18240
+Mexico,MX,19929
+Portugal,PT,19543
 Norway,NO,15940
 Taiwan,TW,15531
 Pakistan,PK,14889
@@ -34,7 +34,7 @@ Iran,IR,13534
 Romania,RO,11791
 South Africa,ZA,11680
 Argentina,AR,11365
-Croatia,HR,11241
+Croatia,HR,11278
 Slovakia,SK,10676
 Egypt,EG,10106
 Chile,CL,10067
@@ -45,14 +45,14 @@ Thailand,TH,8507
 Ireland,IE,7864
 Cyprus,CY,7076
 Serbia,RS,6248
-Ukraine,UA,5991
-New Zealand,NZ,5939
+Ukraine,UA,5997
+New Zealand,NZ,5944
 Ecuador,EC,5810
 Malaysia,MY,5696
 Hong Kong,HK,5584
 Sri Lanka,LK,5495
+Georgia,GE,4386
 Mongolia,MN,4325
-Georgia,GE,4103
 Armenia,AM,3983
 Singapore,SG,3871
 Belarus,BY,3814
@@ -66,14 +66,14 @@ Saudi Arabia,SA,3277
 Azerbaijan,AZ,3001
 Montenegro,ME,2726
 Kuwait,KW,2664
-Peru,PE,2558
+Peru,PE,2579
+Indonesia,ID,2512
 Qatar,QA,2282
 United Arab Emirates,AE,2215
 Philippines,PH,2038
 Cuba,CU,1577
-Vietnam,VN,1119
+Vietnam,VN,1120
 Tunisia,TN,858
-Indonesia,ID,854
 Nigeria,NG,779
 Jordan,JO,751
 Lebanon,LB,746
@@ -85,15 +85,15 @@ Palestine,PS,561
 Iceland,IS,541
 Ethiopia,ET,515
 Uruguay,UY,403
+Kenya,KE,401
 Luxembourg,LU,385
-Kenya,KE,380
 Uganda,UG,371
 Kazakhstan,KZ,345
 Ghana,GH,341
 Costa Rica,CR,339
+Guatemala,GT,337
 Algeria,DZ,333
 Iraq,IQ,308
-Guatemala,GT,307
 Venezuela,VE,293
 North Macedonia,MK,252
 Nepal,NP,250

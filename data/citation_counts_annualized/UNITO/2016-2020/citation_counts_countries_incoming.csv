@@ -1,74 +1,74 @@
 country_name,country_code,count
-United States,US,1345806
-Italy,IT,701115
-France,FR,599146
-China,CN,478579
-United Kingdom,GB,367821
-Germany,DE,341988
+United States,US,1367908
+Italy,IT,723052
+France,FR,620659
+China,CN,478961
+United Kingdom,GB,368145
+Germany,DE,347273
 Spain,ES,240080
-Japan,JP,159022
-Russia,RU,141234
-India,IN,131966
+Japan,JP,169235
+Russia,RU,141267
+India,IN,132234
+Australia,AU,128936
 The Netherlands,NL,128860
 South Korea,KR,127180
-Australia,AU,123253
-Canada,CA,121524
-Switzerland,CH,100026
-Brazil,BR,76668
-Poland,PL,74448
-Türkiye,TR,71412
+Canada,CA,123448
+Switzerland,CH,100031
+Brazil,BR,91555
+Poland,PL,74509
+Türkiye,TR,71424
 Belgium,BE,66075
-Finland,FI,53770
+Sweden,SE,54108
+Finland,FI,53799
 Taiwan,TW,51794
-Sweden,SE,46806
-Portugal,PT,44575
+Portugal,PT,44813
 Greece,GR,43387
 Iran,IR,42887
 Hungary,HU,41991
 Denmark,DK,41724
-Austria,AT,39891
+Austria,AT,39995
 Czechia,CZ,38665
-Mexico,MX,35865
+Mexico,MX,38030
 Norway,NO,32661
 Pakistan,PK,29496
 Argentina,AR,24943
 Israel,IL,24157
 South Africa,ZA,23793
-Ireland,IE,22038
+Ireland,IE,22048
 Chile,CL,18191
 Slovakia,SK,17920
 Singapore,SG,17491
 Malaysia,MY,16315
-Croatia,HR,16157
+Croatia,HR,16232
 Colombia,CO,16106
 Hong Kong,HK,15985
-New Zealand,NZ,15527
+New Zealand,NZ,15563
 Romania,RO,14908
 Thailand,TH,13854
 Bulgaria,BG,13180
 Egypt,EG,12462
-Ukraine,UA,12052
+Ukraine,UA,12068
 Serbia,RS,11657
 Belarus,BY,11497
 Saudi Arabia,SA,10782
+Georgia,GE,9949
 Slovenia,SI,9329
-Georgia,GE,8637
 Cyprus,CY,7557
 Morocco,MA,6492
 Estonia,EE,6145
 Armenia,AM,5827
 Lithuania,LT,5731
-Vietnam,VN,5208
+Vietnam,VN,5228
 Ecuador,EC,4850
 Puerto Rico,PR,4231
 Azerbaijan,AZ,4017
 Qatar,QA,3942
-Peru,PE,3254
+Indonesia,ID,3828
+Peru,PE,3285
 Lebanon,LB,3124
 Tunisia,TN,3076
 Ethiopia,ET,2891
 United Arab Emirates,AE,2861
-Indonesia,ID,2727
 Nigeria,NG,2662
 Sri Lanka,LK,2595
 Latvia,LV,2512
@@ -77,7 +77,7 @@ Iceland,IS,2425
 Mongolia,MN,2150
 Bangladesh,BD,1983
 Uzbekistan,UZ,1733
-Kenya,KE,1604
+Kenya,KE,1627
 Luxembourg,LU,1520
 Jordan,JO,1467
 Cuba,CU,1463
@@ -107,7 +107,7 @@ Bosnia and Herzegovina,BA,621
 North Macedonia,MK,616
 Sudan,SD,614
 Myanmar,MM,603
-Guatemala,GT,551
+Guatemala,GT,567
 Costa Rica,CR,530
 Jamaica,JM,512
 Zimbabwe,ZW,486

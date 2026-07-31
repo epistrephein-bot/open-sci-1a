@@ -1,41 +1,41 @@
 country_name,country_code,count
-United States,US,1669148
-China,CN,1049074
-France,FR,838032
-Italy,IT,770304
-United Kingdom,GB,513867
-Germany,DE,510015
-Spain,ES,408703
-Japan,JP,249775
-Australia,AU,221083
-India,IN,220884
-Canada,CA,192389
+United States,US,1699736
+China,CN,1049586
+France,FR,867704
+Italy,IT,797920
+Germany,DE,517533
+United Kingdom,GB,514765
+Spain,ES,408707
+Japan,JP,267681
+Australia,AU,227906
+India,IN,222144
+Canada,CA,196526
 The Netherlands,NL,190580
 South Korea,KR,170090
-Switzerland,CH,130644
-Russia,RU,119806
-Poland,PL,116205
-Brazil,BR,109996
+Switzerland,CH,130650
+Brazil,BR,128324
+Russia,RU,119897
+Poland,PL,116526
 Iran,IR,97871
-Türkiye,TR,82406
+Türkiye,TR,82491
 Taiwan,TW,81096
-Portugal,PT,79976
+Portugal,PT,80608
+Sweden,SE,73781
 Belgium,BE,72031
 Denmark,DK,64567
-Sweden,SE,64074
 Greece,GR,56196
-Austria,AT,53051
-Finland,FI,48995
+Austria,AT,53303
+Finland,FI,49005
 Chile,CL,46477
 Norway,NO,43560
 Czechia,CZ,42582
+Mexico,MX,41643
 South Africa,ZA,39987
-Mexico,MX,39088
 Saudi Arabia,SA,37615
 Pakistan,PK,36976
 Israel,IL,36620
 Egypt,EG,33223
-Ireland,IE,32958
+Ireland,IE,32980
 Hungary,HU,32933
 Argentina,AR,31509
 Hong Kong,HK,29855
@@ -43,14 +43,14 @@ Singapore,SG,28809
 Malaysia,MY,26561
 Romania,RO,26129
 Thailand,TH,20796
-New Zealand,NZ,18321
-Colombia,CO,18020
+New Zealand,NZ,18440
+Colombia,CO,18042
 Serbia,RS,17714
-Croatia,HR,15546
+Croatia,HR,15665
 Slovakia,SK,15292
-Indonesia,ID,12932
-Vietnam,VN,12642
-Ukraine,UA,12468
+Indonesia,ID,14060
+Vietnam,VN,12709
+Ukraine,UA,12565
 Nigeria,NG,12025
 United Arab Emirates,AE,11652
 Slovenia,SI,11403
@@ -63,7 +63,7 @@ Philippines,PH,7590
 Cyprus,CY,7366
 Tunisia,TN,7145
 Iraq,IQ,6720
-Peru,PE,6601
+Peru,PE,6715
 Estonia,EE,6540
 Belarus,BY,6455
 Lithuania,LT,6053
@@ -71,14 +71,14 @@ Jordan,JO,6018
 Lebanon,LB,5625
 Ecuador,EC,5364
 Ghana,GH,4754
+Georgia,GE,4589
+Kenya,KE,4203
 Kazakhstan,KZ,4203
-Kenya,KE,4140
 Algeria,DZ,4012
 Sri Lanka,LK,3794
 Uganda,UG,3650
-Latvia,LV,3566
+Latvia,LV,3571
 Azerbaijan,AZ,3302
-Georgia,GE,3201
 Iceland,IS,3105
 Kuwait,KW,2882
 Uzbekistan,UZ,2870
@@ -125,9 +125,9 @@ Panama,PA,695
 Antigua and Barbuda,AG,688
 Benin,BJ,669
 Syria,SY,668
+Guatemala,GT,639
 Bhutan,BT,615
 DR Congo,CD,613
-Guatemala,GT,581
 Libya,LY,570
 Trinidad and Tobago,TT,548
 Fiji,FJ,515

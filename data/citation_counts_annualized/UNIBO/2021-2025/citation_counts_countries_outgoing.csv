@@ -1,53 +1,53 @@
 country_name,country_code,count
-United States,US,830731
-Italy,IT,715535
-France,FR,516181
-United Kingdom,GB,267997
-Germany,DE,236056
+United States,US,850312
+Italy,IT,735647
+France,FR,527223
+United Kingdom,GB,268226
+Germany,DE,237825
 Spain,ES,185189
-China,CN,180259
-Japan,JP,107406
-India,IN,100193
+China,CN,180330
+Japan,JP,116618
+India,IN,100420
 The Netherlands,NL,98389
-Türkiye,TR,81192
+Türkiye,TR,81248
 South Korea,KR,80668
-Switzerland,CH,77651
-Poland,PL,75703
-Canada,CA,74818
-Russia,RU,66168
-Australia,AU,65979
-Brazil,BR,50380
+Switzerland,CH,77652
+Poland,PL,75726
+Canada,CA,75610
+Australia,AU,71656
+Russia,RU,66171
+Brazil,BR,66134
 Greece,GR,46382
 Belgium,BE,45453
-Finland,FI,42494
-Portugal,PT,36101
+Finland,FI,42498
+Portugal,PT,36245
+Sweden,SE,35313
 Czechia,CZ,34715
 Taiwan,TW,34273
-Sweden,SE,33178
 Romania,RO,31440
 Hungary,HU,30544
 Chile,CL,29312
-Austria,AT,28519
+Austria,AT,28634
 South Africa,ZA,27342
 Norway,NO,26673
 Denmark,DK,25344
-Mexico,MX,22357
+Mexico,MX,24461
 Israel,IL,22229
 Argentina,AR,21480
 Slovakia,SK,21056
 Iran,IR,21044
-Colombia,CO,18378
+Colombia,CO,18379
 Hong Kong,HK,16591
-Croatia,HR,14618
+Croatia,HR,14651
 Egypt,EG,14409
 Morocco,MA,13688
 Pakistan,PK,13391
-Ireland,IE,12935
+Ireland,IE,12939
 Bulgaria,BG,12893
 Serbia,RS,12388
-Ukraine,UA,9785
-Georgia,GE,8562
-New Zealand,NZ,8416
+Ukraine,UA,9787
+Georgia,GE,9395
+New Zealand,NZ,8430
 United Arab Emirates,AE,8212
 Ecuador,EC,7871
 Azerbaijan,AZ,7767
@@ -68,8 +68,9 @@ Saudi Arabia,SA,4299
 Kuwait,KW,3710
 Montenegro,ME,3584
 Qatar,QA,3574
-Peru,PE,2832
-Vietnam,VN,2190
+Indonesia,ID,3203
+Peru,PE,2904
+Vietnam,VN,2194
 Nigeria,NG,2180
 Ethiopia,ET,1947
 Cuba,CU,1874
@@ -77,12 +78,11 @@ Mongolia,MN,1434
 Tunisia,TN,1326
 Bangladesh,BD,1291
 Lebanon,LB,1278
-Indonesia,ID,1222
 Palestine,PS,1028
 Iraq,IQ,927
 Luxembourg,LU,778
 Jordan,JO,748
-Kenya,KE,677
+Kenya,KE,700
 Ghana,GH,672
 Iceland,IS,667
 North Macedonia,MK,585
@@ -93,11 +93,11 @@ Monaco,MC,489
 Uzbekistan,UZ,447
 Algeria,DZ,415
 Zimbabwe,ZW,406
+Guatemala,GT,383
 Nepal,NP,374
 Kazakhstan,KZ,367
 Cameroon,CM,353
 Bahrain,BH,351
-Guatemala,GT,348
 Macao,MO,334
 Oman,OM,316
 Tanzania,TZ,278

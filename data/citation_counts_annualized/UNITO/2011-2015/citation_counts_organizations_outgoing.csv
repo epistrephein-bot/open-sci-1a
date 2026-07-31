@@ -8,6 +8,7 @@ University of Oxford,United Kingdom,GB,https://ror.org/052gg0110,19352
 University of Bologna,Italy,IT,https://ror.org/01111rn36,19155
 The University of Texas System,United States,US,https://ror.org/01gek1696,19115
 Sapienza University of Rome,Italy,IT,https://ror.org/02be6w209,17903
+University of Padua,Italy,IT,https://ror.org/00240q980,17510
 Université Paris Cité,France,FR,https://ror.org/05f82e368,17399
 University of Mary,United States,US,https://ror.org/055f0jp24,16868
 Max Planck Society,Germany,DE,https://ror.org/01hhn8329,16860
@@ -54,6 +55,7 @@ University of Chicago,United States,US,https://ror.org/024mw5h28,9947
 King's College London,United Kingdom,GB,https://ror.org/0220mzb33,9946
 "University of California, Berkeley",United States,US,https://ror.org/01an7q238,9863
 University of Michigan,United States,US,https://ror.org/00jmfr291,9846
+The King's University,United States,US,https://ror.org/02p5gkq58,9778
 ETH Zurich,Switzerland,CH,https://ror.org/05a28rw58,9747
 Cornell University,United States,US,https://ror.org/05bnh6r87,9736
 University of Wisconsin System,United States,US,https://ror.org/03ydkyb10,9724
@@ -77,6 +79,7 @@ University of California San Diego,United States,US,https://ror.org/0168r3w48,87
 Université Grenoble Alpes,France,FR,https://ror.org/02rx3b187,8745
 Utrecht University,The Netherlands,NL,https://ror.org/04pp8hn57,8738
 New York University,United States,US,https://ror.org/0190ak572,8703
+The University of Tokyo,Japan,JP,https://ror.org/057zh3y96,8689
 Mayo Clinic,United States,US,https://ror.org/02qp3tb03,8513
 Institut National des Sciences de l'Univers,France,FR,https://ror.org/04kdfz702,8482
 Lund University,Sweden,SE,https://ror.org/012a77v79,8475
@@ -89,6 +92,7 @@ University of Perugia,Italy,IT,https://ror.org/00x27da85,8277
 Charles University,Czechia,CZ,https://ror.org/024d6js02,8126
 Columbia University,United States,US,https://ror.org/00hj8s172,8120
 McGill University,Canada,CA,https://ror.org/01pxwe438,8061
+"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",France,FR,https://ror.org/003vg9w96,8049
 National and Kapodistrian University of Athens,Greece,GR,https://ror.org/04gnjpq42,7946
 "University of Maryland, College Park",United States,US,https://ror.org/047s2c258,7905
 Assistance Publique – Hôpitaux de Paris,France,FR,https://ror.org/00pg5jh14,7899
@@ -113,6 +117,7 @@ University of Geneva,Switzerland,CH,https://ror.org/01swzsf04,7139
 Science and Technology Facilities Council,United Kingdom,GB,https://ror.org/057g20z61,7118
 Universitat Autònoma de Barcelona,Spain,ES,https://ror.org/052g8jq94,7092
 Universidad Autónoma de Madrid,Spain,ES,https://ror.org/01cby8j38,7071
+Universidade Federal do Rio de Janeiro,Brazil,BR,https://ror.org/03490as77,7070
 Universidade de São Paulo,Brazil,BR,https://ror.org/036rp1748,7040
 KU Leuven,Belgium,BE,https://ror.org/05f950310,6983
 Deutsches Elektronen-Synchrotron DESY,Germany,DE,https://ror.org/01js2sh04,6971
@@ -132,6 +137,7 @@ Université de Lyon,France,FR,https://ror.org/01rk35k63,6621
 Boston College,United States,US,https://ror.org/02n2fzt79,6560
 Dana-Farber Cancer Institute,United States,US,https://ror.org/02jzgtq86,6536
 New York University Florence,Italy,IT,https://ror.org/02pthyn77,6436
+Université Paris-Panthéon-Assas,France,FR,https://ror.org/04qb2qm38,6429
 University of Colorado Boulder,United States,US,https://ror.org/02ttsq026,6406
 Erasmus University Rotterdam,The Netherlands,NL,https://ror.org/057w15z03,6406
 Rutherford Appleton Laboratory,United Kingdom,GB,https://ror.org/03gq8fr08,6401
@@ -150,6 +156,7 @@ Boston Children's Hospital,United States,US,https://ror.org/00dvg7y05,6161
 Vanderbilt University,United States,US,https://ror.org/02vm5rt34,6159
 Uppsala University,Sweden,SE,https://ror.org/048a87296,6150
 Lomonosov Moscow State University,Russia,RU,https://ror.org/010pmpe69,6122
+Karolinska Institutet,Sweden,SE,https://ror.org/056d84691,6097
 Kyoto University,Japan,JP,https://ror.org/02kpeqv85,6079
 SLAC National Accelerator Laboratory,United States,US,https://ror.org/05gzmn429,6039
 Seoul National University,South Korea,KR,https://ror.org/04h9pn542,6026
@@ -200,6 +207,7 @@ Brown University,United States,US,https://ror.org/05gq02987,5126
 Wayne State University,United States,US,https://ror.org/01070mq45,5079
 Tokai National Higher Education and Research System,Japan,JP,https://ror.org/04d139241,5073
 University of Belgrade,Serbia,RS,https://ror.org/02qsmb048,5069
+The University of Adelaide,Australia,AU,https://ror.org/00892tw58,5031
 University of Arizona,United States,US,https://ror.org/03m2x1q45,5022
 École Polytechnique,France,FR,https://ror.org/05hy3tk52,5019
 University of Tübingen,Germany,DE,https://ror.org/03a1kwz48,5016
@@ -225,6 +233,7 @@ University of Massachusetts System,United States,US,https://ror.org/0260j1g46,46
 Emory University,United States,US,https://ror.org/03czfpz43,4601
 University of Alberta,Canada,CA,https://ror.org/0160cpw27,4595
 University of Warwick,United Kingdom,GB,https://ror.org/01a77tt86,4588
+National Cancer Institute,United States,US,https://ror.org/040gcmg81,4571
 Laboratoire de Physique des 2 Infinis Irène Joliot-Curie,France,FR,https://ror.org/03gc1p724,4570
 Jagiellonian University,Poland,PL,https://ror.org/03bqmcz70,4544
 Polish Academy of Sciences,Poland,PL,https://ror.org/01dr6c206,4482
@@ -257,6 +266,7 @@ Sungkyunkwan University,South Korea,KR,https://ror.org/04q78tk20,4188
 Goethe University Frankfurt,Germany,DE,https://ror.org/04cvxnb49,4180
 CNRS Ingénierie,France,FR,https://ror.org/00s19x989,4173
 Centre de Calcul de l’Institut National de Physique Nucléaire et de Physique des Particules,France,FR,https://ror.org/04dcc3438,4151
+Charité - Universitätsmedizin Berlin,Germany,DE,https://ror.org/001w7jn25,4135
 Aarhus University,Denmark,DK,https://ror.org/01aj84f44,4132
 Medical Research Council,United Kingdom,GB,https://ror.org/03x94j517,4124
 Maastricht University,The Netherlands,NL,https://ror.org/02jz4aj89,4112
@@ -301,6 +311,7 @@ University of Science and Technology of China,China,CN,https://ror.org/04c4dkn09
 Library and Information Centre of the Hungarian Academy of Sciences,Hungary,HU,https://ror.org/04ws47v52,3662
 Czech Technical University in Prague,Czechia,CZ,https://ror.org/03kqpb082,3656
 Slovak Academy of Sciences,Slovakia,SK,https://ror.org/03h7qq074,3649
+University of New Mexico,United States,US,https://ror.org/05fs6jp91,3644
 Wellcome Trust,United Kingdom,GB,https://ror.org/029chgv08,3635
 The University of Texas Southwestern Medical Center,United States,US,https://ror.org/05byvp690,3635
 University of Cincinnati,United States,US,https://ror.org/01e3m7079,3635
@@ -456,6 +467,7 @@ University of Salerno,Italy,IT,https://ror.org/0192m2k53,2664
 Hong Kong Polytechnic University,Hong Kong,HK,https://ror.org/0030zas98,2663
 University Medical Center Groningen,The Netherlands,NL,https://ror.org/03cv38k47,2663
 Institute for High Energy Physics,Spain,ES,https://ror.org/01sdrjx85,2657
+University of Oregon,United States,US,https://ror.org/0293rh119,2655
 "Institute of Nuclear Physics, Polish Academy of Sciences",Poland,PL,https://ror.org/01n78t774,2652
 National Central University,Taiwan,TW,https://ror.org/00944ve71,2649
 Florida International University,United States,US,https://ror.org/02gz6gg07,2648
@@ -512,6 +524,7 @@ Washington University in St. Louis,United States,US,https://ror.org/01yc7t268,22
 Cedars-Sinai Medical Center,United States,US,https://ror.org/02pammg90,2295
 Vanderbilt University Medical Center,United States,US,https://ror.org/05dq2gs74,2289
 Belarusian State University of Transport,Belarus,BY,https://ror.org/03vt4hz19,2286
+Université de Lille,France,FR,https://ror.org/02kzqn938,2277
 Vilnius University,Lithuania,LT,https://ror.org/03nadee84,2252
 National Institute of Chemical Physics and Biophysics,Estonia,EE,https://ror.org/03eqd4a41,2226
 "Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas",Spain,ES,https://ror.org/05xx77y52,2223
@@ -620,6 +633,7 @@ Agricultural Research Service,United States,US,https://ror.org/02d2m2044,1812
 University of East Anglia,United Kingdom,GB,https://ror.org/026k5mg93,1810
 Azerbaijan National Academy of Sciences,Azerbaijan,AZ,https://ror.org/006m4q736,1809
 University of Rostock,Germany,DE,https://ror.org/03zdwsf69,1803
+Centers for Disease Control and Prevention,United States,US,https://ror.org/042twtr12,1802
 State Research Center of the Russian Federation,Russia,RU,https://ror.org/04qpssw85,1802
 Imperial College Healthcare NHS Trust,United Kingdom,GB,https://ror.org/056ffv270,1799
 Princess Margaret Cancer Centre,Canada,CA,https://ror.org/03zayce58,1799
@@ -846,6 +860,7 @@ Roswell Park Comprehensive Cancer Center,United States,US,https://ror.org/0499dw
 Freie Universität Berlin,Germany,DE,https://ror.org/046ak2485,1177
 Friedrich Schiller University Jena,Germany,DE,https://ror.org/05qpz1x62,1173
 University of Ulsan,South Korea,KR,https://ror.org/02c2f8975,1173
+University of Georgia,Georgia,GE,https://ror.org/02bjhwk41,1172
 Thomas Jefferson University,United States,US,https://ror.org/00ysqcn41,1169
 Korea Institute of Science & Technology Information,South Korea,KR,https://ror.org/01k4yrm29,1169
 Pitié-Salpêtrière Hospital,France,FR,https://ror.org/02mh9a093,1168
@@ -873,6 +888,7 @@ Université Bourgogne Europe,France,FR,https://ror.org/00g700j37,1140
 Institut national de recherche en sciences et technologies du numérique,France,FR,https://ror.org/02kvxyf05,1140
 George Washington University,United States,US,https://ror.org/00y4zzh67,1138
 Centre Léon Bérard,France,FR,https://ror.org/01cmnjq37,1137
+Université du Québec,Canada,CA,https://ror.org/010gxg263,1135
 Observatoire Midi-Pyrénées,France,FR,https://ror.org/030syve83,1134
 University of Otago,New Zealand,NZ,https://ror.org/01jmxt844,1132
 Hokkaido University,Japan,JP,https://ror.org/02e16g702,1131
@@ -992,6 +1008,7 @@ National Institute for Public Health and the Environment,The Netherlands,NL,http
 University of Crete,Greece,GR,https://ror.org/00dr28g20,949
 Asan Foundation,South Korea,KR,https://ror.org/05pa68763,949
 University Hospital Schleswig-Holstein,Germany,DE,https://ror.org/01tvm6f46,945
+Universidad Autónoma de Coahuila,Mexico,MX,https://ror.org/00dpnh189,944
 Asan Medical Center,South Korea,KR,https://ror.org/03s5q0090,943
 Max Planck Institute for Radio Astronomy,Germany,DE,https://ror.org/04jvemc39,942
 Cairo University,Egypt,EG,https://ror.org/03q21mh05,941
@@ -1005,6 +1022,7 @@ Fundació de Recerca Clínic Barcelona-Institut d’Investigacions Biomèdiques 
 Université d'Angers,France,FR,https://ror.org/04yrqp957,921
 University College Cork,Ireland,IE,https://ror.org/03265fv13,921
 Vanderbilt-Ingram Cancer Center,United States,US,https://ror.org/02rjj2m04,918
+University of Connecticut,United States,US,https://ror.org/02der9h97,913
 Carnegie Institution for Science,United States,US,https://ror.org/04jr01610,913
 Institut de Recherche en Astrophysique et Planétologie,France,FR,https://ror.org/05hm2ja81,913
 Perimeter Institute,Canada,CA,https://ror.org/013m0ej23,911
@@ -1041,11 +1059,13 @@ Mount Sinai Hospital,Canada,CA,https://ror.org/05deks119,874
 National Yang Ming Chiao Tung University,Taiwan,TW,https://ror.org/00se2k293,873
 Centre for Human Genetics,United Kingdom,GB,https://ror.org/01rjnta51,872
 Magna Graecia University,Italy,IT,https://ror.org/0530bdk91,871
+Pontifícia Universidade Católica do Rio de Janeiro,Brazil,BR,https://ror.org/01dg47b60,871
 Amsterdam UMC Location University of Amsterdam,The Netherlands,NL,https://ror.org/03t4gr691,871
 Kent State University,United States,US,https://ror.org/049pfb863,871
 Hospital Universitario La Paz,Spain,ES,https://ror.org/01s1q0w69,870
 Leiden Observatory,The Netherlands,NL,https://ror.org/03es66g06,870
 Centre Hospitalier Universitaire de Grenoble,France,FR,https://ror.org/041rhpw39,869
+Université Jean Monnet,France,FR,https://ror.org/04yznqr36,866
 UCLA Health,United States,US,https://ror.org/01d88se56,865
 Indiana University Health,United States,US,https://ror.org/01aaptx40,865
 Rowland Institute at Harvard,United States,US,https://ror.org/03eta9142,865
@@ -1067,6 +1087,7 @@ German Center for Neurodegenerative Diseases,Germany,DE,https://ror.org/043j0f47
 Royal Brompton & Harefield NHS Foundation Trust,United Kingdom,GB,https://ror.org/02218z997,847
 Capital Medical University,China,CN,https://ror.org/013xs5b60,847
 St Thomas' Hospital,United Kingdom,GB,https://ror.org/054gk2851,845
+United States Department of Energy,United States,US,https://ror.org/01bj3aw27,843
 Hôpital Paul-Brousse,France,FR,https://ror.org/05n7yzd13,840
 University Hospital Carl Gustav Carus,Germany,DE,https://ror.org/04za5zm41,840
 Nottingham University Hospitals NHS Trust,United Kingdom,GB,https://ror.org/05y3qh794,839
@@ -1561,6 +1582,7 @@ Canadian Institute for Theoretical Astrophysics,Canada,CA,https://ror.org/0265wc
 "Istituto Nazionale di Fisica Nucleare, Sezione di Bologna",Italy,IT,https://ror.org/04j0x0h93,476
 Toronto General Hospital,Canada,CA,https://ror.org/026pg9j08,475
 Kantonsspital St. Gallen,Switzerland,CH,https://ror.org/00gpmb873,475
+BGI Group (China),China,CN,https://ror.org/045pn2j94,475
 Ohio University Lancaster,United States,US,https://ror.org/03kf4rc21,473
 Natural History Museum of Denmark,Denmark,DK,https://ror.org/040ck2b86,473
 Institut Pytheas,France,FR,https://ror.org/00f945z63,472
@@ -1648,6 +1670,7 @@ University of Namur,Belgium,BE,https://ror.org/03d1maw17,435
 Toho University,Japan,JP,https://ror.org/02hcx7n63,432
 École Nationale Supérieure de Chimie de Montpellier,France,FR,https://ror.org/03sgyqj04,432
 Royal Adelaide Hospital,Australia,AU,https://ror.org/00carf720,432
+Universidade Federal do Oeste da Bahia,Brazil,BR,https://ror.org/03raeyn57,432
 London Health Sciences Centre,Canada,CA,https://ror.org/037tz0e16,432
 Salk Institute for Biological Studies,United States,US,https://ror.org/03xez1567,432
 "Istituto Nazionale di Fisica Nucleare, Sezione di Roma I",Italy,IT,https://ror.org/05eva6s33,432
@@ -1884,6 +1907,7 @@ Aichi Cancer Center,Japan,JP,https://ror.org/03kfmm080,356
 NSF National Center for Atmospheric Research,United States,US,https://ror.org/05cvfcr44,356
 Rutgers Cancer Institute,United States,US,https://ror.org/0060x3y55,356
 Universitat Jaume I,Spain,ES,https://ror.org/02ws1xc11,356
+Universidade Estadual do Oeste do Paraná,Brazil,BR,https://ror.org/05ne20t07,355
 "University of Nevada, Reno",United States,US,https://ror.org/01keh0577,355
 St Bartholomew's Hospital,United Kingdom,GB,https://ror.org/00nh9x179,355
 Victoria University,Australia,AU,https://ror.org/04j757h98,354
@@ -2369,6 +2393,7 @@ European University Institute,Italy,IT,https://ror.org/0031wrj91,246
 Centre for Mental Health,United Kingdom,GB,https://ror.org/04yy7zb66,246
 Arkansas State University,United States,US,https://ror.org/006pyvd89,246
 Arkansas State University System,United States,US,https://ror.org/0152qkr29,246
+Texas Tech University Health Sciences Center,United States,US,https://ror.org/033ztpr93,246
 Tampere University of Technology,Finland,FI,https://ror.org/02ba3pt07,246
 Elettra-Sincrotrone Trieste S.C.p.A.,Italy,IT,https://ror.org/01c3rrh15,246
 Institut universitaire de cardiologie et de pneumologie de Québec,Canada,CA,https://ror.org/03gf7z214,246
@@ -2394,8 +2419,10 @@ Free University of Bozen-Bolzano,Italy,IT,https://ror.org/012ajp527,241
 Nicolaus Copernicus Astronomical Center,Poland,PL,https://ror.org/040r57n67,241
 Nello Carrara Institute of Applied Physics,Italy,IT,https://ror.org/00dqega85,241
 Mount Vernon Cancer Centre,United Kingdom,GB,https://ror.org/01wwv4x50,241
+Concordia University,Canada,CA,https://ror.org/0420zvk78,241
 Woods Hole Oceanographic Institution,United States,US,https://ror.org/03zbnzt98,241
 Siemens (Germany),Germany,DE,https://ror.org/059mq0909,241
+University of New England,Australia,AU,https://ror.org/04r659a56,241
 University of Ulster,United Kingdom,GB,https://ror.org/01yp9g959,240
 Istituto Scientifico Romagnolo per lo Studio e la Cura dei Tumori,Italy,IT,https://ror.org/013wkc921,240
 St. John's University,United States,US,https://ror.org/00bgtad15,240
@@ -2620,6 +2647,7 @@ Oeschger Centre for Climate Change Research,Switzerland,CH,https://ror.org/0329s
 Xiangnan University,China,CN,https://ror.org/05by9mg64,211
 Indian Council of Forestry Research and Education,India,IN,https://ror.org/04r2bgz73,211
 Space Research Organisation Netherlands,The Netherlands,NL,https://ror.org/02wc0kq10,211
+World Bank,United States,US,https://ror.org/00ae7jd04,210
 German Centre for Integrative Biodiversity Research,Germany,DE,https://ror.org/01jty7g66,210
 Sapporo Medical University,Japan,JP,https://ror.org/01h7cca57,209
 University of Michigan Medical School,United States,US,https://ror.org/028p1nc07,209
@@ -2637,6 +2665,7 @@ Children's Mercy Hospital,United States,US,https://ror.org/04zfmcq84,208
 Jeju National University,South Korea,KR,https://ror.org/05hnb4n85,208
 Medical University of Lublin,Poland,PL,https://ror.org/016f61126,208
 National Academy of Sciences of Armenia,Armenia,AM,https://ror.org/04mczx267,208
+University of Lancashire,United Kingdom,GB,https://ror.org/010jbqd54,208
 Barnard College,United States,US,https://ror.org/04rt94r53,208
 Health Protection Agency,United Kingdom,GB,https://ror.org/022pm7h15,208
 Athens State University,United States,US,https://ror.org/01zx16v02,207
@@ -2757,6 +2786,7 @@ University of Toyama,Japan,JP,https://ror.org/0445phv87,193
 Institut National de la Recherche Scientifique,Canada,CA,https://ror.org/04td37d32,193
 University Children's Hospital Zurich,Switzerland,CH,https://ror.org/035vb3h42,193
 Vejle Sygehus,Denmark,DK,https://ror.org/00e8ar137,193
+Savitribai Phule Pune University,India,IN,https://ror.org/044g6d731,192
 University of Chicago Medicine Comprehensive Cancer Center,United States,US,https://ror.org/042wftp98,192
 Adam Mickiewicz University in Poznań,Poland,PL,https://ror.org/04g6bbq64,192
 Czech University of Life Sciences Prague,Czechia,CZ,https://ror.org/0415vcw02,192
@@ -2927,6 +2957,7 @@ Colorado School of Public Health,United States,US,https://ror.org/005x9g035,177
 Institute of Biosciences and Bioresources,Italy,IT,https://ror.org/01gtsa866,177
 Johns Hopkins University Center for AIDS Research,United States,US,https://ror.org/05n52x113,177
 Center for Excellence in Molecular Plant Sciences,China,CN,https://ror.org/04ew43640,177
+Texas A&M Health Science Center,United States,US,https://ror.org/01tx6pn92,177
 Soongsil University,South Korea,KR,https://ror.org/017xnm587,177
 The Wistar Institute,United States,US,https://ror.org/04wncat98,177
 Nebraska Medical Center,United States,US,https://ror.org/03azxga02,177
@@ -3410,6 +3441,7 @@ United Arab Emirates University,United Arab Emirates,AE,https://ror.org/01km6p86
 Women's College Hospital,Canada,CA,https://ror.org/03cw63y62,135
 Fujian Medical University,China,CN,https://ror.org/050s6ns64,135
 Kaohsiung Chang Gung Memorial Hospital,Taiwan,TW,https://ror.org/00k194y12,135
+Universidad de Guadalajara,Mexico,MX,https://ror.org/043xj7k26,135
 Center for Excellence in Molecular Cell Science,China,CN,https://ror.org/02rrdvm96,135
 University of Wisconsin–River Falls,United States,US,https://ror.org/02ep9vf55,135
 Hiroshima City University,Japan,JP,https://ror.org/001et4e78,135
@@ -3627,6 +3659,7 @@ Max Planck Institute for Human Development,Germany,DE,https://ror.org/02pp7px91,
 Northeastern University,China,CN,https://ror.org/03awzbc87,123
 Chinese Academy of Forestry,China,CN,https://ror.org/0360dkv71,123
 National Cancer Centre Singapore,Singapore,SG,https://ror.org/03bqk3e80,123
+National Institute of Mental Health,Japan,JP,https://ror.org/04t0s7x83,123
 Yale School of Medicine,United States,US,https://ror.org/03pnmqc26,123
 Center for International Forestry Research,Indonesia,ID,https://ror.org/01jbzz330,123
 Center for Vascular Biology Research,United States,US,https://ror.org/04wsv7966,123
@@ -3807,6 +3840,7 @@ Osaka City General Hospital,Japan,JP,https://ror.org/00v053551,114
 Shaanxi Normal University,China,CN,https://ror.org/0170z8493,114
 École Centrale de Lille,France,FR,https://ror.org/01x441g73,114
 Universidade de Aveiro Incubator,Portugal,PT,https://ror.org/01h8t7c63,114
+International Atomic Energy Agency,Austria,AT,https://ror.org/02zt1gg83,114
 Laiko General Hospital of Athens,Greece,GR,https://ror.org/02dvs1389,114
 Helios Hospital Berlin-Buch,Germany,DE,https://ror.org/05hgh1g19,114
 Virginia Commonwealth University Medical Center,United States,US,https://ror.org/057xmsr27,114
@@ -3948,6 +3982,7 @@ Kasetsart University,Thailand,TH,https://ror.org/05gzceg21,107
 Simón Bolívar University,Venezuela,VE,https://ror.org/01ak5cj98,107
 Instituto de Catálisis y Petroleoquímica,Spain,ES,https://ror.org/004swtw80,107
 University of the West of Scotland,United Kingdom,GB,https://ror.org/04w3d2v20,107
+Embry–Riddle Aeronautical University,United States,US,https://ror.org/010jskt71,107
 Center for Biologics Evaluation and Research,United States,US,https://ror.org/02nr3fr97,107
 Hôpital Roger Salengro,France,FR,https://ror.org/0165ax130,107
 Isaac Newton Institute for Mathematical Sciences,United Kingdom,GB,https://ror.org/007vkej58,107
@@ -4135,7 +4170,6 @@ The Royal Wolverhampton NHS Trust,United Kingdom,GB,https://ror.org/05pjd0m90,99
 Observatoire Terre et environnement de Lorraine,France,FR,https://ror.org/02cyw3861,99
 Institute of Agricultural Biology and Biotechnology,Italy,IT,https://ror.org/02e5sbe24,99
 UMass Memorial Health Care,United States,US,https://ror.org/00pq96s96,99
-Charité - Universitätsmedizin Berlin,Germany,DE,https://ror.org/001w7jn25,99
 National Museum of Nature and Science,Japan,JP,https://ror.org/04r8tsy16,99
 University Hospital of Alexandroupolis,Greece,GR,https://ror.org/04zkctn64,98
 Laboratoire Traitement du Signal et de l'Image,France,FR,https://ror.org/01f1amm71,98
@@ -4484,6 +4518,7 @@ Sistema Nazionale per la Protezione dell'Ambiente,Italy,IT,https://ror.org/03ba1
 Centre Provence-Alpes-Côte d'Azur,France,FR,https://ror.org/03qbdej90,86
 École d'Ingénieurs en Chimie et Sciences du Numérique,France,FR,https://ror.org/01cbtr271,86
 Center for Global Development,United States,US,https://ror.org/0068yvd12,86
+Université de Nîmes,France,FR,https://ror.org/044t4x544,86
 Kyoto Medical Center,Japan,JP,https://ror.org/045kb1d14,86
 Klinikum Stuttgart,Germany,DE,https://ror.org/059jfth35,86
 Okayama University Hospital,Japan,JP,https://ror.org/019tepx80,86
@@ -4639,6 +4674,7 @@ Korea Institute of Radiological and Medical Sciences,South Korea,KR,https://ror.
 Indian Association for the Cultivation of Science,India,IN,https://ror.org/050p6gz73,82
 New Cross Hospital,United Kingdom,GB,https://ror.org/05w3e4z48,82
 Shirley Ryan AbilityLab,United States,US,https://ror.org/02ja0m249,82
+United Nations Environment Programme,Kenya,KE,https://ror.org/015z29x25,82
 Laboratoire de Chimie Théorique,France,FR,https://ror.org/00tmb7y09,82
 Alliant International University,United States,US,https://ror.org/02xzkc718,82
 Fundación Pública Galega de Medicina Xenómica,Spain,ES,https://ror.org/025h0r574,82
@@ -4897,6 +4933,7 @@ South African Medical Research Council,South Africa,ZA,https://ror.org/05q60vz69
 Laboratoire d'Océanographie et du Climat : Expérimentations et Approches Numériques,France,FR,https://ror.org/05j3atf73,74
 Midwestern State University,United States,US,https://ror.org/00t30ch44,74
 Max Planck Institute for Informatics,Germany,DE,https://ror.org/01w19ak89,74
+Centro Interdisciplinar de Investigação Marinha e Ambiental,Portugal,PT,https://ror.org/05p7z7s64,74
 Qatar University,Qatar,QA,https://ror.org/00yhnba62,74
 Concord Hospital,United States,US,https://ror.org/02p9e5v87,74
 Christopher Newport University,United States,US,https://ror.org/00m4rwq02,74
@@ -5004,9 +5041,11 @@ Hamad Medical Corporation,Qatar,QA,https://ror.org/02zwb6n98,71
 Greater Poland Cancer Center,Poland,PL,https://ror.org/0243nmr44,71
 Region Östergötland,Sweden,SE,https://ror.org/024emf479,71
 Institute for Medical Informatics and Biostatistics,Switzerland,CH,https://ror.org/04e79zk25,71
+National University,United States,US,https://ror.org/01zjrck77,71
 Centre de Biophysique Moléculaire,France,FR,https://ror.org/02dpqcy73,71
 Ca' Foncello Hospital,Italy,IT,https://ror.org/04cb4je22,71
 First Affiliated Hospital of GuangXi Medical University,China,CN,https://ror.org/030sc3x20,71
+National Research and Innovation Agency,Indonesia,ID,https://ror.org/02hmjzt55,71
 Sohag University,Egypt,EG,https://ror.org/02wgx3e98,71
 Alder Hey Children's NHS Foundation Trust,United Kingdom,GB,https://ror.org/00p18zw56,71
 Urbana University,United States,US,https://ror.org/04kp3hw27,71
@@ -5178,6 +5217,7 @@ Hospital Infantil Universitario Niño Jesús,Spain,ES,https://ror.org/028brk668,
 Laboratoire Kastler Brossel,France,FR,https://ror.org/01h14ww21,67
 University of the Andes,Venezuela,VE,https://ror.org/02h1b1x27,67
 Netherlands Consortium for Healthy Ageing,The Netherlands,NL,https://ror.org/03wnqyy64,67
+Hrvatski zavod za javno zdravstvo,Croatia,HR,https://ror.org/00h4fkb86,67
 Institut de Recherche sur le Cancer et le Vieillissement de Nice,France,FR,https://ror.org/01td3kv81,67
 Gynecologic Oncology Group,United States,US,https://ror.org/04x187e69,67
 Escola Politècnica Superior d'Alcoi,Spain,ES,https://ror.org/05859w570,67
@@ -5191,6 +5231,7 @@ State Key Laboratory of Organometallic Chemistry,China,CN,https://ror.org/04kaae
 Anzac Research Institute,Australia,AU,https://ror.org/05kf27764,66
 Instituto de Recursos Naturales y Agrobiología de Sevilla,Spain,ES,https://ror.org/03s0hv140,66
 Tohoku Medical and Pharmaceutical University,Japan,JP,https://ror.org/0264zxa45,66
+Mercy University,United States,US,https://ror.org/02s99ck98,66
 Institut de Chimie des Milieux et des Matériaux de Poitiers,France,FR,https://ror.org/001n7ee52,66
 National Institute of Oceanography and Applied Geophysics,Italy,IT,https://ror.org/04y4t7k95,66
 Kunming Institute of Zoology,China,CN,https://ror.org/03m0vk445,66
@@ -5386,6 +5427,7 @@ Beijing University of Posts and Telecommunications,China,CN,https://ror.org/04w9
 Norwegian Institute of Marine Research,Norway,NO,https://ror.org/05vg74d16,62
 Ausl 4 Piazza Ospedale,Italy,IT,https://ror.org/05jmc0783,62
 Azienda Usl Toscana Centro,Italy,IT,https://ror.org/05a87zb20,62
+Ospedale di Prato Santo Stefano,Italy,IT,https://ror.org/05v48bz32,62
 National Children’s Research Centre,Ireland,IE,https://ror.org/02typaz40,62
 Max-von-Pettenkofer-Institut für Hygiene und Medizinische Mikrobiologie,Germany,DE,https://ror.org/05na4hm84,62
 Maidstone Hospital,United Kingdom,GB,https://ror.org/047v2cv91,62
@@ -5786,6 +5828,7 @@ Technological Educational Institute of Athens,Greece,GR,https://ror.org/044m46d6
 University of Northern Colorado,United States,US,https://ror.org/016bysn57,54
 Olgahospital,Germany,DE,https://ror.org/01xet8208,54
 INSEAD,France,FR,https://ror.org/00ghzk478,54
+"Deutsches Archäologisches Institut, Zentrale",Germany,DE,https://ror.org/041qv0h25,54
 Health Services Research & Development,United States,US,https://ror.org/0083hz885,54
 Leibniz Institute of Virology (LIV),Germany,DE,https://ror.org/02r2q1d96,54
 Institute of Molecular Health Sciences,Switzerland,CH,https://ror.org/05q2cwx50,54
@@ -5866,6 +5909,7 @@ Smith College,United States,US,https://ror.org/0497crr92,53
 Institut de Biologie Valrose,France,FR,https://ror.org/03bnma344,53
 Queen Elizabeth Hospital,United Kingdom,GB,https://ror.org/03npxtg86,53
 Hotel Dieu Hospital,Canada,CA,https://ror.org/01s7w1z60,53
+Naval Medical Research Command,United States,US,https://ror.org/05f421b09,53
 European Molecular Biology Laboratory,France,FR,https://ror.org/01zjc6908,53
 NYU Langone’s Laura and Isaac Perlmutter Cancer Center,United States,US,https://ror.org/00sa8g751,53
 Vaasa Central Hospital,Finland,FI,https://ror.org/019xaj585,53
@@ -6105,6 +6149,7 @@ Frontier Science Foundation,Switzerland,CH,https://ror.org/01e92na05,49
 Capital and Coast District Health Board,New Zealand,NZ,https://ror.org/039h3vh71,49
 Sanford Research,United States,US,https://ror.org/00sfn8y78,49
 University Hospital Olomouc,Czechia,CZ,https://ror.org/01jxtne23,49
+HSE Science and Research Centre,United Kingdom,GB,https://ror.org/003kv9x13,49
 Mahidol Oxford Tropical Medicine Research Unit,Thailand,TH,https://ror.org/03fs9z545,49
 Laboratoire d’Imagerie Biomédicale,France,FR,https://ror.org/02b9znm90,49
 EN-FIST Centre of Excellence (Slovenia),Slovenia,SI,https://ror.org/04s1b0x88,49
@@ -6436,6 +6481,7 @@ Hôpital Louis-Mourier,France,FR,https://ror.org/004nnf780,44
 Government Medical College,India,IN,https://ror.org/007fenw03,44
 Czech Agrifood Research Center,Czechia,CZ,https://ror.org/0436mv865,44
 Monsanto (United States),United States,US,https://ror.org/00j83wy46,44
+National University of Engineering,Peru,PE,https://ror.org/006v63s16,44
 Kyoto Institute of Technology,Japan,JP,https://ror.org/00965ax52,44
 Lehigh Valley Hospital-Pocono,United States,US,https://ror.org/01w09ak35,44
 NHS Ayrshire and Arran,United Kingdom,GB,https://ror.org/03kq24308,44
@@ -7223,6 +7269,7 @@ European Respiratory Society,Switzerland,CH,https://ror.org/00c8n3h65,36
 Institute of Plant and Animal Ecology,Russia,RU,https://ror.org/03msdt869,36
 Evangelisches Krankenhaus Hamm,Germany,DE,https://ror.org/04x747113,36
 TERI University,India,IN,https://ror.org/03rh3e906,36
+Acta les instituts techniques agricoles,France,FR,https://ror.org/00ygxqz19,36
 Westerdijk Fungal Biodiversity Institute,The Netherlands,NL,https://ror.org/030a5r161,36
 Recherches Avancées sur la Biologie de l'Arbre et les Ecosystèmes Forestiers,France,FR,https://ror.org/00gyb4719,36
 Laboratoire de Géographie Physique,France,FR,https://ror.org/054v0s666,36
@@ -7502,6 +7549,7 @@ Environmental Research Center,Algeria,DZ,https://ror.org/026ey8z81,33
 Cabrini Hospital,Australia,AU,https://ror.org/00qbkg805,33
 Škoda Auto University,Czechia,CZ,https://ror.org/02zpfcb35,33
 Race Forward,United States,US,https://ror.org/05j5a1a74,33
+Autorité de Sûreté Nucléaire,France,FR,https://ror.org/02sprfq10,33
 Srinakharinwirot University,Thailand,TH,https://ror.org/04718hx42,33
 Ecosystem Sciences,Australia,AU,https://ror.org/05mbqa235,33
 European School of Oncology,Italy,IT,https://ror.org/02kvnjb40,33
@@ -7622,6 +7670,7 @@ McMaster University Medical Centre,Canada,CA,https://ror.org/05jyrng31,32
 IHE Delft Institute for Water Education,The Netherlands,NL,https://ror.org/030deh410,32
 International Potato Center,Peru,PE,https://ror.org/05asvgp75,32
 Athena Research and Innovation Center In Information Communication & Knowledge Technologies,Greece,GR,https://ror.org/0576by029,32
+United Nations Development Programme,United States,US,https://ror.org/051777d98,32
 University Gastroenterology,United States,US,https://ror.org/028gw7a54,32
 Yazd University,Iran,IR,https://ror.org/02x99ac45,32
 Centro de Investigação em Química,Portugal,PT,https://ror.org/040at6s67,32
@@ -7642,6 +7691,7 @@ French Institute of Pondicherry,India,IN,https://ror.org/05kxcj202,32
 HUN-REN Centre for Energy Research,Hungary,HU,https://ror.org/05wswj918,32
 Affiliated Hospital of Jiangsu University,China,CN,https://ror.org/028pgd321,32
 Hôpital régional,Switzerland,CH,https://ror.org/00xz7ma09,32
+Benedictine University,United States,US,https://ror.org/053fh2363,32
 University of Belgrade - Faculty of Agriculture,Serbia,RS,https://ror.org/01y343k91,32
 University Pathologists,United States,US,https://ror.org/02fsk5c21,32
 Guangdong Provincial People's Hospital,China,CN,https://ror.org/045kpgw45,32
@@ -8394,6 +8444,7 @@ Sanquin,The Netherlands,NL,https://ror.org/01fm2fv39,26
 IPAG Business School,France,FR,https://ror.org/00w56r274,26
 Autism Speaks,United States,US,https://ror.org/04bkad313,26
 National Hospital Organization Mito Medical Center,Japan,JP,https://ror.org/00m9ydx43,26
+Laboratoire de Biophotonique et Pharmacologie,France,FR,https://ror.org/0032sc770,26
 Department of Health,Spain,ES,https://ror.org/025yj9w07,26
 Leibniz Institute on Aging - Fritz Lipmann Institute (FLI),Germany,DE,https://ror.org/039a53269,26
 Laboratoire de Géographie Physique et Environnementale,France,FR,https://ror.org/00e4pqm50,26
@@ -8402,6 +8453,7 @@ Polytechnic Institute of Viseu,Portugal,PT,https://ror.org/0235kxk33,26
 Indian Institute of Technology Bhubaneswar,India,IN,https://ror.org/04gx72j20,26
 Government of Newfoundland and Labrador,Canada,CA,https://ror.org/01jet5b79,26
 Bandung Institute of Technology,Indonesia,ID,https://ror.org/00apj8t60,26
+Universidad Autónoma de Baja California,Mexico,MX,https://ror.org/05xwcq167,26
 Southern Taiwan University of Science and Technology,Taiwan,TW,https://ror.org/0029n1t76,26
 National Center for Ecological Analysis and Synthesis,United States,US,https://ror.org/0146z4r19,26
 Leibniz Institute of Photonic Technology,Germany,DE,https://ror.org/02se0t636,26
@@ -8741,6 +8793,7 @@ Istituto Clinico Sant'Ambrogio,Italy,IT,https://ror.org/00r7hs904,24
 Can Tho University,Vietnam,VN,https://ror.org/0071qz696,24
 St. Francis Xavier University,Canada,CA,https://ror.org/01wcaxs37,24
 University of Wisconsin Health,United States,US,https://ror.org/03e3qgk42,24
+Unité mixte de recherche Œnologie,France,FR,https://ror.org/0473hxz56,24
 Laboratoire Physiologie Cellulaire & Végétale,France,FR,https://ror.org/00jxe7243,24
 Pinderfields Hospital,United Kingdom,GB,https://ror.org/04tbm0m52,24
 Klinik und Poliklinik für Urologie,Germany,DE,https://ror.org/00gfym921,24
@@ -8999,6 +9052,7 @@ The University of Texas at Tyler,United States,US,https://ror.org/01azfw069,23
 Xuzhou Central Hospital,China,CN,https://ror.org/048q23a93,23
 Klinikum Coburg,Germany,DE,https://ror.org/02d1rkr63,23
 Miami Children's Hospital,United States,US,https://ror.org/048d1b238,23
+Massachusetts College of Pharmacy and Health Sciences,United States,US,https://ror.org/02fvywg07,23
 Rocky Mountain University of Health Professions,United States,US,https://ror.org/02egdz393,23
 American Bar Foundation,United States,US,https://ror.org/02kjq0603,23
 Northern California Institute for Research and Education,United States,US,https://ror.org/05p48p517,23
@@ -10248,6 +10302,7 @@ Centre Hospitalier Départemental Vendée,France,FR,https://ror.org/05epqd940,17
 Chinese Academy of Meteorological Sciences,China,CN,https://ror.org/034b53w38,17
 Zeppelin Universität gemeinnützige GmbH,Germany,DE,https://ror.org/05tbp1g38,17
 United States Public Health Service,United States,US,https://ror.org/05xf94514,17
+Instituto Federal do Rio de Janeiro,Brazil,BR,https://ror.org/007qd1t98,17
 Adaptations Métaboliques à l'Exercice en conditions Physiologiques et Pathologiques,France,FR,https://ror.org/059wd2y60,17
 New York Institute of Technology,Canada,CA,https://ror.org/01h3yks88,17
 Geha Mental Health Center,Israel,IL,https://ror.org/03tp0ty93,17
@@ -10533,6 +10588,7 @@ Macalester College,United States,US,https://ror.org/04fceqm38,16
 Mannheim Centre for European Social Research,Germany,DE,https://ror.org/05bv91d86,16
 Australian Red Cross Lifeblood,Australia,AU,https://ror.org/00evjd729,16
 Battelle,Switzerland,CH,https://ror.org/05vqnxk73,16
+Battelle,United States,US,https://ror.org/01h5tnr73,16
 Royal National Hospital for Rheumatic Diseases,United Kingdom,GB,https://ror.org/05va5gy74,16
 Wren Laboratories (United States),United States,US,https://ror.org/03mdbpg08,16
 Hospital Universitário - Universidade Federal de Juiz de Fora,Brazil,BR,https://ror.org/0039g6563,16
@@ -10684,6 +10740,7 @@ Institut Barcelona d'Estudis Internacionals,Spain,ES,https://ror.org/05rke5d69,1
 Hong Kong Shue Yan University,Hong Kong,HK,https://ror.org/023t8mt09,16
 Forschungsanstalt für Waldökologie und Forstwirtschaft Rheinland-Pfalz,Germany,DE,https://ror.org/006zfjs50,16
 Karyopharm Therapeutics (United States),United States,US,https://ror.org/04ty78924,16
+Unidade Local de Saúde de Trás-os-Montes e Alto Douro,Portugal,PT,https://ror.org/01yvs7t05,16
 Leibniz-Institute for New Materials,Germany,DE,https://ror.org/00g656d67,16
 Shenyang Normal University,China,CN,https://ror.org/05cdfgm80,16
 West Coast University,United States,US,https://ror.org/04jj38x11,16
@@ -11171,6 +11228,7 @@ Centre Hospitalier De Pau,France,FR,https://ror.org/01e6msy72,14
 Colorado Springs School District 11,United States,US,https://ror.org/05tkntq54,14
 First Affiliated Hospital Zhejiang University,China,CN,https://ror.org/05m1p5x56,14
 Watson Clinic,United States,US,https://ror.org/05bacvf60,14
+Deutsche Telekom (Germany),Germany,DE,https://ror.org/00m8prc86,14
 Summa Akron City Hospital,United States,US,https://ror.org/01xb3t395,14
 Yokohama University of Pharmacy,Japan,JP,https://ror.org/05s0z8a66,14
 Shahid Chamran University of Ahvaz,Iran,IR,https://ror.org/01k3mbs15,14
@@ -11487,6 +11545,7 @@ Gansu Agricultural University,China,CN,https://ror.org/05ym42410,13
 Presses Universitaires de France,France,FR,https://ror.org/04drdn069,13
 3B's Research Group,Portugal,PT,https://ror.org/01bw9nb45,13
 Centre d'Études Spatiales de la Biosphère,France,FR,https://ror.org/01225hq90,13
+Center for Remote Sensing and Integrated Systems,United States,US,https://ror.org/04t2m2598,13
 Instituto de Biología Molecular y Celular de Rosario,Argentina,AR,https://ror.org/04x0n3178,13
 Universidad Israel,Ecuador,EC,https://ror.org/029zzvq50,13
 Sina Hospital,Iran,IR,https://ror.org/01jqdqz10,13
@@ -11582,6 +11641,7 @@ Maputo Central Hospital,Mozambique,MZ,https://ror.org/03qx6b307,13
 Sai University,India,IN,https://ror.org/022pwce91,13
 Hubei University of Chinese Medicine,China,CN,https://ror.org/02my3bx32,13
 "Groupe de Recherche en Droit, Économie, Gestion",France,FR,https://ror.org/00rfccx09,13
+GESIS - Leibniz-Institute for the Social Sciences,Germany,DE,https://ror.org/018afyw53,13
 Connolly Hospital Blanchardstown,Ireland,IE,https://ror.org/03h5v7z82,13
 21st Century Oncology (United States),United States,US,https://ror.org/02xa0er70,13
 Michigan Healthcare Professionals,United States,US,https://ror.org/03rzd8715,13
@@ -11834,7 +11894,6 @@ St Savas Hospital,Greece,GR,https://ror.org/036h9st94,12
 Sichuan Cancer Hospital,China,CN,https://ror.org/029wq9x81,12
 Coombe Women & Infants University Hospital,Ireland,IE,https://ror.org/00bx71042,12
 National Maternity Hospital,Ireland,IE,https://ror.org/03jcxa214,12
-International Atomic Energy Agency,Austria,AT,https://ror.org/02zt1gg83,12
 Affiliated Hospital of Liaoning University of Traditional Chinese Medicine,China,CN,https://ror.org/03vt3fq09,12
 Knowledge Centre for Agriculture,Denmark,DK,https://ror.org/01ms40349,12
 Rajendra Memorial Research Institute of Medical Sciences,India,IN,https://ror.org/020cmsc29,12
@@ -12378,6 +12437,7 @@ Thunder Bay Regional Health Sciences Centre,Canada,CA,https://ror.org/03k0jff29,
 Chicago Neuropsychology Group,United States,US,https://ror.org/022hg5v70,11
 Diabetes Care Center,United States,US,https://ror.org/02m15g174,11
 Centre of Excellence in Molecular Biology,Pakistan,PK,https://ror.org/03qfdvc46,11
+Wroclaw University of Health and Sport Sciences,Poland,PL,https://ror.org/03gn3ta84,11
 State Key Laboratory of Nonlinear Mechanics,China,CN,https://ror.org/00xrp2v42,11
 Station d’Écologie Théorique et Expérimentale,France,FR,https://ror.org/05d6wfd23,11
 Jiwaji University,India,IN,https://ror.org/00w9a2z18,11
@@ -12625,6 +12685,7 @@ National Children's Advocacy Center,United States,US,https://ror.org/03qg5ja35,1
 Korea Occupational Safety and Health Agency,South Korea,KR,https://ror.org/00qj2j544,10
 International Development Research Centre,India,IN,https://ror.org/029agyb27,10
 FrieslandCampina (Netherlands),The Netherlands,NL,https://ror.org/025mtxh67,10
+Universidad de San Carlos de Guatemala,Guatemala,GT,https://ror.org/01b4w2923,10
 Universidad de Sotavento,Mexico,MX,https://ror.org/057ngt219,10
 MSH Medical School Hamburg – University of Applied Sciences and Medical University,Germany,DE,https://ror.org/006thab72,10
 Walther Meissner Institute,Germany,DE,https://ror.org/01dex6p39,10
@@ -12662,6 +12723,7 @@ Kings County Hospital Center,United States,US,https://ror.org/02emy8e21,10
 Kavli Institute for Systems Neuroscience,Norway,NO,https://ror.org/01tvrq624,10
 Faculdade de Tecnologia e Ciências,Brazil,BR,https://ror.org/04c3ymz82,10
 Parenting Research Centre,Australia,AU,https://ror.org/023teqr16,10
+ArtCenter College of Design,United States,US,https://ror.org/04fjwpp27,10
 Southport and Ormskirk Hospital NHS Trust,United Kingdom,GB,https://ror.org/0586bt104,10
 Providence Hospital,United States,US,https://ror.org/04kd28k12,10
 Museo di Storia Naturale di Milano,Italy,IT,https://ror.org/05cr76371,10
@@ -12738,6 +12800,7 @@ Department of Mines and Petroleum,Australia,AU,https://ror.org/007ef4t67,10
 Geological Survey of Western Australia,Australia,AU,https://ror.org/05h2dda38,10
 "Department of Mines, Industry Regulation and Safety",Australia,AU,https://ror.org/04mr78v45,10
 Guiyang Medical University,China,CN,https://ror.org/035y7a716,10
+Stetson University,United States,US,https://ror.org/01efrfk30,10
 Central University of Punjab,India,IN,https://ror.org/02kknsa06,10
 University of Nigeria Teaching Hospital,Nigeria,NG,https://ror.org/05fx5mz56,10
 Nnamdi Azikiwe University,Nigeria,NG,https://ror.org/02r6pfc06,10
@@ -12804,6 +12867,7 @@ Berliner Hochschule für Technik,Germany,DE,https://ror.org/00w7whj55,10
 Environment Agency of Iceland,Iceland,IS,https://ror.org/008gn7430,10
 Center for Agricultural Resources Research,China,CN,https://ror.org/00t5sva18,10
 Mansfield University,United States,US,https://ror.org/01emtgd92,10
+Zaporizhzhia State Medical and Pharmaceutical University,Ukraine,UA,https://ror.org/01pc8e529,10
 PLA 306 Hospital,China,CN,https://ror.org/01k0q5v34,10
 Wildlife Conservation Society Congo,Congo Republic,CG,https://ror.org/04avnsc24,10
 Centre de Sociologie des Organisations,France,FR,https://ror.org/035mqrn57,10
@@ -12996,6 +13060,7 @@ Indian Institute of Management Bangalore,India,IN,https://ror.org/02xxpjq61,10
 Health Holland,The Netherlands,NL,https://ror.org/056cwr036,10
 American Society of Andrology,United States,US,https://ror.org/03k3qs503,10
 T. G. Masaryk Water Research Institute,Czechia,CZ,https://ror.org/0582kjx49,10
+Environmental Protection Agency,Ireland,IE,https://ror.org/05qbqeh37,10
 Natural History Museum Rotterdam,The Netherlands,NL,https://ror.org/01s8f2180,10
 St. Claraspital,Switzerland,CH,https://ror.org/04ahnxd67,10
 Skin Research Center,France,FR,https://ror.org/0579jh693,10
@@ -15074,6 +15139,7 @@ Technical Resources International (United States),United States,US,https://ror.o
 Lead City University,Nigeria,NG,https://ror.org/043z5qa52,7
 JA Toride Medical Center,Japan,JP,https://ror.org/0299dqs22,7
 National Center of Radiobiology and Radiation Protection,Bulgaria,BG,https://ror.org/058kdrc56,7
+Thuyloi University,Vietnam,VN,https://ror.org/04afshy24,7
 SINTEF Ocean,Norway,NO,https://ror.org/004wre089,7
 Altonaer Kinderkrankenhaus,Germany,DE,https://ror.org/038p55355,7
 World Diabetes Foundation,Denmark,DK,https://ror.org/005qv5j28,6
@@ -15953,6 +16019,7 @@ Sotio (Czechia),Czechia,CZ,https://ror.org/027184q35,6
 Agence de la transition écologique,France,FR,https://ror.org/05rth8x13,6
 Federal Government of Germany,Germany,DE,https://ror.org/048nacf41,6
 Epilepsy Ireland,Ireland,IE,https://ror.org/02xhgwv92,6
+The Russian Presidential Academy of National Economy and Public Administration,Russia,RU,https://ror.org/04xnm9a92,6
 Institut für Ländliche Strukturforschung,Germany,DE,https://ror.org/031fx5580,6
 Hospital Vila Franca de Xira,Portugal,PT,https://ror.org/03nk3j490,6
 Aptiv (Ireland),Ireland,IE,https://ror.org/01jfre984,6
@@ -16004,6 +16071,7 @@ Kementerian Pendidikan Malaysia,Malaysia,MY,https://ror.org/05v8z6a72,5
 Ministry of Education,Maldives,MV,https://ror.org/04fp2d244,5
 Ministry of Education,Brunei,BN,https://ror.org/00y084206,5
 Ministry of Education,Iran,IR,https://ror.org/01hw7wf62,5
+Ministry of Education,New Zealand,NZ,https://ror.org/05p70jq59,5
 Ministry of Education,Ethiopia,ET,https://ror.org/0429te836,5
 Ministry of Education,Saudi Arabia,SA,https://ror.org/00q919b81,5
 Ministry of Education and Child Care,Canada,CA,https://ror.org/05hv77153,5
@@ -16558,6 +16626,7 @@ Centre Hospitalier Annecy Genevois,France,FR,https://ror.org/03deam493,5
 Azienda Ospedaliera di Cosenza,Italy,IT,https://ror.org/01884b046,5
 Vidyasagar University,India,IN,https://ror.org/027jsza11,5
 Centre d'Investigation Clinique - Epidémiologie Clinique Saint-Etienne,France,FR,https://ror.org/044dp1584,5
+CSC - IT Center for Science (Finland),Finland,FI,https://ror.org/04m8m1253,5
 "Research Center for Natural Resources, Environment and Society",Portugal,PT,https://ror.org/03n7krn06,5
 Oslo Centre for Interdisciplinary Environmental and Social Research,Norway,NO,https://ror.org/01hqrqj31,5
 Central Building Research Institute,India,IN,https://ror.org/03gjr0792,5
@@ -17393,7 +17462,6 @@ Research Institute for Analytical Instrumentation,Romania,RO,https://ror.org/00y
 AC2T Research (Austria),Austria,AT,https://ror.org/012d0ge65,4
 Danone Nutricia Research (Netherlands),The Netherlands,NL,https://ror.org/04hxnp039,4
 Campbell Clinic,United States,US,https://ror.org/02vbwbd19,4
-World Bank,United States,US,https://ror.org/00ae7jd04,4
 Pakistan Agricultural Research Council,Pakistan,PK,https://ror.org/04eq9g543,4
 Crozer-Keystone Health System,United States,US,https://ror.org/05pfdp204,4
 Queen Elizabeth Hospital,Malaysia,MY,https://ror.org/05pgywt51,4
@@ -17423,6 +17491,7 @@ Laboratoire Hubert Curien,France,FR,https://ror.org/0028p8r67,4
 BMI The London Independent Hospital,United Kingdom,GB,https://ror.org/0103jrh39,4
 Hebei North University,China,CN,https://ror.org/03hqwnx39,4
 GHU Paris psychiatrie & neurosciences,France,FR,https://ror.org/040pk9f39,4
+Laboratoire Mémoire et Cognition,France,FR,https://ror.org/036ydxy43,4
 Earthquake Science Center,United States,US,https://ror.org/00dcq6866,4
 Renown Health,United States,US,https://ror.org/00w205b62,4
 Centro de Cirugía de Mínima Invasión Jesús Usón,Spain,ES,https://ror.org/012dayg05,4
@@ -19648,6 +19717,7 @@ Medical innovation (France),France,FR,https://ror.org/03t9wc557,3
 Hospital Universitario Sanitas La Moraleja,Spain,ES,https://ror.org/045xgsj44,3
 Innovative Research Institute for Cell Therapy,South Korea,KR,https://ror.org/00c89j038,3
 Institute for European Environmental Policy,Belgium,BE,https://ror.org/04ja8dc86,3
+California College of the Arts,United States,US,https://ror.org/01mmcf932,3
 Asahi Kasei (Japan),Japan,JP,https://ror.org/018wp0236,3
 Chunnam Techno University,South Korea,KR,https://ror.org/03v7b1458,3
 Ministry of Environment,South Korea,KR,https://ror.org/04xmt0833,3
@@ -20184,6 +20254,7 @@ Centre for Higher Education,Germany,DE,https://ror.org/01q1tcv22,3
 University of Pittsburgh at Johnstown,United States,US,https://ror.org/03n9scz70,3
 Dongguk University Gyeongju Hospital,South Korea,KR,https://ror.org/0173p1x79,3
 Medtronic (Canada),Canada,CA,https://ror.org/05dsmqn98,3
+International Organization for Migration,Switzerland,CH,https://ror.org/01j7ed328,3
 Ministry for Health,Malta,MT,https://ror.org/03jswvp59,3
 King's Fund,United Kingdom,GB,https://ror.org/0158ck073,3
 Colorectal Cancer Alliance,United States,US,https://ror.org/01vgdbb03,3
@@ -20999,6 +21070,7 @@ Institute of Mountain Emergency Medicine,Italy,IT,https://ror.org/00n9p1n72,2
 Kyiv School of Economics,Ukraine,UA,https://ror.org/006kf9d11,2
 National Heart Hospital,Bulgaria,BG,https://ror.org/020eh2733,2
 Royal Canadian Mounted Police,Canada,CA,https://ror.org/04vgqqp29,2
+Faculty of Humanities and Social Sciences in Zagreb,Croatia,HR,https://ror.org/03wtvtx73,2
 Bayer (South Korea),South Korea,KR,https://ror.org/03dpx8939,2
 Hopkins Extreme Materials Institute,United States,US,https://ror.org/02ed2th17,2
 Kazan Scientific Center,Russia,RU,https://ror.org/00g4bcb66,2
@@ -21785,6 +21857,7 @@ Instituto Tecnológico y de Estudios Superiores de Occidente,Mexico,MX,https://r
 Online Computer Library Center,United States,US,https://ror.org/02nv42w72,2
 OST - Ostschweizer Fachhochschule,Switzerland,CH,https://ror.org/038mj2660,2
 Koforidua Technical University,Ghana,GH,https://ror.org/05vexvt14,2
+IRYO Sosei University,Japan,JP,https://ror.org/04v5axh10,2
 Dynavax Technologies (United States),United States,US,https://ror.org/01btmdt42,2
 Guangxi Center for Disease Prevention and Control,China,CN,https://ror.org/047a9ch09,2
 Federal Reserve Board of Governors,United States,US,https://ror.org/00v448643,2
@@ -22133,6 +22206,7 @@ Korea Institute of Atmospheric Prediction Systems,South Korea,KR,https://ror.org
 Indian National Centre for Ocean Information Services,India,IN,https://ror.org/04xbqmj23,2
 Society for Industrial and Organizational Psychology,United States,US,https://ror.org/05xjcvb83,2
 Smithsonian Marine Station,United States,US,https://ror.org/00ga81413,2
+Missouri Department of Natural Resources,United States,US,https://ror.org/03s24wa94,2
 Tirol Kliniken,Austria,AT,https://ror.org/028ze1052,2
 Regional Research Institute of Unani Medicine,India,IN,https://ror.org/05svfd950,2
 Spinoza Centre for Neuroimaging,The Netherlands,NL,https://ror.org/05kgbsy64,2
@@ -23622,6 +23696,7 @@ Universidad Siglo 21,Argentina,AR,https://ror.org/01y3yr807,1
 Northeast Center for Rehabilitation and Brain Injury,United States,US,https://ror.org/04tj2nz36,1
 Carolina Institute for NanoMedicine,United States,US,https://ror.org/04q5n7269,1
 Bhagwant University,India,IN,https://ror.org/030c1ef86,1
+WSB Merito University in Torun,Poland,PL,https://ror.org/03sxjf271,1
 Tokyo University of Information Sciences,Japan,JP,https://ror.org/044bdx604,1
 Boulder Environmental Sciences and Technology (United States),United States,US,https://ror.org/05kz93b69,1
 SUNY Cobleskill,United States,US,https://ror.org/02sgpe757,1
@@ -26029,6 +26104,7 @@ Millennium Institute of Oceanography,Chile,CL,https://ror.org/03rnptb60,1
 Ruikang Affiliated Hospital of Guangxi Medical University,China,CN,https://ror.org/04zdsga82,1
 Keloid Research Foundation,United States,US,https://ror.org/057sba841,1
 Dankook University Dental Hospital,South Korea,KR,https://ror.org/04y897m55,1
+Kobe University of Future Health Sciences,Japan,JP,https://ror.org/02z6whe68,1
 Center for Creative Initiatives in Health and Population,Vietnam,VN,https://ror.org/00m6hew51,1
 Niigata Prefectural Institute of Environmental Radiation Monitoring,Japan,JP,https://ror.org/05enegw32,1
 University of the Sacred Heart,Japan,JP,https://ror.org/04qszbx34,1

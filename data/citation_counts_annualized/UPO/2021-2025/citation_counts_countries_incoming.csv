@@ -1,35 +1,35 @@
 country_name,country_code,count
-United States,US,293892
-China,CN,241102
-Italy,IT,173338
-France,FR,129257
-United Kingdom,GB,93006
-Germany,DE,90469
+United States,US,299265
+China,CN,241210
+Italy,IT,177545
+France,FR,132844
+United Kingdom,GB,93060
+Germany,DE,91854
 Spain,ES,68500
-India,IN,46061
-Japan,JP,41772
+India,IN,46222
+Japan,JP,43993
 South Korea,KR,31817
-Canada,CA,30629
-Russia,RU,30413
+Canada,CA,31051
+Russia,RU,30416
 The Netherlands,NL,29511
-Australia,AU,28091
-Poland,PL,25353
+Australia,AU,29402
+Poland,PL,25367
 Switzerland,CH,24687
-Türkiye,TR,24550
-Brazil,BR,18173
+Türkiye,TR,24563
+Brazil,BR,21781
 Iran,IR,17591
+Sweden,SE,15459
 Taiwan,TW,13787
 Belgium,BE,12973
-Sweden,SE,12894
 Greece,GR,12506
-Portugal,PT,12336
+Portugal,PT,12392
 Finland,FI,11455
 Czechia,CZ,10542
 Denmark,DK,10095
-Austria,AT,9614
+Austria,AT,9645
 Pakistan,PK,9366
+Mexico,MX,8416
 Norway,NO,7935
-Mexico,MX,7826
 Egypt,EG,7636
 Hungary,HU,7187
 Romania,RO,7173
@@ -46,24 +46,24 @@ Colombia,CO,4426
 Slovakia,SK,4327
 Malaysia,MY,4044
 Serbia,RS,3698
-Croatia,HR,3679
+Croatia,HR,3689
 Morocco,MA,2825
+Ukraine,UA,2790
 Cyprus,CY,2784
-Ukraine,UA,2775
 Bulgaria,BG,2600
 Mongolia,MN,2578
-New Zealand,NZ,2569
+New Zealand,NZ,2576
 United Arab Emirates,AE,2224
+Indonesia,ID,2186
 Slovenia,SI,2118
 Belarus,BY,2035
-Indonesia,ID,1782
 Philippines,PH,1712
 Nigeria,NG,1577
+Georgia,GE,1507
 Ecuador,EC,1478
 Qatar,QA,1326
 Azerbaijan,AZ,1322
-Georgia,GE,1307
-Vietnam,VN,1258
+Vietnam,VN,1261
 Jordan,JO,1249
 Iraq,IQ,1224
 Lithuania,LT,1217
@@ -72,7 +72,7 @@ Sri Lanka,LK,1202
 Tunisia,TN,1076
 Lebanon,LB,1023
 Armenia,AM,981
-Peru,PE,959
+Peru,PE,967
 Estonia,EE,957
 Puerto Rico,PR,927
 Ethiopia,ET,910
@@ -94,7 +94,7 @@ North Macedonia,MK,297
 Palestine,PS,279
 Iceland,IS,267
 Myanmar,MM,250
-Guatemala,GT,237
+Guatemala,GT,244
 American Samoa,AS,236
 Nepal,NP,232
 Bahrain,BH,220

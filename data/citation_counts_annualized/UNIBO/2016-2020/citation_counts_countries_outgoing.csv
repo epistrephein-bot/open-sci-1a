@@ -1,52 +1,52 @@
 country_name,country_code,count
-United States,US,2145518
-Italy,IT,1080647
-France,FR,993627
-United Kingdom,GB,615513
-Germany,DE,499793
-Spain,ES,330055
-China,CN,328897
-Russia,RU,246642
+United States,US,2187327
+Italy,IT,1116166
+France,FR,1020843
+United Kingdom,GB,616021
+Germany,DE,504950
+Spain,ES,330056
+China,CN,329252
+Russia,RU,246667
+Japan,JP,210833
 The Netherlands,NL,207015
-Japan,JP,193602
-Australia,AU,186499
-Canada,CA,184302
-India,IN,181159
-Switzerland,CH,160189
+Australia,AU,197750
+Canada,CA,186412
+India,IN,182495
+Switzerland,CH,160199
 South Korea,KR,154137
-Türkiye,TR,130470
-Poland,PL,119697
+Türkiye,TR,130480
+Poland,PL,119764
+Brazil,BR,116728
 Belgium,BE,96784
-Brazil,BR,92034
-Finland,FI,83010
+Finland,FI,83015
+Sweden,SE,77663
 Greece,GR,71892
-Sweden,SE,70326
 Hungary,HU,69874
 Taiwan,TW,63669
-Portugal,PT,62820
+Portugal,PT,63119
 Denmark,DK,56660
-Austria,AT,53730
+Austria,AT,53995
 Czechia,CZ,53278
 Norway,NO,52586
-Mexico,MX,45691
+Mexico,MX,48187
 South Africa,ZA,43557
 Iran,IR,42022
 Chile,CL,40471
 Israel,IL,38264
 Slovakia,SK,34133
-Ireland,IE,32751
+Ireland,IE,32762
 Pakistan,PK,32052
 Romania,RO,31375
 Argentina,AR,30575
 Hong Kong,HK,29665
 Belarus,BY,29335
-Croatia,HR,26480
-New Zealand,NZ,26247
-Colombia,CO,25538
+Croatia,HR,26538
+New Zealand,NZ,26259
+Colombia,CO,25542
 Malaysia,MY,23452
 Bulgaria,BG,23409
-Georgia,GE,20397
-Ukraine,UA,19355
+Georgia,GE,22065
+Ukraine,UA,19370
 Serbia,RS,18597
 Morocco,MA,18155
 Singapore,SG,17362
@@ -61,28 +61,28 @@ Ecuador,EC,10044
 Saudi Arabia,SA,9787
 Cyprus,CY,9249
 Lithuania,LT,8982
-Vietnam,VN,6551
+Vietnam,VN,6564
 Sri Lanka,LK,6033
 Qatar,QA,5690
 Ethiopia,ET,5519
 Latvia,LV,4219
 United Arab Emirates,AE,4125
+Indonesia,ID,3926
 Nigeria,NG,3704
-Peru,PE,3241
+Peru,PE,3268
 Iceland,IS,3086
 Philippines,PH,3071
 Tunisia,TN,2733
 Lebanon,LB,2405
-Indonesia,ID,2196
 Luxembourg,LU,2061
 Uzbekistan,UZ,2013
+Kenya,KE,1941
 Bangladesh,BD,1882
 Cuba,CU,1797
-Kenya,KE,1774
 Palestine,PS,1703
 Montenegro,ME,1598
 Jordan,JO,1398
-Guatemala,GT,1387
+Guatemala,GT,1397
 Bahrain,BH,1302
 Iraq,IQ,1293
 Ghana,GH,1211

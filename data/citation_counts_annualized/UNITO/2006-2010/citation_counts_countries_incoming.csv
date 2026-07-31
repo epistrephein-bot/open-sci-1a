@@ -1,40 +1,40 @@
 country_name,country_code,count
-United States,US,362919
-Italy,IT,226589
-France,FR,145385
-United Kingdom,GB,94332
-Germany,DE,80418
+United States,US,370381
+Italy,IT,234150
+France,FR,148117
+United Kingdom,GB,94381
+Germany,DE,82136
 Spain,ES,42726
-Japan,JP,34264
-China,CN,32178
-Canada,CA,30042
+Japan,JP,37021
+China,CN,32199
+Canada,CA,30333
 The Netherlands,NL,27560
 Russia,RU,27253
 South Korea,KR,26845
-Switzerland,CH,24781
-India,IN,22251
-Australia,AU,20560
+Switzerland,CH,24783
+India,IN,22278
+Australia,AU,21791
 Belgium,BE,16095
-Poland,PL,14255
-Brazil,BR,12984
-Finland,FI,12530
+Brazil,BR,16016
+Poland,PL,14257
+Finland,FI,12533
 Taiwan,TW,12061
 Türkiye,TR,10856
+Sweden,SE,10462
 Greece,GR,9614
 Hungary,HU,8846
-Sweden,SE,8721
-Austria,AT,7957
-Mexico,MX,7822
+Mexico,MX,8424
+Austria,AT,7980
 Denmark,DK,7607
 Pakistan,PK,7447
 Czechia,CZ,6831
 Norway,NO,6047
 Israel,IL,5898
-Portugal,PT,5503
+Portugal,PT,5504
 Ireland,IE,4599
 Slovakia,SK,4593
 Argentina,AR,4237
-Croatia,HR,3880
+Croatia,HR,3913
 Bulgaria,BG,3829
 Hong Kong,HK,3517
 New Zealand,NZ,3268
@@ -44,8 +44,8 @@ Ukraine,UA,2764
 Serbia,RS,2636
 Colombia,CO,2429
 Singapore,SG,2416
+Georgia,GE,2022
 Uzbekistan,UZ,1960
-Georgia,GE,1876
 Armenia,AM,1692
 Slovenia,SI,1689
 Cyprus,CY,1484
@@ -62,8 +62,8 @@ Kazakhstan,KZ,671
 Saudi Arabia,SA,551
 Cuba,CU,521
 Lithuania,LT,481
+Peru,PE,440
 Iceland,IS,439
-Peru,PE,435
 Lebanon,LB,428
 Ethiopia,ET,392
 Philippines,PH,343
@@ -75,7 +75,7 @@ Tanzania,TZ,238
 Mongolia,MN,235
 Nigeria,NG,223
 Montenegro,ME,206
-Kenya,KE,198
+Kenya,KE,200
 Palestine,PS,195
 United Arab Emirates,AE,171
 Venezuela,VE,168
@@ -89,8 +89,8 @@ Azerbaijan,AZ,124
 Morocco,MA,121
 Ecuador,EC,121
 Bahrain,BH,114
+Indonesia,ID,92
 Algeria,DZ,88
-Indonesia,ID,86
 Sri Lanka,LK,73
 Malawi,MW,62
 Zambia,ZM,61

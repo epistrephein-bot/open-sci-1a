@@ -1,70 +1,70 @@
 country_name,country_code,count
-United States,US,1905344
-France,FR,828060
-Italy,IT,660026
-United Kingdom,GB,524256
-Germany,DE,406096
+United States,US,1939675
+France,FR,853537
+Italy,IT,760901
+United Kingdom,GB,524853
+Germany,DE,411271
 Spain,ES,253540
+Canada,CA,169159
+Japan,JP,168485
+China,CN,168273
 The Netherlands,NL,168156
-China,CN,167623
-Canada,CA,166726
-Japan,JP,155120
-Australia,AU,143739
-Switzerland,CH,135742
-Russia,RU,117076
+Australia,AU,150743
+Switzerland,CH,135746
+Russia,RU,117083
 South Korea,KR,91316
-India,IN,76217
+India,IN,77757
 Belgium,BE,71076
-Finland,FI,69640
-Poland,PL,67638
-Sweden,SE,55900
+Finland,FI,69656
+Poland,PL,67660
+Sweden,SE,63402
+Brazil,BR,62449
 Türkiye,TR,50347
 Denmark,DK,49128
-Brazil,BR,47775
 Taiwan,TW,43835
-Austria,AT,39556
+Austria,AT,39818
 Hungary,HU,34720
-Portugal,PT,33546
+Portugal,PT,33721
 Norway,NO,32471
 Greece,GR,31479
 Israel,IL,29338
 Czechia,CZ,28237
-Ireland,IE,28137
-Mexico,MX,23998
+Ireland,IE,28145
+Mexico,MX,25344
 Pakistan,PK,23609
 South Africa,ZA,21276
 Chile,CL,20608
 Argentina,AR,20189
-New Zealand,NZ,18358
+New Zealand,NZ,18362
 Iran,IR,16291
 Singapore,SG,15942
 Hong Kong,HK,15417
 Slovakia,SK,14272
-Croatia,HR,12467
+Croatia,HR,12521
 Romania,RO,11491
-Ukraine,UA,10759
+Ukraine,UA,10763
 Bulgaria,BG,10586
 Colombia,CO,9340
 Serbia,RS,9163
 Slovenia,SI,8542
 Malaysia,MY,7919
 Belarus,BY,7834
+Georgia,GE,6834
 Egypt,EG,6677
 Saudi Arabia,SA,6500
 Thailand,TH,6246
 Estonia,EE,5856
 Morocco,MA,5598
-Georgia,GE,5219
 Armenia,AM,5003
 Puerto Rico,PR,4742
 Cyprus,CY,4402
 Lithuania,LT,3915
 Azerbaijan,AZ,3694
-Vietnam,VN,2885
+Vietnam,VN,2890
 Qatar,QA,2818
 Iceland,IS,2785
 Tunisia,TN,2028
-Peru,PE,1815
+Peru,PE,1872
 Philippines,PH,1416
 Uzbekistan,UZ,1297
 Ethiopia,ET,1296
@@ -72,16 +72,16 @@ Lebanon,LB,1264
 Jordan,JO,1189
 Luxembourg,LU,1134
 Nigeria,NG,1124
+Kenya,KE,1067
 United Arab Emirates,AE,1029
 Cuba,CU,1029
 Bahrain,BH,1023
 Uruguay,UY,981
-Kenya,KE,945
 Ecuador,EC,902
+Indonesia,ID,879
 Bangladesh,BD,865
 Uganda,UG,863
 Jamaica,JM,849
-Indonesia,ID,819
 Tanzania,TZ,722
 Latvia,LV,671
 Algeria,DZ,567
@@ -152,12 +152,12 @@ Antigua and Barbuda,AG,63
 Libya,LY,59
 Madagascar,MG,59
 French Polynesia,PF,58
+Guatemala,GT,57
 San Marino,SM,55
 Mauritius,MU,52
 Paraguay,PY,51
 Syria,SY,51
 Gabon,GA,50
-Guatemala,GT,47
 Papua New Guinea,PG,45
 Svalbard and Jan Mayen,SJ,41
 Tajikistan,TJ,40

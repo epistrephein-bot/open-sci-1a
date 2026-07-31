@@ -1,49 +1,49 @@
 country_name,country_code,count
-United States,US,457176
-Italy,IT,241968
-France,FR,183783
-China,CN,141829
-United Kingdom,GB,106583
-Germany,DE,101366
-Russia,RU,78569
-India,IN,71044
+United States,US,464148
+Italy,IT,249350
+France,FR,187659
+China,CN,141926
+United Kingdom,GB,106621
+Germany,DE,102548
+Russia,RU,78573
+India,IN,71104
 Spain,ES,70190
 South Korea,KR,54634
-Japan,JP,45772
-Türkiye,TR,43162
-Switzerland,CH,35604
-Poland,PL,32026
-Canada,CA,31210
+Japan,JP,49359
+Türkiye,TR,43163
+Switzerland,CH,35610
+Brazil,BR,33768
+Poland,PL,32031
+Canada,CA,31588
 The Netherlands,NL,30601
-Finland,FI,28215
-Brazil,BR,27575
-Australia,AU,27274
+Australia,AU,28833
+Finland,FI,28216
 Belgium,BE,24499
 Hungary,HU,24448
 Greece,GR,21312
 Taiwan,TW,19991
-Mexico,MX,17188
+Mexico,MX,18586
 Czechia,CZ,17004
+Sweden,SE,16977
 Iran,IR,14572
-Sweden,SE,14476
 Norway,NO,14236
-Portugal,PT,13685
-Austria,AT,12259
+Portugal,PT,13753
+Austria,AT,12272
 Pakistan,PK,12194
 Slovakia,SK,11142
 Denmark,DK,10644
-Croatia,HR,10496
+Croatia,HR,10505
 South Africa,ZA,9133
 Bulgaria,BG,8646
-Ukraine,UA,8101
+Ukraine,UA,8105
 Malaysia,MY,7686
 Belarus,BY,7603
 Colombia,CO,7426
 Israel,IL,7067
-New Zealand,NZ,6960
-Ireland,IE,6818
+New Zealand,NZ,6965
+Ireland,IE,6822
+Georgia,GE,6693
 Romania,RO,6554
-Georgia,GE,6431
 Argentina,AR,6394
 Serbia,RS,6177
 Thailand,TH,5755
@@ -62,9 +62,10 @@ Saudi Arabia,SA,2837
 Azerbaijan,AZ,2724
 Slovenia,SI,2545
 Sri Lanka,LK,1740
-Peru,PE,1413
+Indonesia,ID,1432
+Peru,PE,1429
 Latvia,LV,1330
-Vietnam,VN,1156
+Vietnam,VN,1157
 Uzbekistan,UZ,1152
 Qatar,QA,1136
 Cuba,CU,1035
@@ -76,12 +77,11 @@ Lebanon,LB,590
 Nigeria,NG,566
 Philippines,PH,551
 Montenegro,ME,490
-Indonesia,ID,476
 Luxembourg,LU,410
 Algeria,DZ,406
 Bangladesh,BD,382
 Jordan,JO,382
-Guatemala,GT,374
+Guatemala,GT,375
 Iceland,IS,334
 Iraq,IQ,280
 Ghana,GH,243
@@ -93,7 +93,7 @@ Macao,MO,210
 Uganda,UG,198
 Uruguay,UY,193
 Cambodia,KH,189
-Kenya,KE,178
+Kenya,KE,180
 Oman,OM,172
 Antigua and Barbuda,AG,160
 Myanmar,MM,145

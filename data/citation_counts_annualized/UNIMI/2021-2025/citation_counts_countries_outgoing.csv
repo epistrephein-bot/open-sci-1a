@@ -1,25 +1,25 @@
 country_name,country_code,count
-Italy,IT,641832
-United States,US,600161
-France,FR,332262
-United Kingdom,GB,248837
-Germany,DE,186585
-Spain,ES,139067
-China,CN,119372
-Canada,CA,82184
+Italy,IT,655078
+United States,US,617491
+France,FR,342941
+United Kingdom,GB,248921
+Germany,DE,189815
+Spain,ES,139068
+China,CN,119452
+Japan,JP,86852
+Canada,CA,82856
 The Netherlands,NL,82056
-Japan,JP,81070
+Australia,AU,58519
 Switzerland,CH,56141
-Australia,AU,53404
-Poland,PL,46049
-India,IN,34049
-Türkiye,TR,33942
+Poland,PL,46081
+Brazil,BR,38266
+India,IN,34203
+Türkiye,TR,33991
+Sweden,SE,33683
 South Korea,KR,32652
-Russia,RU,29952
-Sweden,SE,29808
-Portugal,PT,29389
+Russia,RU,29954
+Portugal,PT,29448
 Belgium,BE,29070
-Brazil,BR,29009
 Greece,GR,25684
 Romania,RO,24945
 Denmark,DK,23501
@@ -28,56 +28,56 @@ Israel,IL,22620
 Argentina,AR,22468
 Czechia,CZ,22344
 Chile,CL,22094
-Austria,AT,19336
+Austria,AT,19464
 South Africa,ZA,18396
 Norway,NO,17077
 Hong Kong,HK,16003
-Finland,FI,14089
+Finland,FI,14092
 Morocco,MA,11784
 Slovakia,SK,11561
 Iran,IR,11481
 Colombia,CO,11198
-Ireland,IE,10736
+Ireland,IE,10737
 Hungary,HU,10027
 Serbia,RS,7799
 United Arab Emirates,AE,7469
 Singapore,SG,7464
-Mexico,MX,7027
+Mexico,MX,7365
 Slovenia,SI,6624
 Philippines,PH,6389
 Pakistan,PK,6359
 Azerbaijan,AZ,5380
+Georgia,GE,5137
 Egypt,EG,4875
 Belarus,BY,4709
-New Zealand,NZ,4677
-Georgia,GE,4362
+New Zealand,NZ,4681
 Saudi Arabia,SA,4197
-Croatia,HR,3401
+Croatia,HR,3428
 Bulgaria,BG,3288
 Malaysia,MY,3072
 Thailand,TH,2980
-Ukraine,UA,2457
+Ukraine,UA,2460
 Qatar,QA,2295
 Nigeria,NG,1885
-Vietnam,VN,1779
+Vietnam,VN,1780
 Ecuador,EC,1507
 Cyprus,CY,1471
 Mongolia,MN,1467
 Lebanon,LB,1401
+Peru,PE,1364
 Ethiopia,ET,1344
 Lithuania,LT,1334
-Peru,PE,1302
 Bangladesh,BD,1231
+Indonesia,ID,1185
 Estonia,EE,1184
 Palestine,PS,1177
-Indonesia,ID,1122
 Tunisia,TN,1081
 Jordan,JO,866
 Latvia,LV,803
 Luxembourg,LU,777
 Sri Lanka,LK,751
+Kenya,KE,711
 Puerto Rico,PR,691
-Kenya,KE,688
 Iraq,IQ,677
 Armenia,AM,672
 Ghana,GH,653
@@ -132,9 +132,9 @@ Libya,LY,102
 Benin,BJ,102
 Jamaica,JM,102
 Angola,AO,95
+Guatemala,GT,92
 El Salvador,SV,91
 Burkina Faso,BF,87
-Guatemala,GT,85
 Syria,SY,76
 St Kitts and Nevis,KN,75
 DR Congo,CD,72

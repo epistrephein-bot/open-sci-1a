@@ -1,32 +1,32 @@
 country_name,country_code,count
-United States,US,443662
-Italy,IT,221285
-France,FR,195441
-China,CN,114440
-United Kingdom,GB,95808
-Germany,DE,94862
-Russia,RU,94341
-India,IN,67068
+United States,US,451263
+Italy,IT,228939
+France,FR,198146
+China,CN,114455
+United Kingdom,GB,95840
+Germany,DE,94978
+Russia,RU,94343
+India,IN,67149
 Spain,ES,64547
-Japan,JP,48568
+Japan,JP,54232
 South Korea,KR,46544
 Türkiye,TR,42947
 Switzerland,CH,35593
-Poland,PL,35021
+Poland,PL,35023
+Brazil,BR,34224
 The Netherlands,NL,26992
-Brazil,BR,26088
 Hungary,HU,25147
 Belgium,BE,23411
-Canada,CA,21236
-Australia,AU,21060
-Finland,FI,20909
+Australia,AU,23213
+Canada,CA,21492
+Finland,FI,20915
 Taiwan,TW,20737
 Greece,GR,19280
-Mexico,MX,15080
+Mexico,MX,15529
 Czechia,CZ,13063
-Portugal,PT,12823
-Austria,AT,11365
-Sweden,SE,10904
+Portugal,PT,12831
+Austria,AT,11370
+Sweden,SE,11046
 Bulgaria,BG,9513
 Colombia,CO,9034
 Belarus,BY,8859
@@ -36,11 +36,11 @@ Slovakia,SK,8271
 Croatia,HR,8007
 Ukraine,UA,7930
 Chile,CL,7715
-Georgia,GE,7512
+Georgia,GE,7655
 Norway,NO,7368
 Malaysia,MY,7340
 Argentina,AR,7195
-New Zealand,NZ,6798
+New Zealand,NZ,6807
 South Africa,ZA,6645
 Israel,IL,6456
 Romania,RO,6133
@@ -67,15 +67,15 @@ Latvia,LV,1255
 Qatar,QA,662
 Uzbekistan,UZ,646
 Mongolia,MN,641
+Indonesia,ID,535
 United Arab Emirates,AE,470
-Guatemala,GT,423
+Guatemala,GT,424
 Zimbabwe,ZW,393
 Montenegro,ME,386
-Peru,PE,373
+Peru,PE,383
 Cuba,CU,307
 Tunisia,TN,288
 Nigeria,NG,286
-Indonesia,ID,277
 Monaco,MC,275
 Iceland,IS,255
 Kazakhstan,KZ,252

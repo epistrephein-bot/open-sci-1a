@@ -1,33 +1,33 @@
 country_name,country_code,count
-United States,US,1457432
-France,FR,783539
-Italy,IT,739998
-United Kingdom,GB,386811
-Germany,DE,341891
+United States,US,1480132
+Italy,IT,878871
+France,FR,802145
+United Kingdom,GB,387282
+Germany,DE,345622
 Spain,ES,241324
-China,CN,203916
-Russia,RU,142734
-Japan,JP,138811
-India,IN,118759
-Canada,CA,117505
+China,CN,204214
+Japan,JP,150886
+Russia,RU,142740
+India,IN,120718
+Canada,CA,119303
 The Netherlands,NL,112037
 South Korea,KR,109827
 Switzerland,CH,108049
-Australia,AU,91815
+Australia,AU,97795
 Türkiye,TR,81096
-Poland,PL,78097
-Finland,FI,74341
+Poland,PL,78120
+Brazil,BR,74931
+Finland,FI,74347
 Belgium,BE,69443
-Brazil,BR,58567
 Taiwan,TW,56505
 Hungary,HU,47981
-Sweden,SE,41229
-Mexico,MX,36588
+Sweden,SE,45804
+Mexico,MX,39152
 Greece,GR,36573
 Denmark,DK,33515
-Austria,AT,33152
+Austria,AT,33277
 Czechia,CZ,31022
-Portugal,PT,30401
+Portugal,PT,30547
 Norway,NO,28983
 Iran,IR,26459
 Ireland,IE,22671
@@ -36,11 +36,11 @@ Pakistan,PK,21103
 South Africa,ZA,20731
 Israel,IL,19885
 Argentina,AR,19167
-New Zealand,NZ,18029
-Croatia,HR,17770
+New Zealand,NZ,18034
+Croatia,HR,17852
 Slovakia,SK,15866
 Bulgaria,BG,15382
-Ukraine,UA,14023
+Ukraine,UA,14025
 Egypt,EG,13963
 Colombia,CO,13557
 Serbia,RS,12817
@@ -49,19 +49,19 @@ Hong Kong,HK,11515
 Singapore,SG,10241
 Belarus,BY,9757
 Slovenia,SI,7888
+Georgia,GE,7668
 Malaysia,MY,7431
 Thailand,TH,7173
 Estonia,EE,7132
 Puerto Rico,PR,6991
 Armenia,AM,6924
-Georgia,GE,6718
 Saudi Arabia,SA,6479
 Cyprus,CY,6129
 Lithuania,LT,6028
 Morocco,MA,5219
 Azerbaijan,AZ,3364
-Peru,PE,2630
-Vietnam,VN,2323
+Peru,PE,2656
+Vietnam,VN,2327
 Qatar,QA,2144
 Iceland,IS,1993
 Uzbekistan,UZ,1953
@@ -76,17 +76,17 @@ Ecuador,EC,838
 Philippines,PH,810
 Uruguay,UY,783
 Luxembourg,LU,732
+Indonesia,ID,691
 Algeria,DZ,685
 Latvia,LV,638
 Bangladesh,BD,624
-Indonesia,ID,619
 Jamaica,JM,607
 Venezuela,VE,606
 Sri Lanka,LK,585
 Oman,OM,486
 Ghana,GH,486
 Bahrain,BH,480
-Kenya,KE,452
+Kenya,KE,464
 Uganda,UG,408
 Tanzania,TZ,399
 Macao,MO,393
@@ -126,6 +126,7 @@ Myanmar,MM,88
 Angola,AO,87
 Ivory Coast,CI,79
 Brunei,BN,75
+Guatemala,GT,75
 Antigua and Barbuda,AG,74
 Botswana,BW,71
 Curaçao,CW,71
@@ -134,7 +135,6 @@ Mali,ML,67
 Syria,SY,66
 Bolivia,BO,64
 Tajikistan,TJ,63
-Guatemala,GT,63
 Seychelles,SC,61
 American Samoa,AS,60
 Honduras,HN,60

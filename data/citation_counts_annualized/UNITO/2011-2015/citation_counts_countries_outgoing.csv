@@ -1,60 +1,60 @@
 country_name,country_code,count
-United States,US,1331378
-France,FR,503311
-Italy,IT,494783
-United Kingdom,GB,354874
-Germany,DE,289754
+United States,US,1356651
+France,FR,521141
+Italy,IT,512355
+United Kingdom,GB,355131
+Germany,DE,293871
 Spain,ES,164626
-China,CN,134422
-Japan,JP,121109
+China,CN,134897
+Japan,JP,129924
 The Netherlands,NL,120789
-Canada,CA,113558
-Australia,AU,99029
-Switzerland,CH,96595
-Russia,RU,81829
+Canada,CA,114934
+Australia,AU,104301
+Switzerland,CH,96598
+Russia,RU,81835
 South Korea,KR,71315
-India,IN,59042
+India,IN,59234
 Belgium,BE,51728
-Poland,PL,45037
+Sweden,SE,48580
+Poland,PL,45049
+Brazil,BR,43883
 Türkiye,TR,42600
-Sweden,SE,42483
-Finland,FI,40195
-Brazil,BR,35138
+Finland,FI,40200
 Denmark,DK,34281
-Austria,AT,29176
+Austria,AT,29278
 Taiwan,TW,27750
 Hungary,HU,26460
 Greece,GR,25727
 Czechia,CZ,25639
-Portugal,PT,25379
+Portugal,PT,25469
 Norway,NO,25016
 Israel,IL,22166
+Mexico,MX,20044
 Pakistan,PK,19801
-Mexico,MX,18939
 Argentina,AR,17563
-Ireland,IE,17374
+Ireland,IE,17384
 South Africa,ZA,15624
-New Zealand,NZ,12388
+New Zealand,NZ,12393
 Singapore,SG,11017
 Hong Kong,HK,10728
 Iran,IR,10668
 Slovakia,SK,10016
-Croatia,HR,9176
+Croatia,HR,9245
 Bulgaria,BG,8356
 Chile,CL,8340
 Romania,RO,8083
 Serbia,RS,7782
 Slovenia,SI,7269
-Ukraine,UA,7139
+Ukraine,UA,7149
 Colombia,CO,7085
 Belarus,BY,7031
 Malaysia,MY,5998
 Thailand,TH,5811
+Georgia,GE,5631
 Morocco,MA,5445
 Egypt,EG,5109
 Saudi Arabia,SA,5018
 Estonia,EE,4464
-Georgia,GE,4459
 Armenia,AM,4153
 Puerto Rico,PR,3746
 Cyprus,CY,3628
@@ -62,20 +62,20 @@ Azerbaijan,AZ,3560
 Lithuania,LT,2946
 Iceland,IS,2450
 Qatar,QA,2118
-Vietnam,VN,1724
-Peru,PE,1690
+Peru,PE,1734
+Vietnam,VN,1731
 Tunisia,TN,1585
 Uzbekistan,UZ,1408
 Philippines,PH,1247
+Kenya,KE,1054
 Ethiopia,ET,1042
-Kenya,KE,972
 Lebanon,LB,910
 Nigeria,NG,877
 Bahrain,BH,837
 Cuba,CU,811
+Indonesia,ID,783
 United Arab Emirates,AE,765
 Luxembourg,LU,723
-Indonesia,ID,712
 Latvia,LV,689
 Palestine,PS,647
 Ecuador,EC,628
@@ -141,12 +141,12 @@ Zimbabwe,ZW,87
 Eswatini,SZ,86
 Tonga,TO,86
 Lesotho,LS,86
+Guatemala,GT,83
 Somalia,SO,79
 Albania,AL,76
 Yemen,YE,76
 Sierra Leone,SL,75
 Madagascar,MG,73
-Guatemala,GT,73
 New Caledonia,NC,70
 Svalbard and Jan Mayen,SJ,66
 Syria,SY,64

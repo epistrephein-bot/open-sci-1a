@@ -1,43 +1,43 @@
 country_name,country_code,count
-United States,US,98938
-Italy,IT,74634
-France,FR,51565
-Germany,DE,22711
-United Kingdom,GB,22404
+United States,US,100251
+Italy,IT,77288
+France,FR,52018
+Germany,DE,23001
+United Kingdom,GB,22413
 Russia,RU,17097
-India,IN,13915
+India,IN,13929
 Spain,ES,13548
 South Korea,KR,12961
-China,CN,10149
+China,CN,10155
+Japan,JP,9595
 Switzerland,CH,9283
-Poland,PL,8659
-Japan,JP,8463
-Finland,FI,7724
+Poland,PL,8661
+Finland,FI,7726
 Belgium,BE,7494
 Türkiye,TR,7245
 Hungary,HU,6664
+Brazil,BR,6498
 The Netherlands,NL,6127
-Brazil,BR,5364
-Canada,CA,4807
-Mexico,MX,4436
+Mexico,MX,4956
+Canada,CA,4881
 Greece,GR,4180
 Taiwan,TW,3990
+Sweden,SE,3656
 Slovakia,SK,3614
-Sweden,SE,3233
+Australia,AU,3192
 Czechia,CZ,3144
-Croatia,HR,3035
-Australia,AU,3021
+Croatia,HR,3043
 Pakistan,PK,2984
 Bulgaria,BG,2888
-Austria,AT,2544
-Ukraine,UA,2297
-Portugal,PT,2285
+Austria,AT,2548
+Portugal,PT,2305
+Ukraine,UA,2298
 Norway,NO,2065
 New Zealand,NZ,2037
 Serbia,RS,1966
 Denmark,DK,1750
 Colombia,CO,1667
-Georgia,GE,1616
+Georgia,GE,1652
 Uzbekistan,UZ,1513
 Israel,IL,1471
 Armenia,AM,1398
@@ -57,7 +57,7 @@ Chile,CL,454
 Cuba,CU,399
 Lithuania,LT,355
 Malaysia,MY,351
-Peru,PE,349
+Peru,PE,351
 Egypt,EG,277
 Slovenia,SI,267
 Philippines,PH,208

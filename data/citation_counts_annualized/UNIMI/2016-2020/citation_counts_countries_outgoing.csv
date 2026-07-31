@@ -1,36 +1,36 @@
 country_name,country_code,count
-United States,US,1750230
-Italy,IT,971332
-France,FR,799545
-United Kingdom,GB,612004
-Germany,DE,435519
-China,CN,298182
+United States,US,1789090
+Italy,IT,997803
+France,FR,829677
+United Kingdom,GB,612378
+Germany,DE,444126
+China,CN,298632
 Spain,ES,281352
-Canada,CA,212754
+Canada,CA,214597
 The Netherlands,NL,207796
-Japan,JP,178359
-Australia,AU,174252
-Switzerland,CH,140703
-Russia,RU,130566
+Japan,JP,190638
+Australia,AU,184962
+Switzerland,CH,140717
+Russia,RU,130571
 South Korea,KR,96765
-India,IN,88944
-Poland,PL,87545
+India,IN,90416
+Poland,PL,87595
+Brazil,BR,83060
+Sweden,SE,80696
 Belgium,BE,74318
-Sweden,SE,70087
-Brazil,BR,67146
 Denmark,DK,66062
-Türkiye,TR,64219
-Finland,FI,55194
-Portugal,PT,53067
+Türkiye,TR,64239
+Finland,FI,55203
+Portugal,PT,53209
 Norway,NO,46874
 Taiwan,TW,44720
-Austria,AT,42214
+Austria,AT,42324
 Czechia,CZ,42073
 Greece,GR,41526
 Israel,IL,40410
 South Africa,ZA,38542
 Argentina,AR,32513
-Ireland,IE,31232
+Ireland,IE,31242
 Hong Kong,HK,29480
 Hungary,HU,29457
 Iran,IR,29230
@@ -39,25 +39,25 @@ Chile,CL,26257
 Pakistan,PK,24855
 Slovakia,SK,21116
 Singapore,SG,21004
+Mexico,MX,19730
 Belarus,BY,19400
-Mexico,MX,18501
 Colombia,CO,15877
 Morocco,MA,15407
-New Zealand,NZ,14868
+New Zealand,NZ,14884
 Serbia,RS,12163
 Malaysia,MY,11307
 Slovenia,SI,11236
 Saudi Arabia,SA,10204
+Georgia,GE,10027
 Azerbaijan,AZ,9914
-Croatia,HR,9721
+Croatia,HR,9802
 Thailand,TH,8611
-Georgia,GE,8521
 Egypt,EG,8229
-Ukraine,UA,7215
+Ukraine,UA,7225
 Bulgaria,BG,6407
 Armenia,AM,5553
 Ethiopia,ET,5549
-Vietnam,VN,5062
+Vietnam,VN,5074
 Qatar,QA,4921
 Estonia,EE,3868
 Cyprus,CY,3677
@@ -69,14 +69,14 @@ Lithuania,LT,3192
 Tunisia,TN,2662
 Iceland,IS,2586
 Palestine,PS,2495
-Peru,PE,2373
+Peru,PE,2385
+Indonesia,ID,2279
+Kenya,KE,2079
 Luxembourg,LU,2027
 Bangladesh,BD,2003
-Kenya,KE,1974
 Ecuador,EC,1835
 Puerto Rico,PR,1776
 Sri Lanka,LK,1708
-Indonesia,ID,1632
 Latvia,LV,1544
 Bahrain,BH,1512
 Ghana,GH,1490
@@ -118,7 +118,7 @@ Benin,BJ,380
 Monaco,MC,367
 Grenada,GD,350
 Yemen,YE,323
-Guatemala,GT,311
+Guatemala,GT,316
 Mongolia,MN,305
 DR Congo,CD,286
 Ivory Coast,CI,286

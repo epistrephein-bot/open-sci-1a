@@ -1,58 +1,58 @@
 country_name,country_code,count
-United States,US,1735412
-China,CN,1059073
-France,FR,890601
-Italy,IT,771191
-Germany,DE,523015
-United Kingdom,GB,521130
-Spain,ES,413265
-Japan,JP,252091
-India,IN,219083
-Canada,CA,196427
-Australia,AU,195353
+United States,US,1765674
+China,CN,1059635
+France,FR,923368
+Italy,IT,826272
+Germany,DE,531555
+United Kingdom,GB,521877
+Spain,ES,413269
+Japan,JP,271543
+India,IN,219917
+Australia,AU,202036
+Canada,CA,200791
 The Netherlands,NL,183556
 South Korea,KR,155548
-Switzerland,CH,137816
-Russia,RU,127639
-Poland,PL,120250
-Brazil,BR,110552
-Türkiye,TR,81687
+Switzerland,CH,137823
+Brazil,BR,128769
+Russia,RU,127667
+Poland,PL,120466
+Türkiye,TR,81791
 Iran,IR,79040
 Belgium,BE,77545
-Portugal,PT,76223
+Portugal,PT,76686
+Sweden,SE,75740
 Taiwan,TW,74488
-Sweden,SE,65270
 Denmark,DK,61779
-Austria,AT,58354
+Austria,AT,58593
 Greece,GR,55207
-Finland,FI,50208
+Finland,FI,50215
 Czechia,CZ,47984
 Chile,CL,47084
+Mexico,MX,43843
 Norway,NO,41691
-Mexico,MX,41014
 Israel,IL,40200
 Hungary,HU,37896
 Argentina,AR,37111
 Pakistan,PK,33905
 Saudi Arabia,SA,33668
 South Africa,ZA,32700
+Ireland,IE,31212
 Egypt,EG,31211
-Ireland,IE,31204
 Hong Kong,HK,29798
 Singapore,SG,28358
 Romania,RO,28104
 Malaysia,MY,23494
 Thailand,TH,20093
-Colombia,CO,18423
+Colombia,CO,18440
+New Zealand,NZ,17691
 Serbia,RS,17602
-New Zealand,NZ,17553
 Slovakia,SK,17434
-Croatia,HR,14913
+Croatia,HR,15023
 Slovenia,SI,13301
+Indonesia,ID,12705
+Ukraine,UA,12689
 Morocco,MA,12654
-Ukraine,UA,12610
-Vietnam,VN,11705
-Indonesia,ID,11630
+Vietnam,VN,11783
 United Arab Emirates,AE,11614
 Nigeria,NG,9611
 Bulgaria,BG,9271
@@ -65,20 +65,20 @@ Tunisia,TN,6353
 Belarus,BY,6246
 Ethiopia,ET,5983
 Lithuania,LT,5805
+Peru,PE,5800
 Estonia,EE,5762
-Peru,PE,5679
 Jordan,JO,5133
 Lebanon,LB,5048
+Georgia,GE,4721
 Ecuador,EC,4667
 Azerbaijan,AZ,3711
 Sri Lanka,LK,3708
 Kazakhstan,KZ,3667
-Latvia,LV,3574
+Latvia,LV,3575
 Algeria,DZ,3485
 Ghana,GH,3409
-Georgia,GE,3267
 Armenia,AM,3059
-Kenya,KE,2923
+Kenya,KE,2949
 Nepal,NP,2802
 Uzbekistan,UZ,2789
 Luxembourg,LU,2781
@@ -126,12 +126,12 @@ Senegal,SN,557
 Bhutan,BT,544
 Namibia,NA,544
 St Kitts and Nevis,KN,532
+Guatemala,GT,512
 Libya,LY,510
 Benin,BJ,502
 DR Congo,CD,484
 Angola,AO,478
 Grenada,GD,477
-Guatemala,GT,444
 Bolivia,BO,407
 Trinidad and Tobago,TT,407
 Fiji,FJ,398

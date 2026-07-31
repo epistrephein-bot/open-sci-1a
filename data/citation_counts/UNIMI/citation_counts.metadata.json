@@ -1,13 +1,13 @@
 {
   "university": "UNIMI",
-  "ended_at": "2026-07-31T08:31:38.753054+00:00",
+  "ended_at": "2026-07-31T15:00:31.647367+00:00",
   "rows_read": 12190001,
-  "unique_organizations_incoming": 53504,
-  "unique_organizations_outgoing": 46914,
+  "unique_organizations_incoming": 53601,
+  "unique_organizations_outgoing": 47005,
   "unique_countries_incoming": 225,
   "unique_countries_outgoing": 221,
-  "output_org_incoming_csv_size_bytes": 4059198,
-  "output_org_outgoing_csv_size_bytes": 3549321,
+  "output_org_incoming_csv_size_bytes": 4066736,
+  "output_org_outgoing_csv_size_bytes": 3556435,
   "output_country_incoming_csv_size_bytes": 4059,
   "output_country_outgoing_csv_size_bytes": 3943
 }

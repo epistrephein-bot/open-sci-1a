@@ -1,34 +1,34 @@
 country_name,country_code,count
-United States,US,24477
-Italy,IT,23341
-France,FR,10264
-United Kingdom,GB,8051
-Germany,DE,6836
-Japan,JP,3784
+United States,US,25582
+Italy,IT,24196
+France,FR,10385
+United Kingdom,GB,8056
+Germany,DE,6874
+Japan,JP,4486
 Russia,RU,2576
-Canada,CA,2543
+Canada,CA,2570
 Spain,ES,2159
 Switzerland,CH,1882
 The Netherlands,NL,1874
-India,IN,1610
+India,IN,1614
 China,CN,1426
 Poland,PL,1308
 South Korea,KR,1235
-Australia,AU,1030
+Australia,AU,1138
 Belgium,BE,951
+Sweden,SE,931
 Israel,IL,873
-Sweden,SE,766
+Brazil,BR,720
 Finland,FI,689
 Czechia,CZ,636
-Brazil,BR,582
 Denmark,DK,511
-Portugal,PT,491
+Portugal,PT,498
 Pakistan,PK,474
 Taiwan,TW,467
 Greece,GR,421
 Hungary,HU,414
 Slovakia,SK,372
-Mexico,MX,351
+Mexico,MX,355
 Austria,AT,308
 Hong Kong,HK,303
 Ukraine,UA,299
@@ -47,8 +47,8 @@ Uzbekistan,UZ,114
 Bulgaria,BG,111
 Romania,RO,94
 Serbia,RS,93
+Georgia,GE,92
 New Zealand,NZ,84
-Georgia,GE,79
 Egypt,EG,63
 Morocco,MA,56
 Tunisia,TN,46

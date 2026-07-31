@@ -1,37 +1,37 @@
 country_name,country_code,count
-United States,US,2071587
-China,CN,1242551
-Italy,IT,933756
-France,FR,917049
-United Kingdom,GB,674506
-Germany,DE,596626
-Spain,ES,502456
-Japan,JP,296404
-India,IN,257104
-Canada,CA,255450
-Australia,AU,253704
+United States,US,2105316
+China,CN,1243484
+Italy,IT,963704
+France,FR,953878
+United Kingdom,GB,675303
+Germany,DE,610678
+Spain,ES,502468
+Japan,JP,312049
+Australia,AU,261322
+Canada,CA,259308
+India,IN,257886
 The Netherlands,NL,237195
 South Korea,KR,232190
-Switzerland,CH,169286
-Brazil,BR,146352
-Russia,RU,138967
-Poland,PL,137080
+Switzerland,CH,169292
+Brazil,BR,168897
+Russia,RU,139011
+Poland,PL,137518
 Iran,IR,123573
-Türkiye,TR,107272
+Türkiye,TR,107371
 Taiwan,TW,103471
 Belgium,BE,100904
-Portugal,PT,88324
+Sweden,SE,93813
+Portugal,PT,88926
 Denmark,DK,87297
-Sweden,SE,77029
 Greece,GR,72997
-Austria,AT,70813
-Finland,FI,64326
+Austria,AT,71025
+Finland,FI,64334
+Mexico,MX,54038
 Norway,NO,53171
-Mexico,MX,50435
 Czechia,CZ,49693
 Saudi Arabia,SA,47258
 Pakistan,PK,46900
-Ireland,IE,45612
+Ireland,IE,45621
 Israel,IL,45413
 Egypt,EG,44945
 Singapore,SG,43039
@@ -43,16 +43,16 @@ Chile,CL,35225
 Romania,RO,33865
 Malaysia,MY,31320
 Thailand,TH,28786
-Colombia,CO,24024
+Colombia,CO,24039
 Serbia,RS,23415
-New Zealand,NZ,22064
-Croatia,HR,21252
+New Zealand,NZ,22199
+Croatia,HR,21364
 Slovakia,SK,17993
-Indonesia,ID,15087
+Indonesia,ID,16770
 Nigeria,NG,14880
 Slovenia,SI,14209
-Ukraine,UA,13839
-Vietnam,VN,13039
+Ukraine,UA,14002
+Vietnam,VN,13059
 Bulgaria,BG,12910
 United Arab Emirates,AE,12022
 Bangladesh,BD,11109
@@ -62,21 +62,21 @@ Ethiopia,ET,10581
 Cyprus,CY,9136
 Belarus,BY,8627
 Iraq,IQ,8441
+Peru,PE,8298
 Tunisia,TN,8246
 Philippines,PH,8229
-Peru,PE,8227
 Lebanon,LB,7670
 Lithuania,LT,7495
 Ecuador,EC,7212
 Jordan,JO,7210
 Estonia,EE,6304
 Sri Lanka,LK,5931
+Georgia,GE,5834
 Ghana,GH,5678
-Kenya,KE,5081
-Latvia,LV,5078
+Kenya,KE,5116
+Latvia,LV,5080
 Uganda,UG,4836
 Kuwait,KW,4260
-Georgia,GE,4218
 Armenia,AM,4119
 Kazakhstan,KZ,4024
 Azerbaijan,AZ,3544
@@ -136,6 +136,7 @@ Laos,LA,621
 Grenada,GD,615
 Somalia,SO,614
 Fiji,FJ,557
+Guatemala,GT,527
 Bolivia,BO,518
 Kyrgyzstan,KG,511
 Seychelles,SC,489
@@ -145,7 +146,6 @@ Ivory Coast,CI,465
 Paraguay,PY,462
 Kosovo,XK,459
 Namibia,NA,452
-Guatemala,GT,441
 Lesotho,LS,439
 Tonga,TO,396
 Dominican Republic,DO,351

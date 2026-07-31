@@ -1,41 +1,41 @@
 country_name,country_code,count
-United States,US,1442834
-Italy,IT,833434
-France,FR,711638
-United Kingdom,GB,471880
-Germany,DE,367107
-China,CN,260643
+United States,US,1477787
+Italy,IT,858434
+France,FR,734694
+United Kingdom,GB,472161
+Germany,DE,373459
+China,CN,261185
 Spain,ES,254190
-Japan,JP,196866
-Canada,CA,174348
+Japan,JP,209692
+Canada,CA,175902
 The Netherlands,NL,154051
-Australia,AU,131638
-Switzerland,CH,114814
-Russia,RU,114217
+Australia,AU,138929
+Switzerland,CH,114856
+Russia,RU,114221
 South Korea,KR,94840
-India,IN,82593
-Poland,PL,73726
-Türkiye,TR,62962
-Brazil,BR,62076
+India,IN,84480
+Brazil,BR,78430
+Poland,PL,73799
+Sweden,SE,63154
+Türkiye,TR,62963
 Taiwan,TW,59207
-Finland,FI,56697
-Sweden,SE,54337
+Finland,FI,56704
 Belgium,BE,53931
 Denmark,DK,52920
 Greece,GR,39816
-Portugal,PT,37996
+Portugal,PT,38127
 Norway,NO,36844
+Austria,AT,35612
 Czechia,CZ,35535
-Austria,AT,35507
 Israel,IL,33142
 Argentina,AR,31279
 South Africa,ZA,29150
 Iran,IR,26128
-Ireland,IE,24814
+Ireland,IE,24818
 Hungary,HU,24254
 Pakistan,PK,22419
 Chile,CL,21418
-Mexico,MX,17763
+Mexico,MX,18840
 Romania,RO,17686
 Hong Kong,HK,17502
 Slovakia,SK,17473
@@ -44,16 +44,16 @@ Serbia,RS,14122
 Slovenia,SI,13385
 Morocco,MA,13221
 Belarus,BY,12623
-New Zealand,NZ,11280
+New Zealand,NZ,11292
 Colombia,CO,9790
 Egypt,EG,8474
 Azerbaijan,AZ,8439
 Thailand,TH,8387
 Saudi Arabia,SA,8222
+Croatia,HR,8151
 Malaysia,MY,8101
-Croatia,HR,8008
-Ukraine,UA,7154
-Georgia,GE,6328
+Georgia,GE,7665
+Ukraine,UA,7162
 Bulgaria,BG,4969
 Armenia,AM,4623
 Estonia,EE,3650
@@ -61,20 +61,20 @@ Tunisia,TN,3354
 Lebanon,LB,3235
 Qatar,QA,2882
 Ethiopia,ET,2683
-Vietnam,VN,2672
+Vietnam,VN,2677
 Iceland,IS,2424
 Cyprus,CY,2405
 Nigeria,NG,2360
 Lithuania,LT,2159
 Puerto Rico,PR,1912
 Uganda,UG,1772
-Peru,PE,1763
+Peru,PE,1766
 Philippines,PH,1586
 United Arab Emirates,AE,1508
-Kenya,KE,1470
+Kenya,KE,1494
 Uruguay,UY,1312
 Tanzania,TZ,1284
-Indonesia,ID,1170
+Indonesia,ID,1231
 Jordan,JO,1164
 Luxembourg,LU,969
 Ghana,GH,949
@@ -134,12 +134,12 @@ Seychelles,SC,163
 Laos,LA,160
 Syria,SY,152
 Antigua and Barbuda,AG,148
+Guatemala,GT,141
 DR Congo,CD,138
 Curaçao,CW,135
 Mali,ML,133
 Fiji,FJ,131
 Bahamas,BS,129
-Guatemala,GT,124
 Guinea-Bissau,GW,119
 Lesotho,LS,119
 Eswatini,SZ,114

@@ -1,32 +1,32 @@
 country_name,country_code,count
-United States,US,294865
-France,FR,110092
-Italy,IT,95615
-United Kingdom,GB,61000
-Germany,DE,47679
-Japan,JP,33776
+United States,US,300701
+France,FR,110964
+Italy,IT,99629
+United Kingdom,GB,61044
+Germany,DE,47757
+Japan,JP,35812
 Spain,ES,25335
 Russia,RU,23295
-Canada,CA,17595
+Canada,CA,17659
 Switzerland,CH,14798
 South Korea,KR,14249
-China,CN,12189
+China,CN,12197
 The Netherlands,NL,11813
 Finland,FI,10855
-India,IN,9857
+India,IN,9872
 Taiwan,TW,7795
-Australia,AU,7180
+Australia,AU,7417
 Poland,PL,6988
-Sweden,SE,5748
+Sweden,SE,6512
+Brazil,BR,5234
 Belgium,BE,4156
-Brazil,BR,4005
-Austria,AT,3979
+Austria,AT,3985
 Czechia,CZ,3171
 Slovenia,SI,3050
 Slovakia,SK,2827
 Israel,IL,2753
+Mexico,MX,2595
 Norway,NO,2511
-Mexico,MX,2399
 Greece,GR,2268
 Ireland,IE,2071
 Denmark,DK,1660
@@ -35,7 +35,7 @@ Colombia,CO,1441
 Hungary,HU,1379
 Ukraine,UA,1329
 Cyprus,CY,1302
-Portugal,PT,1291
+Portugal,PT,1293
 Argentina,AR,1258
 Chile,CL,1072
 Singapore,SG,666
@@ -48,12 +48,12 @@ Bulgaria,BG,442
 Croatia,HR,410
 Serbia,RS,396
 New Zealand,NZ,352
+Georgia,GE,329
 Armenia,AM,320
 Belarus,BY,312
 South Africa,ZA,301
 Iran,IR,283
 Tanzania,TZ,222
-Georgia,GE,194
 Jordan,JO,194
 Uzbekistan,UZ,180
 Estonia,EE,166

@@ -1,40 +1,40 @@
 country_name,country_code,count
-United States,US,876681
-United Kingdom,GB,208296
-France,FR,206452
-Italy,IT,200953
-Germany,DE,135748
-Japan,JP,84426
-Canada,CA,68492
+United States,US,895816
+Italy,IT,232343
+France,FR,211876
+United Kingdom,GB,208496
+Germany,DE,137396
+Japan,JP,92518
+Canada,CA,69646
 The Netherlands,NL,55932
+Australia,AU,49014
 Spain,ES,48293
-Australia,AU,46495
 Switzerland,CH,40094
 Russia,RU,27749
-China,CN,23919
+China,CN,23993
+Sweden,SE,23849
 South Korea,KR,21770
-Sweden,SE,19965
 Belgium,BE,19878
-India,IN,17356
-Finland,FI,15118
+India,IN,17408
+Finland,FI,15121
 Israel,IL,14297
 Denmark,DK,13708
-Poland,PL,13350
+Poland,PL,13359
 Pakistan,PK,13262
-Austria,AT,13147
+Austria,AT,13201
 Taiwan,TW,11815
-Brazil,BR,9731
+Brazil,BR,11651
 Norway,NO,7652
 Hungary,HU,7156
 Hong Kong,HK,6751
-Ireland,IE,6645
+Ireland,IE,6646
 Greece,GR,6471
-Portugal,PT,5672
+Portugal,PT,5675
 Argentina,AR,4963
 Czechia,CZ,4837
 Türkiye,TR,4576
 New Zealand,NZ,4422
-Mexico,MX,4228
+Mexico,MX,4308
 Singapore,SG,3977
 South Africa,ZA,3573
 Chile,CL,3406
@@ -43,7 +43,8 @@ Slovakia,SK,1802
 Ukraine,UA,1576
 Bulgaria,BG,1463
 Tunisia,TN,1372
-Croatia,HR,1283
+Croatia,HR,1284
+Georgia,GE,1236
 Iran,IR,1040
 Thailand,TH,958
 Romania,RO,903
@@ -62,15 +63,15 @@ Tanzania,TZ,428
 Venezuela,VE,415
 Philippines,PH,345
 Saudi Arabia,SA,345
-Vietnam,VN,326
+Vietnam,VN,328
 Ecuador,EC,317
 Latvia,LV,309
 Ethiopia,ET,290
 Lebanon,LB,286
 Morocco,MA,267
+Kenya,KE,267
 Uruguay,UY,243
-Kenya,KE,237
-Peru,PE,234
+Peru,PE,239
 Ghana,GH,216
 Cambodia,KH,203
 Algeria,DZ,201
@@ -85,7 +86,7 @@ Bangladesh,BD,157
 Mozambique,MZ,155
 Kuwait,KW,152
 Sri Lanka,LK,142
-Indonesia,ID,137
+Indonesia,ID,142
 Uganda,UG,131
 Costa Rica,CR,127
 Qatar,QA,126
@@ -95,7 +96,6 @@ Luxembourg,LU,114
 Bahrain,BH,112
 Namibia,NA,106
 Benin,BJ,101
-Georgia,GE,97
 Oman,OM,91
 Nepal,NP,87
 Moldova,MD,80

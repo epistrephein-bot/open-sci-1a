@@ -1,17 +1,17 @@
 {
-  "elapsed_seconds": 20159.76,
-  "ended_at": "2026-07-31T00:34:14.489663+00:00",
+  "elapsed_seconds": 19707.62,
+  "ended_at": "2026-07-31T14:36:14.211364+00:00",
   "rows_read": 15235123,
   "rows_searchable": 15225914,
   "rows_matched_publication": 15139235,
   "rows_with_organizations": 14039700,
   "rows_missing_no_pid": 9209,
-  "openaire_org_ids_resolved": 69427,
-  "unique_organizations_resolved": 67623,
+  "openaire_org_ids_resolved": 69536,
+  "unique_organizations_resolved": 67726,
   "entries_written": 15235123,
   "flush_every": 50000,
-  "output_json_size_bytes": 9246059306,
-  "output_json_size_mb": 8817.73,
+  "output_json_size_bytes": 9383155590,
+  "output_json_size_mb": 8948.47,
   "missing_csv_size_bytes": 224269,
   "missing_csv_size_mb": 0.21
 }

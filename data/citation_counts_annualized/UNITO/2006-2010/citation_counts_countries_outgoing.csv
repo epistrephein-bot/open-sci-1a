@@ -1,47 +1,47 @@
 country_name,country_code,count
-United States,US,912045
-France,FR,306989
-Italy,IT,291038
-United Kingdom,GB,234318
-Germany,DE,166794
-Japan,JP,85453
+United States,US,932448
+France,FR,316722
+Italy,IT,301676
+United Kingdom,GB,234488
+Germany,DE,169804
+Japan,JP,91600
 Spain,ES,80962
-Canada,CA,78076
+Canada,CA,78991
 The Netherlands,NL,76536
-China,CN,65073
-Australia,AU,59267
+China,CN,65217
+Australia,AU,62140
 Switzerland,CH,55637
-Russia,RU,32158
+Sweden,SE,32955
+Russia,RU,32159
 South Korea,KR,30434
 Belgium,BE,28818
-Sweden,SE,28338
-India,IN,22596
-Poland,PL,20806
+India,IN,22650
+Poland,PL,20813
 Denmark,DK,20271
-Finland,FI,18907
+Finland,FI,18908
+Brazil,BR,17849
 Taiwan,TW,16696
-Austria,AT,15843
-Brazil,BR,14838
+Austria,AT,15929
 Israel,IL,13669
 Pakistan,PK,12494
 Norway,NO,12481
 Greece,GR,11540
 Czechia,CZ,10475
-Ireland,IE,10451
-Portugal,PT,10182
+Ireland,IE,10459
+Portugal,PT,10219
 Türkiye,TR,8897
 Hungary,HU,8158
 Hong Kong,HK,7375
 Argentina,AR,6901
-Mexico,MX,6358
-New Zealand,NZ,6343
+Mexico,MX,6620
+New Zealand,NZ,6344
 South Africa,ZA,6114
 Singapore,SG,6002
 Slovenia,SI,4337
 Slovakia,SK,3895
 Iran,IR,3032
 Chile,CL,2818
-Croatia,HR,2432
+Croatia,HR,2453
 Thailand,TH,2223
 Ukraine,UA,2043
 Bulgaria,BG,1991
@@ -49,6 +49,7 @@ Colombia,CO,1976
 Malaysia,MY,1767
 Puerto Rico,PR,1764
 Serbia,RS,1674
+Georgia,GE,1498
 Romania,RO,1343
 Belarus,BY,1307
 Armenia,AM,1271
@@ -63,22 +64,21 @@ Saudi Arabia,SA,681
 Philippines,PH,633
 Vietnam,VN,615
 Lebanon,LB,592
-Georgia,GE,575
 Ghana,GH,538
 Ethiopia,ET,535
 Azerbaijan,AZ,535
 Ecuador,EC,525
 Bahrain,BH,516
 Qatar,QA,507
+Kenya,KE,505
 Nigeria,NG,472
-Kenya,KE,456
 Tanzania,TZ,439
+Indonesia,ID,427
 Luxembourg,LU,423
-Indonesia,ID,411
 Latvia,LV,395
 Lithuania,LT,375
 Venezuela,VE,370
-Peru,PE,365
+Peru,PE,369
 Uruguay,UY,356
 Jordan,JO,354
 Cuba,CU,307
@@ -111,9 +111,9 @@ Angola,AO,88
 Madagascar,MG,80
 Malta,MT,80
 Senegal,SN,77
+Guatemala,GT,76
 Burkina Faso,BF,73
 Albania,AL,71
-Guatemala,GT,70
 El Salvador,SV,67
 Ivory Coast,CI,65
 Sudan,SD,64

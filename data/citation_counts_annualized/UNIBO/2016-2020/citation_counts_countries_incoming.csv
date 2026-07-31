@@ -1,60 +1,60 @@
 country_name,country_code,count
-United States,US,2162124
-Italy,IT,1096862
-France,FR,1062948
-China,CN,639478
-United Kingdom,GB,632457
-Germany,DE,568586
-Spain,ES,399016
-Japan,JP,274449
-Australia,AU,237574
-Russia,RU,231570
-India,IN,228700
-Canada,CA,215410
+United States,US,2208480
+Italy,IT,1133585
+France,FR,1095755
+China,CN,639930
+United Kingdom,GB,633443
+Germany,DE,575061
+Spain,ES,399019
+Japan,JP,296833
+Australia,AU,250661
+Russia,RU,231629
+India,IN,229993
+Canada,CA,218751
 The Netherlands,NL,214071
 South Korea,KR,188999
-Switzerland,CH,156001
-Poland,PL,135336
-Brazil,BR,121360
-Türkiye,TR,111507
+Switzerland,CH,156014
+Brazil,BR,146788
+Poland,PL,135434
+Türkiye,TR,111538
 Belgium,BE,91096
+Sweden,SE,89652
 Taiwan,TW,88663
-Portugal,PT,82515
+Portugal,PT,82936
 Iran,IR,81899
-Sweden,SE,80104
-Finland,FI,74763
+Finland,FI,74777
 Greece,GR,69457
 Denmark,DK,65643
 Hungary,HU,63648
 Czechia,CZ,58423
-Austria,AT,57465
+Austria,AT,57751
 Norway,NO,55414
+Mexico,MX,52009
 South Africa,ZA,50748
-Mexico,MX,49196
 Chile,CL,48413
 Israel,IL,43846
 Argentina,AR,40722
 Pakistan,PK,36888
 Hong Kong,HK,34717
-Ireland,IE,34363
+Ireland,IE,34371
 Slovakia,SK,30811
 Romania,RO,29906
 Malaysia,MY,26126
-Colombia,CO,24521
-New Zealand,NZ,24414
+Colombia,CO,24528
+New Zealand,NZ,24492
 Belarus,BY,24062
-Croatia,HR,23468
+Croatia,HR,23612
 Singapore,SG,23322
 Serbia,RS,21415
 Egypt,EG,19304
 Morocco,MA,18110
 Saudi Arabia,SA,17997
-Ukraine,UA,17916
+Ukraine,UA,17934
 Bulgaria,BG,17841
 Thailand,TH,17169
 Slovenia,SI,17011
-Georgia,GE,13879
-Vietnam,VN,12947
+Georgia,GE,15603
+Vietnam,VN,12988
 Azerbaijan,AZ,11193
 Ethiopia,ET,11000
 Armenia,AM,9582
@@ -62,20 +62,20 @@ Estonia,EE,9114
 Nigeria,NG,7668
 Lithuania,LT,7575
 Cyprus,CY,7446
+Indonesia,ID,6834
 United Arab Emirates,AE,6682
 Qatar,QA,6310
 Ecuador,EC,6262
 Tunisia,TN,5954
 Puerto Rico,PR,5741
-Indonesia,ID,5559
 Philippines,PH,4532
 Bangladesh,BD,4528
-Peru,PE,4265
+Peru,PE,4364
 Lebanon,LB,4199
 Iceland,IS,4078
 Sri Lanka,LK,3827
-Latvia,LV,3386
-Kenya,KE,3158
+Latvia,LV,3388
+Kenya,KE,3286
 Ghana,GH,2908
 Algeria,DZ,2785
 Jordan,JO,2729
@@ -103,8 +103,8 @@ Cambodia,KH,1099
 Antigua and Barbuda,AG,1064
 Montenegro,ME,1055
 Myanmar,MM,1007
+Guatemala,GT,936
 Jamaica,JM,922
-Guatemala,GT,911
 Venezuela,VE,910
 Zimbabwe,ZW,895
 Costa Rica,CR,865

@@ -1,50 +1,50 @@
 country_name,country_code,count
-United States,US,2064672
-France,FR,1067876
-Italy,IT,957070
-China,CN,617360
-United Kingdom,GB,590407
-Germany,DE,527898
-Spain,ES,378283
-Japan,JP,238435
-India,IN,207899
-Australia,AU,204209
-Russia,RU,202479
-Canada,CA,193849
+United States,US,2101923
+France,FR,1102866
+Italy,IT,1091502
+China,CN,617901
+United Kingdom,GB,591145
+Germany,DE,534773
+Spain,ES,378285
+Japan,JP,260074
+Australia,AU,214328
+India,IN,209957
+Russia,RU,202504
+Canada,CA,197451
 The Netherlands,NL,193576
 South Korea,KR,173031
-Switzerland,CH,151123
-Poland,PL,130032
-Brazil,BR,107924
+Switzerland,CH,151124
+Poland,PL,130104
+Brazil,BR,129155
 Belgium,BE,97026
-Türkiye,TR,78010
+Türkiye,TR,78054
 Taiwan,TW,77891
-Finland,FI,74148
-Sweden,SE,67765
-Portugal,PT,66489
+Sweden,SE,77025
+Finland,FI,74156
+Portugal,PT,66854
 Hungary,HU,63472
 Denmark,DK,60761
 Iran,IR,56516
-Austria,AT,56189
+Austria,AT,56385
 Greece,GR,54046
+Mexico,MX,47223
 Czechia,CZ,46527
 Norway,NO,45918
-Mexico,MX,44554
 Chile,CL,42698
 Israel,IL,36764
 South Africa,ZA,36408
 Argentina,AR,35308
-Ireland,IE,34518
+Ireland,IE,34527
 Pakistan,PK,33087
 Hong Kong,HK,25625
 Singapore,SG,23913
-New Zealand,NZ,22097
+New Zealand,NZ,22175
 Slovakia,SK,21421
 Malaysia,MY,20977
 Romania,RO,20756
-Croatia,HR,19319
-Colombia,CO,19082
-Ukraine,UA,16299
+Croatia,HR,19407
+Colombia,CO,19091
+Ukraine,UA,16324
 Egypt,EG,15666
 Serbia,RS,15278
 Thailand,TH,15261
@@ -52,28 +52,28 @@ Saudi Arabia,SA,14752
 Bulgaria,BG,14453
 Slovenia,SI,13979
 Belarus,BY,12877
-Vietnam,VN,10611
+Georgia,GE,10955
+Vietnam,VN,10662
 Morocco,MA,9406
-Georgia,GE,8879
 Estonia,EE,7490
 Cyprus,CY,6798
 Armenia,AM,6581
 Lithuania,LT,6423
 Qatar,QA,5960
+Indonesia,ID,5758
 Azerbaijan,AZ,5077
 United Arab Emirates,AE,4643
 Tunisia,TN,4642
-Indonesia,ID,4636
 Ecuador,EC,4559
 Puerto Rico,PR,4453
 Nigeria,NG,4395
 Lebanon,LB,3696
+Peru,PE,3469
 Ethiopia,ET,3412
 Bangladesh,BD,3375
-Peru,PE,3320
 Philippines,PH,3183
 Iceland,IS,2942
-Latvia,LV,2719
+Latvia,LV,2722
 Sri Lanka,LK,2608
 Luxembourg,LU,2578
 Uzbekistan,UZ,2453
@@ -83,9 +83,9 @@ Iraq,IQ,1890
 Uruguay,UY,1877
 Kazakhstan,KZ,1786
 Uganda,UG,1775
+Kenya,KE,1673
 Cuba,CU,1668
 Ghana,GH,1667
-Kenya,KE,1616
 Macao,MO,1558
 Malta,MT,1167
 Monaco,MC,1152
@@ -108,8 +108,8 @@ Montenegro,ME,756
 Cambodia,KH,744
 Tanzania,TZ,713
 Sudan,SD,684
+Guatemala,GT,671
 Guadeloupe,GP,657
-Guatemala,GT,649
 Moldova,MD,566
 Myanmar,MM,546
 Yemen,YE,517

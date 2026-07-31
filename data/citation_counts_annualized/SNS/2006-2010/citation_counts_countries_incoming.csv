@@ -1,32 +1,32 @@
 country_name,country_code,count
-United States,US,242787
-Italy,IT,97389
-France,FR,81087
-United Kingdom,GB,49656
-Germany,DE,31539
+United States,US,247057
+Italy,IT,102423
+France,FR,81340
+United Kingdom,GB,49668
+Germany,DE,31550
 Spain,ES,27357
+Japan,JP,23396
 Russia,RU,22505
-Japan,JP,22284
 South Korea,KR,20176
-China,CN,16187
-Canada,CA,13551
-India,IN,12951
-Finland,FI,11953
+China,CN,16189
+Canada,CA,13595
+India,IN,12956
+Finland,FI,11954
 Switzerland,CH,11435
 Taiwan,TW,8885
 Belgium,BE,7499
+Brazil,BR,6984
 Poland,PL,6963
 Türkiye,TR,6734
 The Netherlands,NL,6284
-Brazil,BR,5466
 Hungary,HU,5274
 Slovakia,SK,4223
+Mexico,MX,4029
 Greece,GR,3977
-Mexico,MX,3918
-Austria,AT,3623
+Austria,AT,3643
+Australia,AU,2817
 Bulgaria,BG,2733
-Australia,AU,2671
-Sweden,SE,2622
+Sweden,SE,2649
 Colombia,CO,2399
 Pakistan,PK,2368
 Norway,NO,2341
@@ -39,8 +39,8 @@ Croatia,HR,1847
 Portugal,PT,1813
 Israel,IL,1748
 Serbia,RS,1697
-Georgia,GE,1617
-Ukraine,UA,1384
+Georgia,GE,1689
+Ukraine,UA,1385
 Puerto Rico,PR,1372
 Uzbekistan,UZ,1246
 Iran,IR,1199
@@ -78,12 +78,12 @@ Cuba,CU,26
 Uganda,UG,21
 Philippines,PH,21
 Algeria,DZ,21
+Peru,PE,20
 Yemen,YE,19
 United Arab Emirates,AE,18
 Tajikistan,TJ,18
 Lebanon,LB,17
 Latvia,LV,17
-Peru,PE,16
 Costa Rica,CR,14
 Indonesia,ID,13
 Nigeria,NG,13
@@ -118,6 +118,7 @@ Palestine,PS,2
 Kuwait,KW,2
 Panama,PA,2
 Malta,MT,2
+Guatemala,GT,1
 Kenya,KE,1
 Senegal,SN,1
 Botswana,BW,1

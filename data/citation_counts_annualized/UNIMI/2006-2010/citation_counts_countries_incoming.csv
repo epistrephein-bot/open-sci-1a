@@ -1,53 +1,54 @@
 country_name,country_code,count
-United States,US,611565
-Italy,IT,441562
-France,FR,254500
-United Kingdom,GB,174980
-Germany,DE,140897
+United States,US,626560
+Italy,IT,453082
+France,FR,261042
+United Kingdom,GB,175108
+Germany,DE,144275
 Spain,ES,82253
-Japan,JP,72073
-Canada,CA,67711
-China,CN,58666
+Japan,JP,76477
+Canada,CA,68261
+China,CN,58756
 The Netherlands,NL,56891
-Australia,AU,45739
+Australia,AU,47939
 Switzerland,CH,45212
 South Korea,KR,27910
 Russia,RU,25570
-India,IN,24965
+India,IN,25065
+Brazil,BR,24208
+Sweden,SE,23856
 Belgium,BE,21743
 Taiwan,TW,19682
 Denmark,DK,19600
-Sweden,SE,19405
-Brazil,BR,18848
-Poland,PL,17994
+Poland,PL,18026
 Greece,GR,14555
-Finland,FI,13622
+Finland,FI,13626
 Türkiye,TR,13410
 Israel,IL,13402
-Austria,AT,12782
+Austria,AT,12832
 Pakistan,PK,11018
-Portugal,PT,10507
+Portugal,PT,10533
 Norway,NO,10297
 Argentina,AR,9517
 Czechia,CZ,8920
-Ireland,IE,7865
+Ireland,IE,7869
 Hong Kong,HK,7791
 Hungary,HU,7670
-Mexico,MX,5778
+Mexico,MX,5964
 South Africa,ZA,5661
 Singapore,SG,5423
 Iran,IR,4994
 Slovenia,SI,4231
 Slovakia,SK,4050
 Chile,CL,4029
-New Zealand,NZ,3840
+New Zealand,NZ,3841
 Serbia,RS,2743
 Thailand,TH,2561
 Belarus,BY,2026
 Egypt,EG,2019
-Croatia,HR,1801
+Croatia,HR,1822
 Romania,RO,1791
 Colombia,CO,1749
+Georgia,GE,1593
 Ukraine,UA,1547
 Tunisia,TN,1508
 Malaysia,MY,1482
@@ -56,7 +57,6 @@ Azerbaijan,AZ,1375
 Bulgaria,BG,1371
 Morocco,MA,1296
 Saudi Arabia,SA,1001
-Georgia,GE,984
 Estonia,EE,795
 Armenia,AM,792
 Puerto Rico,PR,708
@@ -67,7 +67,7 @@ Tanzania,TZ,548
 Cyprus,CY,544
 United Arab Emirates,AE,530
 Nigeria,NG,485
-Kenya,KE,467
+Kenya,KE,470
 Philippines,PH,460
 Uruguay,UY,436
 Uganda,UG,424
@@ -76,9 +76,9 @@ Jordan,JO,406
 Qatar,QA,398
 Cuba,CU,386
 Palestine,PS,384
-Peru,PE,365
+Peru,PE,369
 Bolivia,BO,344
-Indonesia,ID,318
+Indonesia,ID,335
 Ghana,GH,280
 Lithuania,LT,274
 Algeria,DZ,253
@@ -132,9 +132,9 @@ Mali,ML,38
 Tajikistan,TJ,38
 Somalia,SO,37
 Barbados,BB,35
+Guatemala,GT,34
 Maldives,MV,33
 Madagascar,MG,33
-Guatemala,GT,32
 Antigua and Barbuda,AG,29
 Guinea-Bissau,GW,29
 Paraguay,PY,28

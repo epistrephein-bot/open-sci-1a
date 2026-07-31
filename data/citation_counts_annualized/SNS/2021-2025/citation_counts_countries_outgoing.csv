@@ -1,30 +1,30 @@
 country_name,country_code,count
-United States,US,222774
-Italy,IT,125023
-France,FR,107022
-United Kingdom,GB,57033
+United States,US,224926
+Italy,IT,130641
+France,FR,107692
+United Kingdom,GB,57042
 China,CN,49543
 Spain,ES,41894
-Germany,DE,39773
-India,IN,32951
+Germany,DE,39791
+India,IN,32991
 Türkiye,TR,31407
 South Korea,KR,29969
 Russia,RU,26374
 Poland,PL,24494
 Switzerland,CH,22874
-Japan,JP,18568
+Brazil,BR,20735
+Japan,JP,19820
 The Netherlands,NL,16724
 Belgium,BE,16221
-Brazil,BR,15360
-Australia,AU,15186
+Australia,AU,15785
 Hungary,HU,14791
 Finland,FI,13273
 Greece,GR,12516
 Taiwan,TW,11064
-Austria,AT,9809
-Mexico,MX,8286
+Austria,AT,9810
+Mexico,MX,8316
+Canada,CA,6853
 Egypt,EG,6843
-Canada,CA,6840
 Colombia,CO,6454
 Iran,IR,6323
 Bulgaria,BG,6190
@@ -42,9 +42,9 @@ New Zealand,NZ,3308
 Cyprus,CY,3108
 Armenia,AM,3102
 Latvia,LV,3035
-Georgia,GE,2946
+Georgia,GE,2990
 Puerto Rico,PR,2911
-Sweden,SE,2819
+Sweden,SE,2848
 Israel,IL,2816
 Malaysia,MY,2746
 Thailand,TH,2600
@@ -79,6 +79,7 @@ Mongolia,MN,92
 Saudi Arabia,SA,87
 Uruguay,UY,85
 Luxembourg,LU,67
+Indonesia,ID,44
 Uganda,UG,34
 Peru,PE,31
 Iceland,IS,29
@@ -88,7 +89,6 @@ Costa Rica,CR,24
 Burkina Faso,BF,19
 Ghana,GH,19
 Tunisia,TN,17
-Indonesia,ID,17
 French Guiana,GF,16
 Lebanon,LB,10
 Bahrain,BH,9

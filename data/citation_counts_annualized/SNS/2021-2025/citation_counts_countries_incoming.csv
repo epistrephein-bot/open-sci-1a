@@ -1,47 +1,47 @@
 country_name,country_code,count
-United States,US,238436
-China,CN,129042
-France,FR,128989
-Italy,IT,115159
-Germany,DE,72322
-United Kingdom,GB,60064
+United States,US,243436
+France,FR,130750
+China,CN,129062
+Italy,IT,118653
+Germany,DE,72440
+United Kingdom,GB,60106
 Spain,ES,44266
-Japan,JP,38803
-India,IN,36527
-Russia,RU,26228
+Japan,JP,43379
+India,IN,36795
+Russia,RU,26232
 The Netherlands,NL,21817
-Switzerland,CH,20298
+Switzerland,CH,20299
+Australia,AU,20263
 South Korea,KR,19241
-Poland,PL,19109
-Australia,AU,18926
-Canada,CA,16733
-Türkiye,TR,16640
-Brazil,BR,10972
+Poland,PL,19112
+Canada,CA,16948
+Türkiye,TR,16643
+Brazil,BR,14038
 Taiwan,TW,10432
 Chile,CL,9643
-Sweden,SE,8931
-Portugal,PT,8553
+Sweden,SE,9094
+Portugal,PT,8559
 Belgium,BE,8291
 Denmark,DK,7792
 Czechia,CZ,7751
-Finland,FI,7536
+Finland,FI,7539
 Greece,GR,7432
-Austria,AT,6325
+Austria,AT,6327
 Iran,IR,6215
 Israel,IL,6053
 Hungary,HU,5796
 South Africa,ZA,5426
 Norway,NO,5397
+Mexico,MX,5293
 Argentina,AR,5284
 Romania,RO,5229
-Mexico,MX,4824
 Slovakia,SK,4581
 Pakistan,PK,4334
 Hong Kong,HK,3877
 Colombia,CO,3557
 Egypt,EG,3423
 Morocco,MA,2863
-Ukraine,UA,2506
+Ukraine,UA,2509
 Ireland,IE,2353
 Croatia,HR,2211
 Thailand,TH,2120
@@ -55,25 +55,25 @@ Singapore,SG,1632
 Belarus,BY,1617
 Azerbaijan,AZ,1574
 Malaysia,MY,1489
-New Zealand,NZ,1445
-Vietnam,VN,1402
-Georgia,GE,1289
+New Zealand,NZ,1460
+Georgia,GE,1422
+Vietnam,VN,1406
 Mongolia,MN,1258
 Philippines,PH,1230
 Ecuador,EC,1078
 Sri Lanka,LK,840
 Estonia,EE,832
 Puerto Rico,PR,813
+Indonesia,ID,780
 Armenia,AM,701
 Lithuania,LT,670
 Uzbekistan,UZ,603
 Qatar,QA,549
 Latvia,LV,534
 Montenegro,ME,475
+Peru,PE,439
 Kazakhstan,KZ,436
 Kuwait,KW,435
-Peru,PE,431
-Indonesia,ID,422
 Nigeria,NG,363
 Bangladesh,BD,349
 Tunisia,TN,322
@@ -82,8 +82,8 @@ Algeria,DZ,302
 Iraq,IQ,278
 Malta,MT,260
 Iceland,IS,251
+Guatemala,GT,230
 Uruguay,UY,228
-Guatemala,GT,227
 Luxembourg,LU,207
 Ethiopia,ET,199
 Jordan,JO,175
@@ -101,7 +101,7 @@ Oman,OM,88
 Nepal,NP,67
 Moldova,MD,55
 Rwanda,RW,52
-Kenya,KE,50
+Kenya,KE,51
 Yemen,YE,49
 Tanzania,TZ,46
 Venezuela,VE,44
